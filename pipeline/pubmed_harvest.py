@@ -65,10 +65,11 @@ def _get(url, params, retries=4):
     return b""
 
 
-def esearch(term, min_date=None):
+def esearch(term, min_date=None, datetype="pdat"):
+    """datetype: "pdat" = publication date, "edat" = date the record was added to PubMed."""
     params = {"db": "pubmed", "term": term, "retmode": "json", "retmax": 100000}
     if min_date:
-        params.update({"datetype": "pdat", "mindate": min_date, "maxdate": "3000"})
+        params.update({"datetype": datetype, "mindate": min_date, "maxdate": "3000"})
     res = json.loads(_get(f"{EUTILS}/esearch.fcgi", params))
     return res["esearchresult"]["idlist"]
 

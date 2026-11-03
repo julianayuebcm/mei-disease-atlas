@@ -210,7 +210,7 @@ def placement(case, model):
 
 
 def main():
-    papers = {json.loads(l)["pmid"]: json.loads(l) for l in open(ROOT / "data/raw/candidates.jsonl")}
+    papers = json.loads((ROOT / "data/papers_meta.json").read_text())  # committed paper metadata (no abstracts)
     models = json.load(gzip.open(ROOT / "data/gene_models_gencode_v38.json.gz", "rt"))
     alias = {}  # old symbol -> current (only from extraction's gene_as_reported)
 
@@ -343,7 +343,7 @@ def main():
     import datetime
     xref_file = ROOT / "data/gene_xrefs.json"
     xrefs = json.loads(xref_file.read_text()) if xref_file.exists() else {}
-    xrefs = {g: xrefs[g] for g in {e["gene"] for e in events} if g in xrefs}
+    xrefs = {g: xrefs[g] for g in sorted({e["gene"] for e in events}) if g in xrefs}
     out = {"built": datetime.date.today().isoformat(), "events": events, "xrefs": xrefs, "genes": genes_used, "papers": paper_meta,
            "stats": {"papers_screened": len(papers), "papers_extracted": n_papers, "papers_with_cases": n_with,
                      "case_records": len(records), "events": len(events)}}
@@ -377,8 +377,8 @@ def main():
     miss = [r for r in rows if norm_gene(r["Gene"]) not in have_gene]
     print(f"Recall of primary-paper extraction vs Hancks 2016 table (review rows not counted): {len(rows)} rows | gene+class found {len(hit)} | gene only {len(gene_only)} | missing {len(miss)}")
     out["stats"].update({"review_rows": len(rows), "review_found": len(hit), "review_gene_only": len(gene_only),
-                         "review_missing": len(miss), "with_full_text": sum(1 for f in (ROOT / "data/fulltext").glob("*.txt")
-                                                                      if f.read_text()[:20].startswith("SOURCE: full_text"))})
+                         "review_missing": len(miss), "with_full_text": sum(1 for v in json.loads((ROOT / "data/text_sources.json").read_text()).values()
+                                                                      if v == "full_text")})
     (ROOT / "data/atlas.json").write_text(json.dumps(out))
     (ROOT / "data/hancks_missing.tsv").write_text(
         "\n".join(f"{r['Gene']}\t{r['Insertion']}\t{r['Disease']}\t{r['Reference']}\t{r['ref_pmids']}" for r in miss) + "\n")

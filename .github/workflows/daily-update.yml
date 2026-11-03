@@ -1,0 +1,78 @@
+name: Daily literature update
+
+# Every day: look for papers newly added to PubMed, screen and extract them with Claude, rebuild the site,
+# and open a pull request. Nothing is published until the pull request is merged.
+on:
+  schedule:
+    - cron: "23 11 * * *"     # 11:23 UTC daily (05:23/06:23 Central)
+  workflow_dispatch: {}       # "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: literature-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Skip while a previous update is waiting for review
+        id: gate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          open=$(gh pr list --label literature-update --state open --json number --jq length)
+          echo "open=$open" >> "$GITHUB_OUTPUT"
+          if [ "$open" != "0" ]; then echo "An update pull request is still open; merge or close it first."; fi
+
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.open == '0'
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        if: steps.gate.outputs.open == '0'
+        with:
+          node-version: "22"
+
+      - name: Install Claude Code
+        if: steps.gate.outputs.open == '0'
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Find, screen and extract new papers; rebuild site
+        id: update
+        if: steps.gate.outputs.open == '0'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: python pipeline/update_literature.py --ci
+
+      - name: Keep the run log
+        if: always() && steps.gate.outputs.open == '0'
+        uses: actions/upload-artifact@v4
+        with:
+          name: update-log
+          path: data/updates/
+          if-no-files-found: ignore
+
+      - name: Open pull request
+        if: steps.update.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          branch="update-$(date -u +%F)"
+          git config user.name "mei-atlas-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add -A
+          git commit -q -m "${{ steps.update.outputs.title }}"
+          git push -u origin "$branch"
+          gh label create literature-update --color 7a2f6b --description "Automated literature update" --force
+          gh pr create --base main --head "$branch" --label literature-update \
+            --title "${{ steps.update.outputs.title }}" --body-file "${{ steps.update.outputs.body_file }}"

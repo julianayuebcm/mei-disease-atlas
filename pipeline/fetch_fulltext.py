@@ -5,7 +5,8 @@ For each PMID with a PMCID, downloads the PMC XML and writes plain text (title, 
 body sections, table captions + table text, figure captions) to data/fulltext/<pmid>.txt.
 Papers without PMC full text get an abstract-only file so extraction still has input.
 
-Usage: python pipeline/fetch_fulltext.py data/screen/to_extract.txt
+Usage: python pipeline/fetch_fulltext.py data/screen/to_extract.txt [--records new_candidates.jsonl]
+(--records supplies title/abstract/pmcid for papers not in data/raw/candidates.jsonl, e.g. on GitHub Actions)
 """
 import json
 import sys
@@ -47,12 +48,20 @@ def pmc_text(pmcid):
 
 def main():
     pmids = Path(sys.argv[1]).read_text().split()
-    cand = {json.loads(l)["pmid"]: json.loads(l) for l in open(ROOT / "data/raw/candidates.jsonl")}
+    cand = {}
+    local = ROOT / "data/raw/candidates.jsonl"
+    if local.exists():
+        cand.update({json.loads(l)["pmid"]: json.loads(l) for l in open(local)})
+    if "--records" in sys.argv:
+        cand.update({json.loads(l)["pmid"]: json.loads(l) for l in open(sys.argv[sys.argv.index("--records") + 1])})
+    src_file = ROOT / "data/text_sources.json"
+    sources = json.loads(src_file.read_text()) if src_file.exists() else {}
     OUT.mkdir(parents=True, exist_ok=True)
     n_full = n_abs = 0
     for pmid in pmids:
         out = OUT / f"{pmid}.txt"
         if out.exists():
+            sources.setdefault(pmid, out.read_text()[:30].split("\n")[0].replace("SOURCE: ", ""))
             continue
         rec = cand.get(pmid, {})
         text = None
@@ -64,10 +73,13 @@ def main():
             time.sleep(0.35)
         if text:
             out.write_text("SOURCE: full_text\n" + text)
+            sources[pmid] = "full_text"
             n_full += 1
         else:
             out.write_text(f"SOURCE: abstract_only\nTITLE: {rec.get('title','')}\nABSTRACT: {rec.get('abstract','')}")
+            sources[pmid] = "abstract_only"
             n_abs += 1
+    src_file.write_text(json.dumps(sources, sort_keys=True, indent=0))
     print(f"full text: {n_full}, abstract only: {n_abs}", file=sys.stderr)
 
 
