@@ -41,6 +41,7 @@ def main():
     (out / "assets/helix.js").write_text(helix_js)
     (out / "assets/site.css").write_text(style.removeprefix("<style>").removesuffix("</style>"))
     shutil.copy(ROOT / "data/atlas.json", out / "atlas.json")
+    shutil.copy(ROOT / "data/atlas_cases.tsv", out / "atlas_cases.tsv")
 
     res = subprocess.run(["node", str(ROOT / "pipeline/prerender.js"), str(out / "assets/site.js"), str(out / "atlas.json"), base, url],
                          capture_output=True, text=True, check=True)

@@ -1,0 +1,1250 @@
+{
+ "A4GNT": {
+  "approved_symbol": "A4GNT",
+  "ensembl_id": "ENSG00000118017",
+  "entrez_id": "51146",
+  "hgnc_id": "HGNC:17968",
+  "name": "alpha-1,4-N-acetylglucosaminyltransferase",
+  "omim_id": "616709"
+ },
+ "ABCD1": {
+  "approved_symbol": "ABCD1",
+  "ensembl_id": "ENSG00000101986",
+  "entrez_id": "215",
+  "hgnc_id": "HGNC:61",
+  "name": "ATP binding cassette subfamily D member 1",
+  "omim_id": "300371"
+ },
+ "ABHD5": {
+  "approved_symbol": "ABHD5",
+  "ensembl_id": "ENSG00000011198",
+  "entrez_id": "51099",
+  "hgnc_id": "HGNC:21396",
+  "name": "abhydrolase domain containing 5, lysophosphatidic acid acyltransferase",
+  "omim_id": "604780"
+ },
+ "AGA": {
+  "approved_symbol": "AGA",
+  "ensembl_id": "ENSG00000038002",
+  "entrez_id": "175",
+  "hgnc_id": "HGNC:318",
+  "name": "aspartylglucosaminidase",
+  "omim_id": "613228"
+ },
+ "ALMS1": {
+  "approved_symbol": "ALMS1",
+  "ensembl_id": "ENSG00000116127",
+  "entrez_id": "7840",
+  "hgnc_id": "HGNC:428",
+  "name": "ALMS1 centrosome and basal body associated protein",
+  "omim_id": "606844"
+ },
+ "AP3B1": {
+  "approved_symbol": "AP3B1",
+  "ensembl_id": "ENSG00000132842",
+  "entrez_id": "8546",
+  "hgnc_id": "HGNC:566",
+  "name": "adaptor related protein complex 3 subunit beta 1",
+  "omim_id": "603401"
+ },
+ "APC": {
+  "approved_symbol": "APC",
+  "ensembl_id": "ENSG00000134982",
+  "entrez_id": "324",
+  "hgnc_id": "HGNC:583",
+  "name": "APC regulator of Wnt signaling pathway",
+  "omim_id": "611731"
+ },
+ "APOB": {
+  "approved_symbol": "APOB",
+  "ensembl_id": "ENSG00000084674",
+  "entrez_id": "338",
+  "hgnc_id": "HGNC:603",
+  "name": "apolipoprotein B",
+  "omim_id": "107730"
+ },
+ "AR": {
+  "approved_symbol": "AR",
+  "ensembl_id": "ENSG00000169083",
+  "entrez_id": "367",
+  "hgnc_id": "HGNC:644",
+  "name": "androgen receptor",
+  "omim_id": "313700"
+ },
+ "ARID2": {
+  "approved_symbol": "ARID2",
+  "ensembl_id": "ENSG00000189079",
+  "entrez_id": "196528",
+  "hgnc_id": "HGNC:18037",
+  "name": "AT-rich interaction domain 2",
+  "omim_id": "609539"
+ },
+ "ASPA": {
+  "approved_symbol": "ASPA",
+  "ensembl_id": "ENSG00000108381",
+  "entrez_id": "443",
+  "hgnc_id": "HGNC:756",
+  "name": "aspartoacylase",
+  "omim_id": "608034"
+ },
+ "ATM": {
+  "approved_symbol": "ATM",
+  "ensembl_id": "ENSG00000149311",
+  "entrez_id": "472",
+  "hgnc_id": "HGNC:795",
+  "name": "ATM serine/threonine kinase",
+  "omim_id": "607585"
+ },
+ "ATP7A": {
+  "approved_symbol": "ATP7A",
+  "ensembl_id": "ENSG00000165240",
+  "entrez_id": "538",
+  "hgnc_id": "HGNC:869",
+  "name": "ATPase copper transporting alpha",
+  "omim_id": "300011"
+ },
+ "AVPR2": {
+  "approved_symbol": "AVPR2",
+  "ensembl_id": "ENSG00000126895",
+  "entrez_id": "554",
+  "hgnc_id": "HGNC:897",
+  "name": "arginine vasopressin receptor 2",
+  "omim_id": "300538"
+ },
+ "BBS1": {
+  "approved_symbol": "BBS1",
+  "ensembl_id": "ENSG00000174483",
+  "entrez_id": "582",
+  "hgnc_id": "HGNC:966",
+  "name": "Bardet-Biedl syndrome 1",
+  "omim_id": "209901"
+ },
+ "BCHE": {
+  "approved_symbol": "BCHE",
+  "ensembl_id": "ENSG00000114200",
+  "entrez_id": "590",
+  "hgnc_id": "HGNC:983",
+  "name": "butyrylcholinesterase",
+  "omim_id": "177400"
+ },
+ "BMPR2": {
+  "approved_symbol": "BMPR2",
+  "ensembl_id": "ENSG00000204217",
+  "entrez_id": "659",
+  "hgnc_id": "HGNC:1078",
+  "name": "bone morphogenetic protein receptor type 2",
+  "omim_id": "600799"
+ },
+ "BRCA1": {
+  "approved_symbol": "BRCA1",
+  "ensembl_id": "ENSG00000012048",
+  "entrez_id": "672",
+  "hgnc_id": "HGNC:1100",
+  "name": "BRCA1 DNA repair associated",
+  "omim_id": "113705"
+ },
+ "BRCA2": {
+  "approved_symbol": "BRCA2",
+  "ensembl_id": "ENSG00000139618",
+  "entrez_id": "675",
+  "hgnc_id": "HGNC:1101",
+  "name": "BRCA2 DNA repair associated",
+  "omim_id": "600185"
+ },
+ "BTK": {
+  "approved_symbol": "BTK",
+  "ensembl_id": "ENSG00000010671",
+  "entrez_id": "695",
+  "hgnc_id": "HGNC:1133",
+  "name": "Bruton tyrosine kinase",
+  "omim_id": "300300"
+ },
+ "BUB1B": {
+  "approved_symbol": "BUB1B",
+  "ensembl_id": "ENSG00000156970",
+  "entrez_id": "701",
+  "hgnc_id": "HGNC:1149",
+  "name": "BUB1 mitotic checkpoint serine/threonine kinase B",
+  "omim_id": "602860"
+ },
+ "CAPN3": {
+  "approved_symbol": "CAPN3",
+  "ensembl_id": "ENSG00000092529",
+  "entrez_id": "825",
+  "hgnc_id": "HGNC:1480",
+  "name": "calpain 3",
+  "omim_id": "114240"
+ },
+ "CASR": {
+  "approved_symbol": "CASR",
+  "ensembl_id": "ENSG00000036828",
+  "entrez_id": "846",
+  "hgnc_id": "HGNC:1514",
+  "name": "calcium sensing receptor",
+  "omim_id": "601199"
+ },
+ "CC2D2A": {
+  "approved_symbol": "CC2D2A",
+  "ensembl_id": "ENSG00000048342",
+  "entrez_id": "57545",
+  "hgnc_id": "HGNC:29253",
+  "name": "coiled-coil and C2 domain containing 2A",
+  "omim_id": "612013"
+ },
+ "CD40LG": {
+  "approved_symbol": "CD40LG",
+  "ensembl_id": "ENSG00000102245",
+  "entrez_id": "959",
+  "hgnc_id": "HGNC:11935",
+  "name": "CD40 ligand",
+  "omim_id": "300386"
+ },
+ "CFAP251": {
+  "approved_symbol": "CFAP251",
+  "ensembl_id": "ENSG00000158023",
+  "entrez_id": "144406",
+  "hgnc_id": "HGNC:28506",
+  "name": "cilia and flagella associated protein 251",
+  "omim_id": "618146"
+ },
+ "CFTR": {
+  "approved_symbol": "CFTR",
+  "ensembl_id": "ENSG00000001626",
+  "entrez_id": "1080",
+  "hgnc_id": "HGNC:1884",
+  "name": "CF transmembrane conductance regulator",
+  "omim_id": "602421"
+ },
+ "CHD7": {
+  "approved_symbol": "CHD7",
+  "ensembl_id": "ENSG00000171316",
+  "entrez_id": "55636",
+  "hgnc_id": "HGNC:20626",
+  "name": "chromodomain helicase DNA binding protein 7",
+  "omim_id": "608892"
+ },
+ "CHD8": {
+  "approved_symbol": "CHD8",
+  "ensembl_id": "ENSG00000100888",
+  "entrez_id": "57680",
+  "hgnc_id": "HGNC:20153",
+  "name": "chromodomain helicase DNA binding protein 8",
+  "omim_id": "610528"
+ },
+ "CHM": {
+  "approved_symbol": "CHM",
+  "ensembl_id": "ENSG00000188419",
+  "entrez_id": "1121",
+  "hgnc_id": "HGNC:1940",
+  "name": "CHM Rab escort protein",
+  "omim_id": "300390"
+ },
+ "CLCN5": {
+  "approved_symbol": "CLCN5",
+  "ensembl_id": "ENSG00000171365",
+  "entrez_id": "1184",
+  "hgnc_id": "HGNC:2023",
+  "name": "Cl-/H+ antiporter 5",
+  "omim_id": "300008"
+ },
+ "COL4A1": {
+  "approved_symbol": "COL4A1",
+  "ensembl_id": "ENSG00000187498",
+  "entrez_id": "1282",
+  "hgnc_id": "HGNC:2202",
+  "name": "collagen type IV alpha 1 chain",
+  "omim_id": "120130"
+ },
+ "COL4A6": {
+  "approved_symbol": "COL4A6",
+  "ensembl_id": "ENSG00000197565",
+  "entrez_id": "1288",
+  "hgnc_id": "HGNC:2208",
+  "name": "collagen type IV alpha 6 chain",
+  "omim_id": "303631"
+ },
+ "COL6A2": {
+  "approved_symbol": "COL6A2",
+  "ensembl_id": "ENSG00000142173",
+  "entrez_id": "1292",
+  "hgnc_id": "HGNC:2212",
+  "name": "collagen type VI alpha 2 chain",
+  "omim_id": "120240"
+ },
+ "CPLANE1": {
+  "approved_symbol": "CPLANE1",
+  "ensembl_id": "ENSG00000197603",
+  "entrez_id": "65250",
+  "hgnc_id": "HGNC:25801",
+  "name": "ciliogenesis and planar polarity effector complex subunit 1",
+  "omim_id": "614571"
+ },
+ "CRB1": {
+  "approved_symbol": "CRB1",
+  "ensembl_id": "ENSG00000134376",
+  "entrez_id": "23418",
+  "hgnc_id": "HGNC:2343",
+  "name": "crumbs cell polarity complex component 1",
+  "omim_id": "604210"
+ },
+ "CSDE1": {
+  "approved_symbol": "CSDE1",
+  "ensembl_id": "ENSG00000009307",
+  "entrez_id": "7812",
+  "hgnc_id": "HGNC:29905",
+  "name": "cold shock domain containing E1",
+  "omim_id": "191510"
+ },
+ "CTRC": {
+  "approved_symbol": "CTRC",
+  "ensembl_id": "ENSG00000162438",
+  "entrez_id": "11330",
+  "hgnc_id": "HGNC:2523",
+  "name": "chymotrypsin C",
+  "omim_id": "601405"
+ },
+ "CTSK": {
+  "approved_symbol": "CTSK",
+  "ensembl_id": "ENSG00000143387",
+  "entrez_id": "1513",
+  "hgnc_id": "HGNC:2536",
+  "name": "cathepsin K",
+  "omim_id": "601105"
+ },
+ "CYBB": {
+  "approved_symbol": "CYBB",
+  "ensembl_id": "ENSG00000165168",
+  "entrez_id": "1536",
+  "hgnc_id": "HGNC:2578",
+  "name": "cytochrome b-245 beta chain",
+  "omim_id": "300481"
+ },
+ "DEPDC5": {
+  "approved_symbol": "DEPDC5",
+  "ensembl_id": "ENSG00000100150",
+  "entrez_id": "9681",
+  "hgnc_id": "HGNC:18423",
+  "name": "DEP domain containing 5, GATOR1 subcomplex subunit",
+  "omim_id": "614191"
+ },
+ "DICER1": {
+  "approved_symbol": "DICER1",
+  "ensembl_id": "ENSG00000100697",
+  "entrez_id": "23405",
+  "hgnc_id": "HGNC:17098",
+  "name": "dicer 1, ribonuclease III",
+  "omim_id": "606241"
+ },
+ "DMD": {
+  "approved_symbol": "DMD",
+  "ensembl_id": "ENSG00000198947",
+  "entrez_id": "1756",
+  "hgnc_id": "HGNC:2928",
+  "name": "dystrophin",
+  "omim_id": "300377"
+ },
+ "EBP": {
+  "approved_symbol": "EBP",
+  "ensembl_id": "ENSG00000147155",
+  "entrez_id": "10682",
+  "hgnc_id": "HGNC:3133",
+  "name": "EBP cholestenol delta-isomerase",
+  "omim_id": "300205"
+ },
+ "EFTUD2": {
+  "approved_symbol": "EFTUD2",
+  "ensembl_id": "ENSG00000108883",
+  "entrez_id": "9343",
+  "hgnc_id": "HGNC:30858",
+  "name": "elongation factor Tu GTP binding domain containing 2",
+  "omim_id": "603892"
+ },
+ "ETFB": {
+  "approved_symbol": "ETFB",
+  "ensembl_id": "ENSG00000105379",
+  "entrez_id": "2109",
+  "hgnc_id": "HGNC:3482",
+  "name": "electron transfer flavoprotein subunit beta",
+  "omim_id": "130410"
+ },
+ "EYA1": {
+  "approved_symbol": "EYA1",
+  "ensembl_id": "ENSG00000104313",
+  "entrez_id": "2138",
+  "hgnc_id": "HGNC:3519",
+  "name": "EYA transcriptional coactivator and phosphatase 1",
+  "omim_id": "601653"
+ },
+ "EYS": {
+  "approved_symbol": "EYS",
+  "ensembl_id": "ENSG00000188107",
+  "entrez_id": "346007",
+  "hgnc_id": "HGNC:21555",
+  "name": "EGF-like photoreceptor maintenance factor",
+  "omim_id": "612424"
+ },
+ "F8": {
+  "approved_symbol": "F8",
+  "ensembl_id": "ENSG00000185010",
+  "entrez_id": "2157",
+  "hgnc_id": "HGNC:3546",
+  "name": "coagulation factor VIII",
+  "omim_id": "300841"
+ },
+ "F9": {
+  "approved_symbol": "F9",
+  "ensembl_id": "ENSG00000101981",
+  "entrez_id": "2158",
+  "hgnc_id": "HGNC:3551",
+  "name": "coagulation factor IX",
+  "omim_id": "300746"
+ },
+ "FAS": {
+  "approved_symbol": "FAS",
+  "ensembl_id": "ENSG00000026103",
+  "entrez_id": "355",
+  "hgnc_id": "HGNC:11920",
+  "name": "Fas cell surface death receptor",
+  "omim_id": "134637"
+ },
+ "FBN1": {
+  "approved_symbol": "FBN1",
+  "ensembl_id": "ENSG00000166147",
+  "entrez_id": "2200",
+  "hgnc_id": "HGNC:3603",
+  "name": "fibrillin 1",
+  "omim_id": "134797"
+ },
+ "FBP1": {
+  "approved_symbol": "FBP1",
+  "ensembl_id": "ENSG00000165140",
+  "entrez_id": "2203",
+  "hgnc_id": "HGNC:3606",
+  "name": "fructose-bisphosphatase 1",
+  "omim_id": "611570"
+ },
+ "FERMT1": {
+  "approved_symbol": "FERMT1",
+  "ensembl_id": "ENSG00000101311",
+  "entrez_id": "55612",
+  "hgnc_id": "HGNC:15889",
+  "name": "FERM domain containing kindlin 1",
+  "omim_id": "607900"
+ },
+ "FGFR1": {
+  "approved_symbol": "FGFR1",
+  "ensembl_id": "ENSG00000077782",
+  "entrez_id": "2260",
+  "hgnc_id": "HGNC:3688",
+  "name": "fibroblast growth factor receptor 1",
+  "omim_id": "136350"
+ },
+ "FGFR2": {
+  "approved_symbol": "FGFR2",
+  "ensembl_id": "ENSG00000066468",
+  "entrez_id": "2263",
+  "hgnc_id": "HGNC:3689",
+  "name": "fibroblast growth factor receptor 2",
+  "omim_id": "176943"
+ },
+ "FKTN": {
+  "approved_symbol": "FKTN",
+  "ensembl_id": "ENSG00000106692",
+  "entrez_id": "2218",
+  "hgnc_id": "HGNC:3622",
+  "name": "fukutin",
+  "omim_id": "607440"
+ },
+ "GAA": {
+  "approved_symbol": "GAA",
+  "ensembl_id": "ENSG00000171298",
+  "entrez_id": "2548",
+  "hgnc_id": "HGNC:4065",
+  "name": "alpha glucosidase",
+  "omim_id": "606800"
+ },
+ "GK": {
+  "approved_symbol": "GK",
+  "ensembl_id": "ENSG00000198814",
+  "entrez_id": "2710",
+  "hgnc_id": "HGNC:4289",
+  "name": "glycerol kinase",
+  "omim_id": "300474"
+ },
+ "GLA": {
+  "approved_symbol": "GLA",
+  "ensembl_id": "ENSG00000102393",
+  "entrez_id": "2717",
+  "hgnc_id": "HGNC:4296",
+  "name": "galactosidase alpha",
+  "omim_id": "300644"
+ },
+ "GNAS": {
+  "approved_symbol": "GNAS",
+  "ensembl_id": "ENSG00000087460",
+  "entrez_id": "2778",
+  "hgnc_id": "HGNC:4392",
+  "name": "GNAS complex locus",
+  "omim_id": "139320"
+ },
+ "GNE": {
+  "approved_symbol": "GNE",
+  "ensembl_id": "ENSG00000159921",
+  "entrez_id": "10020",
+  "hgnc_id": "HGNC:23657",
+  "name": "glucosamine (UDP-N-acetyl)-2-epimerase/N-acetylmannosamine kinase",
+  "omim_id": "603824"
+ },
+ "GNPTAB": {
+  "approved_symbol": "GNPTAB",
+  "ensembl_id": "ENSG00000111670",
+  "entrez_id": "79158",
+  "hgnc_id": "HGNC:29670",
+  "name": "N-acetylglucosamine-1-phosphate transferase subunits alpha and beta",
+  "omim_id": "607840"
+ },
+ "GRIN2B": {
+  "approved_symbol": "GRIN2B",
+  "ensembl_id": "ENSG00000273079",
+  "entrez_id": "2904",
+  "hgnc_id": "HGNC:4586",
+  "name": "glutamate ionotropic receptor NMDA type subunit 2B",
+  "omim_id": "138252"
+ },
+ "GYS2": {
+  "approved_symbol": "GYS2",
+  "ensembl_id": "ENSG00000111713",
+  "entrez_id": "2998",
+  "hgnc_id": "HGNC:4707",
+  "name": "glycogen synthase 2",
+  "omim_id": "138571"
+ },
+ "HBB": {
+  "approved_symbol": "HBB",
+  "ensembl_id": "ENSG00000244734",
+  "entrez_id": "3043",
+  "hgnc_id": "HGNC:4827",
+  "name": "hemoglobin subunit beta",
+  "omim_id": "141900"
+ },
+ "HCFC1": {
+  "approved_symbol": "HCFC1",
+  "ensembl_id": "ENSG00000172534",
+  "entrez_id": "3054",
+  "hgnc_id": "HGNC:4839",
+  "name": "host cell factor C1",
+  "omim_id": "300019"
+ },
+ "HESX1": {
+  "approved_symbol": "HESX1",
+  "ensembl_id": "ENSG00000163666",
+  "entrez_id": "8820",
+  "hgnc_id": "HGNC:4877",
+  "name": "HESX homeobox 1",
+  "omim_id": "601802"
+ },
+ "HMBS": {
+  "approved_symbol": "HMBS",
+  "ensembl_id": "ENSG00000256269",
+  "entrez_id": "3145",
+  "hgnc_id": "HGNC:4982",
+  "name": "hydroxymethylbilane synthase",
+  "omim_id": "609806"
+ },
+ "IDS": {
+  "approved_symbol": "IDS",
+  "ensembl_id": "ENSG00000010404",
+  "entrez_id": "3423",
+  "hgnc_id": "HGNC:5389",
+  "name": "iduronate 2-sulfatase",
+  "omim_id": "300823"
+ },
+ "IFNGR1": {
+  "approved_symbol": "IFNGR1",
+  "ensembl_id": "ENSG00000027697",
+  "entrez_id": "3459",
+  "hgnc_id": "HGNC:5439",
+  "name": "interferon gamma receptor 1",
+  "omim_id": "107470"
+ },
+ "IL2RG": {
+  "approved_symbol": "IL2RG",
+  "ensembl_id": "ENSG00000147168",
+  "entrez_id": "3561",
+  "hgnc_id": "HGNC:6010",
+  "name": "interleukin 2 receptor subunit gamma",
+  "omim_id": "308380"
+ },
+ "IQCB1": {
+  "approved_symbol": "IQCB1",
+  "ensembl_id": "ENSG00000173226",
+  "entrez_id": "9657",
+  "hgnc_id": "HGNC:28949",
+  "name": "IQ motif containing B1",
+  "omim_id": "609237"
+ },
+ "ITGB3": {
+  "approved_symbol": "ITGB3",
+  "ensembl_id": "ENSG00000259207",
+  "entrez_id": "3690",
+  "hgnc_id": "HGNC:6156",
+  "name": "integrin subunit beta 3",
+  "omim_id": "173470"
+ },
+ "KARS1": {
+  "approved_symbol": "KARS1",
+  "ensembl_id": "ENSG00000065427",
+  "entrez_id": "3735",
+  "hgnc_id": "HGNC:6215",
+  "name": "lysyl-tRNA synthetase 1",
+  "omim_id": "601421"
+ },
+ "KMT2D": {
+  "approved_symbol": "KMT2D",
+  "ensembl_id": "ENSG00000167548",
+  "entrez_id": "8085",
+  "hgnc_id": "HGNC:7133",
+  "name": "lysine methyltransferase 2D",
+  "omim_id": "602113"
+ },
+ "LDLR": {
+  "approved_symbol": "LDLR",
+  "ensembl_id": "ENSG00000130164",
+  "entrez_id": "3949",
+  "hgnc_id": "HGNC:6547",
+  "name": "low density lipoprotein receptor",
+  "omim_id": "606945"
+ },
+ "LDLRAP1": {
+  "approved_symbol": "LDLRAP1",
+  "ensembl_id": "ENSG00000157978",
+  "entrez_id": "26119",
+  "hgnc_id": "HGNC:18640",
+  "name": "low density lipoprotein receptor adaptor protein 1",
+  "omim_id": "605747"
+ },
+ "LPL": {
+  "approved_symbol": "LPL",
+  "ensembl_id": "ENSG00000175445",
+  "entrez_id": "4023",
+  "hgnc_id": "HGNC:6677",
+  "name": "lipoprotein lipase",
+  "omim_id": "609708"
+ },
+ "LTBP1": {
+  "approved_symbol": "LTBP1",
+  "ensembl_id": "ENSG00000049323",
+  "entrez_id": "4052",
+  "hgnc_id": "HGNC:6714",
+  "name": "latent transforming growth factor beta binding protein 1",
+  "omim_id": "150390"
+ },
+ "MAK": {
+  "approved_symbol": "MAK",
+  "ensembl_id": "ENSG00000111837",
+  "entrez_id": "4117",
+  "hgnc_id": "HGNC:6816",
+  "name": "male germ cell associated kinase",
+  "omim_id": "154235"
+ },
+ "MAN2B1": {
+  "approved_symbol": "MAN2B1",
+  "ensembl_id": "ENSG00000104774",
+  "entrez_id": "4125",
+  "hgnc_id": "HGNC:6826",
+  "name": "mannosidase alpha class 2B member 1",
+  "omim_id": "609458"
+ },
+ "MATR3": {
+  "approved_symbol": "MATR3",
+  "ensembl_id": "ENSG00000015479",
+  "entrez_id": "9782",
+  "hgnc_id": "HGNC:6912",
+  "name": "matrin 3",
+  "omim_id": "164015"
+ },
+ "MCC": {
+  "approved_symbol": "MCC",
+  "ensembl_id": "ENSG00000171444",
+  "entrez_id": "4163",
+  "hgnc_id": "HGNC:6935",
+  "name": "MCC regulator of Wnt signaling pathway",
+  "omim_id": "159350"
+ },
+ "MEF2C": {
+  "approved_symbol": "MEF2C",
+  "ensembl_id": "ENSG00000081189",
+  "entrez_id": "4208",
+  "hgnc_id": "HGNC:6996",
+  "name": "myocyte enhancer factor 2C",
+  "omim_id": "600662"
+ },
+ "MEN1": {
+  "approved_symbol": "MEN1",
+  "ensembl_id": "ENSG00000133895",
+  "entrez_id": "4221",
+  "hgnc_id": "HGNC:7010",
+  "name": "menin 1",
+  "omim_id": "613733"
+ },
+ "MLH1": {
+  "approved_symbol": "MLH1",
+  "ensembl_id": "ENSG00000076242",
+  "entrez_id": "4292",
+  "hgnc_id": "HGNC:7127",
+  "name": "mutL homolog 1",
+  "omim_id": "120436"
+ },
+ "MSH2": {
+  "approved_symbol": "MSH2",
+  "ensembl_id": "ENSG00000095002",
+  "entrez_id": "4436",
+  "hgnc_id": "HGNC:7325",
+  "name": "mutS homolog 2",
+  "omim_id": "609309"
+ },
+ "MSH4": {
+  "approved_symbol": "MSH4",
+  "ensembl_id": "ENSG00000057468",
+  "entrez_id": "4438",
+  "hgnc_id": "HGNC:7327",
+  "name": "mutS homolog 4",
+  "omim_id": "602105"
+ },
+ "MSH6": {
+  "approved_symbol": "MSH6",
+  "ensembl_id": "ENSG00000116062",
+  "entrez_id": "2956",
+  "hgnc_id": "HGNC:7329",
+  "name": "mutS homolog 6",
+  "omim_id": "600678"
+ },
+ "MTOR": {
+  "approved_symbol": "MTOR",
+  "ensembl_id": "ENSG00000198793",
+  "entrez_id": "2475",
+  "hgnc_id": "HGNC:3942",
+  "name": "mechanistic target of rapamycin kinase",
+  "omim_id": "601231"
+ },
+ "NDUFV2": {
+  "approved_symbol": "NDUFV2",
+  "ensembl_id": "ENSG00000178127",
+  "entrez_id": "4729",
+  "hgnc_id": "HGNC:7717",
+  "name": "NADH:ubiquinone oxidoreductase core subunit V2",
+  "omim_id": "600532"
+ },
+ "NEK1": {
+  "approved_symbol": "NEK1",
+  "ensembl_id": "ENSG00000137601",
+  "entrez_id": "4750",
+  "hgnc_id": "HGNC:7744",
+  "name": "NIMA related kinase 1",
+  "omim_id": "604588"
+ },
+ "NF1": {
+  "approved_symbol": "NF1",
+  "ensembl_id": "ENSG00000196712",
+  "entrez_id": "4763",
+  "hgnc_id": "HGNC:7765",
+  "name": "neurofibromin 1",
+  "omim_id": "613113"
+ },
+ "NIPBL": {
+  "approved_symbol": "NIPBL",
+  "ensembl_id": "ENSG00000164190",
+  "entrez_id": "25836",
+  "hgnc_id": "HGNC:28862",
+  "name": "NIPBL cohesin loading factor",
+  "omim_id": "608667"
+ },
+ "NKX2-1": {
+  "approved_symbol": "NKX2-1",
+  "ensembl_id": "ENSG00000136352",
+  "entrez_id": "7080",
+  "hgnc_id": "HGNC:11825",
+  "name": "NK2 homeobox 1",
+  "omim_id": "600635"
+ },
+ "NMNAT1": {
+  "approved_symbol": "NMNAT1",
+  "ensembl_id": "ENSG00000173614",
+  "entrez_id": "64802",
+  "hgnc_id": "HGNC:17877",
+  "name": "nicotinamide nucleotide adenylyltransferase 1",
+  "omim_id": "608700"
+ },
+ "NR5A1": {
+  "approved_symbol": "NR5A1",
+  "ensembl_id": "ENSG00000136931",
+  "entrez_id": "2516",
+  "hgnc_id": "HGNC:7983",
+  "name": "nuclear receptor subfamily 5 group A member 1",
+  "omim_id": "184757"
+ },
+ "NSD1": {
+  "approved_symbol": "NSD1",
+  "ensembl_id": "ENSG00000165671",
+  "entrez_id": "64324",
+  "hgnc_id": "HGNC:14234",
+  "name": "nuclear receptor binding SET domain protein 1",
+  "omim_id": "606681"
+ },
+ "NT5C3A": {
+  "approved_symbol": "NT5C3A",
+  "ensembl_id": "ENSG00000122643",
+  "entrez_id": "51251",
+  "hgnc_id": "HGNC:17820",
+  "name": "5'-nucleotidase, cytosolic IIIA",
+  "omim_id": "606224"
+ },
+ "OCRL": {
+  "approved_symbol": "OCRL",
+  "ensembl_id": "ENSG00000122126",
+  "entrez_id": "4952",
+  "hgnc_id": "HGNC:8108",
+  "name": "OCRL inositol polyphosphate-5-phosphatase",
+  "omim_id": "300535"
+ },
+ "OFD1": {
+  "approved_symbol": "OFD1",
+  "ensembl_id": "ENSG00000046651",
+  "entrez_id": "8481",
+  "hgnc_id": "HGNC:2567",
+  "name": "OFD1 centriole and centriolar satellite protein",
+  "omim_id": "300170"
+ },
+ "OPA1": {
+  "approved_symbol": "OPA1",
+  "ensembl_id": "ENSG00000198836",
+  "entrez_id": "4976",
+  "hgnc_id": "HGNC:8140",
+  "name": "OPA1 mitochondrial dynamin like GTPase",
+  "omim_id": "605290"
+ },
+ "PALB2": {
+  "approved_symbol": "PALB2",
+  "ensembl_id": "ENSG00000083093",
+  "entrez_id": "79728",
+  "hgnc_id": "HGNC:26144",
+  "name": "partner and localizer of BRCA2",
+  "omim_id": "610355"
+ },
+ "PARN": {
+  "approved_symbol": "PARN",
+  "ensembl_id": "ENSG00000140694",
+  "entrez_id": "5073",
+  "hgnc_id": "HGNC:8609",
+  "name": "poly(A)-specific ribonuclease",
+  "omim_id": "604212"
+ },
+ "PDHX": {
+  "approved_symbol": "PDHX",
+  "ensembl_id": "ENSG00000110435",
+  "entrez_id": "8050",
+  "hgnc_id": "HGNC:21350",
+  "name": "pyruvate dehydrogenase complex component X",
+  "omim_id": "608769"
+ },
+ "PEX1": {
+  "approved_symbol": "PEX1",
+  "ensembl_id": "ENSG00000127980",
+  "entrez_id": "5189",
+  "hgnc_id": "HGNC:8850",
+  "name": "peroxisomal biogenesis factor 1",
+  "omim_id": "602136"
+ },
+ "PHEX": {
+  "approved_symbol": "PHEX",
+  "ensembl_id": "ENSG00000102174",
+  "entrez_id": "5251",
+  "hgnc_id": "HGNC:8918",
+  "name": "phosphate regulating endopeptidase X-linked",
+  "omim_id": "300550"
+ },
+ "PKLR": {
+  "approved_symbol": "PKLR",
+  "ensembl_id": "ENSG00000143627",
+  "entrez_id": "5313",
+  "hgnc_id": "HGNC:9020",
+  "name": "pyruvate kinase L/R",
+  "omim_id": "609712"
+ },
+ "PMM2": {
+  "approved_symbol": "PMM2",
+  "ensembl_id": "ENSG00000140650",
+  "entrez_id": "5373",
+  "hgnc_id": "HGNC:9115",
+  "name": "phosphomannomutase 2",
+  "omim_id": "601785"
+ },
+ "PMS2": {
+  "approved_symbol": "PMS2",
+  "ensembl_id": "ENSG00000122512",
+  "entrez_id": "5395",
+  "hgnc_id": "HGNC:9122",
+  "name": "PMS1 homolog 2, mismatch repair system component",
+  "omim_id": "600259"
+ },
+ "PNPLA2": {
+  "approved_symbol": "PNPLA2",
+  "ensembl_id": "ENSG00000177666",
+  "entrez_id": "57104",
+  "hgnc_id": "HGNC:30802",
+  "name": "patatin like domain 2, triacylglycerol lipase",
+  "omim_id": "609059"
+ },
+ "POLB": {
+  "approved_symbol": "POLB",
+  "ensembl_id": "ENSG00000070501",
+  "entrez_id": "5423",
+  "hgnc_id": "HGNC:9174",
+  "name": "DNA polymerase beta",
+  "omim_id": "174760"
+ },
+ "POLK": {
+  "approved_symbol": "POLK",
+  "ensembl_id": "ENSG00000122008",
+  "entrez_id": "51426",
+  "hgnc_id": "HGNC:9183",
+  "name": "DNA polymerase kappa",
+  "omim_id": "605650"
+ },
+ "POMT1": {
+  "approved_symbol": "POMT1",
+  "ensembl_id": "ENSG00000130714",
+  "entrez_id": "10585",
+  "hgnc_id": "HGNC:9202",
+  "name": "protein O-mannosyltransferase 1",
+  "omim_id": "607423"
+ },
+ "PTCH1": {
+  "approved_symbol": "PTCH1",
+  "ensembl_id": "ENSG00000185920",
+  "entrez_id": "5727",
+  "hgnc_id": "HGNC:9585",
+  "name": "patched 1",
+  "omim_id": "601309"
+ },
+ "PTEN": {
+  "approved_symbol": "PTEN",
+  "ensembl_id": "ENSG00000171862",
+  "entrez_id": "5728",
+  "hgnc_id": "HGNC:9588",
+  "name": "phosphatase and tensin homolog",
+  "omim_id": "601728"
+ },
+ "RAD52": {
+  "approved_symbol": "RAD52",
+  "ensembl_id": "ENSG00000002016",
+  "entrez_id": "5893",
+  "hgnc_id": "HGNC:9824",
+  "name": "RAD52 DNA repair protein",
+  "omim_id": "600392"
+ },
+ "RB1": {
+  "approved_symbol": "RB1",
+  "ensembl_id": "ENSG00000139687",
+  "entrez_id": "5925",
+  "hgnc_id": "HGNC:9884",
+  "name": "RB transcriptional corepressor 1",
+  "omim_id": "614041"
+ },
+ "RP1": {
+  "approved_symbol": "RP1",
+  "ensembl_id": "ENSG00000104237",
+  "entrez_id": "6101",
+  "hgnc_id": "HGNC:10263",
+  "name": "RP1 axonemal microtubule associated",
+  "omim_id": "603937"
+ },
+ "RP2": {
+  "approved_symbol": "RP2",
+  "ensembl_id": "ENSG00000102218",
+  "entrez_id": "6102",
+  "hgnc_id": "HGNC:10274",
+  "name": "RP2 activator of ARL3 GTPase",
+  "omim_id": "300757"
+ },
+ "RPGRIP1": {
+  "approved_symbol": "RPGRIP1",
+  "ensembl_id": "ENSG00000092200",
+  "entrez_id": "57096",
+  "hgnc_id": "HGNC:13436",
+  "name": "RPGR interacting protein 1",
+  "omim_id": "605446"
+ },
+ "RPL11": {
+  "approved_symbol": "RPL11",
+  "ensembl_id": "ENSG00000142676",
+  "entrez_id": "6135",
+  "hgnc_id": "HGNC:10301",
+  "name": "ribosomal protein L11",
+  "omim_id": "604175"
+ },
+ "RPS6KA3": {
+  "approved_symbol": "RPS6KA3",
+  "ensembl_id": "ENSG00000177189",
+  "entrez_id": "6197",
+  "hgnc_id": "HGNC:10432",
+  "name": "ribosomal protein S6 kinase A3",
+  "omim_id": "300075"
+ },
+ "RREB1": {
+  "approved_symbol": "RREB1",
+  "ensembl_id": "ENSG00000124782",
+  "entrez_id": "6239",
+  "hgnc_id": "HGNC:10449",
+  "name": "ras responsive element binding protein 1",
+  "omim_id": "602209"
+ },
+ "SERPINC1": {
+  "approved_symbol": "SERPINC1",
+  "ensembl_id": "ENSG00000117601",
+  "entrez_id": "462",
+  "hgnc_id": "HGNC:775",
+  "name": "serpin family C member 1",
+  "omim_id": "107300"
+ },
+ "SERPINF1": {
+  "approved_symbol": "SERPINF1",
+  "ensembl_id": "ENSG00000132386",
+  "entrez_id": "5176",
+  "hgnc_id": "HGNC:8824",
+  "name": "serpin family F member 1",
+  "omim_id": "172860"
+ },
+ "SERPING1": {
+  "approved_symbol": "SERPING1",
+  "ensembl_id": "ENSG00000149131",
+  "entrez_id": "710",
+  "hgnc_id": "HGNC:1228",
+  "name": "serpin family G member 1",
+  "omim_id": "606860"
+ },
+ "SETD5": {
+  "approved_symbol": "SETD5",
+  "ensembl_id": "ENSG00000168137",
+  "entrez_id": "55209",
+  "hgnc_id": "HGNC:25566",
+  "name": "SET domain containing 5",
+  "omim_id": "615743"
+ },
+ "SETX": {
+  "approved_symbol": "SETX",
+  "ensembl_id": "ENSG00000107290",
+  "entrez_id": "23064",
+  "hgnc_id": "HGNC:445",
+  "name": "senataxin",
+  "omim_id": "608465"
+ },
+ "SGCE": {
+  "approved_symbol": "SGCE",
+  "ensembl_id": "ENSG00000127990",
+  "entrez_id": "8910",
+  "hgnc_id": "HGNC:10808",
+  "name": "sarcoglycan epsilon",
+  "omim_id": "604149"
+ },
+ "SLC17A8": {
+  "approved_symbol": "SLC17A8",
+  "ensembl_id": "ENSG00000179520",
+  "entrez_id": "246213",
+  "hgnc_id": "HGNC:20151",
+  "name": "solute carrier family 17 member 8",
+  "omim_id": "607557"
+ },
+ "SLC25A13": {
+  "approved_symbol": "SLC25A13",
+  "ensembl_id": "ENSG00000004864",
+  "entrez_id": "10165",
+  "hgnc_id": "HGNC:10983",
+  "name": "solute carrier family 25 member 13",
+  "omim_id": "603859"
+ },
+ "SLC26A3": {
+  "approved_symbol": "SLC26A3",
+  "ensembl_id": "ENSG00000091138",
+  "entrez_id": "1811",
+  "hgnc_id": "HGNC:3018",
+  "name": "solute carrier family 26 member 3",
+  "omim_id": "126650"
+ },
+ "SLC2A1": {
+  "approved_symbol": "SLC2A1",
+  "ensembl_id": "ENSG00000117394",
+  "entrez_id": "6513",
+  "hgnc_id": "HGNC:11005",
+  "name": "solute carrier family 2 member 1",
+  "omim_id": "138140"
+ },
+ "SLCO1B3": {
+  "approved_symbol": "SLCO1B3",
+  "ensembl_id": "ENSG00000111700",
+  "entrez_id": "28234",
+  "hgnc_id": "HGNC:10961",
+  "name": "solute carrier organic anion transporter family member 1B3",
+  "omim_id": "605495"
+ },
+ "SMARCB1": {
+  "approved_symbol": "SMARCB1",
+  "ensembl_id": "ENSG00000099956",
+  "entrez_id": "6598",
+  "hgnc_id": "HGNC:11103",
+  "name": "SWI/SNF related BAF chromatin remodeling complex subunit B1",
+  "omim_id": "601607"
+ },
+ "SMN1": {
+  "approved_symbol": "SMN1",
+  "ensembl_id": "ENSG00000172062",
+  "entrez_id": "6606",
+  "hgnc_id": "HGNC:11117",
+  "name": "survival of motor neuron 1, telomeric",
+  "omim_id": "600354"
+ },
+ "SOX10": {
+  "approved_symbol": "SOX10",
+  "ensembl_id": "ENSG00000100146",
+  "entrez_id": "6663",
+  "hgnc_id": "HGNC:11190",
+  "name": "SRY-box transcription factor 10",
+  "omim_id": "602229"
+ },
+ "SPAST": {
+  "approved_symbol": "SPAST",
+  "ensembl_id": "ENSG00000021574",
+  "entrez_id": "6683",
+  "hgnc_id": "HGNC:11233",
+  "name": "spastin",
+  "omim_id": "604277"
+ },
+ "SPG11": {
+  "approved_symbol": "SPG11",
+  "ensembl_id": "ENSG00000104133",
+  "entrez_id": "80208",
+  "hgnc_id": "HGNC:11226",
+  "name": "SPG11 vesicle trafficking associated, spatacsin",
+  "omim_id": "610844"
+ },
+ "SPIDR": {
+  "approved_symbol": "SPIDR",
+  "ensembl_id": "ENSG00000164808",
+  "entrez_id": "23514",
+  "hgnc_id": "HGNC:28971",
+  "name": "scaffold protein involved in DNA repair",
+  "omim_id": "615384"
+ },
+ "SPINK1": {
+  "approved_symbol": "SPINK1",
+  "ensembl_id": "ENSG00000164266",
+  "entrez_id": "6690",
+  "hgnc_id": "HGNC:11244",
+  "name": "serine peptidase inhibitor Kazal type 1",
+  "omim_id": "167790"
+ },
+ "SPTA1": {
+  "approved_symbol": "SPTA1",
+  "ensembl_id": "ENSG00000163554",
+  "entrez_id": "6708",
+  "hgnc_id": "HGNC:11272",
+  "name": "spectrin alpha, erythrocytic 1",
+  "omim_id": "182860"
+ },
+ "SRCAP": {
+  "approved_symbol": "SRCAP",
+  "ensembl_id": "ENSG00000080603",
+  "entrez_id": "10847",
+  "hgnc_id": "HGNC:16974",
+  "name": "Snf2 related CREBBP activator protein",
+  "omim_id": "611421"
+ },
+ "TAF1": {
+  "approved_symbol": "TAF1",
+  "ensembl_id": "ENSG00000147133",
+  "entrez_id": "6872",
+  "hgnc_id": "HGNC:11535",
+  "name": "TATA-box binding protein associated factor 1",
+  "omim_id": "313650"
+ },
+ "TCF20": {
+  "approved_symbol": "TCF20",
+  "ensembl_id": "ENSG00000100207",
+  "entrez_id": "6942",
+  "hgnc_id": "HGNC:11631",
+  "name": "transcription factor 20",
+  "omim_id": "603107"
+ },
+ "TCOF1": {
+  "approved_symbol": "TCOF1",
+  "ensembl_id": "ENSG00000070814",
+  "entrez_id": "6949",
+  "hgnc_id": "HGNC:11654",
+  "name": "treacle ribosome biogenesis factor 1",
+  "omim_id": "606847"
+ },
+ "TG": {
+  "approved_symbol": "TG",
+  "ensembl_id": "ENSG00000042832",
+  "entrez_id": "7038",
+  "hgnc_id": "HGNC:11764",
+  "name": "thyroglobulin",
+  "omim_id": "188450"
+ },
+ "TP63": {
+  "approved_symbol": "TP63",
+  "ensembl_id": "ENSG00000073282",
+  "entrez_id": "8626",
+  "hgnc_id": "HGNC:15979",
+  "name": "tumor protein p63",
+  "omim_id": "603273"
+ },
+ "TRRAP": {
+  "approved_symbol": "TRRAP",
+  "ensembl_id": "ENSG00000196367",
+  "entrez_id": "8295",
+  "hgnc_id": "HGNC:12347",
+  "name": "transformation/transcription domain associated protein",
+  "omim_id": "603015"
+ },
+ "TSC2": {
+  "approved_symbol": "TSC2",
+  "ensembl_id": "ENSG00000103197",
+  "entrez_id": "7249",
+  "hgnc_id": "HGNC:12363",
+  "name": "TSC complex subunit 2",
+  "omim_id": "191092"
+ },
+ "TTN": {
+  "approved_symbol": "TTN",
+  "ensembl_id": "ENSG00000155657",
+  "entrez_id": "7273",
+  "hgnc_id": "HGNC:12403",
+  "name": "titin",
+  "omim_id": "188840"
+ },
+ "USH2A": {
+  "approved_symbol": "USH2A",
+  "ensembl_id": "ENSG00000042781",
+  "entrez_id": "7399",
+  "hgnc_id": "HGNC:12601",
+  "name": "usherin",
+  "omim_id": "608400"
+ },
+ "VHL": {
+  "approved_symbol": "VHL",
+  "ensembl_id": "ENSG00000134086",
+  "entrez_id": "7428",
+  "hgnc_id": "HGNC:12687",
+  "name": "von Hippel-Lindau tumor suppressor",
+  "omim_id": "608537"
+ },
+ "ZEB2": {
+  "approved_symbol": "ZEB2",
+  "ensembl_id": "ENSG00000169554",
+  "entrez_id": "9839",
+  "hgnc_id": "HGNC:14881",
+  "name": "zinc finger E-box binding homeobox 2",
+  "omim_id": "605802"
+ }
+}

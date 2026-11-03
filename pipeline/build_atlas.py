@@ -341,18 +341,24 @@ def main():
                              "first_author": m.get("first_author"), "pmcid": m.get("pmcid"), "doi": m.get("doi")}
 
     import datetime
-    out = {"built": datetime.date.today().isoformat(), "events": events, "genes": genes_used, "papers": paper_meta,
+    xref_file = ROOT / "data/gene_xrefs.json"
+    xrefs = json.loads(xref_file.read_text()) if xref_file.exists() else {}
+    xrefs = {g: xrefs[g] for g in {e["gene"] for e in events} if g in xrefs}
+    out = {"built": datetime.date.today().isoformat(), "events": events, "xrefs": xrefs, "genes": genes_used, "papers": paper_meta,
            "stats": {"papers_screened": len(papers), "papers_extracted": n_papers, "papers_with_cases": n_with,
                      "case_records": len(records), "events": len(events)}}
     (ROOT / "data/atlas.json").write_text(json.dumps(out))
     with open(ROOT / "data/atlas_cases.tsv", "w", newline="") as f:
-        cols = ["id", "gene", "disease", "mei_class", "subfamily", "region", "exon_number", "intron_number",
-                "mechanisms", "origin", "inheritance", "insertion_length_bp", "n_families", "first_year", "pmids",
-                "evidence", "confidence"]
+        cols = ["id", "gene", "omim_gene", "disease", "omim_phenotype", "mei_class", "subfamily", "insertion_length_bp",
+                "orientation_vs_gene", "region", "exon_number", "intron_number", "hgvs", "tsd", "mechanisms", "origin",
+                "inheritance", "n_patients", "n_families", "evidence", "first_year", "pmids", "confidence", "review_only",
+                "url"]
         w = csv.writer(f, delimiter="\t")
         w.writerow(cols)
         for ev in events:
-            w.writerow([";".join(map(str, ev[c])) if isinstance(ev.get(c), list) else ev.get(c) for c in cols])
+            row = dict(ev, omim_gene=xrefs.get(ev["gene"], {}).get("omim_id"),
+                       url=f"https://julianayuebcm.github.io/mei-disease-atlas/case/{ev['id']}/")
+            w.writerow(["" if row.get(c) is None else ";".join(map(str, row[c])) if isinstance(row.get(c), list) else row[c] for c in cols])
 
     print(json.dumps(out["stats"]))
     print("events by class:", Counter(e["mei_class"] for e in events).most_common())

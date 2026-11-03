@@ -242,6 +242,12 @@ footer.site-footer { border-top: 1px solid var(--rule); background: var(--surfac
 .footer-inner a:hover { color: var(--accent); }
 @media (max-width: 700px) { .footer-inner { grid-template-columns: 1fr 1fr; } .footer-inner > div:first-child { grid-column: 1 / -1; } }
 .tip { position: fixed; z-index: 40; max-width: 330px; background: var(--surface-solid); color: var(--ink); border: 1px solid var(--rule-2); padding: 9px 12px; border-radius: 10px; font-size: 12.5px; line-height: 1.45; pointer-events: none; box-shadow: var(--shadow); }
+.xl { display: flex; flex-wrap: wrap; gap: 6px; }
+.xl a { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 600; padding: 5px 11px; border-radius: 999px; border: 1px solid var(--rule-2); background: var(--surface-2); color: var(--ink); text-decoration: none; }
+.xl a:hover { border-color: var(--accent); color: var(--accent); }
+.xl a::after { content: "↗"; font-weight: 400; color: var(--ink-3); }
+.dl { display: inline-flex; align-items: center; gap: 8px; font: inherit; font-size: 13px; font-weight: 600; padding: 6px 13px; border-radius: 999px; border: 1px solid var(--rule-2); background: var(--surface-2); color: var(--ink); cursor: pointer; text-decoration: none; }
+.dl:hover { border-color: var(--accent); color: var(--accent); }
 .empty { padding: 30px; text-align: center; color: var(--ink-3); }
 @media (prefers-reduced-motion: no-preference) { main { animation: rise .35s cubic-bezier(.2,.7,.2,1); } @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } } }
 </style>
@@ -363,6 +369,35 @@ const mechTags = (ms, link = true) => ms.map((m, i) => link
   : `<span class="tag${i === 0 ? " primary" : ""}">${esc(mName(m))}</span>`).join("");
 const app = document.getElementById("app");
 
+/* ---------- external databases ---------- */
+function xlinks(g) {
+  const x = (ATLAS.xrefs || {})[g];
+  if (!x) return "";
+  const a = (href, label, title) => `<a href="${href}" target="_blank" rel="noopener" title="${esc(title)}">${label}</a>`;
+  return `<div class="xl">
+    ${x.omim_id ? a(`https://www.omim.org/entry/${x.omim_id}`, "OMIM", `OMIM gene entry ${x.omim_id}`) : ""}
+    ${a(`https://www.ncbi.nlm.nih.gov/clinvar/?term=${encodeURIComponent(g)}%5Bgene%5D`, "ClinVar", `ClinVar variants in ${g}`)}
+    ${x.ensembl_id ? a(`https://gnomad.broadinstitute.org/gene/${x.ensembl_id}?dataset=gnomad_sv_r4`, "gnomAD-SV", `gnomAD structural variants in ${g}`) : ""}
+    ${x.entrez_id ? a(`https://www.ncbi.nlm.nih.gov/gene/${x.entrez_id}`, "NCBI Gene", `NCBI Gene ${x.entrez_id}`) : ""}
+    ${x.hgnc_id ? a(`https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/${x.hgnc_id}`, "HGNC", x.hgnc_id) : ""}
+  </div>`;
+}
+const geneName = g => ((ATLAS.xrefs || {})[g] || {}).name || "";
+
+/* CSV of the rows currently shown in a table (public site only; the preview frame blocks downloads) */
+function downloadCSV(list, name) {
+  const cols = [["id", e => e.id], ["gene", e => e.gene], ["disease", e => e.disease], ["element", e => cName(e.mei_class)], ["subfamily", e => e.subfamily],
+    ["size_bp", e => e.insertion_length_bp], ["location", e => loc(e)], ["hgvs", e => e.hgvs], ["mechanisms", e => e.mechanisms.map(mName).join("; ")],
+    ["origin", e => ORIGIN[e.origin]], ["first_reported", e => e.first_year], ["pmids", e => e.pmids.join("; ")], ["confidence", e => e.confidence],
+    ["url", e => SITE_URL + "case/" + e.id + "/"]];
+  const q = v => { const t = v === null || v === undefined ? "" : String(v); return /[",\n]/.test(t) ? `"${t.replace(/"/g, '""')}"` : t; };
+  const csv = [cols.map(c => c[0]).join(","), ...list.map(e => cols.map(c => q(c[1](e))).join(","))].join("\n");
+  const url = URL.createObjectURL(new Blob([csv], { type: "text/csv" }));
+  const a = Object.assign(document.createElement("a"), { href: url, download: name });
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
 /* ---------- indexes ---------- */
 let GENES = {}, PAPERS = new Set();
 function buildIndexes() { GENES = {}; EVENTS.forEach(e => (GENES[e.gene] ||= []).push(e)); PAPERS = new Set(EVENTS.flatMap(e => e.pmids)); }
@@ -453,7 +488,8 @@ function caseTable(list, opts = {}) {
     const pg = box.querySelector(".pager");
     const win = [...Array(pages).keys()].filter(i => i < 2 || i >= pages - 2 || Math.abs(i - st.page) <= 1);
     let last = -1;
-    pg.innerHTML = `<span>${all.length} of ${list.length} insertions${opts.note ? ` · ${opts.note}` : ""}</span><span style="flex:1"></span>` + (pages > 1 ? `<button data-p="${st.page - 1}" ${st.page === 0 ? "disabled" : ""}>Previous</button>` +
+    st.current = all;
+    pg.innerHTML = `<span>${all.length} of ${list.length} insertions${opts.note ? ` · ${opts.note}` : ""}</span>${STATIC && all.length ? `<button class="dl" type="button" data-csv="1">Download these ${all.length} (CSV)</button>` : ""}<span style="flex:1"></span>` + (pages > 1 ? `<button data-p="${st.page - 1}" ${st.page === 0 ? "disabled" : ""}>Previous</button>` +
       win.map(i => { const gap = i - last > 1 ? `<span>…</span>` : ""; last = i; return gap + `<button data-p="${i}" aria-current="${i === st.page}">${i + 1}</button>`; }).join("") +
       `<button data-p="${st.page + 1}" ${st.page >= pages - 1 ? "disabled" : ""}>Next</button>` : "");
   }
@@ -478,6 +514,7 @@ function caseTable(list, opts = {}) {
       if (chip) { const c = chip.dataset.cls; st.cls.has(c) ? st.cls.delete(c) : st.cls.add(c); chip.setAttribute("aria-pressed", st.cls.has(c)); st.page = 0; draw(); return; }
       const th = ev.target.closest("th[data-k]");
       if (th) { st.sort = [th.dataset.k, st.sort[0] === th.dataset.k ? -st.sort[1] : 1]; draw(); return; }
+      if (ev.target.closest("[data-csv]")) { downloadCSV(st.current || [], `mei-atlas-${id.replace(/-tbl$/, "")}.csv`); return; }
       const b = ev.target.closest(".pager button");
       if (b && !b.disabled) { st.page = +b.dataset.p; draw(); box.scrollIntoView({ block: "start" }); return; }
       const tr = ev.target.closest("tr[data-href]");
@@ -657,6 +694,7 @@ function pageCase(id) {
     <span class="eyebrow">${esc(cName(e.mei_class))} insertion · ${esc(e.id)}${e.review_only ? " · from review table" : ""}</span>
     <div class="case-title"><h1><a href="${L(`gene-${esc(e.gene)}`)}" class="gene" style="color:inherit;text-decoration:none">${esc(e.gene)}</a></h1><h2 class="muted" style="font-weight:500">${esc(e.disease)}</h2></div>
     <div>${mechTags(e.mechanisms)}</div>
+    ${xlinks(e.gene)}
   </div>
 
   <section class="card">
@@ -682,6 +720,7 @@ function pageCase(id) {
         ${fact("Population", esc(e.ancestry_or_population))}
         ${fact("Evidence", (e.evidence || []).map(v => `<span class="tag">${esc(EVID[v] || v)}</span>`).join(""))}
         ${fact("Confidence", esc(e.confidence))}
+        ${fact("OMIM phenotype", e.omim_phenotype ? `<a href="https://www.omim.org/entry/${esc(String(e.omim_phenotype).replace(/[^0-9]/g, ""))}" target="_blank" rel="noopener">MIM ${esc(e.omim_phenotype)}</a>` : "")}
       </div>
     </div>
     <div class="card">
@@ -780,7 +819,8 @@ function pageGene(g) {
   const diseases = [...new Set(evs.map(e => e.disease))];
   return { html: `
   <div class="page-head">${crumbs([["Overview", L("home")], ["Genes", L("genes")], [g, "#"]])}
-    <span class="eyebrow">Gene</span><h1 class="gene">${esc(g)}</h1>
+    <span class="eyebrow">Gene</span><h1 class="gene">${esc(g)}</h1>${geneName(g) ? `<p class="muted" style="font-size:16px">${esc(geneName(g))}</p>` : ""}
+    ${xlinks(g)}
     <p class="lede">${esc(diseases.slice(0, 3).join(" · "))}${diseases.length > 3 ? ` and ${diseases.length - 3} more` : ""}</p>
     <div class="statrow"><div class="stat"><b>${evs.length}</b><span>insertion event${evs.length > 1 ? "s" : ""}</span></div><div class="stat"><b>${new Set(evs.flatMap(e => e.pmids)).size}</b><span>papers</span></div>${m ? `<div class="stat"><b>${m.exons.length}</b><span>exons (canonical)</span></div><div class="stat"><b class="mono" style="font-size:20px">${esc(m.chrom)}</b><span>${m.strand === "+" ? "plus" : "minus"} strand</span></div>` : ""}</div></div>
   <section class="card"><div class="card-head"><h2>All insertions on the gene</h2><span class="faint" style="font-size:13px">${drawn} of ${evs.length} have a position to draw · click a marker to open its case</span></div>${geneModel(g, evs)}</section>
@@ -895,6 +935,10 @@ function pageAbout() {
       <p class="mono" style="font-size:13px;color:var(--ink)">Yue J. MEI Disease Atlas: germline mobile element insertions in human disease (version ${esc(ATLAS.built || "")}). https://julianayuebcm.github.io/mei-disease-atlas/</p>
       <p>Please also cite the original papers for any case you use; each case page links to them on PubMed.</p></div></div>
   </section>
+  <section class="card"><div class="card-head"><h2>Download the data</h2></div><div class="prose">
+    ${STATIC ? `<p style="display:flex;flex-wrap:wrap;gap:8px"><a class="dl" href="${BASE}atlas_cases.tsv" download>All insertions (TSV, one row per insertion)</a><a class="dl" href="${BASE}atlas.json" download>Full dataset (JSON, with every paper report and gene model)</a></p>`
+      : `<p>Download links are available on the public site, julianayuebcm.github.io/mei-disease-atlas.</p>`}
+    <p>Every table on the site also has a "Download (CSV)" button for the rows currently shown. Data are CC BY 4.0; the code and full history are on <a href="https://github.com/julianayuebcm/mei-disease-atlas" target="_blank" rel="noopener">GitHub</a>.</p></div></section>
   <section class="card"><div class="card-head"><h2>Disclaimer</h2></div><div class="prose">
     <p>Records were extracted from ${s.papers_extracted} papers with the help of a large language model (Claude, Anthropic) and merged automatically. They have been only partly checked by hand and may contain errors. Always confirm details in the original publication.</p>
     <p>This resource is for research and education. It is not a clinical database and must not be used for diagnosis or patient care decisions.</p>
