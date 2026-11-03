@@ -36,6 +36,16 @@ python pipeline/build_static.py         # pre-render every page into docs/ (need
 Screening prompts and the extraction schema are in `pipeline/prompts/`. `pipeline/build_gene_models.py <gencode.v38.annotation.gff3>`
 regenerates `data/gene_models_gencode_v38.json.gz`.
 
+## Monthly updates
+`pipeline/monthly_update.sh` finds papers published since the last run, screens and extracts them with Claude Code in
+headless mode (`claude -p`, no API key needed), rebuilds the site and commits the result to a review branch
+`update-YYYY-MM-DD` (pushed with `--push`). Merge the branch into `main` on GitHub to publish. Example crontab line
+(06:00 on the 1st of each month):
+```
+0 6 1 * * /home/julianay/workspace/mei_disease_atlas/pipeline/monthly_update.sh --push >> /home/julianay/workspace/mei_disease_atlas/data/monthly_update_cron.log 2>&1
+```
+`--harvest-only` just reports how many new papers there are.
+
 ## Citation
 Yue J. *MEI Disease Atlas: germline mobile element insertions in human disease.* https://julianayuebcm.github.io/mei-disease-atlas/
 Please also cite the original papers for any case you use.

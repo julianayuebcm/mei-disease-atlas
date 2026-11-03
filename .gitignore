@@ -13,3 +13,6 @@ site/archive/
 site/index.html
 __pycache__/
 *.pyc
+# Monthly update run logs (local only)
+data/updates/
+data/monthly_update_cron.log
