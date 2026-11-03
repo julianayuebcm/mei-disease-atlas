@@ -1,0 +1,50 @@
+{
+ "pmid": "19744353",
+ "cases": [
+  {
+   "case_label": "5'-truncated L1HS in exon 12 of SETX",
+   "gene": "SETX",
+   "gene_as_reported": null,
+   "disease": "Ataxia with oculomotor apraxia 2 (AOA2)",
+   "omim_phenotype": "606002",
+   "inheritance": "AR",
+   "mei_class": "L1",
+   "subfamily": "L1HS",
+   "insertion_length_bp": 1280,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": "15 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 12,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "c.5401_5402ins1280bp",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping",
+    "aberrant_splicing"
+   ],
+   "mechanism_detail": "A complex 5'-truncated L1HS insertion (part antisense, part sense) in exon 12, inherited from the father and compound heterozygous with R1606X, appears to destroy the exon 12 acceptor; RT-PCR shows in-frame transcripts skipping all of exon 12 or lacking its first 66 bp via an alternative internal acceptor.",
+   "affected_exons": [
+    12
+   ],
+   "evidence": [
+    "rna_rt_pcr",
+    "segregation"
+   ],
+   "quote": "Transcripts missing the first 66 bp of exon 12 as well as transcripts with loss of the complete exon 12 were detected.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

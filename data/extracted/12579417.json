@@ -1,0 +1,49 @@
+{
+ "pmid": "12579417",
+ "cases": [
+  {
+   "case_label": "~3-kb IDS deletion with 157-bp AluS-containing insert (exon 8 skipping)",
+   "gene": "IDS",
+   "gene_as_reported": null,
+   "disease": "Mucopolysaccharidosis type II (Hunter syndrome)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "Alu",
+   "subfamily": "AluS",
+   "insertion_length_bp": 157,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "insertion_associated_deletion",
+    "exon_skipping"
+   ],
+   "mechanism_detail": "A ~3-kb deletion of IDS sequence accompanied by a 157-bp insert partly matching an AluS; the authors propose Alu retrotransposition plus Alu-mediated deletion, and the rearrangement causes skipping of exon 8 in cDNA. Insertion origin is only partly resolved (only 83 bp recognized as Alu).",
+   "affected_exons": [
+    8
+   ],
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "both an Alu retrotransposition and an Alu-mediated deletion underlie the disease-producing rearrangement",
+   "confidence": "low",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,132 @@
+{
+ "pmid": "21979053",
+ "cases": [
+  {
+   "case_label": "Founder SVA in 3' UTR of FKTN (FCMD)",
+   "gene": "FKTN",
+   "gene_as_reported": "fukutin",
+   "disease": "Fukuyama congenital muscular dystrophy",
+   "omim_phenotype": "253800",
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Japanese founder",
+   "region": "exon_UTR3",
+   "exon_number": 10,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exonization",
+    "aberrant_splicing",
+    "coding_disruption"
+   ],
+   "mechanism_detail": "The ancestral SVA in the fukutin 3' UTR (exon 10) provides a strong splice acceptor that pairs with a rare alternative donor in exon 10, splicing out the 3' end of the coding region and proximal 3' UTR and adding SVA sequence; the protein loses its C-terminus and gains 129 SVA-encoded amino acids and mislocalizes. AONs against the SVA acceptor/ESE/ISE restored normal splicing and function.",
+   "affected_exons": [
+    10
+   ],
+   "evidence": [
+    "rna_rt_pcr",
+    "protein",
+    "functional_assay"
+   ],
+   "quote": "Sequence analysis revealed an abnormal splicing event, provoked by a strong acceptor site in SVA and a rare alternative donor site in fukutin exon 10.",
+   "confidence": "high",
+   "text_source": "full_text"
+  },
+  {
+   "case_label": "SVA in LDLRAP1 (ARH) re-analysed for exon-trapping",
+   "gene": "LDLRAP1",
+   "gene_as_reported": "ARH",
+   "disease": "Autosomal recessive hypercholesterolemia",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exonization"
+   ],
+   "mechanism_detail": "Previously reported disease-associated SVA insertion; RT-PCR of patient fibroblast cDNA showed splicing into the SVA (exon-trapping), as for FCMD.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "Moreover, we observe exon-trapping in other SVA insertions associated with disease (hypercholesterolemia4, neutral lipid storage disease5) and human-specific SVA insertion in a novel gene.",
+   "confidence": "medium",
+   "text_source": "full_text"
+  },
+  {
+   "case_label": "SVA in PNPLA2 (NLSDM) re-analysed for exon-trapping",
+   "gene": "PNPLA2",
+   "gene_as_reported": null,
+   "disease": "Neutral lipid storage disease with myopathy",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exonization"
+   ],
+   "mechanism_detail": "Previously reported SVA insertion in PNPLA2; RT-PCR of patient fibroblast cDNA showed aberrant splicing into the SVA (exon-trapping).",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "Moreover, we observe exon-trapping in other SVA insertions associated with disease (hypercholesterolemia4, neutral lipid storage disease5) and human-specific SVA insertion in a novel gene.",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

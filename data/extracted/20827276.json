@@ -1,0 +1,49 @@
+{
+ "pmid": "20827276",
+ "cases": [
+  {
+   "case_label": "330-bp retrotransposed non-coding sequence in DMD exon 67",
+   "gene": "DMD",
+   "gene_as_reported": "dystrophin",
+   "disease": "Duchenne muscular dystrophy",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "unknown",
+   "subfamily": null,
+   "insertion_length_bp": 330,
+   "full_length": null,
+   "orientation_vs_gene": "antisense",
+   "tsd": "present (length not stated in abstract)",
+   "polyA": true,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Japanese",
+   "region": "coding_exon",
+   "exon_number": 67,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping"
+   ],
+   "mechanism_detail": "De novo 330-bp retrotransposition-mediated insertion of part of a novel non-coding transcript (chr11 origin) into DMD exon 67 induced exon 67 skipping, creating a premature stop codon. Insert carried antisense polyadenylation signal with poly(T) and a TSD; later shown (PMID 22095564) to be an L1 orphan 3' transduction.",
+   "affected_exons": [
+    67
+   ],
+   "evidence": [
+    "rna_rt_pcr",
+    "de_novo_confirmed"
+   ],
+   "quote": "The insertion induced exon 67-skipping in the dystrophin mRNA, creating a premature stop codon.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

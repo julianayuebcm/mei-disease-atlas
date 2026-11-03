@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://julianayuebcm.github.io/mei-disease-atlas/sitemap.xml

@@ -1,0 +1,48 @@
+{
+ "pmid": "10980575",
+ "cases": [
+  {
+   "case_label": "Rearranged L1 (Ta) in intron 5 of CYBB",
+   "gene": "CYBB",
+   "gene_as_reported": null,
+   "disease": "X-linked chronic granulomatous disease",
+   "omim_phenotype": null,
+   "inheritance": "XL",
+   "mei_class": "L1",
+   "subfamily": "L1 Ta",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 5,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exonization",
+    "exon_skipping",
+    "aberrant_splicing"
+   ],
+   "mechanism_detail": "An internally rearranged L1 inserted in CYBB intron 5 introduced new splice sites; two L1 fragments were spliced into transcripts as new exons with concomitant skipping of exonic coding sequence, and no wild-type cDNA was detected.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "This resulted in a highly heterogeneous splicing pattern with introduction of two L1 fragments as new exons into the transcripts and concomitant skipping of exonic coding sequence.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

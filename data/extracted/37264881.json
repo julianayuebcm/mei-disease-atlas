@@ -1,0 +1,46 @@
+{
+ "pmid": "37264881",
+ "cases": [
+  {
+   "case_label": "AluYa5 in FBN1 exon 54 (Marfan syndrome)",
+   "gene": "FBN1",
+   "gene_as_reported": null,
+   "disease": "Marfan syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": "AluYa5",
+   "insertion_length_bp": 337,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 3,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 54,
+   "intron_number": null,
+   "transcript": "NM_000138",
+   "hgvs": "c.6564_6565insAlu; p.Glu2189fs",
+   "genome_build": "GRCh37",
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A heterozygous ~337-bp AluYa5 inserted in FBN1 coding exon 54 is predicted to cause a frameshift (p.Glu2189delinsPhe...Ter) without copy-number change; segregates with Marfan syndrome in father and two sons. RNA/protein consequences were not tested.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "Sanger sequencing results verified the Alu insertion in the FBN1 exon 54 of subject IU-TAA-882.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

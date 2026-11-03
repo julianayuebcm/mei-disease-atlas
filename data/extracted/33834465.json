@@ -1,0 +1,50 @@
+{
+ "pmid": "33834465",
+ "cases": [
+  {
+   "case_label": "LINE-1 insertion in SLCO1B3 intron 5",
+   "gene": "SLCO1B3",
+   "gene_as_reported": null,
+   "disease": "Rotor syndrome (digenic with SLCO1B1)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 5,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping"
+   ],
+   "mechanism_detail": "Homozygous LINE-1 in SLCO1B3 intron 5 causes skipping of exon 5 or exons 5-7 and introduces a stop codon; patient also homozygous for SLCO1B1 c.1738C>T.",
+   "affected_exons": [
+    5,
+    6,
+    7
+   ],
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "He was also found to harbor a homozygous insertion of LINE-1 in intron 5 of the SLCO1B3 gene, which has caused skipping of exon 5 or exons 5 to 7",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,86 @@
+{
+ "pmid": "16088935",
+ "cases": [
+  {
+   "case_label": "Alu insertion in BRCA2 coding exon (exon skipping)",
+   "gene": "BRCA2",
+   "gene_as_reported": null,
+   "disease": "Hereditary breast/ovarian cancer predisposition",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "contains a specific 9-bp segment",
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping"
+   ],
+   "mechanism_detail": "An Alu insertion within BRCA2 coding sequence caused removal of the targeted exon from the mRNA. Described as a 'de novo' (newly arisen) insertion; the two BRCA1/2 insertions were found in three families in total.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "The Alu insertion in the BRCA2 gene resulted in the removal of the targeted exon from the corresponding mRNA molecule.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  },
+  {
+   "case_label": "AluS insertion in BRCA1 coding exon",
+   "gene": "BRCA1",
+   "gene_as_reported": null,
+   "disease": "Hereditary breast/ovarian cancer predisposition",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": "AluS",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "contains a specific 9-bp segment",
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "An AluS-subfamily element inserted within BRCA1 coding sequence; the abstract does not describe the transcript effect beyond disruption of the coding sequence.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "the transposon identified in the BRCA1 gene does not belong to a \"young\" AluY but to an AluS subfamily",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

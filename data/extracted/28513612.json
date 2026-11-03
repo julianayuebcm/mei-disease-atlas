@@ -1,0 +1,86 @@
+{
+ "pmid": "28513612",
+ "cases": [
+  {
+   "case_label": "Alu insertion in PTEN exon 5 (patient 1)",
+   "gene": "PTEN",
+   "gene_as_reported": null,
+   "disease": "Cowden syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 5,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "One of two distinct Alu insertions at the same breakpoint in PTEN exon 5 (an insertion hotspot) found by WES in PTEN-negative Cowden patients; presumed to disrupt PTEN, transcript effect not described.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "in two patients WES revealed the presence of two distinct, previously undescribed Alu insertions with the same break points in exon 5.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  },
+  {
+   "case_label": "Alu insertion in PTEN exon 5 (patient 2)",
+   "gene": "PTEN",
+   "gene_as_reported": null,
+   "disease": "Cowden syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 5,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "One of two distinct Alu insertions at the same breakpoint in PTEN exon 5 (an insertion hotspot) found by WES in PTEN-negative Cowden patients; presumed to disrupt PTEN, transcript effect not described.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "in two patients WES revealed the presence of two distinct, previously undescribed Alu insertions with the same break points in exon 5.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,46 @@
+{
+ "pmid": "35395816",
+ "cases": [
+  {
+   "case_label": "Founder SVA in TAF1 intron 32 (XDP) - somatic CCCTCT repeat instability",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": 2600,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 41,
+   "n_families": null,
+   "ancestry_or_population": "Filipino founder",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Characterises tissue-specific, length-dependent somatic expansion of the CCCTCT repeat within the XDP SVA in blood and brain of XDP individuals; repeat length inversely correlates with age at onset and death. The insertion's effect on TAF1 transcription is not studied here.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Among the thirteen disease-specific variants is a ~ 2.6 kb SINE-VNTR-Alu (SVA)-type retrotransposon [20] inserted in intron 32 of TAF1 [18].",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

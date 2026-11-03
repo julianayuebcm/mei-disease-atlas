@@ -1,0 +1,46 @@
+{
+ "pmid": "39928391",
+ "cases": [
+  {
+   "case_label": "LINE-1 insertion in TTN A-band exon",
+   "gene": "TTN",
+   "gene_as_reported": null,
+   "disease": "Dilated cardiomyopathy",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A ~4-5 kb LINE-1 insertion within an A-band exon of TTN disrupts the reading frame, predicted to truncate titin; confirmed by long-range PCR.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "The insertion disrupted the reading frame of TTN within an A-band exon, resulting in protein truncation that was classified as likely pathogenic.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

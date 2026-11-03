@@ -1,0 +1,47 @@
+{
+ "pmid": "1719426",
+ "cases": [
+  {
+   "case_label": "De novo Alu insertion in an NF1 intron causing skipping of the downstream exon",
+   "gene": "NF1",
+   "gene_as_reported": null,
+   "disease": "Neurofibromatosis type 1",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping",
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A de novo Alu element inserted into an NF1 intron causes the downstream exon to be deleted from the mRNA during splicing, shifting the reading frame. The abstract does not number the intron or exon involved.",
+   "affected_exons": null,
+   "evidence": [
+    "de_novo_confirmed"
+   ],
+   "quote": "We report an unusual NF1 mutation, that of a de novo Alu repetitive element insertion into an intron, which results in deletion of the downstream exon during splicing and consequently shifts the reading frame.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

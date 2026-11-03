@@ -1,0 +1,48 @@
+{
+ "pmid": "35811283",
+ "cases": [
+  {
+   "case_label": "SVA_E ~1.2 kb downstream of GNAS exon XL",
+   "gene": "GNAS",
+   "gene_as_reported": null,
+   "disease": "Autosomal dominant pseudohypoparathyroidism type 1B (PHP1B)",
+   "omim_phenotype": "603233",
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": "SVA_E",
+   "insertion_length_bp": 2800,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 6,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": "GRCh38",
+   "chrom": "chr20",
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "epigenetic_silencing",
+    "premature_polyadenylation"
+   ],
+   "mechanism_detail": "A maternally inherited ~2.8-kb SVA_E inserted ~1,200 bp telomeric (downstream) of GNAS exon XL segregates with loss of methylation at the exon A/B DMR in six affected relatives. Authors propose that AATAAA signals at the SVA 3' end truncate the maternal NESP transcript, preventing re-establishment of A/B methylation in oogenesis (not directly tested).",
+   "affected_exons": null,
+   "evidence": [
+    "long_read",
+    "segregation"
+   ],
+   "quote": "The retrotransposon most likely causes the observed epigenetic defect by impairing function of a maternally derived NESP transcript, consistent with findings in mice lacking full-length NESP mRNA and in PHP1B patients with deletion of exon NESP and adjacent intronic sequences.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

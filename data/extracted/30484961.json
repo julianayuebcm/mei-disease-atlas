@@ -1,0 +1,47 @@
+{
+ "pmid": "30484961",
+ "cases": [
+  {
+   "case_label": "SVA_F (~1.7 kb) in exon 13 of BBS1",
+   "gene": "BBS1",
+   "gene_as_reported": null,
+   "disease": "Bardet-Biedl syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": "SVA_F",
+   "insertion_length_bp": 1700,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "present (length not stated)",
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 13,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A paternally inherited ~1.7-kb SVA (SVA_F-like) in BBS1 exon 13, in trans with p.Met390Arg; the SVA-containing allele is expressed in patient LCLs and predicted to encode BBS1 up to residue 406 followed by 46 SVA-derived residues and a stop codon.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr",
+    "segregation"
+   ],
+   "quote": "these results showed that BBS1 protein is translated up to AA residue 406, followed by insertion of 46 new AA residues (corresponding to the SVA) before reaching stop codon",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,49 @@
+{
+ "pmid": "35768521",
+ "cases": [
+  {
+   "case_label": "De novo full-length antisense SVA in exon 13 of SRCAP",
+   "gene": "SRCAP",
+   "gene_as_reported": null,
+   "disease": "SRCAP-related neurodevelopmental disorder (failure to thrive, developmental delay, seizures)",
+   "omim_phenotype": null,
+   "inheritance": "de_novo",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": 2800,
+   "full_length": true,
+   "orientation_vs_gene": "antisense",
+   "tsd": null,
+   "polyA": null,
+   "transduction": true,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 13,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "expression_loss",
+    "exon_skipping"
+   ],
+   "mechanism_detail": "A de novo full-length (~2.8 kb) antisense SVA with a 20-bp 5' transduction in SRCAP exon 13 caused significant depletion of SRCAP expression and low-level exon skipping in the proband.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq",
+    "rna_rt_pcr",
+    "de_novo_confirmed"
+   ],
+   "quote": "RNA sequencing and qRT-PCR confirmed significant depletion of SRCAP expression and low-level exon skipping in the proband.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

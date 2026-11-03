@@ -1,0 +1,46 @@
+{
+ "pmid": "34838103",
+ "cases": [
+  {
+   "case_label": "De novo exonic Alu in CSDE1",
+   "gene": "CSDE1",
+   "gene_as_reported": null,
+   "disease": "Autism spectrum disorder with intellectual disability and macrocephaly",
+   "omim_phenotype": null,
+   "inheritance": "de_novo",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "15 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A de novo Alu insertion (15-bp TSD, polyA tail) in an exon of the LoF-intolerant ASD gene CSDE1 was found in a Simons Simplex Collection proband and considered likely pathogenic as an exonic disruption; a single clipped read in the mother raised possible low-level maternal mosaicism.",
+   "affected_exons": null,
+   "evidence": [
+    "de_novo_confirmed"
+   ],
+   "quote": "We also detected exonic TEIs in LoF genes in cases, including a causal exonic Alu insertion in CSDE1, known ASD gene [22].",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

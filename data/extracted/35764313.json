@@ -1,0 +1,47 @@
+{
+ "pmid": "35764313",
+ "cases": [
+  {
+   "case_label": "Antisense 2.4-kb SVA (SVA_E-like) in SERPINC1 intron 6",
+   "gene": "SERPINC1",
+   "gene_as_reported": null,
+   "disease": "Inherited type I antithrombin deficiency",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": "closest to SVA_E (novel, expanded VNTR)",
+   "insertion_length_bp": 2440,
+   "full_length": null,
+   "orientation_vs_gene": "antisense",
+   "tsd": "14 bp",
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 2,
+   "n_families": 2,
+   "ancestry_or_population": "Spanish (two unrelated families, same TSD; possible founder)",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 6,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": "GRCh38",
+   "chrom": "chr1",
+   "pos": 173905922,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "A 2,440-bp antisense SVA in SERPINC1 intron 6 found by nanopore sequencing in two unrelated probands co-segregates with antithrombin deficiency; the authors speculate transcriptional interference or altered splicing but the exact mechanism could not be investigated.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read",
+    "segregation"
+   ],
+   "quote": "Remarkably, two cases (P9 and P10) presented an insertion of 2,440 bp in intron 6.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

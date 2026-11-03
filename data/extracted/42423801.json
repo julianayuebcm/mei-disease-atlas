@@ -1,0 +1,48 @@
+{
+ "pmid": "42423801",
+ "cases": [
+  {
+   "case_label": "~3.2-kb SVA_F in MSH2 exon 12",
+   "gene": "MSH2",
+   "gene_as_reported": null,
+   "disease": "Lynch syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": "SVA_F",
+   "insertion_length_bp": 3200,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 3,
+   "n_families": 1,
+   "ancestry_or_population": "Australian",
+   "region": "coding_exon",
+   "exon_number": 12,
+   "intron_number": null,
+   "transcript": "NM_000251.3",
+   "hgvs": "NM_000251.3 c.1972_1973ins, p.?",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A ~3.2-kb SVA family F insertion in MSH2 exon 12, found by ONT adaptive-sampling long-read sequencing after negative panel testing, segregates in 5 carriers (3 cancer-affected with MSH2/MSH6-deficient tumours); likely the same variant as an earlier US report and a ClinVar entry. No RNA studies.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read",
+    "segregation",
+    "protein"
+   ],
+   "quote": "Three of the five heterozygous carriers were cancer affected with at least one MSH2-deficient tumour each.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

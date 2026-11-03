@@ -1,0 +1,49 @@
+{
+ "pmid": "40251809",
+ "cases": [
+  {
+   "case_label": "SVA_F in NMNAT1 intron 2 with partial SVA exonization (LCA)",
+   "gene": "NMNAT1",
+   "gene_as_reported": null,
+   "disease": "Leber congenital amaurosis",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": "SVA_F",
+   "insertion_length_bp": 2691,
+   "full_length": true,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": true,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 4,
+   "n_families": 4,
+   "ancestry_or_population": "Italian (potential founder)",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 2,
+   "transcript": "NM_022787",
+   "hgvs": "NC_000001.11:g.9972228_9972229ins[G; NC_000006.12:g.122847777_122850290inv; A38; GACTAGAGAACC]",
+   "genome_build": "GRCh38",
+   "chrom": "1",
+   "pos": 9972228,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exonization"
+   ],
+   "mechanism_detail": "A complete 2,691-bp SVA_F (source on chr6) in NMNAT1 intron 2, in trans with other NMNAT1 variants, creates a new splice donor at position 875 of the SVA that competes with the canonical exon 2 donor; ~50% of SVA-allele reads show exon 2 elongated by 875 bp of intron/SVA sequence, introducing a premature stop (p.Tyr41Ser*57).",
+   "affected_exons": [
+    2
+   ],
+   "evidence": [
+    "long_read",
+    "rna_seq"
+   ],
+   "quote": "At the RNA level, an elongation of exon 2 and partial inclusion of the SVA_F element was revealed (875 bp).",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,46 @@
+{
+ "pmid": "41210374",
+ "cases": [
+  {
+   "case_label": "AluYa5 at BRCA2 c.156_157 (hereditary cancer, GS validation case 33)",
+   "gene": "BRCA2",
+   "gene_as_reported": null,
+   "disease": "Hereditary breast/ovarian cancer predisposition",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": "AluYa5",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "14 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": "NM_000059.3",
+   "hgvs": "NM_000059.3:c.156_157insAlu",
+   "genome_build": "GRCh38",
+   "chrom": "13",
+   "pos": 32319151,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "A previously identified pathogenic Alu (Ya5-like) insertion at BRCA2 c.156_157 with 14-bp TSD and polyA tail was re-detected by genome sequencing as part of a validation cohort; this paper does not describe its molecular consequence.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Manual review of the alignment file confirmed the presence of a poly-A tail and a 14-bp target site duplication sequence (Figure 4A), similar to previously described.",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

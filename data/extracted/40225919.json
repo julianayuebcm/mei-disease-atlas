@@ -1,0 +1,47 @@
+{
+ "pmid": "40225919",
+ "cases": [
+  {
+   "case_label": "5.6 kb L1 c.2106_2107ins in exon 4 of RP1 (dominant RP)",
+   "gene": "RP1",
+   "gene_as_reported": null,
+   "disease": "Retinitis pigmentosa (autosomal dominant)",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": 5571,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": "15 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 3,
+   "n_families": 1,
+   "ancestry_or_population": "Finnish family",
+   "region": "coding_exon",
+   "exon_number": 4,
+   "intron_number": null,
+   "transcript": "NM_006269.2",
+   "hgvs": "NM_006269.2:c.2106_2107insL1",
+   "genome_build": "GRCh38",
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A 5,571-bp L1 insertion (5' 1,635 bases inverted, 15-bp TSD, polyA) in RP1 exon 4, characterised by targeted adaptive nanopore sequencing, introduces a premature stop codon 10 bp downstream of the insertion, producing a truncating allele that segregates with dominant RP in a three-generation family.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read",
+    "segregation"
+   ],
+   "quote": "Taken together, we describe a novel 5.6 kb LINE-1 transposable element insertion in exon 4 of RP1 in a Finnish family with dominantly inherited RP.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

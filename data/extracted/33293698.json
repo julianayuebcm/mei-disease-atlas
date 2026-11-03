@@ -1,0 +1,86 @@
+{
+ "pmid": "33293698",
+ "cases": [
+  {
+   "case_label": "SVA in MSH6 exon 5",
+   "gene": "MSH6",
+   "gene_as_reported": null,
+   "disease": "Lynch syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Japanese",
+   "region": "coding_exon",
+   "exon_number": 5,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing"
+   ],
+   "mechanism_detail": "An ~2.5-kb SVA inserted in exon 5 of MSH6 induced aberrant splicing detected by mRNA sequencing; one of the two SVAs studied is present in a Japanese reference genome (polymorphic), which one is not stated in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq"
+   ],
+   "quote": "Both of these insertions induced aberrant splicing, and these variants were successfully identified by mRNA sequencing or visual observation of mapping results",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  },
+  {
+   "case_label": "SVA in MSH2 exon 3",
+   "gene": "MSH2",
+   "gene_as_reported": null,
+   "disease": "Lynch syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Japanese",
+   "region": "coding_exon",
+   "exon_number": 3,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing"
+   ],
+   "mechanism_detail": "An ~2.5-kb SVA inserted in exon 3 of MSH2 induced aberrant splicing detected by mRNA sequencing; one of the two SVAs studied is present in a Japanese reference genome (polymorphic), which one is not stated in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq"
+   ],
+   "quote": "Both of these insertions induced aberrant splicing, and these variants were successfully identified by mRNA sequencing or visual observation of mapping results",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

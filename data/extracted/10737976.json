@@ -1,0 +1,46 @@
+{
+ "pmid": "10737976",
+ "cases": [
+  {
+   "case_label": "AluY in intron 4 of GK (IVS4-52ins316alu)",
+   "gene": "GK",
+   "gene_as_reported": "glycerol kinase",
+   "disease": "Benign isolated glycerol kinase deficiency",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "Alu",
+   "subfamily": "AluY",
+   "insertion_length_bp": 316,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 4,
+   "transcript": null,
+   "hgvs": "IVS4-52ins316alu",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": 52,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "An AluY inserted 52 bp upstream of exon 5 (intron 4) is reported as the cause of benign glycerol kinase deficiency; the abstract does not describe the RNA consequence.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "DNA sequencing of this subject's glycerol kinase gene showed the insertion of an AluY sequence in intron 4 of the glycerol kinase gene.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

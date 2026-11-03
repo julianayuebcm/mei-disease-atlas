@@ -1,0 +1,46 @@
+{
+ "pmid": "38318288",
+ "cases": [
+  {
+   "case_label": "De novo Alu 18 bp upstream of FGFR2 exon 8 (intron 7)",
+   "gene": "FGFR2",
+   "gene_as_reported": null,
+   "disease": "Apert syndrome",
+   "omim_phenotype": "101200",
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 7,
+   "transcript": "NM_000141.5",
+   "hgvs": "c.940-19_c.940-18insAlu",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": 18,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "A heterozygous de novo Alu insertion 18 bp upstream of the intron 7/exon 8 boundary of FGFR2 in a patient with typical Apert syndrome, classified likely pathogenic; it is suggested to possibly affect splicing, by analogy to previous Alu insertions, but no RNA study was done.",
+   "affected_exons": null,
+   "evidence": [
+    "de_novo_confirmed"
+   ],
+   "quote": "Absent in gnomAD, Alu-insertion of 18 basepairs upstream from the intron 7 – exon 8 boundary, possibly affecting splicing, previously reported Alu-insertions impacted splicing",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,46 @@
+{
+ "pmid": "38818556",
+ "cases": [
+  {
+   "case_label": "~6-kb LINE-1 in SLCO1B3 intron (c.481+22insLINE-1)",
+   "gene": "SLCO1B3",
+   "gene_as_reported": null,
+   "disease": "Rotor syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": 6000,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 4,
+   "n_families": 4,
+   "ancestry_or_population": "Chinese",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 6,
+   "transcript": null,
+   "hgvs": "c.481+22insLINE-1",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": 22,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "An ~6-kb LINE-1 insertion within SLCO1B3 intron 6 (c.481+22insLINE-1) was confirmed by gel electrophoresis in all four Chinese Rotor syndrome children, together with SLCO1B1 variants (digenic disease); RNA effect not studied.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "gel electrophoresis has confirmed the existence of the LINE-1 insertional variant of about 6 kb within intron 6 of the SLCO1B3 gene in all children.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

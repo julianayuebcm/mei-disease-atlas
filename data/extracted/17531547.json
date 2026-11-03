@@ -1,0 +1,86 @@
+{
+ "pmid": "17531547",
+ "cases": [
+  {
+   "case_label": "Alu in exon 16 of CFTR",
+   "gene": "CFTR",
+   "gene_as_reported": null,
+   "disease": "Cystic fibrosis",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 16,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Simple Alu insertion in CFTR exon 16 (legacy numbering) found on a previously unresolved CF chromosome by QHPLC; transcript consequence not described in abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Two simple Alu insertions were identified in the CFTR gene, within exons 16 and 17b respectively.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  },
+  {
+   "case_label": "Alu in exon 17b of CFTR",
+   "gene": "CFTR",
+   "gene_as_reported": null,
+   "disease": "Cystic fibrosis",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Simple Alu insertion in CFTR exon 17b (legacy numbering) found on a previously unresolved CF chromosome by QHPLC; transcript consequence not described in abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Two simple Alu insertions were identified in the CFTR gene, within exons 16 and 17b respectively.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

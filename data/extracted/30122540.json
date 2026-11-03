@@ -1,0 +1,46 @@
+{
+ "pmid": "30122540",
+ "cases": [
+  {
+   "case_label": "Ancestral SVA insertion-mediated homozygous deletion of WDR66 penultimate exons",
+   "gene": "CFAP251",
+   "gene_as_reported": "WDR66",
+   "disease": "Multiple morphological abnormalities of the sperm flagellum (MMAF), male infertility",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 7,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "multiple",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "insertion_associated_deletion"
+   ],
+   "mechanism_detail": "Seven MMAF men carry a homozygous deletion removing the two penultimate exons of WDR66, with a single chimeric SVA at the breakpoint in all, suggesting an ancestral SVA insertion followed by recombination generated the deletion.",
+   "affected_exons": null,
+   "evidence": [
+    "functional_assay"
+   ],
+   "quote": "suggesting that the initial deletion event was potentially mediated by an SVA insertion-recombination mechanism",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

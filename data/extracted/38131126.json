@@ -1,0 +1,47 @@
+{
+ "pmid": "38131126",
+ "cases": [
+  {
+   "case_label": "SVA in NR5A1 intron 4 (46,XY DSD family)",
+   "gene": "NR5A1",
+   "gene_as_reported": null,
+   "disease": "46,XY differences of sexual development",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": null,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 4,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "expression_loss"
+   ],
+   "mechanism_detail": "A rare SVA in NR5A1 intron 4 found by PacBio HiFi segregated with 46,XY DSD in a multi-generational family and was associated with loss of expression of the allele in cis.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read",
+    "segregation"
+   ],
+   "quote": "The insertion segregated among affected family members and was associated with loss-of-expression of alleles in cis, demonstrating a functional impact on NR5A1.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

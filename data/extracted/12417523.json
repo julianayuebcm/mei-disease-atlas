@@ -1,0 +1,47 @@
+{
+ "pmid": "12417523",
+ "cases": [
+  {
+   "case_label": "SVA in intron 1 of LDLRAP1 (ARH)",
+   "gene": "LDLRAP1",
+   "gene_as_reported": "ARH",
+   "disease": "Autosomal recessive hypercholesterolemia",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 1,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "expression_loss"
+   ],
+   "mechanism_detail": "An SVA retroposon insertion in ARH intron 1 was the only mutation found in one proband and was associated with no detectable ARH mRNA and no full-length protein.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr",
+    "protein"
+   ],
+   "quote": "The only mutation identified in the remaining proband was a SINE VNTR Alu (SVA) retroposon insertion in intron 1, which was associated with no detectable ARH mRNA.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

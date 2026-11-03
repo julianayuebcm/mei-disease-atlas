@@ -1,0 +1,86 @@
+{
+ "pmid": "11385709",
+ "cases": [
+  {
+   "case_label": "279 bp Alu in F9 exon H",
+   "gene": "F9",
+   "gene_as_reported": "factor IX",
+   "disease": "Hemophilia B",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": 279,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "Recent germline Alu (from a subfamily not previously known to be active) inserted into F9 exon H (letter-numbered exon) causing hemophilia B; transcript effect not described in abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "1) a 279 bp insertion in exon H originating from an Alu family of short interspersed elements not previously known to be active and, 2) a 463 bp insertion in exon E of a LINE1 element originating in the maternal grandmother.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  },
+  {
+   "case_label": "463 bp LINE-1 in F9 exon E",
+   "gene": "F9",
+   "gene_as_reported": "factor IX",
+   "disease": "Hemophilia B",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": 463,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "Truncated 463 bp L1 inserted into F9 exon E (letter-numbered exon), arising in the germline of the maternal grandmother; transcript effect not described in abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "1) a 279 bp insertion in exon H originating from an Alu family of short interspersed elements not previously known to be active and, 2) a 463 bp insertion in exon E of a LINE1 element originating in the maternal grandmother.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

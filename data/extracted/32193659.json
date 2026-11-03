@@ -1,0 +1,46 @@
+{
+ "pmid": "32193659",
+ "cases": [
+  {
+   "case_label": "Founder 328-bp Alu in RP1 exon 4 (c.4052_4053ins328)",
+   "gene": "RP1",
+   "gene_as_reported": null,
+   "disease": "retinitis pigmentosa (autosomal recessive)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": 328,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 5,
+   "n_families": null,
+   "ancestry_or_population": "Japanese founder",
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "c.4052_4053ins328, p.Tyr1352Alafs",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A founder 328-bp Alu insertion in RP1 coding sequence causes a frameshift (p.Tyr1352Alafs); 5 of 26 RP patients with a heterozygous RP1 truncating variant also carried it, re-classifying 3 as autosomal recessive.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "The founder Alu insertion in RP1 is an important cause of autosomal recessive RP in Japanese patients and can be missed in standard targeted resequencing.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

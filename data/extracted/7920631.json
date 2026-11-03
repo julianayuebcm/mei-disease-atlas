@@ -1,0 +1,46 @@
+{
+ "pmid": "7920631",
+ "cases": [
+  {
+   "case_label": "Rearranged L1 (~2 kb) in DMD from LRE2 source element",
+   "gene": "DMD",
+   "gene_as_reported": "dystrophin",
+   "disease": "Muscular dystrophy",
+   "omim_phenotype": null,
+   "inheritance": "unknown",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": 2000,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "A ~2 kb insertion containing a rearranged L1 element was found in the dystrophin gene of a muscular dystrophy patient; the paper focuses on identifying the active source element (LRE2) and does not describe the transcript effect in the abstract. Exon/intron location not given in abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "We have found a 2 kilobase insertion containing a rearranged L1 element in the dystrophin gene of a muscular dystrophy patient.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

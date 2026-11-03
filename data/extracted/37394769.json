@@ -1,0 +1,48 @@
+{
+ "pmid": "37394769",
+ "cases": [
+  {
+   "case_label": "121-bp AluYb9 at edge of SPAST intron 16",
+   "gene": "SPAST",
+   "gene_as_reported": null,
+   "disease": "Hereditary spastic paraplegia (pure)",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": "AluYb9",
+   "insertion_length_bp": 121,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": "15 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": null,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 16,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing"
+   ],
+   "mechanism_detail": "A 5'-truncated 121-bp AluYb9 with 30-bp poly(A) and 15-bp TSDs at the edge of SPAST intron 16 segregated in a four-generation AD family and altered SPAST splicing, shown by blood RNA-seq and RT-PCR.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq",
+    "rna_rt_pcr",
+    "segregation"
+   ],
+   "quote": "We identified an intronic AluYb9 insertion inducing splicing alteration in SPAST causing pure HSP phenotype that was not detected by routine WES analysis.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

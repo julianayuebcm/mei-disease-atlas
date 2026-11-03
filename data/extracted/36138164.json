@@ -1,0 +1,48 @@
+{
+ "pmid": "36138164",
+ "cases": [
+  {
+   "case_label": "SVA_F in intron 7 of SMN1",
+   "gene": "SMN1",
+   "gene_as_reported": null,
+   "disease": "Spinal muscular atrophy type III",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": "SVA_F",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 7,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exonization",
+    "expression_loss"
+   ],
+   "mechanism_detail": "An SVA_F in SMN1 intron 7 produces a mutant FL-SMN1-SVA transcript with exon extension into SVA sequence that is degraded by NMD, sharply reducing full-length SMN1 transcript.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr",
+    "rna_seq"
+   ],
+   "quote": "We described the mutant FL-SMN1-SVA transcript characterized by exon extension and showed that it is subject to degradation by nonsense-mediated mRNA decay.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

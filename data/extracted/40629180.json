@@ -1,0 +1,48 @@
+{
+ "pmid": "40629180",
+ "cases": [
+  {
+   "case_label": "Intronic SVA in BRCA1",
+   "gene": "BRCA1",
+   "gene_as_reported": null,
+   "disease": "Hereditary breast and ovarian cancer",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 2,
+   "n_families": 1,
+   "ancestry_or_population": "Japanese",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing"
+   ],
+   "mechanism_detail": "An intronic SVA insertion in BRCA1 in a proband and her mother, found by targeted nanopore sequencing, causes splicing aberrations confirmed by cDNA qPCR and cDNA amplicon sequencing.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read",
+    "rna_rt_pcr",
+    "segregation"
+   ],
+   "quote": "We further confirmed splicing aberrations using cDNA quantitative PCR with TaqMan probes and Flongle cDNA amplicon sequencing.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,46 @@
+{
+ "pmid": "34183725",
+ "cases": [
+  {
+   "case_label": "AluY c.4052_4053ins328 in exon 4 of RP1 (Korean/East Asian founder)",
+   "gene": "RP1",
+   "gene_as_reported": null,
+   "disease": "Macular dystrophy / cone-rod dystrophy (autosomal recessive RP1-related)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": "AluY",
+   "insertion_length_bp": 328,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "AAAGAAAACAC",
+   "polyA": true,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 5,
+   "n_families": 5,
+   "ancestry_or_population": "Korean (East Asian founder)",
+   "region": "coding_exon",
+   "exon_number": 4,
+   "intron_number": null,
+   "transcript": "NM_006269.1",
+   "hgvs": "c.4052_4053ins328:p.(Tyr1352Alafs*9)",
+   "genome_build": "hg19",
+   "chrom": "chr8",
+   "pos": 55540494,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A 328-bp AluY insertion between c.4052 and c.4053 in RP1 exon 4 causes a frameshift (p.Tyr1352Alafs*9); found in trans with a truncating RP1 variant in five Korean probands with macular/cone-rod dystrophy.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "it revealed AluY c.4052_4053ins328/p.(Tyr1352Alafs*9) insertion in RP1 exon 4",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

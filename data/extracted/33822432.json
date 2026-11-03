@@ -1,0 +1,51 @@
+{
+ "pmid": "33822432",
+ "cases": [
+  {
+   "case_label": "SVA_F1 in exon 12 of MSH2",
+   "gene": "MSH2",
+   "gene_as_reported": null,
+   "disease": "Lynch syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": "SVA_F1",
+   "insertion_length_bp": 2937,
+   "full_length": null,
+   "orientation_vs_gene": "antisense",
+   "tsd": "19 bp (MSH2 c.1954_1972)",
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 5,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 12,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "insertion at c.1972",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption",
+    "exonization"
+   ],
+   "mechanism_detail": "An ~3-kb antisense SVA_F1 inserted at c.1972 in MSH2 exon 12; tumours show loss of MSH2/MSH6. RT-PCR found an aberrant transcript ~300 bp longer than wild type, which the authors propose results from a splice donor inside the SVA, incorporating SVA sequence into the mRNA.",
+   "affected_exons": [
+    12
+   ],
+   "evidence": [
+    "rna_rt_pcr",
+    "protein",
+    "segregation"
+   ],
+   "quote": "RT-PCR analysis indicated an aberrant MSH2 transcript with ~300 bp longer than the wild type transcript in one of the family members (Figure S1a).",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

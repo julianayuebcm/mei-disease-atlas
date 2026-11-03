@@ -1,0 +1,52 @@
+{
+ "pmid": "23223007",
+ "cases": [
+  {
+   "case_label": "AluY insertion with 23-kb deletion of BRCA1 exons 11-15",
+   "gene": "BRCA1",
+   "gene_as_reported": null,
+   "disease": "Hereditary breast and ovarian cancer",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": "AluY",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "multiple",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "c.671-319_4677-578delinsAlu",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "insertion_associated_deletion"
+   ],
+   "mechanism_detail": "A 23,363-bp deletion of BRCA1 exons 11-15 with an AluY element inserted at the breakpoints, interpreted as an insertion-mediated deletion during Alu retrotransposition.",
+   "affected_exons": [
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "the observed rearrangement could be due to an insertion-mediated deletion mechanism caused by Alu retrotransposition",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

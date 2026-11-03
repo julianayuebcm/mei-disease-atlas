@@ -1,0 +1,46 @@
+{
+ "pmid": "38192009",
+ "cases": [
+  {
+   "case_label": "Apparent Alu insertion in MAN2B1 (in trans with missense)",
+   "gene": "MAN2B1",
+   "gene_as_reported": null,
+   "disease": "Alpha-mannosidosis",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "An apparent Alu insertion, first seen as an uncalled CNV on exome, was found in trans with a missense variant in a patient with biochemically confirmed alpha-mannosidosis; molecular effect not described.",
+   "affected_exons": null,
+   "evidence": [
+    "functional_assay"
+   ],
+   "quote": "the phenotype-guided analysis helped us detect and interpret an in-trans apparent alu-element insertion",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

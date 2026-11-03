@@ -1,0 +1,51 @@
+{
+ "pmid": "23878091",
+ "cases": [
+  {
+   "case_label": "Full-length L1 in HBB intron 2 (IVS-II)",
+   "gene": "HBB",
+   "gene_as_reported": null,
+   "disease": "beta+-thalassemia",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": true,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 2,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "expression_loss",
+    "epigenetic_silencing",
+    "aberrant_splicing",
+    "intron_retention",
+    "premature_polyadenylation"
+   ],
+   "mechanism_detail": "A full-length L1 in HBB intron 2 reduces transcription of the allele (4.7-fold lower run-on rate) with promoter/enhancer hypermethylation and histone deacetylation-associated silencing; some primary transcripts are truncated at the L1, and minor aberrant transcripts (cryptic acceptors in IVS-II and in L1, intron+L1 retention) are NMD substrates.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr",
+    "functional_assay"
+   ],
+   "quote": "The lower steady-state amount of mRNA produced by the β-globinL1 allele also resulted from a reduced rate of transcription and decreased production of full-length β-globin primary transcripts.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,48 @@
+{
+ "pmid": "17273961",
+ "cases": [
+  {
+   "case_label": "SVA in TAF1 intron (XDP)",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Filipino",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "expression_loss",
+    "epigenetic_silencing"
+   ],
+   "mechanism_detail": "A disease-specific SVA in a TAF1 intron is associated with decreased TAF1 (and DRD2) expression in caudate nucleus; abnormal methylation of the SVA in patient caudate is proposed to account for reduced TAF1 expression.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr",
+    "functional_assay"
+   ],
+   "quote": "We also identified an abnormal pattern of DNA methylation in the retrotransposon in the genome from the patient's caudate, which could account for decreased expression of TAF1.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

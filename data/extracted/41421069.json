@@ -1,0 +1,46 @@
+{
+ "pmid": "41421069",
+ "cases": [
+  {
+   "case_label": "Novel Alu in MEN1",
+   "gene": "MEN1",
+   "gene_as_reported": null,
+   "disease": "Multiple endocrine neoplasia type 1",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 4,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "A novel Alu insertion in MEN1 identified by NGS in a family with four affected members over two generations; location and mechanism not described in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "a family with four affected members over two generations who have been diagnosed with the syndrome after next generation sequencing identified a novel Alu insertion.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

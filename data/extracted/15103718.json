@@ -1,0 +1,46 @@
+{
+ "pmid": "15103718",
+ "cases": [
+  {
+   "case_label": "3-kb retrotransposal insertion in FKTN 3'UTR (Japanese founder)",
+   "gene": "FKTN",
+   "gene_as_reported": "FCMD",
+   "disease": "Fukuyama congenital muscular dystrophy",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "unknown",
+   "subfamily": null,
+   "insertion_length_bp": 3000,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 21,
+   "n_families": null,
+   "ancestry_or_population": "Japanese founder (87% of FCMD chromosomes; carrier frequency 6/676)",
+   "region": "exon_UTR3",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Founder 3-kb retrotransposal insertion in the 3'UTR of FCMD; this paper describes a PCR diagnostic assay and does not investigate the mechanism or name the element class in the abstract. 16+3 homozygotes and 2 heterozygotes detected.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "In Japan, most FCMD-bearing chromosomes (87%) have a 3-kb retrotransposal insertion into the 3'-untranslated region (UTR) of the gene that could be derived from a single ancestral founder.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

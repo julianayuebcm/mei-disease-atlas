@@ -1,0 +1,251 @@
+{"pmid": "22201974", "label": "maybe", "mei_class": [], "genes": [], "reason": "Review/database of retrotransposon insertion polymorphisms; mentions disease-associated RIPs without specific cases"}
+{"pmid": "22214596", "label": "exclude", "mei_class": [], "genes": [], "reason": "Primate evolution of HERV-H LTR in DYX1C1; no disease case"}
+{"pmid": "22272310", "label": "exclude", "mei_class": [], "genes": [], "reason": "Mouse MusD insertion"}
+{"pmid": "22275357", "label": "maybe", "mei_class": ["SVA"], "genes": ["FKTN"], "reason": "Missense fukutin functional study; only mentions founder retrotransposal insertion in passing"}
+{"pmid": "22291694", "label": "exclude", "mei_class": [], "genes": [], "reason": "TRIM5 species tropism review; non-human"}
+{"pmid": "22293435", "label": "exclude", "mei_class": [], "genes": [], "reason": "Alu polymorphism forensic genotyping"}
+{"pmid": "22300442", "label": "exclude", "mei_class": [], "genes": [], "reason": "Polymorphic Alu in PGR epigenetic effect in cell lines; no patient disease"}
+{"pmid": "22306880", "label": "exclude", "mei_class": [], "genes": [], "reason": "Experimental Alu tandem reporter study"}
+{"pmid": "22332657", "label": "exclude", "mei_class": [], "genes": [], "reason": "Foreign DNA integration epigenetics review"}
+{"pmid": "22406018", "label": "maybe", "mei_class": ["L1", "Alu", "SVA"], "genes": [], "reason": "Review of active human retrotransposons and 96 disease insertions; no specific case"}
+{"pmid": "22406835", "label": "exclude", "mei_class": [], "genes": [], "reason": "Drosophila histone H1 transposon silencing"}
+{"pmid": "22461402", "label": "include", "mei_class": ["SVA"], "genes": ["PMS2"], "reason": "SVA insertion in PMS2 intron 7 causing Lynch syndrome"}
+{"pmid": "22465530", "label": "exclude", "mei_class": [], "genes": [], "reason": "Ground squirrel L1 extinction"}
+{"pmid": "22487839", "label": "exclude", "mei_class": [], "genes": [], "reason": "HLA-Alu polymorphism population study"}
+{"pmid": "22495107", "label": "exclude", "mei_class": [], "genes": [], "reason": "Alu insertion profiling method; no patient disease"}
+{"pmid": "22529376", "label": "exclude", "mei_class": [], "genes": [], "reason": "ERV genomic abundance modeling"}
+{"pmid": "22537046", "label": "exclude", "mei_class": [], "genes": [], "reason": "Polymorphic Alu detection algorithm"}
+{"pmid": "22567964", "label": "exclude", "mei_class": [], "genes": [], "reason": "Review of human-specific mobile elements evolution"}
+{"pmid": "22573918", "label": "exclude", "mei_class": [], "genes": [], "reason": "PAI-1/tPA Alu I/D polymorphism association with metabolic syndrome parameters"}
+{"pmid": "22580002", "label": "exclude", "mei_class": [], "genes": [], "reason": "Alu used as human cell marker"}
+{"pmid": "22677107", "label": "exclude", "mei_class": [], "genes": ["HBB"], "reason": "epsilon-gamma-delta-beta thalassemia deletion; breakpoint in repeats, no MEI"}
+{"pmid": "22722322", "label": "exclude", "mei_class": [], "genes": ["PGR"], "reason": "PROGINS Alu polymorphism functional study; no disease MEI case"}
+{"pmid": "22723857", "label": "exclude", "mei_class": [], "genes": [], "reason": "Alu origin of DM2 repeat in primate evolution"}
+{"pmid": "22736292", "label": "maybe", "mei_class": ["HERV"], "genes": [], "reason": "ERV review of gene expression effects and human disease; no specific case"}
+{"pmid": "22750455", "label": "exclude", "mei_class": [], "genes": [], "reason": "Trypanosoma SIRE element"}
+{"pmid": "22753775", "label": "exclude", "mei_class": [], "genes": [], "reason": "TE recruitment in placenta evolution"}
+{"pmid": "22761406", "label": "exclude", "mei_class": [], "genes": [], "reason": "NUMT insertion nonrandomness"}
+{"pmid": "22782896", "label": "exclude", "mei_class": [], "genes": [], "reason": "Mouse Glrb spastic LINE1"}
+{"pmid": "22839428", "label": "exclude", "mei_class": [], "genes": [], "reason": "Retrogene intron evolution"}
+{"pmid": "22841218", "label": "exclude", "mei_class": [], "genes": [], "reason": "Pig chimerism using Alu PCR"}
+{"pmid": "22864547", "label": "exclude", "mei_class": [], "genes": [], "reason": "Sheep JSRV Env transformation"}
+{"pmid": "22912586", "label": "exclude", "mei_class": [], "genes": [], "reason": "Alu retrotransposition assay in HeLa cells"}
+{"pmid": "22958517", "label": "exclude", "mei_class": [], "genes": [], "reason": "HERV-Fc1 germline copies in MS; no extra insertions found"}
+{"pmid": "22968929", "label": "exclude", "mei_class": [], "genes": [], "reason": "Somatic L1 insertions in colorectal tumors"}
+{"pmid": "22973303", "label": "exclude", "mei_class": [], "genes": [], "reason": "MeCP2 genome modulator review"}
+{"pmid": "22995348", "label": "exclude", "mei_class": [], "genes": [], "reason": "Alu polymorphism population genetics"}
+{"pmid": "23007156", "label": "exclude", "mei_class": [], "genes": [], "reason": "SVA retrotransposition cell assay"}
+{"pmid": "23039013", "label": "exclude", "mei_class": [], "genes": [], "reason": "Alu polymorphism population genetics"}
+{"pmid": "23053642", "label": "exclude", "mei_class": [], "genes": [], "reason": "L1 protein expression in breast cancer"}
+{"pmid": "23057747", "label": "exclude", "mei_class": [], "genes": [], "reason": "Review of somatic L1 in nervous system"}
+{"pmid": "23093941", "label": "exclude", "mei_class": [], "genes": [], "reason": "MOV10 restricts retrotransposition in cells"}
+{"pmid": "23095285", "label": "exclude", "mei_class": [], "genes": [], "reason": "Retrotransposon insertion polymorphism markers for forensics"}
+{"pmid": "23101622", "label": "exclude", "mei_class": [], "genes": [], "reason": "Single-neuron somatic L1 insertions"}
+{"pmid": "23112200", "label": "exclude", "mei_class": [], "genes": [], "reason": "Tomato retrotransposon insertion"}
+{"pmid": "23135636", "label": "exclude", "mei_class": [], "genes": [], "reason": "Retrotransposons in pluripotent stem cells review"}
+{"pmid": "23173096", "label": "exclude", "mei_class": [], "genes": [], "reason": "NANOGP8 retrogene evolution"}
+{"pmid": "23175715", "label": "exclude", "mei_class": [], "genes": [], "reason": "Salamander genome DNA loss"}
+{"pmid": "23176288", "label": "exclude", "mei_class": [], "genes": [], "reason": "Somatic transposition metabolic modeling"}
+{"pmid": "23223007", "label": "include", "mei_class": ["Alu"], "genes": ["BRCA1"], "reason": "BRCA1 exons 11-15 deletion with Alu insertion at breakpoints, likely Alu retrotransposition-mediated"}
+{"pmid": "23233862", "label": "exclude", "mei_class": [], "genes": [], "reason": "Retinoblastoma epigenetics review"}
+{"pmid": "23301070", "label": "exclude", "mei_class": [], "genes": [], "reason": "Mouse IAP insertion in Tal1"}
+{"pmid": "23305886", "label": "exclude", "mei_class": [], "genes": [], "reason": "EBV LMP1 promoter variants"}
+{"pmid": "23326244", "label": "exclude", "mei_class": [], "genes": [], "reason": "Drosophila R2 population model"}
+{"pmid": "23333607", "label": "maybe", "mei_class": ["L1", "Alu", "SVA"], "genes": [], "reason": "Review of retroelement insertions causing human disease; no specific case in abstract"}
+{"pmid": "23358623", "label": "exclude", "mei_class": [], "genes": [], "reason": "HERV-H insertion polymorphism screening"}
+{"pmid": "23359205", "label": "exclude", "mei_class": ["pseudogene"], "genes": [], "reason": "RetroCNV polymorphism genome-wide analysis; no disease case"}
+{"pmid": "23361327", "label": "exclude", "mei_class": [], "genes": [], "reason": "miRNA targets in Alu"}
+{"pmid": "23364048", "label": "exclude", "mei_class": [], "genes": [], "reason": "Mouse Tex19.1 and L1"}
+{"pmid": "23371888", "label": "exclude", "mei_class": [], "genes": [], "reason": "ACE I/D Alu polymorphism association with OSA"}
+{"pmid": "23391425", "label": "exclude", "mei_class": [], "genes": [], "reason": "ACE Alu I/D regulatory function reporter study"}
+{"pmid": "23402890", "label": "maybe", "mei_class": ["Alu"], "genes": ["GAA", "CCDC40"], "reason": "Pompe patient deletion-insertion spanning GAA; Alu implicated in mechanism, unclear whether Alu inserted"}
+{"pmid": "23437001", "label": "exclude", "mei_class": [], "genes": [], "reason": "Mouse ETn insertion at Ptf1a"}
+{"pmid": "23453855", "label": "include", "mei_class": ["SVA"], "genes": ["FKTN"], "reason": "NGS diagnosis of FCMD patient carrying FKTN retrotransposon insertion in one allele"}
+{"pmid": "23497673", "label": "exclude", "mei_class": ["pseudogene"], "genes": [], "reason": "Gene retrocopy insertion polymorphisms; no disease case"}
+{"pmid": "23523050", "label": "maybe", "mei_class": ["L1", "Alu", "SVA"], "genes": [], "reason": "Review of mobile elements in human disease; no specific case in abstract"}
+{"pmid": "23540693", "label": "maybe", "mei_class": ["L1"], "genes": ["MCC"], "reason": "Germline L1 insertions in MCC in HCC donors; cancer predisposition, polymorphic status unclear"}
+{"pmid": "23553801", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "L1 transduction lineage method; only mentions known L1RP"}
+{"pmid": "23554892", "label": "exclude", "mei_class": [], "genes": [], "reason": "Novel HPV metagenomics"}
+{"pmid": "23570848", "label": "exclude", "mei_class": [], "genes": [], "reason": "tPA Alu I/D polymorphism association with osteomyelitis"}
+{"pmid": "23573899", "label": "exclude", "mei_class": [], "genes": [], "reason": "Cacao PR-1 kinases"}
+{"pmid": "23593260", "label": "exclude", "mei_class": ["HERV"], "genes": [], "reason": "Human-specific HERV-K insertions genomic effects; no disease"}
+{"pmid": "23599355", "label": "exclude", "mei_class": ["Alu"], "genes": [], "reason": "ME-Scan population Alu discovery; no patient disease"}
+{"pmid": "23608969", "label": "exclude", "mei_class": [], "genes": [], "reason": "Complex 7q rearrangement; inserted fragment with Alus is not retrotransposition"}
+{"pmid": "23613367", "label": "include", "mei_class": ["Alu"], "genes": ["SERPINF1"], "reason": "AluYb8 insertion in SERPINF1 exon 6 in recessive osteogenesis imperfecta family"}
+{"pmid": "23637634", "label": "exclude", "mei_class": [], "genes": [], "reason": "Group II intron retrohoming in E. coli"}
+{"pmid": "23657884", "label": "exclude", "mei_class": [], "genes": [], "reason": "HERV-K K111 expression and expansion in HIV"}
+{"pmid": "23664928", "label": "exclude", "mei_class": [], "genes": [], "reason": "Inversion breakpoints at LTR/LINE; not an insertion"}
+{"pmid": "23665280", "label": "maybe", "mei_class": ["L1"], "genes": ["MCC"], "reason": "Commentary on HCC L1 germline insertions in MCC; same as RC-seq study"}
+{"pmid": "23684843", "label": "exclude", "mei_class": [], "genes": [], "reason": "Germline mutation rate review; no disease MEI case"}
+{"pmid": "23692647", "label": "exclude", "mei_class": [], "genes": [], "reason": "SVA regulatory function in vitro"}
+{"pmid": "23717661", "label": "exclude", "mei_class": [], "genes": [], "reason": "ACE Alu polymorphism and APOBEC3B"}
+{"pmid": "23718141", "label": "exclude", "mei_class": [], "genes": [], "reason": "L1 endonuclease variant expression in gastric cancer"}
+{"pmid": "23721890", "label": "include", "mei_class": ["Alu"], "genes": ["CTRC"], "reason": "CTRC-deleting rearrangement from L1-mediated Alu insertion in chronic pancreatitis"}
+{"pmid": "23749060", "label": "exclude", "mei_class": [], "genes": [], "reason": "L1 ORF1p interactome"}
+{"pmid": "23803660", "label": "exclude", "mei_class": [], "genes": [], "reason": "TE and ncRNA review"}
+{"pmid": "23831233", "label": "exclude", "mei_class": [], "genes": ["PROP1"], "reason": "PROP1 deletion by Alu recombination of reference repeats"}
+{"pmid": "23833214", "label": "exclude", "mei_class": [], "genes": [], "reason": "Drosophila retrotransposon insertions"}
+{"pmid": "23872666", "label": "maybe", "mei_class": ["HERV"], "genes": [], "reason": "HERV-K solo LTR insertion polymorphism associated with lung adenocarcinoma susceptibility"}
+{"pmid": "23878091", "label": "include", "mei_class": ["L1"], "genes": ["HBB"], "reason": "Intronic L1 insertion in HBB causing beta-thalassemia"}
+{"pmid": "23884656", "label": "exclude", "mei_class": [], "genes": [], "reason": "Great ape retrotransposition rates"}
+{"pmid": "23900003", "label": "exclude", "mei_class": [], "genes": [], "reason": "Pseudogene biology review"}
+{"pmid": "23909549", "label": "exclude", "mei_class": [], "genes": [], "reason": "Bacterial fosfomycin resistance"}
+{"pmid": "23915234", "label": "exclude", "mei_class": [], "genes": [], "reason": "HIV Vpr induces L1 retrotransposition in assays"}
+{"pmid": "23945036", "label": "exclude", "mei_class": [], "genes": [], "reason": "Alu polymorphism near HLA-G evolution"}
+{"pmid": "23961977", "label": "exclude", "mei_class": [], "genes": [], "reason": "Alu polymorphism population genetics"}
+{"pmid": "23975140", "label": "exclude", "mei_class": [], "genes": [], "reason": "De novo indel calling software"}
+{"pmid": "23986605", "label": "exclude", "mei_class": [], "genes": [], "reason": "Porcine endogenous retrovirus methylation"}
+{"pmid": "24003030", "label": "exclude", "mei_class": [], "genes": [], "reason": "Zebrafish ORF1p esterase structure"}
+{"pmid": "24026178", "label": "exclude", "mei_class": ["pseudogene"], "genes": [], "reason": "Retroduplication variants in 1000 Genomes; no disease"}
+{"pmid": "24028143", "label": "exclude", "mei_class": [], "genes": [], "reason": "Alu polymorphism population genetics"}
+{"pmid": "24035396", "label": "exclude", "mei_class": [], "genes": [], "reason": "SAMHD1 regulation of L1 in cells"}
+{"pmid": "24040300", "label": "exclude", "mei_class": [], "genes": [], "reason": "Compound screen for L1 mobilization"}
+{"pmid": "24080407", "label": "maybe", "mei_class": ["Alu"], "genes": [], "reason": "Review of Alu insertional mutagenesis and NAHR in disease; no specific case"}
+{"pmid": "24132125", "label": "exclude", "mei_class": [], "genes": ["BMPR2"], "reason": "BMPR2 exon deletion; breakpoint not Alu insertion"}
+{"pmid": "24244495", "label": "exclude", "mei_class": [], "genes": [], "reason": "Retrotransposon antisense bias in genes"}
+{"pmid": "24267889", "label": "exclude", "mei_class": [], "genes": [], "reason": "L1 RNP interactome"}
+{"pmid": "24279857", "label": "exclude", "mei_class": [], "genes": [], "reason": "Pseudogenes as therapeutic targets"}
+{"pmid": "24286172", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Review of somatic L1 in cancer stem cells"}
+{"pmid": "24304702", "label": "exclude", "mei_class": [], "genes": [], "reason": "Mouse Mitf L1 insertion"}
+{"pmid": "24305111", "label": "exclude", "mei_class": [], "genes": [], "reason": "Alu polymorphism and HLA linkage"}
+{"pmid": "24389010", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Brain somatic L1 in schizophrenia"}
+{"pmid": "24430436", "label": "maybe", "mei_class": ["HERV"], "genes": ["C4"], "reason": "HERV-K(C4) insertion copy number associated with type 1 diabetes risk"}
+{"pmid": "24440682", "label": "exclude", "mei_class": [], "genes": [], "reason": "Aspergillus LINE-like elements"}
+{"pmid": "24478191", "label": "include", "mei_class": ["L1", "pseudogene"], "genes": ["CYBB"], "reason": "L1-mediated TMF1 retrocopy insertion in CYBB causing chronic granulomatous disease"}
+{"pmid": "24482533", "label": "exclude", "mei_class": [], "genes": [], "reason": "NPAP1 retrogene evolution"}
+{"pmid": "24553397", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Somatic L1 in colorectal cancer; germline TTC28-GABRA4 polymorphism"}
+{"pmid": "24585726", "label": "maybe", "mei_class": [], "genes": [], "reason": "Review of TEs in psychiatric disorders; mentions TE disease involvement, no specific case"}
+{"pmid": "24608899", "label": "exclude", "mei_class": ["SVA"], "genes": ["FUS"], "reason": "Polymorphic SVA in FUS promoter regulatory study; ALS association not significant"}
+{"pmid": "24614499", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "L1 polymorphism LD with SNPs"}
+{"pmid": "24621962", "label": "include", "mei_class": ["Alu"], "genes": ["BMPR2"], "reason": "Intronic Alu insertion in BMPR2 causing HPAH in large family"}
+{"pmid": "24699068", "label": "exclude", "mei_class": ["L1"], "genes": ["DLX6"], "reason": "Canine L1 insertion in DLX6; human cohort found only missense"}
+{"pmid": "24708615", "label": "maybe", "mei_class": ["L1", "Alu", "SVA"], "genes": [], "reason": "Commentary noting 101 disease-causing germline insertions; focus on somatic retrotransposition"}
+{"pmid": "24712415", "label": "exclude", "mei_class": [], "genes": [], "reason": "Pig L1 insertion in SPEF2"}
+{"pmid": "24727786", "label": "exclude", "mei_class": [], "genes": [], "reason": "F-box gene family evolution"}
+{"pmid": "24739306", "label": "exclude", "mei_class": [], "genes": [], "reason": "RetrogeneDB animal retrogenes"}
+{"pmid": "24759938", "label": "exclude", "mei_class": [], "genes": [], "reason": "HPV vaccine with HERV envelope"}
+{"pmid": "24767306", "label": "include", "mei_class": ["Alu"], "genes": ["CTSK"], "reason": "301 bp Alu insertion in CTSK intron 7 in pycnodysostosis patient"}
+{"pmid": "24795017", "label": "exclude", "mei_class": [], "genes": [], "reason": "HBV integration lncRNA in HCC"}
+{"pmid": "24821809", "label": "exclude", "mei_class": [], "genes": [], "reason": "Experimental templated sequence insertions at DSBs"}
+{"pmid": "24823667", "label": "exclude", "mei_class": [], "genes": [], "reason": "Somatic retrotransposition in cancer"}
+{"pmid": "24859200", "label": "exclude", "mei_class": [], "genes": ["EML1"], "reason": "Mouse retrotransposon in Eml1; human EML1 mutations not MEI"}
+{"pmid": "24868378", "label": "include", "mei_class": ["SVA"], "genes": ["TAF1"], "reason": "XDP review; SVA retrotransposon insertion in TAF1 intron as founder cause"}
+{"pmid": "24958239", "label": "include", "mei_class": ["SVA"], "genes": ["NF1"], "reason": "SVA insertions with large NF1 deletions in patients, postzygotic"}
+{"pmid": "24966180", "label": "exclude", "mei_class": [], "genes": [], "reason": "Epigenome evolution and Alu"}
+{"pmid": "24987855", "label": "exclude", "mei_class": [], "genes": [], "reason": "Chimpanzee-specific ERVs"}
+{"pmid": "24992910", "label": "exclude", "mei_class": [], "genes": [], "reason": "LINE-1 hypomethylation in HCC prognosis"}
+{"pmid": "25010494", "label": "exclude", "mei_class": [], "genes": [], "reason": "Mouse IAP insertions, Gria4 epilepsy model"}
+{"pmid": "25036377", "label": "exclude", "mei_class": [], "genes": [], "reason": "Review of L1 somatic mosaicism in brain"}
+{"pmid": "25077041", "label": "exclude", "mei_class": ["SVA"], "genes": [], "reason": "SVA transcriptional regulatory review"}
+{"pmid": "25080100", "label": "exclude", "mei_class": [], "genes": [], "reason": "APOBEC3 and HIV mutation"}
+{"pmid": "25082706", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Somatic L1 transduction in cancer"}
+{"pmid": "25112280", "label": "exclude", "mei_class": ["HERV"], "genes": [], "reason": "Polymorphic HERV-K and breast cancer; no association"}
+{"pmid": "25135944", "label": "exclude", "mei_class": [], "genes": [], "reason": "Tree shrew TRIMCyp evolution"}
+{"pmid": "25198651", "label": "exclude", "mei_class": ["SVA"], "genes": ["FKTN"], "reason": "Mouse model of FCMD; founder insertion only background"}
+{"pmid": "25201971", "label": "exclude", "mei_class": [], "genes": [], "reason": "Mollusk retroelement in leukemia"}
+{"pmid": "25228379", "label": "exclude", "mei_class": [], "genes": [], "reason": "Tangram MEI detection tool; no patient findings"}
+{"pmid": "25255364", "label": "include", "mei_class": ["Alu"], "genes": ["MAK"], "reason": "Founder Alu insertion in MAK causing recessive retinitis pigmentosa in Jewish patients"}
+{"pmid": "25289675", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Somatic L1 in iPSCs"}
+{"pmid": "25309606", "label": "exclude", "mei_class": [], "genes": [], "reason": "Alu PCR for stem cell tracking"}
+{"pmid": "25348035", "label": "exclude", "mei_class": [], "genes": [], "reason": "Mobster MEI detection tool; no patient findings"}
+{"pmid": "25352549", "label": "maybe", "mei_class": ["L1"], "genes": [], "reason": "Database of L1HS insertion polymorphisms in healthy and pathological samples; no specific disease case"}
+{"pmid": "25366815", "label": "exclude", "mei_class": [], "genes": [], "reason": "Autophagy degrades retrotransposon RNA"}
+{"pmid": "25387725", "label": "exclude", "mei_class": [], "genes": [], "reason": "Bowen disease and HPV"}
+{"pmid": "25397703", "label": "exclude", "mei_class": [], "genes": [], "reason": "Alu polymorphism population genetics"}
+{"pmid": "25433366", "label": "exclude", "mei_class": [], "genes": [], "reason": "Bat phylogeny"}
+{"pmid": "25447892", "label": "exclude", "mei_class": ["Alu"], "genes": [], "reason": "Human-specific AluS validation; no disease"}
+{"pmid": "25546334", "label": "include", "mei_class": ["L1"], "genes": ["SLCO1B3", "SLCO1B1"], "reason": "Intronic L1 insertion in SLCO1B3 homozygous in Rotor syndrome patients"}
+{"pmid": "25553296", "label": "exclude", "mei_class": [], "genes": ["CHD7"], "reason": "CHD7 deletion by NHEJ; no Alu or MEI"}
+{"pmid": "25559623", "label": "exclude", "mei_class": [], "genes": [], "reason": "Alu qPCR for stem cell tracking in mice"}
+{"pmid": "25569347", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Somatic L1 lineage tracing in normal brain"}
+{"pmid": "25598847", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "ddPCR method for L1 in tumors"}
+{"pmid": "25606060", "label": "exclude", "mei_class": [], "genes": [], "reason": "Anti-ORF2 antibody development"}
+{"pmid": "25614078", "label": "exclude", "mei_class": [], "genes": [], "reason": "Fungal retrotransposon"}
+{"pmid": "25677562", "label": "exclude", "mei_class": [], "genes": ["HRAS"], "reason": "HRAS duplication in Costello syndrome; not an MEI"}
+{"pmid": "25722083", "label": "exclude", "mei_class": [], "genes": [], "reason": "APOBEC/ADAR editing of retrotransposons review"}
+{"pmid": "25724209", "label": "exclude", "mei_class": ["pseudogene"], "genes": [], "reason": "Tailless retropseudogene evolution"}
+{"pmid": "25735770", "label": "exclude", "mei_class": [], "genes": [], "reason": "Retrotransposon domestication in TMPO/ZNF451"}
+{"pmid": "25739383", "label": "include", "mei_class": ["SVA"], "genes": ["F9"], "reason": "SVA-F insertion in F9 exon 6 causing severe hemophilia B"}
+{"pmid": "25745018", "label": "exclude", "mei_class": [], "genes": [], "reason": "Templated sequence insertion polymorphisms; no disease case"}
+{"pmid": "25750667", "label": "exclude", "mei_class": ["HERV"], "genes": [], "reason": "HERV-K rec/np9 expression in normal tissues"}
+{"pmid": "25767249", "label": "exclude", "mei_class": [], "genes": [], "reason": "ERV LTR tissue-specific regulation"}
+{"pmid": "25798578", "label": "exclude", "mei_class": [], "genes": [], "reason": "SINE transcription and methylation"}
+{"pmid": "25808076", "label": "maybe", "mei_class": [], "genes": [], "reason": "Review of TE insertions in cancer and human disease; no specific case"}
+{"pmid": "25829257", "label": "maybe", "mei_class": ["Alu"], "genes": ["MUTYH"], "reason": "AluYb8 insertion polymorphism in MUTYH as T2DM risk factor; association study, not clearly causal"}
+{"pmid": "25842827", "label": "exclude", "mei_class": [], "genes": [], "reason": "Alu polymorphism population genetics"}
+{"pmid": "25887476", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "SIMPLE method for polymorphic L1; no disease case"}
+{"pmid": "25919556", "label": "exclude", "mei_class": [], "genes": ["SLC2A2"], "reason": "SLC2A2 mutations; insertion is single-base dup"}
+{"pmid": "25938714", "label": "exclude", "mei_class": [], "genes": [], "reason": "Mouse H3.3 ERV silencing"}
+{"pmid": "25990091", "label": "exclude", "mei_class": [], "genes": [], "reason": "HIV Vpr and L1 retrotransposition in macrophage cell line"}
+{"pmid": "25990786", "label": "exclude", "mei_class": [], "genes": ["EXT1"], "reason": "EXT1 duplication CNV by break-induced replication; Alu only as initiation motif"}
+{"pmid": "25995269", "label": "exclude", "mei_class": [], "genes": [], "reason": "Mouse L1 insertion CpG methylation"}
+{"pmid": "26021318", "label": "exclude", "mei_class": [], "genes": [], "reason": "Retrotransposons in ESC gene expression review"}
+{"pmid": "26024393", "label": "exclude", "mei_class": ["HERV"], "genes": [], "reason": "ERV9 LTR-driven genes in testicular cancer"}
+{"pmid": "26029068", "label": "exclude", "mei_class": [], "genes": [], "reason": "Epigenetic switches in neurodevelopment review"}
+{"pmid": "26104698", "label": "maybe", "mei_class": ["L1", "Alu"], "genes": [], "reason": "Review of LINE-1/SINE biology including genetic disease insertions; no specific case in abstract"}
+{"pmid": "26130710", "label": "exclude", "mei_class": [], "genes": [], "reason": "Indel detection estimate"}
+{"pmid": "26148505", "label": "exclude", "mei_class": [], "genes": [], "reason": "Primate MECP2 Alu evolution"}
+{"pmid": "26159513", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Somatic MEIs in esophageal adenocarcinoma"}
+{"pmid": "26170848", "label": "exclude", "mei_class": ["Alu"], "genes": ["PGR"], "reason": "PGR Alu polymorphism association with breast cancer susceptibility; polymorphism study"}
+{"pmid": "26195802", "label": "exclude", "mei_class": [], "genes": [], "reason": "Mouse retrotransposon insertion in TNF 3'UTR"}
+{"pmid": "26223268", "label": "exclude", "mei_class": ["Alu"], "genes": [], "reason": "Alu RNA processing regulation review"}
+{"pmid": "26259033", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Somatic L1 in pancreatic cancer"}
+{"pmid": "26281700", "label": "include", "mei_class": ["SVA"], "genes": ["FKTN"], "reason": "FCMD review; ancestral SVA insertion in fukutin in all patients"}
+{"pmid": "26281766", "label": "exclude", "mei_class": [], "genes": [], "reason": "TE response to environmental stressors review"}
+{"pmid": "26283398", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Somatic L1 in Barrett's esophagus"}
+{"pmid": "26319576", "label": "exclude", "mei_class": ["Alu"], "genes": [], "reason": "Alu subfamily sequence characterization; no disease"}
+{"pmid": "26323482", "label": "exclude", "mei_class": [], "genes": [], "reason": "Yeast genome maintenance"}
+{"pmid": "26333314", "label": "exclude", "mei_class": [], "genes": [], "reason": "Rodent 4.5SH and SINE B1"}
+{"pmid": "26448926", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "L1 methylation in cancer review"}
+{"pmid": "26493225", "label": "exclude", "mei_class": [], "genes": [], "reason": "Rodent Zfp36l3 retrogene evolution"}
+{"pmid": "26496357", "label": "exclude", "mei_class": [], "genes": [], "reason": "Mouse Poc1a retrocopy insertion"}
+{"pmid": "26503250", "label": "exclude", "mei_class": ["Alu"], "genes": [], "reason": "Alu discovery method in HGDP; no disease"}
+{"pmid": "26541172", "label": "exclude", "mei_class": [], "genes": [], "reason": "APOBEC editing of ERVs"}
+{"pmid": "26558903", "label": "include", "mei_class": ["Alu"], "genes": ["MAK"], "reason": "Alu insertion in MAK causing retinitis pigmentosa detected in new patients, pedigrees solved"}
+{"pmid": "26585389", "label": "exclude", "mei_class": ["Alu"], "genes": [], "reason": "Alu RNP structure"}
+{"pmid": "26589310", "label": "exclude", "mei_class": [], "genes": [], "reason": "Yeast assay of ORNT1 missense mutations"}
+{"pmid": "26627183", "label": "exclude", "mei_class": [], "genes": [], "reason": "HERV/LINE methylation with plasmid insertion"}
+{"pmid": "26643441", "label": "exclude", "mei_class": [], "genes": [], "reason": "Fungal invertase evolution"}
+{"pmid": "26734601", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "L1 retrotransposition in cancer review"}
+{"pmid": "26740556", "label": "maybe", "mei_class": ["SVA"], "genes": ["CASP8"], "reason": "Germline SVA-E insertion in CASP8 associated with splicing anomalies and prostate cancer protection"}
+{"pmid": "26743714", "label": "exclude", "mei_class": ["L1", "Alu"], "genes": [], "reason": "Retrotransposition in hiPSCs; somatic culture events"}
+{"pmid": "26763876", "label": "include", "mei_class": ["L1"], "genes": ["RB1"], "reason": "De novo full-length L1 insertion in RB1 intron 14 causing familial retinoblastoma"}
+{"pmid": "26769797", "label": "include", "mei_class": ["SVA"], "genes": ["TAF1"], "reason": "XDP patient-derived cells carrying SVA insertion in TAF1; reduced N-TAF1 expression"}
+{"pmid": "26791965", "label": "exclude", "mei_class": [], "genes": [], "reason": "TEs in nervous system review"}
+{"pmid": "26823847", "label": "exclude", "mei_class": ["Alu"], "genes": ["ACE"], "reason": "ACE Alu I/D polymorphism association with Crohn's disease"}
+{"pmid": "26843017", "label": "exclude", "mei_class": [], "genes": [], "reason": "HRM genotyping assay for Alu polymorphisms"}
+{"pmid": "26855260", "label": "exclude", "mei_class": [], "genes": [], "reason": "Retrotransposon genome regulation review"}
+{"pmid": "26894652", "label": "include", "mei_class": ["Alu"], "genes": ["MAK"], "reason": "Homozygous MAK Alu insertion (K429insAlu) causing retinitis pigmentosa in a patient"}
+{"pmid": "26895046", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "RC-seq method for somatic L1"}
+{"pmid": "26895047", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "L1-seq method for somatic insertions"}
+{"pmid": "26895051", "label": "exclude", "mei_class": [], "genes": [], "reason": "LINE retrotransposition assay in yeast"}
+{"pmid": "26895054", "label": "exclude", "mei_class": [], "genes": [], "reason": "Engineered L1 recovery method in cultured cells"}
+{"pmid": "26895055", "label": "exclude", "mei_class": ["Alu"], "genes": [], "reason": "SINE retrotransposition culture assay"}
+{"pmid": "26895061", "label": "exclude", "mei_class": [], "genes": [], "reason": "L1 RNP purification protocol"}
+{"pmid": "26907772", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Review of L1 in tumorigenesis"}
+{"pmid": "26929209", "label": "include", "mei_class": ["SVA"], "genes": ["unknown"], "reason": "Familial germline chromothripsis with SVA-E insertion and 110-kb deletion"}
+{"pmid": "26932189", "label": "include", "mei_class": ["Alu"], "genes": ["SPAST"], "reason": "Polymorphic Alu insertion on founder allele mediating two SPAST disease-associated deletions"}
+{"pmid": "26948891", "label": "exclude", "mei_class": [], "genes": [], "reason": "Mouse neuron genomes mutation analysis"}
+{"pmid": "26956250", "label": "exclude", "mei_class": [], "genes": ["NLRP7"], "reason": "NLRP7 Alu-mediated deletions by recombination of reference Alus"}
+{"pmid": "26990047", "label": "maybe", "mei_class": ["L1"], "genes": [], "reason": "Polymorphic L1 insertions in schizophrenia family; putative pathogenic role only"}
+{"pmid": "27001843", "label": "exclude", "mei_class": ["HERV"], "genes": [], "reason": "Polymorphic HERV-K proviruses discovery; no disease"}
+{"pmid": "27071356", "label": "include", "mei_class": ["Alu"], "genes": ["SPG11"], "reason": "SPG11 rearrangements including two-step event with Alu retrotransposition preceding deletion"}
+{"pmid": "27099633", "label": "exclude", "mei_class": [], "genes": [], "reason": "L1 endonuclease mutation study"}
+{"pmid": "27158268", "label": "maybe", "mei_class": ["L1"], "genes": [], "reason": "Review of 124 disease-causing LINE-1 insertions; no specific case in abstract"}
+{"pmid": "27161561", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "TIGER transduction detection tool, primates"}
+{"pmid": "27167780", "label": "exclude", "mei_class": [], "genes": [], "reason": "L1 FISH assay in HepG2 cells"}
+{"pmid": "27172897", "label": "exclude", "mei_class": [], "genes": [], "reason": "LTR12 activation by HDAC inhibitors"}
+{"pmid": "27178279", "label": "exclude", "mei_class": [], "genes": [], "reason": "Bacterial ArtA and RNAP III promoter"}
+{"pmid": "27197217", "label": "exclude", "mei_class": ["L1"], "genes": ["APC"], "reason": "Somatic L1 insertion in APC initiating colorectal cancer"}
+{"pmid": "27206329", "label": "exclude", "mei_class": [], "genes": [], "reason": "ACE I/D polymorphism in CAKUT"}
+{"pmid": "27237050", "label": "exclude", "mei_class": [], "genes": [], "reason": "SETDB1 ubiquitination"}
+{"pmid": "27242996", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "L1 and hepatitis-related HCC review"}
+{"pmid": "27289096", "label": "exclude", "mei_class": [], "genes": [], "reason": "Hominidae-specific sequences evolution"}
+{"pmid": "27292586", "label": "exclude", "mei_class": [], "genes": [], "reason": "Alu polymorphism population genetics"}
+{"pmid": "27295277", "label": "exclude", "mei_class": [], "genes": [], "reason": "ERV phylogenetics"}
+{"pmid": "27315142", "label": "exclude", "mei_class": [], "genes": [], "reason": "Alu polymorphism population genetics"}
+{"pmid": "27319353", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Somatic L1 in esophageal SCC"}
+{"pmid": "27402545", "label": "exclude", "mei_class": [], "genes": [], "reason": "Retrotransposons in transcriptome regulation review"}
+{"pmid": "27428429", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "L1 activity in Fanconi anemia cells; no insertion case"}
+{"pmid": "27494179", "label": "exclude", "mei_class": [], "genes": [], "reason": "HPV genotyping"}
+{"pmid": "27525044", "label": "exclude", "mei_class": [], "genes": [], "reason": "Retrotransposon restriction factors review"}

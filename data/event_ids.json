@@ -1,0 +1,3137 @@
+{
+ "next": 304,
+ "ids": {
+  "MEI0001": {
+   "id": "MEI0001",
+   "gene": "TAF1",
+   "mei_class": "SVA",
+   "pmids": [
+    "17273961",
+    "18952144",
+    "26769797",
+    "29229810",
+    "29474918",
+    "30153385",
+    "30973967",
+    "33315879",
+    "32975318",
+    "34050153",
+    "34250228",
+    "34746789",
+    "35052466",
+    "35216353",
+    "35395816",
+    "35868859",
+    "35971992",
+    "35481544",
+    "37198883",
+    "37234925",
+    "38404049",
+    "38834915",
+    "39102544",
+    "39287133",
+    "40463055",
+    "40540399",
+    "41279153",
+    "41282719",
+    "41443196",
+    "41777671",
+    "42102821"
+   ],
+   "exon_number": null,
+   "intron_number": 32
+  },
+  "MEI0002": {
+   "id": "MEI0002",
+   "gene": "FKTN",
+   "mei_class": "SVA",
+   "pmids": [
+    "9690476",
+    "10545611",
+    "10682317",
+    "11153909",
+    "11464484",
+    "12100373",
+    "15103718",
+    "16222679",
+    "19324374",
+    "19842201",
+    "20620061",
+    "21979053",
+    "28680109",
+    "31983616"
+   ],
+   "exon_number": 10,
+   "intron_number": null
+  },
+  "MEI0003": {
+   "id": "MEI0003",
+   "gene": "RP1",
+   "mei_class": "Alu",
+   "pmids": [
+    "31253780",
+    "32193659",
+    "33247286",
+    "34073704",
+    "34183725",
+    "35205402",
+    "38819824",
+    "39448676",
+    "39457414",
+    "41290015",
+    "42847597"
+   ],
+   "exon_number": 4,
+   "intron_number": null
+  },
+  "MEI0004": {
+   "id": "MEI0004",
+   "gene": "MAK",
+   "mei_class": "Alu",
+   "pmids": [
+    "21825139",
+    "25255364",
+    "26558903",
+    "26894652",
+    "28619647",
+    "40578471"
+   ],
+   "exon_number": 9,
+   "intron_number": null
+  },
+  "MEI0005": {
+   "id": "MEI0005",
+   "gene": "BRCA2",
+   "mei_class": "Alu",
+   "pmids": [
+    "18363094",
+    "30553478",
+    "41210374",
+    "41840221"
+   ],
+   "exon_number": 3,
+   "intron_number": null
+  },
+  "MEI0006": {
+   "id": "MEI0006",
+   "gene": "BRCA1",
+   "mei_class": "SVA",
+   "pmids": [
+    "31570822",
+    "33060287",
+    "40629180"
+   ],
+   "exon_number": null,
+   "intron_number": 13
+  },
+  "MEI0007": {
+   "id": "MEI0007",
+   "gene": "CASR",
+   "mei_class": "Alu",
+   "pmids": [
+    "7717399",
+    "9109436",
+    "9217223"
+   ],
+   "exon_number": 7,
+   "intron_number": null
+  },
+  "MEI0008": {
+   "id": "MEI0008",
+   "gene": "CC2D2A",
+   "mei_class": "L1",
+   "pmids": [
+    "28374938",
+    "36765129",
+    "36970932"
+   ],
+   "exon_number": 7,
+   "intron_number": null
+  },
+  "MEI0009": {
+   "id": "MEI0009",
+   "gene": "F9",
+   "mei_class": "Alu",
+   "pmids": [
+    "8069649",
+    "10679958",
+    "11385709"
+   ],
+   "exon_number": 5,
+   "intron_number": null
+  },
+  "MEI0010": {
+   "id": "MEI0010",
+   "gene": "GNAS",
+   "mei_class": "SVA",
+   "pmids": [
+    "35811283",
+    "40249781",
+    "42925263"
+   ],
+   "exon_number": null,
+   "intron_number": 1
+  },
+  "MEI0011": {
+   "id": "MEI0011",
+   "gene": "NF1",
+   "mei_class": "Alu",
+   "pmids": [
+    "1719426",
+    "22125493",
+    "38699361"
+   ],
+   "exon_number": 2,
+   "intron_number": 14
+  },
+  "MEI0012": {
+   "id": "MEI0012",
+   "gene": "ATM",
+   "mei_class": "Alu",
+   "pmids": [
+    "37802069",
+    "41715124"
+   ],
+   "exon_number": 54,
+   "intron_number": null
+  },
+  "MEI0013": {
+   "id": "MEI0013",
+   "gene": "BRCA2",
+   "mei_class": "Alu",
+   "pmids": [
+    "16088935",
+    "31965078"
+   ],
+   "exon_number": 11,
+   "intron_number": null
+  },
+  "MEI0014": {
+   "id": "MEI0014",
+   "gene": "BUB1B",
+   "mei_class": "Alu",
+   "pmids": [
+    "28611924",
+    "29673003"
+   ],
+   "exon_number": 9,
+   "intron_number": 8
+  },
+  "MEI0015": {
+   "id": "MEI0015",
+   "gene": "CHM",
+   "mei_class": "L1",
+   "pmids": [
+    "12827496",
+    "17483097"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0016": {
+   "id": "MEI0016",
+   "gene": "CLCN5",
+   "mei_class": "Alu",
+   "pmids": [
+    "14569459",
+    "16041495"
+   ],
+   "exon_number": 11,
+   "intron_number": null
+  },
+  "MEI0017": {
+   "id": "MEI0017",
+   "gene": "DMD",
+   "mei_class": "L1",
+   "pmids": [
+    "8387534",
+    "16808900"
+   ],
+   "exon_number": 44,
+   "intron_number": null
+  },
+  "MEI0018": {
+   "id": "MEI0018",
+   "gene": "DMD",
+   "mei_class": "L1",
+   "pmids": [
+    "7920631",
+    "28972564"
+   ],
+   "exon_number": 8,
+   "intron_number": 51
+  },
+  "MEI0019": {
+   "id": "MEI0019",
+   "gene": "DMD",
+   "mei_class": "L1",
+   "pmids": [
+    "20827276",
+    "22095564"
+   ],
+   "exon_number": 67,
+   "intron_number": null
+  },
+  "MEI0020": {
+   "id": "MEI0020",
+   "gene": "F8",
+   "mei_class": "L1",
+   "pmids": [
+    "2831458",
+    "2497061"
+   ],
+   "exon_number": 14,
+   "intron_number": null
+  },
+  "MEI0021": {
+   "id": "MEI0021",
+   "gene": "F8",
+   "mei_class": "L1",
+   "pmids": [
+    "2831458",
+    "2497061"
+   ],
+   "exon_number": 14,
+   "intron_number": null
+  },
+  "MEI0022": {
+   "id": "MEI0022",
+   "gene": "F9",
+   "mei_class": "L1",
+   "pmids": [
+    "11385709",
+    "15086324"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0023": {
+   "id": "MEI0023",
+   "gene": "FGFR2",
+   "mei_class": "Alu",
+   "pmids": [
+    "9973282",
+    "18726952"
+   ],
+   "exon_number": 9,
+   "intron_number": null
+  },
+  "MEI0024": {
+   "id": "MEI0024",
+   "gene": "GK",
+   "mei_class": "Alu",
+   "pmids": [
+    "10737976",
+    "16549535"
+   ],
+   "exon_number": null,
+   "intron_number": 4
+  },
+  "MEI0025": {
+   "id": "MEI0025",
+   "gene": "HBB",
+   "mei_class": "L1",
+   "pmids": [
+    "10401005",
+    "23878091"
+   ],
+   "exon_number": null,
+   "intron_number": 2
+  },
+  "MEI0026": {
+   "id": "MEI0026",
+   "gene": "HCFC1",
+   "mei_class": "SVA",
+   "pmids": [
+    "38585854",
+    "39299904"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0027": {
+   "id": "MEI0027",
+   "gene": "LDLRAP1",
+   "mei_class": "SVA",
+   "pmids": [
+    "12417523",
+    "21979053"
+   ],
+   "exon_number": null,
+   "intron_number": 1
+  },
+  "MEI0028": {
+   "id": "MEI0028",
+   "gene": "MEN1",
+   "mei_class": "Alu",
+   "pmids": [
+    "41421069",
+    "42055800"
+   ],
+   "exon_number": 2,
+   "intron_number": null
+  },
+  "MEI0029": {
+   "id": "MEI0029",
+   "gene": "MLH1",
+   "mei_class": "Alu",
+   "pmids": [
+    "29790873",
+    "30815977"
+   ],
+   "exon_number": 6,
+   "intron_number": null
+  },
+  "MEI0030": {
+   "id": "MEI0030",
+   "gene": "NKX2-1",
+   "mei_class": "Alu",
+   "pmids": [
+    "36420574",
+    "37853102"
+   ],
+   "exon_number": 3,
+   "intron_number": null
+  },
+  "MEI0031": {
+   "id": "MEI0031",
+   "gene": "NSD1",
+   "mei_class": "Alu",
+   "pmids": [
+    "31604926",
+    "31965078"
+   ],
+   "exon_number": 10,
+   "intron_number": null
+  },
+  "MEI0032": {
+   "id": "MEI0032",
+   "gene": "PNPLA2",
+   "mei_class": "SVA",
+   "pmids": [
+    "20471263",
+    "21979053"
+   ],
+   "exon_number": 3,
+   "intron_number": null
+  },
+  "MEI0033": {
+   "id": "MEI0033",
+   "gene": "RP2",
+   "mei_class": "L1",
+   "pmids": [
+    "9697692",
+    "10401005"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0034": {
+   "id": "MEI0034",
+   "gene": "SERPINC1",
+   "mei_class": "SVA",
+   "pmids": [
+    "35218943",
+    "35764313"
+   ],
+   "exon_number": null,
+   "intron_number": 6
+  },
+  "MEI0035": {
+   "id": "MEI0035",
+   "gene": "SLCO1B3",
+   "mei_class": "L1",
+   "pmids": [
+    "25546334",
+    "33834465"
+   ],
+   "exon_number": null,
+   "intron_number": 5
+  },
+  "MEI0036": {
+   "id": "MEI0036",
+   "gene": "SLCO1B3",
+   "mei_class": "L1",
+   "pmids": [
+    "38818556",
+    "41271512"
+   ],
+   "exon_number": 3,
+   "intron_number": 6
+  },
+  "MEI0037": {
+   "id": "MEI0037",
+   "gene": "SPAST",
+   "mei_class": "Alu",
+   "pmids": [
+    "26932189",
+    "37394769"
+   ],
+   "exon_number": null,
+   "intron_number": 16
+  },
+  "MEI0038": {
+   "id": "MEI0038",
+   "gene": "SPINK1",
+   "mei_class": "Alu",
+   "pmids": [
+    "28945313",
+    "39265574"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0039": {
+   "id": "MEI0039",
+   "gene": "USH2A",
+   "mei_class": "Alu",
+   "pmids": [
+    "31965078",
+    "37506127"
+   ],
+   "exon_number": 45,
+   "intron_number": null
+  },
+  "MEI0040": {
+   "id": "MEI0040",
+   "gene": "ZEB2",
+   "mei_class": "Alu",
+   "pmids": [
+    "31965078",
+    "38600862"
+   ],
+   "exon_number": 8,
+   "intron_number": null
+  },
+  "MEI0041": {
+   "id": "MEI0041",
+   "gene": "A4GNT",
+   "mei_class": "SVA",
+   "pmids": [
+    "26929209"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0042": {
+   "id": "MEI0042",
+   "gene": "ABCD1",
+   "mei_class": "Alu",
+   "pmids": [
+    "11968085"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0043": {
+   "id": "MEI0043",
+   "gene": "ABCD1",
+   "mei_class": "Alu",
+   "pmids": [
+    "11968085"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0044": {
+   "id": "MEI0044",
+   "gene": "ABHD5",
+   "mei_class": "L1",
+   "pmids": [
+    "21332462"
+   ],
+   "exon_number": null,
+   "intron_number": 3
+  },
+  "MEI0045": {
+   "id": "MEI0045",
+   "gene": "AGA",
+   "mei_class": "polyA_only",
+   "pmids": [
+    "7795599"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0046": {
+   "id": "MEI0046",
+   "gene": "ALMS1",
+   "mei_class": "Alu",
+   "pmids": [
+    "21877133"
+   ],
+   "exon_number": 16,
+   "intron_number": null
+  },
+  "MEI0047": {
+   "id": "MEI0047",
+   "gene": "ALMS1",
+   "mei_class": "Alu",
+   "pmids": [
+    "21877133"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0048": {
+   "id": "MEI0048",
+   "gene": "ALMS1",
+   "mei_class": "L1",
+   "pmids": [
+    "40498041"
+   ],
+   "exon_number": 8,
+   "intron_number": null
+  },
+  "MEI0049": {
+   "id": "MEI0049",
+   "gene": "AP3B1",
+   "mei_class": "SVA",
+   "pmids": [
+    "42432877"
+   ],
+   "exon_number": 7,
+   "intron_number": 7
+  },
+  "MEI0050": {
+   "id": "MEI0050",
+   "gene": "APC",
+   "mei_class": "Alu",
+   "pmids": [
+    "10077730"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0051": {
+   "id": "MEI0051",
+   "gene": "APC",
+   "mei_class": "Alu",
+   "pmids": [
+    "10077730"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0052": {
+   "id": "MEI0052",
+   "gene": "APC",
+   "mei_class": "Alu",
+   "pmids": [
+    "10982189"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0053": {
+   "id": "MEI0053",
+   "gene": "APC",
+   "mei_class": "SVA",
+   "pmids": [
+    "33807868"
+   ],
+   "exon_number": 12,
+   "intron_number": null
+  },
+  "MEI0054": {
+   "id": "MEI0054",
+   "gene": "APC",
+   "mei_class": "L1",
+   "pmids": [
+    "37853102"
+   ],
+   "exon_number": 16,
+   "intron_number": null
+  },
+  "MEI0055": {
+   "id": "MEI0055",
+   "gene": "APC",
+   "mei_class": "SVA",
+   "pmids": [
+    "38368425"
+   ],
+   "exon_number": null,
+   "intron_number": 9
+  },
+  "MEI0056": {
+   "id": "MEI0056",
+   "gene": "APC",
+   "mei_class": "SVA",
+   "pmids": [
+    "38368425"
+   ],
+   "exon_number": null,
+   "intron_number": 8
+  },
+  "MEI0057": {
+   "id": "MEI0057",
+   "gene": "APC",
+   "mei_class": "L1",
+   "pmids": [
+    "40180948"
+   ],
+   "exon_number": null,
+   "intron_number": 7
+  },
+  "MEI0058": {
+   "id": "MEI0058",
+   "gene": "APC",
+   "mei_class": "L1",
+   "pmids": [
+    "41840221"
+   ],
+   "exon_number": 16,
+   "intron_number": null
+  },
+  "MEI0059": {
+   "id": "MEI0059",
+   "gene": "APOB",
+   "mei_class": "Alu",
+   "pmids": [
+    "39586577"
+   ],
+   "exon_number": 3,
+   "intron_number": null
+  },
+  "MEI0060": {
+   "id": "MEI0060",
+   "gene": "AR",
+   "mei_class": "L1",
+   "pmids": [
+    "31393562"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0061": {
+   "id": "MEI0061",
+   "gene": "AR",
+   "mei_class": "L1",
+   "pmids": [
+    "39009627"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0062": {
+   "id": "MEI0062",
+   "gene": "ARID2",
+   "mei_class": "L1",
+   "pmids": [
+    "31604926"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0063": {
+   "id": "MEI0063",
+   "gene": "ASPA",
+   "mei_class": "SVA",
+   "pmids": [
+    "40257001"
+   ],
+   "exon_number": null,
+   "intron_number": 4
+  },
+  "MEI0064": {
+   "id": "MEI0064",
+   "gene": "ATM",
+   "mei_class": "Alu",
+   "pmids": [
+    "27158268"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0065": {
+   "id": "MEI0065",
+   "gene": "ATM",
+   "mei_class": "L1",
+   "pmids": [
+    "31965078"
+   ],
+   "exon_number": 3,
+   "intron_number": null
+  },
+  "MEI0066": {
+   "id": "MEI0066",
+   "gene": "ATM",
+   "mei_class": "Alu",
+   "pmids": [
+    "40225144"
+   ],
+   "exon_number": 7,
+   "intron_number": 54
+  },
+  "MEI0067": {
+   "id": "MEI0067",
+   "gene": "ATM",
+   "mei_class": "Alu",
+   "pmids": [
+    "41840221"
+   ],
+   "exon_number": 5,
+   "intron_number": null
+  },
+  "MEI0068": {
+   "id": "MEI0068",
+   "gene": "ATP7A",
+   "mei_class": "Alu",
+   "pmids": [
+    "17178205"
+   ],
+   "exon_number": 9,
+   "intron_number": null
+  },
+  "MEI0069": {
+   "id": "MEI0069",
+   "gene": "ATP7A",
+   "mei_class": "Alu",
+   "pmids": [
+    "17178205"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0070": {
+   "id": "MEI0070",
+   "gene": "ATP7A",
+   "mei_class": "SVA",
+   "pmids": [
+    "38960580"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0071": {
+   "id": "MEI0071",
+   "gene": "ATP7A",
+   "mei_class": "processed_pseudogene",
+   "pmids": [
+    "41393994"
+   ],
+   "exon_number": 3,
+   "intron_number": null
+  },
+  "MEI0072": {
+   "id": "MEI0072",
+   "gene": "AVPR2",
+   "mei_class": "L1",
+   "pmids": [
+    "37853102"
+   ],
+   "exon_number": 2,
+   "intron_number": null
+  },
+  "MEI0073": {
+   "id": "MEI0073",
+   "gene": "BBS1",
+   "mei_class": "SVA",
+   "pmids": [
+    "30484961"
+   ],
+   "exon_number": 13,
+   "intron_number": null
+  },
+  "MEI0074": {
+   "id": "MEI0074",
+   "gene": "BBS1",
+   "mei_class": "SVA",
+   "pmids": [
+    "33169370"
+   ],
+   "exon_number": 13,
+   "intron_number": null
+  },
+  "MEI0075": {
+   "id": "MEI0075",
+   "gene": "BCHE",
+   "mei_class": "Alu",
+   "pmids": [
+    "1662391"
+   ],
+   "exon_number": 2,
+   "intron_number": null
+  },
+  "MEI0076": {
+   "id": "MEI0076",
+   "gene": "BCHE",
+   "mei_class": "Alu",
+   "pmids": [
+    "1662391"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0077": {
+   "id": "MEI0077",
+   "gene": "BMPR2",
+   "mei_class": "Alu",
+   "pmids": [
+    "24621962"
+   ],
+   "exon_number": 1,
+   "intron_number": 5
+  },
+  "MEI0078": {
+   "id": "MEI0078",
+   "gene": "BRCA1",
+   "mei_class": "Alu",
+   "pmids": [
+    "16088935"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0079": {
+   "id": "MEI0079",
+   "gene": "BRCA1",
+   "mei_class": "Alu",
+   "pmids": [
+    "23223007"
+   ],
+   "exon_number": 2,
+   "intron_number": null
+  },
+  "MEI0080": {
+   "id": "MEI0080",
+   "gene": "BRCA1",
+   "mei_class": "Alu",
+   "pmids": [
+    "27158268"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0081": {
+   "id": "MEI0081",
+   "gene": "BRCA1",
+   "mei_class": "Alu",
+   "pmids": [
+    "34828342"
+   ],
+   "exon_number": 14,
+   "intron_number": null
+  },
+  "MEI0082": {
+   "id": "MEI0082",
+   "gene": "BRCA2",
+   "mei_class": "Alu",
+   "pmids": [
+    "8640237"
+   ],
+   "exon_number": 22,
+   "intron_number": null
+  },
+  "MEI0083": {
+   "id": "MEI0083",
+   "gene": "BRCA2",
+   "mei_class": "polyA_only",
+   "pmids": [
+    "11284040"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0084": {
+   "id": "MEI0084",
+   "gene": "BRCA2",
+   "mei_class": "Alu",
+   "pmids": [
+    "27158268"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0085": {
+   "id": "MEI0085",
+   "gene": "BRCA2",
+   "mei_class": "Alu",
+   "pmids": [
+    "27158268"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0086": {
+   "id": "MEI0086",
+   "gene": "BRCA2",
+   "mei_class": "Alu",
+   "pmids": [
+    "27158268"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0087": {
+   "id": "MEI0087",
+   "gene": "BRCA2",
+   "mei_class": "Alu",
+   "pmids": [
+    "27158268"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0088": {
+   "id": "MEI0088",
+   "gene": "BRCA2",
+   "mei_class": "Alu",
+   "pmids": [
+    "27158268"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0089": {
+   "id": "MEI0089",
+   "gene": "BRCA2",
+   "mei_class": "Alu",
+   "pmids": [
+    "27158268"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0090": {
+   "id": "MEI0090",
+   "gene": "BRCA2",
+   "mei_class": "Alu",
+   "pmids": [
+    "27158268"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0091": {
+   "id": "MEI0091",
+   "gene": "BRCA2",
+   "mei_class": "Alu",
+   "pmids": [
+    "27158268"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0092": {
+   "id": "MEI0092",
+   "gene": "BRCA2",
+   "mei_class": "SVA",
+   "pmids": [
+    "32884827"
+   ],
+   "exon_number": 17,
+   "intron_number": null
+  },
+  "MEI0093": {
+   "id": "MEI0093",
+   "gene": "BRCA2",
+   "mei_class": "Alu",
+   "pmids": [
+    "37853102"
+   ],
+   "exon_number": 25,
+   "intron_number": null
+  },
+  "MEI0094": {
+   "id": "MEI0094",
+   "gene": "BRCA2",
+   "mei_class": "Alu",
+   "pmids": [
+    "41840221"
+   ],
+   "exon_number": 11,
+   "intron_number": null
+  },
+  "MEI0095": {
+   "id": "MEI0095",
+   "gene": "BTK",
+   "mei_class": "unknown",
+   "pmids": [
+    "9884350"
+   ],
+   "exon_number": null,
+   "intron_number": 9
+  },
+  "MEI0096": {
+   "id": "MEI0096",
+   "gene": "BTK",
+   "mei_class": "SVA",
+   "pmids": [
+    "9884350"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0097": {
+   "id": "MEI0097",
+   "gene": "BTK",
+   "mei_class": "SVA",
+   "pmids": [
+    "15712380"
+   ],
+   "exon_number": 9,
+   "intron_number": null
+  },
+  "MEI0098": {
+   "id": "MEI0098",
+   "gene": "BTK",
+   "mei_class": "Alu",
+   "pmids": [
+    "15712380"
+   ],
+   "exon_number": 9,
+   "intron_number": null
+  },
+  "MEI0099": {
+   "id": "MEI0099",
+   "gene": "BUB1B",
+   "mei_class": "SVA",
+   "pmids": [
+    "38102195"
+   ],
+   "exon_number": null,
+   "intron_number": 2
+  },
+  "MEI0100": {
+   "id": "MEI0100",
+   "gene": "CAPN3",
+   "mei_class": "Alu",
+   "pmids": [
+    "22158424"
+   ],
+   "exon_number": 1,
+   "intron_number": 7
+  },
+  "MEI0101": {
+   "id": "MEI0101",
+   "gene": "CASR",
+   "mei_class": "Alu",
+   "pmids": [
+    "7717399"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0102": {
+   "id": "MEI0102",
+   "gene": "CC2D2A",
+   "mei_class": "Alu",
+   "pmids": [
+    "37853102"
+   ],
+   "exon_number": 11,
+   "intron_number": null
+  },
+  "MEI0103": {
+   "id": "MEI0103",
+   "gene": "CD40LG",
+   "mei_class": "Alu",
+   "pmids": [
+    "17146684"
+   ],
+   "exon_number": 1,
+   "intron_number": null
+  },
+  "MEI0104": {
+   "id": "MEI0104",
+   "gene": "CFAP251",
+   "mei_class": "SVA",
+   "pmids": [
+    "30122540"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0105": {
+   "id": "MEI0105",
+   "gene": "CFTR",
+   "mei_class": "Alu",
+   "pmids": [
+    "17531547"
+   ],
+   "exon_number": 16,
+   "intron_number": null
+  },
+  "MEI0106": {
+   "id": "MEI0106",
+   "gene": "CFTR",
+   "mei_class": "Alu",
+   "pmids": [
+    "17531547"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0107": {
+   "id": "MEI0107",
+   "gene": "CFTR",
+   "mei_class": "Alu",
+   "pmids": [
+    "38580140"
+   ],
+   "exon_number": 15,
+   "intron_number": null
+  },
+  "MEI0108": {
+   "id": "MEI0108",
+   "gene": "CHD7",
+   "mei_class": "Alu",
+   "pmids": [
+    "17334995"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0109": {
+   "id": "MEI0109",
+   "gene": "CHD8",
+   "mei_class": "Alu",
+   "pmids": [
+    "31965078"
+   ],
+   "exon_number": 31,
+   "intron_number": null
+  },
+  "MEI0110": {
+   "id": "MEI0110",
+   "gene": "CHM",
+   "mei_class": "Alu",
+   "pmids": [
+    "30341801"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0111": {
+   "id": "MEI0111",
+   "gene": "CHM",
+   "mei_class": "SVA",
+   "pmids": [
+    "32441177"
+   ],
+   "exon_number": 2,
+   "intron_number": null
+  },
+  "MEI0112": {
+   "id": "MEI0112",
+   "gene": "CLCN5",
+   "mei_class": "Alu",
+   "pmids": [
+    "14569459"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0113": {
+   "id": "MEI0113",
+   "gene": "COL4A1",
+   "mei_class": "Alu",
+   "pmids": [
+    "37582654"
+   ],
+   "exon_number": null,
+   "intron_number": 16
+  },
+  "MEI0114": {
+   "id": "MEI0114",
+   "gene": "COL4A6",
+   "mei_class": "polyA_only",
+   "pmids": [
+    "9915944"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0115": {
+   "id": "MEI0115",
+   "gene": "COL6A2",
+   "mei_class": "Alu",
+   "pmids": [
+    "37853102"
+   ],
+   "exon_number": 10,
+   "intron_number": null
+  },
+  "MEI0116": {
+   "id": "MEI0116",
+   "gene": "CPLANE1",
+   "mei_class": "Alu",
+   "pmids": [
+    "42732008"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0117": {
+   "id": "MEI0117",
+   "gene": "CRB1",
+   "mei_class": "Alu",
+   "pmids": [
+    "10508521"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0118": {
+   "id": "MEI0118",
+   "gene": "CSDE1",
+   "mei_class": "Alu",
+   "pmids": [
+    "34838103"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0119": {
+   "id": "MEI0119",
+   "gene": "CTRC",
+   "mei_class": "Alu",
+   "pmids": [
+    "23721890"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0120": {
+   "id": "MEI0120",
+   "gene": "CTSK",
+   "mei_class": "Alu",
+   "pmids": [
+    "24767306"
+   ],
+   "exon_number": null,
+   "intron_number": 7
+  },
+  "MEI0121": {
+   "id": "MEI0121",
+   "gene": "CYBB",
+   "mei_class": "L1",
+   "pmids": [
+    "9618766"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0122": {
+   "id": "MEI0122",
+   "gene": "CYBB",
+   "mei_class": "L1",
+   "pmids": [
+    "10980575"
+   ],
+   "exon_number": null,
+   "intron_number": 5
+  },
+  "MEI0123": {
+   "id": "MEI0123",
+   "gene": "CYBB",
+   "mei_class": "L1",
+   "pmids": [
+    "12094329"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0124": {
+   "id": "MEI0124",
+   "gene": "CYBB",
+   "mei_class": "processed_pseudogene",
+   "pmids": [
+    "24478191"
+   ],
+   "exon_number": null,
+   "intron_number": 1
+  },
+  "MEI0125": {
+   "id": "MEI0125",
+   "gene": "CYBB",
+   "mei_class": "L1",
+   "pmids": [
+    "35997928"
+   ],
+   "exon_number": null,
+   "intron_number": 3
+  },
+  "MEI0126": {
+   "id": "MEI0126",
+   "gene": "DEPDC5",
+   "mei_class": "Alu",
+   "pmids": [
+    "31965078"
+   ],
+   "exon_number": 30,
+   "intron_number": null
+  },
+  "MEI0127": {
+   "id": "MEI0127",
+   "gene": "DICER1",
+   "mei_class": "Alu",
+   "pmids": [
+    "41916722"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0128": {
+   "id": "MEI0128",
+   "gene": "DMD",
+   "mei_class": "L1",
+   "pmids": [
+    "7920631"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0129": {
+   "id": "MEI0129",
+   "gene": "DMD",
+   "mei_class": "L1",
+   "pmids": [
+    "9618170"
+   ],
+   "exon_number": 1,
+   "intron_number": null
+  },
+  "MEI0130": {
+   "id": "MEI0130",
+   "gene": "DMD",
+   "mei_class": "L1",
+   "pmids": [
+    "16808900"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0131": {
+   "id": "MEI0131",
+   "gene": "DMD",
+   "mei_class": "L1",
+   "pmids": [
+    "20485447"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0132": {
+   "id": "MEI0132",
+   "gene": "DMD",
+   "mei_class": "L1",
+   "pmids": [
+    "20827276"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0133": {
+   "id": "MEI0133",
+   "gene": "DMD",
+   "mei_class": "L1",
+   "pmids": [
+    "36092865"
+   ],
+   "exon_number": 1,
+   "intron_number": 1
+  },
+  "MEI0134": {
+   "id": "MEI0134",
+   "gene": "DMD",
+   "mei_class": "Alu",
+   "pmids": [
+    "37298193"
+   ],
+   "exon_number": 15,
+   "intron_number": null
+  },
+  "MEI0135": {
+   "id": "MEI0135",
+   "gene": "DMD",
+   "mei_class": "Alu",
+   "pmids": [
+    "39016090"
+   ],
+   "exon_number": 59,
+   "intron_number": null
+  },
+  "MEI0136": {
+   "id": "MEI0136",
+   "gene": "EBP",
+   "mei_class": "SVA",
+   "pmids": [
+    "34999728"
+   ],
+   "exon_number": 2,
+   "intron_number": null
+  },
+  "MEI0137": {
+   "id": "MEI0137",
+   "gene": "EFTUD2",
+   "mei_class": "Alu",
+   "pmids": [
+    "31965078"
+   ],
+   "exon_number": 14,
+   "intron_number": null
+  },
+  "MEI0138": {
+   "id": "MEI0138",
+   "gene": "ETFB",
+   "mei_class": "Alu",
+   "pmids": [
+    "31965078"
+   ],
+   "exon_number": 4,
+   "intron_number": null
+  },
+  "MEI0139": {
+   "id": "MEI0139",
+   "gene": "EYA1",
+   "mei_class": "Alu",
+   "pmids": [
+    "9361030"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0140": {
+   "id": "MEI0140",
+   "gene": "EYA1",
+   "mei_class": "L1",
+   "pmids": [
+    "20130917"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0141": {
+   "id": "MEI0141",
+   "gene": "EYS",
+   "mei_class": "Alu",
+   "pmids": [
+    "38704576"
+   ],
+   "exon_number": 43,
+   "intron_number": null
+  },
+  "MEI0142": {
+   "id": "MEI0142",
+   "gene": "F8",
+   "mei_class": "L1",
+   "pmids": [
+    "9609225"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0143": {
+   "id": "MEI0143",
+   "gene": "F8",
+   "mei_class": "Alu",
+   "pmids": [
+    "11713379"
+   ],
+   "exon_number": 14,
+   "intron_number": null
+  },
+  "MEI0144": {
+   "id": "MEI0144",
+   "gene": "F8",
+   "mei_class": "Alu",
+   "pmids": [
+    "12884004"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0145": {
+   "id": "MEI0145",
+   "gene": "F8",
+   "mei_class": "Alu",
+   "pmids": [
+    "18691168"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0146": {
+   "id": "MEI0146",
+   "gene": "F8",
+   "mei_class": "unknown",
+   "pmids": [
+    "38484912"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0147": {
+   "id": "MEI0147",
+   "gene": "F9",
+   "mei_class": "Alu",
+   "pmids": [
+    "8069649"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0148": {
+   "id": "MEI0148",
+   "gene": "F9",
+   "mei_class": "Alu",
+   "pmids": [
+    "10679958"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0149": {
+   "id": "MEI0149",
+   "gene": "F9",
+   "mei_class": "L1",
+   "pmids": [
+    "15086324"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0150": {
+   "id": "MEI0150",
+   "gene": "F9",
+   "mei_class": "SVA",
+   "pmids": [
+    "25739383"
+   ],
+   "exon_number": 6,
+   "intron_number": null
+  },
+  "MEI0151": {
+   "id": "MEI0151",
+   "gene": "F9",
+   "mei_class": "SVA",
+   "pmids": [
+    "25739383"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0152": {
+   "id": "MEI0152",
+   "gene": "FAS",
+   "mei_class": "Alu",
+   "pmids": [
+    "12215906"
+   ],
+   "exon_number": null,
+   "intron_number": 7
+  },
+  "MEI0153": {
+   "id": "MEI0153",
+   "gene": "FAS",
+   "mei_class": "Alu",
+   "pmids": [
+    "12215906"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0154": {
+   "id": "MEI0154",
+   "gene": "FBN1",
+   "mei_class": "SVA",
+   "pmids": [
+    "28331219"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0155": {
+   "id": "MEI0155",
+   "gene": "FBN1",
+   "mei_class": "Alu",
+   "pmids": [
+    "37264881"
+   ],
+   "exon_number": 54,
+   "intron_number": null
+  },
+  "MEI0156": {
+   "id": "MEI0156",
+   "gene": "FBP1",
+   "mei_class": "Alu",
+   "pmids": [
+    "28599390"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0157": {
+   "id": "MEI0157",
+   "gene": "FERMT1",
+   "mei_class": "unknown",
+   "pmids": [
+    "36450799"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0158": {
+   "id": "MEI0158",
+   "gene": "FGFR1",
+   "mei_class": "Alu",
+   "pmids": [
+    "40607221"
+   ],
+   "exon_number": 9,
+   "intron_number": null
+  },
+  "MEI0159": {
+   "id": "MEI0159",
+   "gene": "FGFR2",
+   "mei_class": "Alu",
+   "pmids": [
+    "9973282"
+   ],
+   "exon_number": 9,
+   "intron_number": null
+  },
+  "MEI0160": {
+   "id": "MEI0160",
+   "gene": "FGFR2",
+   "mei_class": "Alu",
+   "pmids": [
+    "9973282"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0161": {
+   "id": "MEI0161",
+   "gene": "FGFR2",
+   "mei_class": "Alu",
+   "pmids": [
+    "9973282"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0162": {
+   "id": "MEI0162",
+   "gene": "FGFR2",
+   "mei_class": "Alu",
+   "pmids": [
+    "18726952"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0163": {
+   "id": "MEI0163",
+   "gene": "FGFR2",
+   "mei_class": "Alu",
+   "pmids": [
+    "38318288"
+   ],
+   "exon_number": 2,
+   "intron_number": 7
+  },
+  "MEI0164": {
+   "id": "MEI0164",
+   "gene": "FKTN",
+   "mei_class": "L1",
+   "pmids": [
+    "10545611"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0165": {
+   "id": "MEI0165",
+   "gene": "FKTN",
+   "mei_class": "unknown",
+   "pmids": [
+    "23453855"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0166": {
+   "id": "MEI0166",
+   "gene": "FKTN",
+   "mei_class": "unknown",
+   "pmids": [
+    "37087885"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0167": {
+   "id": "MEI0167",
+   "gene": "GAA",
+   "mei_class": "SVA",
+   "pmids": [
+    "34639227"
+   ],
+   "exon_number": null,
+   "intron_number": 15
+  },
+  "MEI0168": {
+   "id": "MEI0168",
+   "gene": "GK",
+   "mei_class": "Alu",
+   "pmids": [
+    "10737976"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0169": {
+   "id": "MEI0169",
+   "gene": "GLA",
+   "mei_class": "Alu",
+   "pmids": [
+    "31329829"
+   ],
+   "exon_number": 7,
+   "intron_number": null
+  },
+  "MEI0170": {
+   "id": "MEI0170",
+   "gene": "GNAS",
+   "mei_class": "SVA",
+   "pmids": [
+    "35859320"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0171": {
+   "id": "MEI0171",
+   "gene": "GNE",
+   "mei_class": "unknown",
+   "pmids": [
+    "30390020"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0172": {
+   "id": "MEI0172",
+   "gene": "GNPTAB",
+   "mei_class": "Alu",
+   "pmids": [
+    "17964840"
+   ],
+   "exon_number": 5,
+   "intron_number": null
+  },
+  "MEI0173": {
+   "id": "MEI0173",
+   "gene": "GRIN2B",
+   "mei_class": "Alu",
+   "pmids": [
+    "36450799"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0174": {
+   "id": "MEI0174",
+   "gene": "GYS2",
+   "mei_class": "L1",
+   "pmids": [
+    "41588148"
+   ],
+   "exon_number": 10,
+   "intron_number": null
+  },
+  "MEI0175": {
+   "id": "MEI0175",
+   "gene": "HESX1",
+   "mei_class": "Alu",
+   "pmids": [
+    "15841484"
+   ],
+   "exon_number": 3,
+   "intron_number": null
+  },
+  "MEI0176": {
+   "id": "MEI0176",
+   "gene": "HMBS",
+   "mei_class": "Alu",
+   "pmids": [
+    "10408772"
+   ],
+   "exon_number": 5,
+   "intron_number": null
+  },
+  "MEI0177": {
+   "id": "MEI0177",
+   "gene": "HMBS",
+   "mei_class": "Alu",
+   "pmids": [
+    "10408772"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0178": {
+   "id": "MEI0178",
+   "gene": "IDS",
+   "mei_class": "Alu",
+   "pmids": [
+    "12579417"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0179": {
+   "id": "MEI0179",
+   "gene": "IFNGR1",
+   "mei_class": "Alu",
+   "pmids": [
+    "31377971"
+   ],
+   "exon_number": 3,
+   "intron_number": null
+  },
+  "MEI0180": {
+   "id": "MEI0180",
+   "gene": "IL2RG",
+   "mei_class": "Alu",
+   "pmids": [
+    "27158268"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0181": {
+   "id": "MEI0181",
+   "gene": "IQCB1",
+   "mei_class": "L1",
+   "pmids": [
+    "40263280"
+   ],
+   "exon_number": null,
+   "intron_number": 6
+  },
+  "MEI0182": {
+   "id": "MEI0182",
+   "gene": "ITGB3",
+   "mei_class": "SVA",
+   "pmids": [
+    "37604334"
+   ],
+   "exon_number": null,
+   "intron_number": 11
+  },
+  "MEI0183": {
+   "id": "MEI0183",
+   "gene": "KARS1",
+   "mei_class": "SVA",
+   "pmids": [
+    "37869996"
+   ],
+   "exon_number": 7,
+   "intron_number": null
+  },
+  "MEI0184": {
+   "id": "MEI0184",
+   "gene": "KMT2D",
+   "mei_class": "Alu",
+   "pmids": [
+    "40301896"
+   ],
+   "exon_number": 36,
+   "intron_number": null
+  },
+  "MEI0185": {
+   "id": "MEI0185",
+   "gene": "LDLR",
+   "mei_class": "L1",
+   "pmids": [
+    "38433605"
+   ],
+   "exon_number": 7,
+   "intron_number": null
+  },
+  "MEI0186": {
+   "id": "MEI0186",
+   "gene": "LDLR",
+   "mei_class": "Alu",
+   "pmids": [
+    "39843294"
+   ],
+   "exon_number": 17,
+   "intron_number": null
+  },
+  "MEI0187": {
+   "id": "MEI0187",
+   "gene": "LPL",
+   "mei_class": "Alu",
+   "pmids": [
+    "17706445"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0188": {
+   "id": "MEI0188",
+   "gene": "LTBP1",
+   "mei_class": "L1",
+   "pmids": [
+    "38699361"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0189": {
+   "id": "MEI0189",
+   "gene": "MAK",
+   "mei_class": "Alu",
+   "pmids": [
+    "21825139"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0190": {
+   "id": "MEI0190",
+   "gene": "MAK",
+   "mei_class": "Alu",
+   "pmids": [
+    "29276052"
+   ],
+   "exon_number": 10,
+   "intron_number": null
+  },
+  "MEI0191": {
+   "id": "MEI0191",
+   "gene": "MAK",
+   "mei_class": "Alu",
+   "pmids": [
+    "31965078"
+   ],
+   "exon_number": 10,
+   "intron_number": null
+  },
+  "MEI0192": {
+   "id": "MEI0192",
+   "gene": "MAN2B1",
+   "mei_class": "Alu",
+   "pmids": [
+    "38192009"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0193": {
+   "id": "MEI0193",
+   "gene": "MATR3",
+   "mei_class": "processed_pseudogene",
+   "pmids": [
+    "33408686"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0194": {
+   "id": "MEI0194",
+   "gene": "MCC",
+   "mei_class": "L1",
+   "pmids": [
+    "23540693"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0195": {
+   "id": "MEI0195",
+   "gene": "MCC",
+   "mei_class": "Alu",
+   "pmids": [
+    "23540693"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0196": {
+   "id": "MEI0196",
+   "gene": "MEF2C",
+   "mei_class": "L1",
+   "pmids": [
+    "31604926"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0197": {
+   "id": "MEI0197",
+   "gene": "MLH1",
+   "mei_class": "L1",
+   "pmids": [
+    "27158268"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0198": {
+   "id": "MEI0198",
+   "gene": "MLH1",
+   "mei_class": "L1",
+   "pmids": [
+    "27158268"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0199": {
+   "id": "MEI0199",
+   "gene": "MLH1",
+   "mei_class": "Alu",
+   "pmids": [
+    "33058565"
+   ],
+   "exon_number": 1,
+   "intron_number": 7
+  },
+  "MEI0200": {
+   "id": "MEI0200",
+   "gene": "MSH2",
+   "mei_class": "Alu",
+   "pmids": [
+    "15340835"
+   ],
+   "exon_number": 6,
+   "intron_number": null
+  },
+  "MEI0201": {
+   "id": "MEI0201",
+   "gene": "MSH2",
+   "mei_class": "Alu",
+   "pmids": [
+    "15340835"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0202": {
+   "id": "MEI0202",
+   "gene": "MSH2",
+   "mei_class": "Alu",
+   "pmids": [
+    "27158268"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0203": {
+   "id": "MEI0203",
+   "gene": "MSH2",
+   "mei_class": "Alu",
+   "pmids": [
+    "29967336"
+   ],
+   "exon_number": 8,
+   "intron_number": null
+  },
+  "MEI0204": {
+   "id": "MEI0204",
+   "gene": "MSH2",
+   "mei_class": "SVA",
+   "pmids": [
+    "33822432"
+   ],
+   "exon_number": 12,
+   "intron_number": null
+  },
+  "MEI0205": {
+   "id": "MEI0205",
+   "gene": "MSH2",
+   "mei_class": "SVA",
+   "pmids": [
+    "33293698"
+   ],
+   "exon_number": 3,
+   "intron_number": null
+  },
+  "MEI0206": {
+   "id": "MEI0206",
+   "gene": "MSH2",
+   "mei_class": "SVA",
+   "pmids": [
+    "42423801"
+   ],
+   "exon_number": 12,
+   "intron_number": null
+  },
+  "MEI0207": {
+   "id": "MEI0207",
+   "gene": "MSH4",
+   "mei_class": "Alu",
+   "pmids": [
+    "42380125"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0208": {
+   "id": "MEI0208",
+   "gene": "MSH6",
+   "mei_class": "SVA",
+   "pmids": [
+    "33293698"
+   ],
+   "exon_number": 5,
+   "intron_number": null
+  },
+  "MEI0209": {
+   "id": "MEI0209",
+   "gene": "MTOR",
+   "mei_class": "Alu",
+   "pmids": [
+    "42380125"
+   ],
+   "exon_number": null,
+   "intron_number": 6
+  },
+  "MEI0210": {
+   "id": "MEI0210",
+   "gene": "NDUFV2",
+   "mei_class": "Alu",
+   "pmids": [
+    "34405929"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0211": {
+   "id": "MEI0211",
+   "gene": "NEK1",
+   "mei_class": "Alu",
+   "pmids": [
+    "38699361"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0212": {
+   "id": "MEI0212",
+   "gene": "NF1",
+   "mei_class": "Alu",
+   "pmids": [
+    "19910506"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0213": {
+   "id": "MEI0213",
+   "gene": "NF1",
+   "mei_class": "Alu",
+   "pmids": [
+    "22125493"
+   ],
+   "exon_number": 2,
+   "intron_number": 10
+  },
+  "MEI0214": {
+   "id": "MEI0214",
+   "gene": "NF1",
+   "mei_class": "Alu",
+   "pmids": [
+    "22125493"
+   ],
+   "exon_number": 6,
+   "intron_number": null
+  },
+  "MEI0215": {
+   "id": "MEI0215",
+   "gene": "NF1",
+   "mei_class": "Alu",
+   "pmids": [
+    "22125493"
+   ],
+   "exon_number": 21,
+   "intron_number": null
+  },
+  "MEI0216": {
+   "id": "MEI0216",
+   "gene": "NF1",
+   "mei_class": "Alu",
+   "pmids": [
+    "22125493"
+   ],
+   "exon_number": 22,
+   "intron_number": null
+  },
+  "MEI0217": {
+   "id": "MEI0217",
+   "gene": "NF1",
+   "mei_class": "Alu",
+   "pmids": [
+    "22125493"
+   ],
+   "exon_number": 33,
+   "intron_number": null
+  },
+  "MEI0218": {
+   "id": "MEI0218",
+   "gene": "NF1",
+   "mei_class": "Alu",
+   "pmids": [
+    "22125493"
+   ],
+   "exon_number": 47,
+   "intron_number": null
+  },
+  "MEI0219": {
+   "id": "MEI0219",
+   "gene": "NF1",
+   "mei_class": "Alu",
+   "pmids": [
+    "22125493"
+   ],
+   "exon_number": 12,
+   "intron_number": null
+  },
+  "MEI0220": {
+   "id": "MEI0220",
+   "gene": "NF1",
+   "mei_class": "Alu",
+   "pmids": [
+    "22125493"
+   ],
+   "exon_number": 2,
+   "intron_number": 14
+  },
+  "MEI0221": {
+   "id": "MEI0221",
+   "gene": "NF1",
+   "mei_class": "Alu",
+   "pmids": [
+    "22125493"
+   ],
+   "exon_number": 21,
+   "intron_number": null
+  },
+  "MEI0222": {
+   "id": "MEI0222",
+   "gene": "NF1",
+   "mei_class": "Alu",
+   "pmids": [
+    "22125493"
+   ],
+   "exon_number": 22,
+   "intron_number": null
+  },
+  "MEI0223": {
+   "id": "MEI0223",
+   "gene": "NF1",
+   "mei_class": "Alu",
+   "pmids": [
+    "22125493"
+   ],
+   "exon_number": 33,
+   "intron_number": null
+  },
+  "MEI0224": {
+   "id": "MEI0224",
+   "gene": "NF1",
+   "mei_class": "Alu",
+   "pmids": [
+    "22125493"
+   ],
+   "exon_number": 7,
+   "intron_number": 48
+  },
+  "MEI0225": {
+   "id": "MEI0225",
+   "gene": "NF1",
+   "mei_class": "polyA_only",
+   "pmids": [
+    "22125493"
+   ],
+   "exon_number": 25,
+   "intron_number": null
+  },
+  "MEI0226": {
+   "id": "MEI0226",
+   "gene": "NF1",
+   "mei_class": "L1",
+   "pmids": [
+    "22125493"
+   ],
+   "exon_number": 23,
+   "intron_number": null
+  },
+  "MEI0227": {
+   "id": "MEI0227",
+   "gene": "NF1",
+   "mei_class": "L1",
+   "pmids": [
+    "22125493"
+   ],
+   "exon_number": 39,
+   "intron_number": null
+  },
+  "MEI0228": {
+   "id": "MEI0228",
+   "gene": "NF1",
+   "mei_class": "L1",
+   "pmids": [
+    "22125493"
+   ],
+   "exon_number": 2,
+   "intron_number": 9
+  },
+  "MEI0229": {
+   "id": "MEI0229",
+   "gene": "NF1",
+   "mei_class": "L1",
+   "pmids": [
+    "22125493"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0230": {
+   "id": "MEI0230",
+   "gene": "NF1",
+   "mei_class": "SVA",
+   "pmids": [
+    "24958239"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0231": {
+   "id": "MEI0231",
+   "gene": "NF1",
+   "mei_class": "SVA",
+   "pmids": [
+    "24958239"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0232": {
+   "id": "MEI0232",
+   "gene": "NF1",
+   "mei_class": "L1",
+   "pmids": [
+    "37238595"
+   ],
+   "exon_number": null,
+   "intron_number": 15
+  },
+  "MEI0233": {
+   "id": "MEI0233",
+   "gene": "NF1",
+   "mei_class": "Alu",
+   "pmids": [
+    "37506127"
+   ],
+   "exon_number": 37,
+   "intron_number": null
+  },
+  "MEI0234": {
+   "id": "MEI0234",
+   "gene": "NF1",
+   "mei_class": "Alu",
+   "pmids": [
+    "38699361"
+   ],
+   "exon_number": 24,
+   "intron_number": null
+  },
+  "MEI0235": {
+   "id": "MEI0235",
+   "gene": "NIPBL",
+   "mei_class": "Alu",
+   "pmids": [
+    "37853102"
+   ],
+   "exon_number": 6,
+   "intron_number": 26
+  },
+  "MEI0236": {
+   "id": "MEI0236",
+   "gene": "NMNAT1",
+   "mei_class": "SVA",
+   "pmids": [
+    "40251809"
+   ],
+   "exon_number": null,
+   "intron_number": 2
+  },
+  "MEI0237": {
+   "id": "MEI0237",
+   "gene": "NR5A1",
+   "mei_class": "SVA",
+   "pmids": [
+    "38131126"
+   ],
+   "exon_number": null,
+   "intron_number": 4
+  },
+  "MEI0238": {
+   "id": "MEI0238",
+   "gene": "NT5C3A",
+   "mei_class": "Alu",
+   "pmids": [
+    "16461318"
+   ],
+   "exon_number": 9,
+   "intron_number": null
+  },
+  "MEI0239": {
+   "id": "MEI0239",
+   "gene": "OCRL",
+   "mei_class": "L1",
+   "pmids": [
+    "31965078"
+   ],
+   "exon_number": 23,
+   "intron_number": null
+  },
+  "MEI0240": {
+   "id": "MEI0240",
+   "gene": "OFD1",
+   "mei_class": "Alu",
+   "pmids": [
+    "31965078"
+   ],
+   "exon_number": 6,
+   "intron_number": null
+  },
+  "MEI0241": {
+   "id": "MEI0241",
+   "gene": "OPA1",
+   "mei_class": "Alu",
+   "pmids": [
+    "20157369"
+   ],
+   "exon_number": null,
+   "intron_number": 7
+  },
+  "MEI0242": {
+   "id": "MEI0242",
+   "gene": "PALB2",
+   "mei_class": "Alu",
+   "pmids": [
+    "27158268"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0243": {
+   "id": "MEI0243",
+   "gene": "PALB2",
+   "mei_class": "Alu",
+   "pmids": [
+    "35277653"
+   ],
+   "exon_number": 9,
+   "intron_number": null
+  },
+  "MEI0244": {
+   "id": "MEI0244",
+   "gene": "PALB2",
+   "mei_class": "Alu",
+   "pmids": [
+    "41840221"
+   ],
+   "exon_number": 13,
+   "intron_number": null
+  },
+  "MEI0245": {
+   "id": "MEI0245",
+   "gene": "PARN",
+   "mei_class": "SVA",
+   "pmids": [
+    "40896794"
+   ],
+   "exon_number": null,
+   "intron_number": 20
+  },
+  "MEI0246": {
+   "id": "MEI0246",
+   "gene": "PDHX",
+   "mei_class": "L1",
+   "pmids": [
+    "17152059"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0247": {
+   "id": "MEI0247",
+   "gene": "PEX1",
+   "mei_class": "SVA",
+   "pmids": [
+    "41588148"
+   ],
+   "exon_number": null,
+   "intron_number": 8
+  },
+  "MEI0248": {
+   "id": "MEI0248",
+   "gene": "PHEX",
+   "mei_class": "L1",
+   "pmids": [
+    "42079344"
+   ],
+   "exon_number": 22,
+   "intron_number": null
+  },
+  "MEI0249": {
+   "id": "MEI0249",
+   "gene": "PKLR",
+   "mei_class": "Alu",
+   "pmids": [
+    "27158268"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0250": {
+   "id": "MEI0250",
+   "gene": "PKLR",
+   "mei_class": "Alu",
+   "pmids": [
+    "29288557"
+   ],
+   "exon_number": 6,
+   "intron_number": null
+  },
+  "MEI0251": {
+   "id": "MEI0251",
+   "gene": "PMM2",
+   "mei_class": "Alu",
+   "pmids": [
+    "17307006"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0252": {
+   "id": "MEI0252",
+   "gene": "PMS2",
+   "mei_class": "SVA",
+   "pmids": [
+    "22461402"
+   ],
+   "exon_number": null,
+   "intron_number": 7
+  },
+  "MEI0253": {
+   "id": "MEI0253",
+   "gene": "PMS2",
+   "mei_class": "SVA",
+   "pmids": [
+    "22461402"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0254": {
+   "id": "MEI0254",
+   "gene": "POLB",
+   "mei_class": "Alu",
+   "pmids": [
+    "42380125"
+   ],
+   "exon_number": null,
+   "intron_number": 2
+  },
+  "MEI0255": {
+   "id": "MEI0255",
+   "gene": "POLK",
+   "mei_class": "L1",
+   "pmids": [
+    "42380125"
+   ],
+   "exon_number": 15,
+   "intron_number": null
+  },
+  "MEI0256": {
+   "id": "MEI0256",
+   "gene": "POMT1",
+   "mei_class": "Alu",
+   "pmids": [
+    "17079174"
+   ],
+   "exon_number": 3,
+   "intron_number": null
+  },
+  "MEI0257": {
+   "id": "MEI0257",
+   "gene": "PTCH1",
+   "mei_class": "Alu",
+   "pmids": [
+    "38864234"
+   ],
+   "exon_number": 2,
+   "intron_number": null
+  },
+  "MEI0258": {
+   "id": "MEI0258",
+   "gene": "PTEN",
+   "mei_class": "Alu",
+   "pmids": [
+    "28513612"
+   ],
+   "exon_number": 5,
+   "intron_number": null
+  },
+  "MEI0259": {
+   "id": "MEI0259",
+   "gene": "PTEN",
+   "mei_class": "L1",
+   "pmids": [
+    "42685354"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0260": {
+   "id": "MEI0260",
+   "gene": "RAD52",
+   "mei_class": "SVA",
+   "pmids": [
+    "37578974"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0261": {
+   "id": "MEI0261",
+   "gene": "RB1",
+   "mei_class": "L1",
+   "pmids": [
+    "26763876"
+   ],
+   "exon_number": null,
+   "intron_number": 14
+  },
+  "MEI0262": {
+   "id": "MEI0262",
+   "gene": "RP1",
+   "mei_class": "L1",
+   "pmids": [
+    "40225919"
+   ],
+   "exon_number": 4,
+   "intron_number": null
+  },
+  "MEI0263": {
+   "id": "MEI0263",
+   "gene": "RPGRIP1",
+   "mei_class": "Alu",
+   "pmids": [
+    "37761981"
+   ],
+   "exon_number": 7,
+   "intron_number": null
+  },
+  "MEI0264": {
+   "id": "MEI0264",
+   "gene": "RPL11",
+   "mei_class": "SVA",
+   "pmids": [
+    "31965078"
+   ],
+   "exon_number": 4,
+   "intron_number": null
+  },
+  "MEI0265": {
+   "id": "MEI0265",
+   "gene": "RPS6KA3",
+   "mei_class": "L1",
+   "pmids": [
+    "14986828"
+   ],
+   "exon_number": null,
+   "intron_number": 3
+  },
+  "MEI0266": {
+   "id": "MEI0266",
+   "gene": "RPS6KA3",
+   "mei_class": "L1",
+   "pmids": [
+    "14986828"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0267": {
+   "id": "MEI0267",
+   "gene": "RREB1",
+   "mei_class": "Alu",
+   "pmids": [
+    "38699361"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0268": {
+   "id": "MEI0268",
+   "gene": "SERPINC1",
+   "mei_class": "Alu",
+   "pmids": [
+    "10823268"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0269": {
+   "id": "MEI0269",
+   "gene": "SERPINC1",
+   "mei_class": "SVA",
+   "pmids": [
+    "41861498"
+   ],
+   "exon_number": null,
+   "intron_number": 3
+  },
+  "MEI0270": {
+   "id": "MEI0270",
+   "gene": "SERPINF1",
+   "mei_class": "Alu",
+   "pmids": [
+    "23613367"
+   ],
+   "exon_number": 6,
+   "intron_number": null
+  },
+  "MEI0271": {
+   "id": "MEI0271",
+   "gene": "SERPING1",
+   "mei_class": "Alu",
+   "pmids": [
+    "2154751"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0272": {
+   "id": "MEI0272",
+   "gene": "SERPING1",
+   "mei_class": "SVA",
+   "pmids": [
+    "41896320"
+   ],
+   "exon_number": null,
+   "intron_number": 7
+  },
+  "MEI0273": {
+   "id": "MEI0273",
+   "gene": "SETD5",
+   "mei_class": "Alu",
+   "pmids": [
+    "31604926"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0274": {
+   "id": "MEI0274",
+   "gene": "SETX",
+   "mei_class": "L1",
+   "pmids": [
+    "19744353"
+   ],
+   "exon_number": 12,
+   "intron_number": null
+  },
+  "MEI0275": {
+   "id": "MEI0275",
+   "gene": "SETX",
+   "mei_class": "L1",
+   "pmids": [
+    "19744353"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0276": {
+   "id": "MEI0276",
+   "gene": "SGCE",
+   "mei_class": "L1",
+   "pmids": [
+    "41028987"
+   ],
+   "exon_number": 6,
+   "intron_number": null
+  },
+  "MEI0277": {
+   "id": "MEI0277",
+   "gene": "SLC17A8",
+   "mei_class": "Alu",
+   "pmids": [
+    "40164689"
+   ],
+   "exon_number": null,
+   "intron_number": 1
+  },
+  "MEI0278": {
+   "id": "MEI0278",
+   "gene": "SLC25A13",
+   "mei_class": "processed_pseudogene",
+   "pmids": [
+    "18392553"
+   ],
+   "exon_number": null,
+   "intron_number": 16
+  },
+  "MEI0279": {
+   "id": "MEI0279",
+   "gene": "SLC26A3",
+   "mei_class": "Alu",
+   "pmids": [
+    "31965078"
+   ],
+   "exon_number": 2,
+   "intron_number": null
+  },
+  "MEI0280": {
+   "id": "MEI0280",
+   "gene": "SLC2A1",
+   "mei_class": "L1",
+   "pmids": [
+    "41588148"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0281": {
+   "id": "MEI0281",
+   "gene": "SLCO1B3",
+   "mei_class": "L1",
+   "pmids": [
+    "32082363"
+   ],
+   "exon_number": null,
+   "intron_number": 3
+  },
+  "MEI0282": {
+   "id": "MEI0282",
+   "gene": "SLCO1B3",
+   "mei_class": "L1",
+   "pmids": [
+    "36964102"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0283": {
+   "id": "MEI0283",
+   "gene": "SMARCB1",
+   "mei_class": "SVA",
+   "pmids": [
+    "34231212"
+   ],
+   "exon_number": null,
+   "intron_number": 2
+  },
+  "MEI0284": {
+   "id": "MEI0284",
+   "gene": "SMN1",
+   "mei_class": "SVA",
+   "pmids": [
+    "36138164"
+   ],
+   "exon_number": null,
+   "intron_number": 7
+  },
+  "MEI0285": {
+   "id": "MEI0285",
+   "gene": "SOX10",
+   "mei_class": "SVA",
+   "pmids": [
+    "35691110"
+   ],
+   "exon_number": null,
+   "intron_number": 2
+  },
+  "MEI0286": {
+   "id": "MEI0286",
+   "gene": "SPG11",
+   "mei_class": "Alu",
+   "pmids": [
+    "27071356"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0287": {
+   "id": "MEI0287",
+   "gene": "SPIDR",
+   "mei_class": "L1",
+   "pmids": [
+    "42380125"
+   ],
+   "exon_number": null,
+   "intron_number": 8
+  },
+  "MEI0288": {
+   "id": "MEI0288",
+   "gene": "SPTA1",
+   "mei_class": "SVA",
+   "pmids": [
+    "8040317"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0289": {
+   "id": "MEI0289",
+   "gene": "SRCAP",
+   "mei_class": "SVA",
+   "pmids": [
+    "35768521"
+   ],
+   "exon_number": 13,
+   "intron_number": null
+  },
+  "MEI0290": {
+   "id": "MEI0290",
+   "gene": "TAF1",
+   "mei_class": "SVA",
+   "pmids": [
+    "17273961"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0291": {
+   "id": "MEI0291",
+   "gene": "TCF20",
+   "mei_class": "SVA",
+   "pmids": [
+    "42779354"
+   ],
+   "exon_number": 2,
+   "intron_number": null
+  },
+  "MEI0292": {
+   "id": "MEI0292",
+   "gene": "TCOF1",
+   "mei_class": "SVA",
+   "pmids": [
+    "41017149"
+   ],
+   "exon_number": 3,
+   "intron_number": 17
+  },
+  "MEI0293": {
+   "id": "MEI0293",
+   "gene": "TG",
+   "mei_class": "Alu",
+   "pmids": [
+    "31868128"
+   ],
+   "exon_number": 46,
+   "intron_number": null
+  },
+  "MEI0294": {
+   "id": "MEI0294",
+   "gene": "TP63",
+   "mei_class": "Alu",
+   "pmids": [
+    "42380125"
+   ],
+   "exon_number": null,
+   "intron_number": 3
+  },
+  "MEI0295": {
+   "id": "MEI0295",
+   "gene": "TRRAP",
+   "mei_class": "SVA",
+   "pmids": [
+    "38699361"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0296": {
+   "id": "MEI0296",
+   "gene": "TSC2",
+   "mei_class": "SVA",
+   "pmids": [
+    "39144255"
+   ],
+   "exon_number": 12,
+   "intron_number": null
+  },
+  "MEI0297": {
+   "id": "MEI0297",
+   "gene": "TSC2",
+   "mei_class": "Alu",
+   "pmids": [
+    "39144255"
+   ],
+   "exon_number": 5,
+   "intron_number": 31
+  },
+  "MEI0298": {
+   "id": "MEI0298",
+   "gene": "TTN",
+   "mei_class": "Alu",
+   "pmids": [
+    "37853102"
+   ],
+   "exon_number": 63,
+   "intron_number": null
+  },
+  "MEI0299": {
+   "id": "MEI0299",
+   "gene": "TTN",
+   "mei_class": "L1",
+   "pmids": [
+    "39928391"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0300": {
+   "id": "MEI0300",
+   "gene": "UNKNOWN",
+   "mei_class": "unknown",
+   "pmids": [
+    "33847015"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  },
+  "MEI0301": {
+   "id": "MEI0301",
+   "gene": "USH2A",
+   "mei_class": "Alu",
+   "pmids": [
+    "37853102"
+   ],
+   "exon_number": 45,
+   "intron_number": null
+  },
+  "MEI0302": {
+   "id": "MEI0302",
+   "gene": "VHL",
+   "mei_class": "SVA",
+   "pmids": [
+    "36905328"
+   ],
+   "exon_number": null,
+   "intron_number": 1
+  },
+  "MEI0303": {
+   "id": "MEI0303",
+   "gene": "ZEB2",
+   "mei_class": "Alu",
+   "pmids": [
+    "15121779"
+   ],
+   "exon_number": null,
+   "intron_number": null
+  }
+ }
+}

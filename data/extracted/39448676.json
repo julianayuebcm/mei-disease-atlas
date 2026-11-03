@@ -1,0 +1,46 @@
+{
+ "pmid": "39448676",
+ "cases": [
+  {
+   "case_label": "Founder AluY in RP1 exon 4 (Korean IRD patients)",
+   "gene": "RP1",
+   "gene_as_reported": null,
+   "disease": "RP1-related retinitis pigmentosa / inherited retinal disease",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": "AluY",
+   "insertion_length_bp": 328,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 6,
+   "n_families": null,
+   "ancestry_or_population": "Korean (East Asian founder)",
+   "region": "coding_exon",
+   "exon_number": 4,
+   "intron_number": null,
+   "transcript": "NM_006269",
+   "hgvs": "c.4052_4053ins328",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "The founder 328-bp AluY in the last exon (exon 4) of RP1 was found heterozygous in 6/411 Korean IRD patients, all with a second RP1 pathogenic variant in trans; it is expected to escape NMD and disrupt the last 758 amino acids. The paper highlights allele dropout causing false homozygosity of c.4196del.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "All patients with AluY were confirmed to have RP1 pathogenic variants on the paired allele.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

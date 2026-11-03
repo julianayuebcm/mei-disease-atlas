@@ -1,0 +1,51 @@
+{
+ "pmid": "28972564",
+ "cases": [
+  {
+   "case_label": "Full-length L1HS deep in DMD intron 51, partial exonization",
+   "gene": "DMD",
+   "gene_as_reported": null,
+   "disease": "Becker muscular dystrophy",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "L1",
+   "subfamily": "L1HS",
+   "insertion_length_bp": null,
+   "full_length": true,
+   "orientation_vs_gene": null,
+   "tsd": "9 bp (AAAGAATTC)",
+   "polyA": true,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 51,
+   "transcript": "NM_004006.2",
+   "hgvs": "c.7542+8951_c.7542+8952",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": 8951,
+   "mechanisms": [
+    "exonization",
+    "aberrant_splicing"
+   ],
+   "mechanism_detail": "A ~6 kb full-length L1HS deep in intron 51 activates a cryptic acceptor in intron 51 and a cryptic donor inside the L1, so a 103-nt pseudo-exon (5 nt intronic + 98 nt L1) is spliced between exons 51 and 52 (r.7542_7543ins(103)), shifting the frame (p.Ala2515Asnfs*21); residual wild-type transcript explains the milder BMD phenotype.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr",
+    "protein",
+    "long_read",
+    "segregation",
+    "de_novo_confirmed"
+   ],
+   "quote": "This corresponded to the partial exonization of a long interspersed nuclear element (LINE-1), disrupting the open reading frame.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

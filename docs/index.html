@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MEI Disease Atlas: germline mobile element insertions in human disease</title>
+<meta name="description" content="Curated atlas of 303 published germline Alu, L1 and SVA insertions that cause human disease in 157 genes, coded by mechanism: exon skipping, exonization, coding disruption and more.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://julianayuebcm.github.io/mei-disease-atlas/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MEI Disease Atlas">
+<meta property="og:title" content="MEI Disease Atlas: germline mobile element insertions in human disease">
+<meta property="og:description" content="Curated atlas of 303 published germline Alu, L1 and SVA insertions that cause human disease in 157 genes, coded by mechanism: exon skipping, exonization, coding disruption and more.">
+<meta property="og:url" content="https://julianayuebcm.github.io/mei-disease-atlas/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23111a2b'/%3E%3Cpath d='M4 19h24' stroke='%23aab5c8' stroke-width='2'/%3E%3Crect x='6' y='14' width='5' height='10' rx='1' fill='%23e9eef8'/%3E%3Crect x='20' y='14' width='6' height='10' rx='1' fill='%23e9eef8'/%3E%3Cpath d='M12 5h7l-3.5 6z' fill='%23f0763f'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/mei-disease-atlas/assets/site.css">
+<script>window.ATLAS_STATIC = { base: "/mei-disease-atlas/", url: "https://julianayuebcm.github.io/mei-disease-atlas/" };</script>
+</head>
+<body>
+<canvas id="helix" aria-hidden="true"></canvas>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/mei-disease-atlas/" aria-label="MEI Disease Atlas home">
+      <svg width="30" height="22" viewBox="0 0 30 22" aria-hidden="true"><line x1="1" y1="15" x2="29" y2="15" stroke="currentColor" stroke-opacity=".55" stroke-width="1.5"/><rect x="3" y="10" width="5" height="10" rx="1" fill="currentColor"/><rect x="12" y="10" width="4" height="10" rx="1" fill="currentColor"/><rect x="22" y="10" width="6" height="10" rx="1" fill="currentColor"/><path d="M 15.5 1 L 21.5 1 L 18.5 6 Z" fill="var(--l1)"/><line x1="18.5" y1="6" x2="18.5" y2="13" stroke="var(--l1)" stroke-width="1.6"/></svg>
+      MEI Disease Atlas
+    </a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="/mei-disease-atlas/">Overview</a>
+      <a href="/mei-disease-atlas/browse/">Browse</a>
+      <a href="/mei-disease-atlas/mechanisms/">Mechanisms</a>
+      <a href="/mei-disease-atlas/genes/">Genes</a>
+      <a href="/mei-disease-atlas/elements/">Elements</a>
+      <a href="/mei-disease-atlas/methods/">Methods</a>
+      <a href="/mei-disease-atlas/about/">About</a>
+    </nav>
+    <div class="search">
+      <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><circle cx="6" cy="6" r="4.5" fill="none" stroke="currentColor" stroke-width="1.6"/><line x1="9.5" y1="9.5" x2="13" y2="13" stroke="currentColor" stroke-width="1.6"/></svg>
+      <input id="gsearch" type="search" placeholder="Search gene, disease…" autocomplete="off" aria-label="Search the atlas">
+      <div class="suggest" id="suggest" hidden></div>
+    </div>
+  </div>
+</header>
+
+<main id="app">
+  <section class="hero">
+    <span class="eyebrow">Germline retrotransposon insertions in human disease</span>
+    <h1>How <span class="grad">jumping genes</span> break human genes</h1>
+    <p class="lede">A curated atlas of every published germline Alu, L1 and SVA insertion reported to cause disease, coded from the papers themselves: which gene, which element, where it landed and how it broke the gene.</p>
+    <div class="stepper" id="helix-steps" aria-label="The insertion mechanism shown in the background animation">
+      <span>Live: <span class="el-name">Alu</span> inserting by target-primed reverse transcription</span>
+      <span class="s" data-step="nick"><i></i>Nick</span>
+      <span class="s" data-step="rt"><i></i>Reverse transcription</span>
+      <span class="s" data-step="tsd"><i></i>Target-site duplication</span>
+    </div>
+    <div class="hero-actions"><a class="btn" href="/mei-disease-atlas/browse/">Browse all insertions</a><a class="btn ghost" href="/mei-disease-atlas/mechanisms/">Explore mechanisms</a></div>
+    <div class="statrow">
+      <div class="stat"><b>303</b><span>insertion events</span></div>
+      <div class="stat"><b>157</b><span>genes</span></div>
+      <div class="stat"><b>288</b><span>papers with cases</span></div>
+      <div class="stat"><b>2,002</b><span>papers screened</span></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="card-head"><h2>Featured case: <a href="/mei-disease-atlas/case/MEI0002/" class="gene">FKTN</a> SVA</h2><span class="faint" style="font-size:13px">Fukuyama congenital muscular dystrophy</span></div>
+    <div class="diagram-wrap"><svg width="1084.1424341170425" height="122" viewBox="0 0 1084.1424341170425 122" role="img" aria-label="Gene model of FKTN with 1 insertion marked">
+    <defs><pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="5" height="5" fill="var(--surface-solid)"/><line x1="0" y1="0" x2="0" y2="5" stroke="var(--sva)" stroke-width="2"/></pattern></defs>
+    <text x="40" y="68" text-anchor="end">5′</text><text x="1034.1424341170425" y="68">3′</text>
+    <line x1="46" y1="64" x2="1024.1424341170425" y2="64" stroke="var(--intron)" stroke-width="1.5"/><rect class="hit" x="80.05733563126935" y="55" width="71.23039745603704" height="18" fill="var(--surface)" fill-opacity="0" data-tip="<b>Intron 1</b><br>chr9:105,558,166–105,573,654<br>15,489 bp"/><rect class="hit" x="167.59356026656963" y="55" width="52.333765906905974" height="18" fill="var(--surface)" fill-opacity="0" data-tip="<b>Intron 2</b><br>chr9:105,573,747–105,574,944<br>1,198 bp"/><rect class="hit" x="243.54448095554025" y="55" width="73.63770519970885" height="18" fill="var(--surface)" fill-opacity="0" data-tip="<b>Intron 3</b><br>chr9:105,575,138–105,596,597<br>21,460 bp"/><rect class="hit" x="330.3503295323543" y="55" width="62.08325318206226" height="18" fill="var(--surface)" fill-opacity="0" data-tip="<b>Intron 4</b><br>chr9:105,596,658–105,601,144<br>4,487 bp"/><rect class="hit" x="416.7144393714623" y="55" width="58.77369516304254" height="18" fill="var(--surface)" fill-opacity="0" data-tip="<b>Intron 5</b><br>chr9:105,601,349–105,604,214<br>2,866 bp"/><rect class="hit" x="503.832798935411" y="55" width="59.87267816301951" height="18" fill="var(--surface)" fill-opacity="0" data-tip="<b>Intron 6</b><br>chr9:105,604,493–105,607,818<br>3,326 bp"/><rect class="hit" x="583.3108335093708" y="55" width="65.70273754358495" height="18" fill="var(--surface)" fill-opacity="0" data-tip="<b>Intron 7</b><br>chr9:105,607,952–105,615,277<br>7,326 bp"/><rect class="hit" x="668.3965532796411" y="55" width="57.91407779636643" height="18" fill="var(--surface)" fill-opacity="0" data-tip="<b>Intron 8</b><br>chr9:105,615,408–105,617,958<br>2,551 bp"/><rect class="hit" x="745.989553810751" y="55" width="55.505914404568244" height="18" fill="var(--surface)" fill-opacity="0" data-tip="<b>Intron 9</b><br>chr9:105,618,093–105,619,933<br>1,841 bp"/><rect class="hit" x="820.7287726635933" y="55" width="70.9881352132261" height="18" fill="var(--surface)" fill-opacity="0" data-tip="<b>Intron 10</b><br>chr9:105,620,062–105,635,050<br>14,989 bp"/><rect class="hit" x="70" y="56" width="10.057335631269348" height="16" rx="1.5" fill="var(--utr)" stroke="none" stroke-width="0"
+      data-tip="<b>Exon 1</b><br>chr9:105,558,131–105,558,165<br>35 bp · non-coding"/><text x="75.02866781563468" y="94" text-anchor="middle">1</text><rect class="hit" x="151.28773308730638" y="56" width="16.305827179263243" height="16" rx="1.5" fill="var(--utr)" stroke="none" stroke-width="0"
+      data-tip="<b>Exon 2</b><br>chr9:105,573,655–105,573,746<br>92 bp · non-coding"/><text x="159.440646676938" y="94" text-anchor="middle">2</text><rect class="hit" x="219.9273261734756" y="50" width="23.617154782064667" height="28" rx="1.5" fill="var(--exon)" stroke="none" stroke-width="0"
+      data-tip="<b>Exon 3</b><br>chr9:105,574,945–105,575,137<br>193 bp"/><text x="231.73590356450794" y="94" text-anchor="middle">3</text><rect class="hit" x="317.1821861552491" y="50" width="13.168143377105217" height="28" rx="1.5" fill="var(--exon)" stroke="none" stroke-width="0"
+      data-tip="<b>Exon 4</b><br>chr9:105,596,598–105,596,657<br>60 bp"/><text x="323.7662578438017" y="94" text-anchor="middle">4</text><rect class="hit" x="392.43358271441656" y="50" width="24.280856657045693" height="28" rx="1.5" fill="var(--exon)" stroke="none" stroke-width="0"
+      data-tip="<b>Exon 5</b><br>chr9:105,601,145–105,601,348<br>204 bp"/><text x="404.5740110429394" y="94" text-anchor="middle">5</text><rect class="hit" x="475.4881345345048" y="50" width="28.34466440090621" height="28" rx="1.5" fill="var(--exon)" stroke="none" stroke-width="0"
+      data-tip="<b>Exon 6</b><br>chr9:105,604,215–105,604,492<br>278 bp"/><text x="489.66046673495794" y="94" text-anchor="middle">6</text><rect class="hit" x="563.7054770984305" y="50" width="19.605356410940352" height="28" rx="1.5" fill="var(--exon)" stroke="none" stroke-width="0"
+      data-tip="<b>Exon 7</b><br>chr9:105,607,819–105,607,951<br>133 bp"/><text x="573.5081553039007" y="94" text-anchor="middle">7</text><rect class="hit" x="649.0135710529557" y="50" width="19.382982226685343" height="28" rx="1.5" fill="var(--exon)" stroke="none" stroke-width="0"
+      data-tip="<b>Exon 8</b><br>chr9:105,615,278–105,615,407<br>130 bp"/><text x="658.7050621662984" y="94" text-anchor="middle">8</text><rect class="hit" x="726.3106310760076" y="50" width="19.678922734743384" height="28" rx="1.5" fill="var(--exon)" stroke="none" stroke-width="0"
+      data-tip="<b>Exon 9</b><br>chr9:105,617,959–105,618,092<br>134 bp"/><text x="736.1500924433792" y="94" text-anchor="middle">9</text><rect class="hit" x="801.4954682153192" y="50" width="19.233304448274094" height="28" rx="1.5" fill="url(#hatch)" stroke="var(--sva)" stroke-width="1.5"
+      data-tip="<b>Exon 10</b> · affected in this case<br>chr9:105,619,934–105,620,061<br>128 bp"/><text x="811.1121204394562" y="94" text-anchor="middle">10</text><rect class="hit" x="891.7169078768194" y="50" width="132.42552624022304" height="28" rx="1.5" fill="var(--exon)" stroke="none" stroke-width="0"
+      data-tip="<b>Exon 11</b><br>chr9:105,635,051–105,641,118<br>6,068 bp"/><text x="957.9296709969309" y="94" text-anchor="middle">11</text><g class="hit"  data-tip="&lt;b&gt;FKTN · E · 3,000 bp&lt;/b&gt;&lt;br&gt;3′ UTR · exon 10&lt;br&gt;Fukuyama congenital muscular dystrophy&lt;br&gt;Mechanism: Exonization, Aberrant splicing, Expression loss, Coding disruption&lt;br&gt;&lt;span style=&quot;opacity:.85&quot;&gt;The ancestral SVA in the fukutin 3' UTR (exon 10) provides a strong splice acceptor that pairs with a rare alternative donor in exon 10, splicing out the 3' end of the coding region and proximal 3' UTR and adding SVA sequence; the protein loses its C-terminus and gains 129 SVA-encoded amino acids and mislocalizes. AONs against the SVA acceptor/ESE/ISE restored normal splicing and function.&lt;/span&gt;" opacity="1">
+      <line x1="811.1121204394562" y1="24" x2="811.1121204394562" y2="49" stroke="var(--sva)" stroke-width="2"/>
+      <path d="M 804.1121204394562 12 L 818.1121204394562 12 L 811.1121204394562 24 Z" fill="var(--sva)" stroke="var(--surface-solid)" stroke-width="1.5"/>
+      <rect x="802.1121204394562" y="10" width="102.80000000000001" height="18" fill="var(--surface)" fill-opacity="0"/>
+      <text x="821.1121204394562" y="21" style="fill:var(--ink);font-size:11px">E · 3,000 bp ▶</text></g><text x="40" y="114">ENST00000357998.10 · chr9:105,558,131–105,641,118 (+) · drawn 5′→3′, introns compressed</text></svg></div>
+    <div class="legend-diag"><span><svg width="18" height="10"><rect width="18" height="10" rx="1.5" fill="var(--exon)"/></svg>Coding exon</span><span><svg width="18" height="10"><rect y="2" width="18" height="6" rx="1" fill="var(--utr)"/></svg>UTR</span><span><svg width="12" height="12"><path d="M 0 1 L 12 1 L 6 11 Z" fill="var(--accent)"/></svg>Insertion (▶ sense, ◀ antisense)</span><span><svg width="18" height="10"><rect width="18" height="10" fill="url(#hatch)" stroke="var(--sva)"/></svg>Exon affected in this case</span></div>
+    <p class="diagram-note">The ancestral SVA in the fukutin 3' UTR (exon 10) provides a strong splice acceptor that pairs with a rare alternative donor in exon 10, splicing out the 3' end of the coding region and proximal 3' UTR and adding SVA sequence; the protein loses its C-terminus and gains 129 SVA-encoded amino acids and mislocalizes. AONs against the SVA acceptor/ESE/ISE restored normal splicing and function.</p>
+  </section>
+
+  <section class="grid-2">
+    <div class="card">
+      <div class="card-head"><h2>How the insertion breaks the gene</h2><div class="legend"><span><i class="sw" style="background:var(--alu)"></i>Alu</span><span><i class="sw" style="background:var(--l1)"></i>L1</span><span><i class="sw" style="background:var(--sva)"></i>SVA</span><span><i class="sw" style="background:var(--other)"></i>Other</span></div></div>
+      <div class="bars">
+    <a href="/mei-disease-atlas/mechanism/coding_disruption/" class="bar-row" data-tip="<b>Coding disruption</b>: 104 events<br>Alu 65 · L1 22 · SVA 16 · Other 1">
+      <span class="bar-label">Coding disruption</span>
+      <span class="bar-track" style="width:100.0%"><span class="seg" style="flex:65;background:var(--alu)"></span><span class="seg" style="flex:22;background:var(--l1)"></span><span class="seg" style="flex:16;background:var(--sva)"></span><span class="seg" style="flex:1;background:var(--other)"></span></span>
+      <span class="bar-n">104</span>
+    </a>
+    <a href="/mei-disease-atlas/mechanism/exon_skipping/" class="bar-row" data-tip="<b>Exon skipping</b>: 49 events<br>Alu 33 · L1 12 · SVA 4">
+      <span class="bar-label">Exon skipping</span>
+      <span class="bar-track" style="width:47.1%"><span class="seg" style="flex:33;background:var(--alu)"></span><span class="seg" style="flex:12;background:var(--l1)"></span><span class="seg" style="flex:4;background:var(--sva)"></span></span>
+      <span class="bar-n">49</span>
+    </a>
+    <a href="/mei-disease-atlas/mechanism/aberrant_splicing/" class="bar-row" data-tip="<b>Aberrant splicing</b>: 40 events<br>Alu 19 · L1 8 · SVA 11 · Other 2">
+      <span class="bar-label">Aberrant splicing</span>
+      <span class="bar-track" style="width:38.5%"><span class="seg" style="flex:19;background:var(--alu)"></span><span class="seg" style="flex:8;background:var(--l1)"></span><span class="seg" style="flex:11;background:var(--sva)"></span><span class="seg" style="flex:2;background:var(--other)"></span></span>
+      <span class="bar-n">40</span>
+    </a>
+    <a href="/mei-disease-atlas/mechanism/expression_loss/" class="bar-row" data-tip="<b>Expression loss</b>: 36 events<br>Alu 9 · L1 10 · SVA 16 · Other 1">
+      <span class="bar-label">Expression loss</span>
+      <span class="bar-track" style="width:34.6%"><span class="seg" style="flex:9;background:var(--alu)"></span><span class="seg" style="flex:10;background:var(--l1)"></span><span class="seg" style="flex:16;background:var(--sva)"></span><span class="seg" style="flex:1;background:var(--other)"></span></span>
+      <span class="bar-n">36</span>
+    </a>
+    <a href="/mei-disease-atlas/mechanism/exonization/" class="bar-row" data-tip="<b>Exonization</b>: 26 events<br>Alu 5 · L1 7 · SVA 13 · Other 1">
+      <span class="bar-label">Exonization</span>
+      <span class="bar-track" style="width:25.0%"><span class="seg" style="flex:5;background:var(--alu)"></span><span class="seg" style="flex:7;background:var(--l1)"></span><span class="seg" style="flex:13;background:var(--sva)"></span><span class="seg" style="flex:1;background:var(--other)"></span></span>
+      <span class="bar-n">26</span>
+    </a>
+    <a href="/mei-disease-atlas/mechanism/insertion_associated_deletion/" class="bar-row" data-tip="<b>Insertion-associated deletion</b>: 26 events<br>Alu 14 · L1 4 · SVA 5 · Other 3">
+      <span class="bar-label">Insertion-associated deletion</span>
+      <span class="bar-track" style="width:25.0%"><span class="seg" style="flex:14;background:var(--alu)"></span><span class="seg" style="flex:4;background:var(--l1)"></span><span class="seg" style="flex:5;background:var(--sva)"></span><span class="seg" style="flex:3;background:var(--other)"></span></span>
+      <span class="bar-n">26</span>
+    </a>
+    <a href="/mei-disease-atlas/mechanism/premature_polyadenylation/" class="bar-row" data-tip="<b>Premature polyadenylation</b>: 6 events<br>Alu 1 · L1 1 · SVA 4">
+      <span class="bar-label">Premature polyadenylation</span>
+      <span class="bar-track" style="width:5.8%"><span class="seg" style="flex:1;background:var(--alu)"></span><span class="seg" style="flex:1;background:var(--l1)"></span><span class="seg" style="flex:4;background:var(--sva)"></span></span>
+      <span class="bar-n">6</span>
+    </a>
+    <a href="/mei-disease-atlas/mechanism/aberrant_transcript_other/" class="bar-row" data-tip="<b>Other aberrant transcript</b>: 6 events<br>L1 1 · SVA 5">
+      <span class="bar-label">Other aberrant transcript</span>
+      <span class="bar-track" style="width:5.8%"><span class="seg" style="flex:1;background:var(--l1)"></span><span class="seg" style="flex:5;background:var(--sva)"></span></span>
+      <span class="bar-n">6</span>
+    </a>
+    <a href="/mei-disease-atlas/mechanism/intron_retention/" class="bar-row" data-tip="<b>Intron retention</b>: 5 events<br>L1 2 · SVA 3">
+      <span class="bar-label">Intron retention</span>
+      <span class="bar-track" style="width:4.8%"><span class="seg" style="flex:2;background:var(--l1)"></span><span class="seg" style="flex:3;background:var(--sva)"></span></span>
+      <span class="bar-n">5</span>
+    </a>
+    <a href="/mei-disease-atlas/mechanism/epigenetic_silencing/" class="bar-row" data-tip="<b>Epigenetic silencing</b>: 5 events<br>Alu 1 · L1 2 · SVA 2">
+      <span class="bar-label">Epigenetic silencing</span>
+      <span class="bar-track" style="width:4.8%"><span class="seg" style="flex:1;background:var(--alu)"></span><span class="seg" style="flex:2;background:var(--l1)"></span><span class="seg" style="flex:2;background:var(--sva)"></span></span>
+      <span class="bar-n">5</span>
+    </a>
+    <a href="/mei-disease-atlas/mechanism/utr_effect/" class="bar-row" data-tip="<b>UTR effect</b>: 5 events<br>Alu 1 · L1 3 · SVA 1">
+      <span class="bar-label">UTR effect</span>
+      <span class="bar-track" style="width:4.8%"><span class="seg" style="flex:1;background:var(--alu)"></span><span class="seg" style="flex:3;background:var(--l1)"></span><span class="seg" style="flex:1;background:var(--sva)"></span></span>
+      <span class="bar-n">5</span>
+    </a>
+    <a href="/mei-disease-atlas/mechanism/transduction_effect/" class="bar-row" data-tip="<b>Transduction</b>: 2 events<br>L1 1 · SVA 1">
+      <span class="bar-label">Transduction</span>
+      <span class="bar-track" style="width:1.9%"><span class="seg" style="flex:1;background:var(--l1)"></span><span class="seg" style="flex:1;background:var(--sva)"></span></span>
+      <span class="bar-n">2</span>
+    </a>
+    <a href="/mei-disease-atlas/mechanism/iralu_structure/" class="bar-row" data-tip="<b>Inverted-Alu structure</b>: 1 events<br>Alu 1">
+      <span class="bar-label">Inverted-Alu structure</span>
+      <span class="bar-track" style="width:1.0%"><span class="seg" style="flex:1;background:var(--alu)"></span></span>
+      <span class="bar-n">1</span>
+    </a>
+    <a href="/mei-disease-atlas/mechanism/unknown/" class="bar-row" data-tip="<b>Not described</b>: 92 events<br>Alu 54 · L1 19 · SVA 11 · Other 8">
+      <span class="bar-label">Not described</span>
+      <span class="bar-track" style="width:88.5%"><span class="seg" style="flex:54;background:var(--alu)"></span><span class="seg" style="flex:19;background:var(--l1)"></span><span class="seg" style="flex:11;background:var(--sva)"></span><span class="seg" style="flex:8;background:var(--other)"></span></span>
+      <span class="bar-n">92</span>
+    </a></div>
+      <p class="faint" style="font-size:13px;margin-top:12px">Insertion events by mechanism; one event can have several. Click a mechanism for its page.</p>
+    </div>
+    <div class="stack">
+      <div class="card"><div class="card-head"><h2>Reported per decade</h2></div><div class="cols"><div class="col" data-tip="<b>1980s</b>: 2 events<br>Alu 0 · L1 2 · SVA 0 · Other 0"><div style="height:1.6%;background:var(--l1)"></div></div><div class="col" data-tip="<b>1990s</b>: 34 events<br>Alu 19 · L1 9 · SVA 3 · Other 3"><div style="height:15.2%;background:var(--alu)"></div><div style="height:7.2%;background:var(--l1)"></div><div style="height:2.4%;background:var(--sva)"></div><div style="height:2.4%;background:var(--other)"></div></div><div class="col" data-tip="<b>2000s</b>: 52 events<br>Alu 35 · L1 11 · SVA 4 · Other 2"><div style="height:28.0%;background:var(--alu)"></div><div style="height:8.8%;background:var(--l1)"></div><div style="height:3.2%;background:var(--sva)"></div><div style="height:1.6%;background:var(--other)"></div></div><div class="col" data-tip="<b>2010s</b>: 90 events<br>Alu 55 · L1 19 · SVA 12 · Other 4"><div style="height:44.0%;background:var(--alu)"></div><div style="height:15.2%;background:var(--l1)"></div><div style="height:9.6%;background:var(--sva)"></div><div style="height:3.2%;background:var(--other)"></div></div><div class="col" data-tip="<b>2020s</b>: 125 events<br>Alu 55 · L1 25 · SVA 39 · Other 6"><div style="height:44.0%;background:var(--alu)"></div><div style="height:20.0%;background:var(--l1)"></div><div style="height:31.2%;background:var(--sva)"></div><div style="height:4.8%;background:var(--other)"></div></div></div>
+    <div class="col-labels"><div>80s</div><div>90s</div><div>00s</div><div>10s</div><div>20s</div></div></div>
+      <div class="card"><div class="card-head"><h2>Where insertions land</h2></div><div class="kv"><div><span>Coding exon</span><span class="mono">124</span></div><div><span>Intron</span><span class="mono">85</span></div><div><span>Exon</span><span class="mono">41</span></div><div><span>Not stated</span><span class="mono">28</span></div><div><span>Multiple</span><span class="mono">13</span></div><div><span>3′ UTR</span><span class="mono">5</span></div><div><span>Intergenic</span><span class="mono">4</span></div><div><span>5′ UTR</span><span class="mono">3</span></div></div></div>
+    </div>
+  </section>
+
+  <section class="stack" style="gap:14px">
+    <div class="card-head" style="margin:0"><h2>By element</h2><a href="/mei-disease-atlas/elements/">All elements →</a></div>
+    <div class="grid-3" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr))">
+      <a class="tile" href="/mei-disease-atlas/element/Alu/">
+        <h3><i class="sw" style="background:var(--alu)"></i>Alu</h3>
+        <div class="big">164</div>
+        <p class="muted" style="font-size:13.5px">Primate SINE, about 300 bp. Non-autonomous: mobilised by L1 machinery. The most frequent class of disease insertion.</p>
+      </a>
+      <a class="tile" href="/mei-disease-atlas/element/L1/">
+        <h3><i class="sw" style="background:var(--l1)"></i>L1</h3>
+        <div class="big">66</div>
+        <p class="muted" style="font-size:13.5px">LINE-1, up to 6 kb full length and the only autonomous human retrotransposon. Disease insertions are usually 5′-truncated.</p>
+      </a>
+      <a class="tile" href="/mei-disease-atlas/element/SVA/">
+        <h3><i class="sw" style="background:var(--sva)"></i>SVA</h3>
+        <div class="big">58</div>
+        <p class="muted" style="font-size:13.5px">SINE-VNTR-Alu composite, up to ~3 kb. Hominid-specific; several founder insertions cause recessive disease.</p>
+      </a>
+      <a class="tile" href="/mei-disease-atlas/element/Other/">
+        <h3><i class="sw" style="background:var(--other)"></i>Other</h3>
+        <div class="big">15</div>
+        <p class="muted" style="font-size:13.5px">HERV, processed pseudogenes (retrocopies of mRNAs), polyA-only insertions, and insertions whose element the paper did not name.</p>
+      </a></div>
+  </section>
+
+  <section class="stack" style="gap:14px">
+    <div class="card-head" style="margin:0"><h2>Most-reported insertions</h2><a href="/mei-disease-atlas/browse/">Browse all →</a></div>
+    <div class="grid-3"><a class="tile" href="/mei-disease-atlas/case/MEI0001/">
+    <h3><i class="sw" style="background:var(--sva)"></i><span class="gene">TAF1</span></h3>
+    <div class="muted" style="font-size:14px">X-linked dystonia-parkinsonism (XDP)</div>
+    <div><span class="tag primary">Expression loss</span><span class="tag">Intron retention</span></div>
+    <div class="meta"><span>SVA_F · 2,600 bp</span><span>Intron 32</span><span>31 papers</span></div>
+  </a><a class="tile" href="/mei-disease-atlas/case/MEI0002/">
+    <h3><i class="sw" style="background:var(--sva)"></i><span class="gene">FKTN</span></h3>
+    <div class="muted" style="font-size:14px">Fukuyama congenital muscular dystrophy</div>
+    <div><span class="tag primary">Exonization</span><span class="tag">Aberrant splicing</span></div>
+    <div class="meta"><span>E · 3,000 bp</span><span>3′ UTR · exon 10</span><span>14 papers</span></div>
+  </a><a class="tile" href="/mei-disease-atlas/case/MEI0003/">
+    <h3><i class="sw" style="background:var(--alu)"></i><span class="gene">RP1</span></h3>
+    <div class="muted" style="font-size:14px">Hereditary retinal degeneration (autosomal recessive retinitis pigmentosa)</div>
+    <div><span class="tag primary">Coding disruption</span></div>
+    <div class="meta"><span>AluY · 328 bp</span><span>Coding exon · exon 4</span><span>11 papers</span></div>
+  </a><a class="tile" href="/mei-disease-atlas/case/MEI0004/">
+    <h3><i class="sw" style="background:var(--alu)"></i><span class="gene">MAK</span></h3>
+    <div class="muted" style="font-size:14px">Retinitis pigmentosa (autosomal recessive)</div>
+    <div><span class="tag primary">Coding disruption</span><span class="tag">Aberrant splicing</span></div>
+    <div class="meta"><span>AluYa8 · 353 bp</span><span>Coding exon · exon 9</span><span>6 papers</span></div>
+  </a><a class="tile" href="/mei-disease-atlas/case/MEI0005/">
+    <h3><i class="sw" style="background:var(--alu)"></i><span class="gene">BRCA2</span></h3>
+    <div class="muted" style="font-size:14px">Hereditary breast cancer</div>
+    <div><span class="tag primary">Coding disruption</span><span class="tag">Exon skipping</span></div>
+    <div class="meta"><span>AluYa5 · 280 bp</span><span>Coding exon · exon 3</span><span>4 papers</span></div>
+  </a><a class="tile" href="/mei-disease-atlas/case/MEI0006/">
+    <h3><i class="sw" style="background:var(--sva)"></i><span class="gene">BRCA1</span></h3>
+    <div class="muted" style="font-size:14px">Hereditary breast cancer (early-onset bilateral)</div>
+    <div><span class="tag primary">Exonization</span><span class="tag">Expression loss</span></div>
+    <div class="meta"><span>SVA_F · 2,856 bp</span><span>Intron 13</span><span>3 papers</span></div>
+  </a></div>
+  </section></main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div style="font-family:var(--font-display);font-weight:800;font-size:16px;color:var(--ink);margin-bottom:6px">MEI Disease Atlas</div>
+      <p id="foot-note"></p>
+    </div>
+    <div><h4>Explore</h4><a href="/mei-disease-atlas/browse/">All insertions</a><a href="/mei-disease-atlas/mechanisms/">Mechanisms</a><a href="/mei-disease-atlas/genes/">Genes</a><a href="/mei-disease-atlas/elements/">Elements</a></div>
+    <div><h4>About</h4><a href="/mei-disease-atlas/methods/">How it was built</a><a href="/mei-disease-atlas/methods/#scope">Scope</a><a href="/mei-disease-atlas/methods/#caveats">Caveats</a><a href="/mei-disease-atlas/about/">Cite &amp; licence</a></div>
+  </div>
+</footer>
+<div class="tip" id="tip" hidden></div>
+<script src="/mei-disease-atlas/assets/site.js"></script>
+<script src="/mei-disease-atlas/assets/helix.js"></script>
+</body>
+</html>

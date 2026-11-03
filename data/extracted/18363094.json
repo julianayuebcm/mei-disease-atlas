@@ -1,0 +1,49 @@
+{
+ "pmid": "18363094",
+ "cases": [
+  {
+   "case_label": "BRCA2 c.156_157insAlu in exon 3 causing exon 3 skipping (Portuguese founder)",
+   "gene": "BRCA2",
+   "gene_as_reported": null,
+   "disease": "Hereditary breast/ovarian cancer",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": 14,
+   "ancestry_or_population": "Portuguese (northern/central Portugal)",
+   "region": "coding_exon",
+   "exon_number": 3,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "c.156_157insAlu",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping"
+   ],
+   "mechanism_detail": "An Alu insertion in BRCA2 exon 3 causes skipping of exon 3; in carriers the full-length BRCA2 transcript derives only from the wild-type allele. The rearrangement was absent from 262 control chromosomes and co-segregated with disease in 14 families, with haplotype sharing consistent with a founder event.",
+   "affected_exons": [
+    3
+   ],
+   "evidence": [
+    "rna_rt_pcr",
+    "segregation"
+   ],
+   "quote": "This mutation originates BRCA2 exon 3 skipping and we demonstrated its pathogenic effect by showing that the BRCA2 full length transcript is derived only from the wild type allele in carriers",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

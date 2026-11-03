@@ -1,0 +1,48 @@
+{
+ "pmid": "35997928",
+ "cases": [
+  {
+   "case_label": "6-kb L1 in CYBB intron 3 (somatic mosaic)",
+   "gene": "CYBB",
+   "gene_as_reported": null,
+   "disease": "Chronic granulomatous disease",
+   "omim_phenotype": null,
+   "inheritance": "mosaic",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 3,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing"
+   ],
+   "mechanism_detail": "A de novo mosaic ~6-kb LINE-1 insertion in CYBB intron 3 causes abnormal splicing with pseudoexon inclusion and a premature stop codon; phagocytes are almost all mutant. Whether the pseudoexon is L1-derived is not stated in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq",
+    "protein",
+    "functional_assay"
+   ],
+   "quote": "Sanger sequencing detected a 6-kb insertion of a LINE-1 transposable element in the third intron of CYBB, leading to abnormal splicing and pseudoexon insertion",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

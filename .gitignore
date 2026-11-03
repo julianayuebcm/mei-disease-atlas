@@ -1,0 +1,15 @@
+# Paper texts and abstracts: copyright of the publishers, not redistributed
+data/fulltext/
+data/fulltext_buggy_pmcid/
+data/raw/candidates*.jsonl
+data/raw/hancks2016.xml
+data/screen/batch_*.jsonl
+# Superseded / scratch outputs
+data/extracted_archive_wrongtext/
+data/extracted/_*/
+data/extracted/assign_*.txt
+data/extracted/redo_*.txt
+site/archive/
+site/index.html
+__pycache__/
+*.pyc

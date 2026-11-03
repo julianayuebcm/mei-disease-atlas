@@ -1,0 +1,86 @@
+{
+ "pmid": "2831458",
+ "cases": [
+  {
+   "case_label": "3.8-kb L1 in exon 14 of F8",
+   "gene": "F8",
+   "gene_as_reported": "factor VIII",
+   "disease": "haemophilia A",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": 3800,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": ">=12 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 14,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A 5'-truncated L1 (3.8 kb, with 3' end and polyA) inserted into exon 14 of F8 disrupts the coding sequence. The title describes the L1 insertions as de novo, but the abstract does not attribute de novo status to each insertion individually.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "We now report insertions of L1 elements into exon 14 of the factor VIII gene in two of 240 unrelated patients with haemophilia A.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  },
+  {
+   "case_label": "2.3-kb L1 in exon 14 of F8",
+   "gene": "F8",
+   "gene_as_reported": "factor VIII",
+   "disease": "haemophilia A",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": 2300,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": ">=13 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 14,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A second, independent 5'-truncated L1 (2.3 kb, with polyA tract) inserted into F8 exon 14 in an unrelated haemophilia A patient, disrupting coding sequence.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "We now report insertions of L1 elements into exon 14 of the factor VIII gene in two of 240 unrelated patients with haemophilia A.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

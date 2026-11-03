@@ -1,0 +1,49 @@
+{
+ "pmid": "37234925",
+ "cases": [
+  {
+   "case_label": "XDP SVA in TAF1 intron (glucocorticoid-responsive elements)",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism (XDP)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": "Filipino",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_transcript_other",
+    "intron_retention",
+    "expression_loss"
+   ],
+   "mechanism_detail": "The XDP-SVA in a TAF1 intron alters TAF1 transcription and splicing, reducing canonical TAF1 and producing the XDP-specific aberrant TAF1-32i transcript that incorporates intron 32 sequence; this study shows the SVA carries glucocorticoid receptor sites and has CORT-inducible promoter activity in reporter assays, studied in one patient fibroblast line.",
+   "affected_exons": null,
+   "evidence": [
+    "functional_assay",
+    "rna_rt_pcr"
+   ],
+   "quote": "X-linked Dystonia Parkinsonism (XDP) is associated with a SINE-VNTR- Alu (SVA) retrotransposon insertion in an intron of the TAF1 gene that alters gene transcription and splicing.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

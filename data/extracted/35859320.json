@@ -1,0 +1,48 @@
+{
+ "pmid": "35859320",
+ "cases": [
+  {
+   "case_label": "~1 kb SVA upstream of GNAS A/B exon 1 (familial PHP1B)",
+   "gene": "GNAS",
+   "gene_as_reported": null,
+   "disease": "Pseudohypoparathyroidism type 1B",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": 1000,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 2,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "expression_loss",
+    "aberrant_transcript_other"
+   ],
+   "mechanism_detail": "A ~1 kb SVA upstream of the GNAS A/B first exon on the maternal allele is proposed to reduce NESP55 expression, leading to loss of methylation at the A/B DMR, increased A/B transcription and reduced Gs-alpha expression.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq",
+    "rna_rt_pcr"
+   ],
+   "quote": "The retrotransposon insertion in the siblings likely caused decreased NESP55 expression that could lead to increased A/B expression via LOM of the GNAS-A/B:TSS-DMR, subsequent reduced Gsα expression, and finally, PHP1B development.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,46 @@
+{
+ "pmid": "41028987",
+ "cases": [
+  {
+   "case_label": "Truncated 1,163-bp L1 in SGCE exon 6",
+   "gene": "SGCE",
+   "gene_as_reported": null,
+   "disease": "Myoclonus-dystonia (dystonia-11)",
+   "omim_phenotype": "159900",
+   "inheritance": "AD",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": 1163,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 6,
+   "intron_number": null,
+   "transcript": "NM_003919.3",
+   "hgvs": "NM_003919.3:c.793_794ins[NC_000023.11:g.11712154_11713316]",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "An exome CNV call of a heterozygous SGCE exon 6 deletion was shown by nanopore long-read sequencing to be a 1,163-bp truncated L1 insertion (sequence matching an L1 on chrX) disrupting exon 6, classified pathogenic in a 54-year-old woman with dystonia and myoclonus; no RNA analysis.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read"
+   ],
+   "quote": "Surprisingly, we found that SGCE exon 6 was not disrupted by a deletion but by an insertion of 1163 bp (Fig. 3C).",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,47 @@
+{
+ "pmid": "42055800",
+ "cases": [
+  {
+   "case_label": "Antisense AluYb8 c.143_144ins in exon 2 of MEN1",
+   "gene": "MEN1",
+   "gene_as_reported": null,
+   "disease": "Multiple endocrine neoplasia type 1",
+   "omim_phenotype": "131100",
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": "AluYb8",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": "antisense",
+   "tsd": "TCGTGGAGCATTTTCT (16 bp)",
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 10,
+   "n_families": 2,
+   "ancestry_or_population": "Polish",
+   "region": "coding_exon",
+   "exon_number": 2,
+   "intron_number": null,
+   "transcript": "NM_001370259.2",
+   "hgvs": "NM_001370259.2(MEN1):c.143_144insAlu",
+   "genome_build": "hg38",
+   "chrom": "chr11",
+   "pos": 64809966,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "An AluYb8 inserted in inverted (antisense) orientation within MEN1 exon 2 at p.Leu48 (16-bp TSD, ~44-nt polyA) introduces a premature stop codon, predicted to cause NMD or a truncated protein retaining ~8% of MEN1; it disrupted the MLPA probe site, mimicking an exon 2 deletion, and cosegregated with MEN1 in two families.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read",
+    "segregation"
+   ],
+   "quote": "In silico analysis revealed that the MEN1:c.143_144insAlu leads to the premature appearance of a stop codon in the MEN1 gene.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

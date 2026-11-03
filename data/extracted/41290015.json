@@ -1,0 +1,46 @@
+{
+ "pmid": "41290015",
+ "cases": [
+  {
+   "case_label": "Homozygous Alu insertion in RP1 exon 4",
+   "gene": "RP1",
+   "gene_as_reported": null,
+   "disease": "early-onset retinitis pigmentosa",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 4,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A girl with early-onset RP carried a homozygous pathogenic RP1 Alu insertion in exon 4, missed by panel and exome pipelines and found by reduced coverage in IGV; effect inferred from location (functional consequence not studied in this report).",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "IGV review revealed a markedly reduced read coverage within exon 4 of RP1 in both datasets, suggesting the homozygous Alu insertion.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,48 @@
+{
+ "pmid": "42732008",
+ "cases": [
+  {
+   "case_label": "Alu insertion near exon-intron boundary of CPLANE1 causing exon skipping",
+   "gene": "CPLANE1",
+   "gene_as_reported": null,
+   "disease": "Orofaciodigital syndrome type VI",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping",
+    "expression_loss"
+   ],
+   "mechanism_detail": "An Alu insertion close to an exon-intron boundary of CPLANE1, in trans with c.8633-4_8633-3del, was found only by long-read sequencing; transcript analysis showed it causes exon skipping, with reduced total CPLANE1 mRNA in patient fibroblasts.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr",
+    "long_read"
+   ],
+   "quote": "Transcript analysis showed that each variant independently resulted in exon skipping, and quantitative expression studies revealed reduced total CPLANE1 mRNA levels in patient-derived fibroblasts.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

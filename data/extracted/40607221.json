@@ -1,0 +1,47 @@
+{
+ "pmid": "40607221",
+ "cases": [
+  {
+   "case_label": "De novo Alu in exon 9 of FGFR1",
+   "gene": "FGFR1",
+   "gene_as_reported": null,
+   "disease": "Congenital hypogonadotropic hypogonadism (with hyposmia)",
+   "omim_phenotype": null,
+   "inheritance": "de_novo",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": 333,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "GAAGAGTGACTTCC (14 bp)",
+   "polyA": true,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 9,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "p.His409fsTer31",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A heterozygous de novo 333-bp Alu inserted in FGFR1 exon 9 causes a frameshift and premature stop (p.His409fsTer31), predicted to trigger NMD; absent from both parents.",
+   "affected_exons": null,
+   "evidence": [
+    "de_novo_confirmed",
+    "long_read"
+   ],
+   "quote": "This insertion caused a frameshift and resulted in premature termination (p. His409fsTer31).",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

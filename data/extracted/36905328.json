@@ -1,0 +1,46 @@
+{
+ "pmid": "36905328",
+ "cases": [
+  {
+   "case_label": "SVA-containing ~4-kb insertion in VHL intron 1",
+   "gene": "VHL",
+   "gene_as_reported": null,
+   "disease": "von Hippel-Lindau disease",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": 4000,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Japanese",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 1,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": "GRCh38",
+   "chrom": "chr3",
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "In a genetically unsolved VHL case, a ~4-kb insertion containing a ~3-kb SVA was found in VHL intron 1 (described also as the promoter region) at a site with ENCODE regulatory elements; authors suggest it may affect VHL transcription, but RNA was unavailable to test.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read"
+   ],
+   "quote": "Nanopore long-read sequencing analysis validated this ME insertion, which was \u20534 kb and included 3 kb SVA transposon (Supplementary Material, Fig. S3).",
+   "confidence": "low",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

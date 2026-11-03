@@ -1,0 +1,49 @@
+{
+ "pmid": "41279153",
+ "cases": [
+  {
+   "case_label": "XDP SVA_F in TAF1 intron 32 (reverse orientation; humanized mouse model)",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism (XDP)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": "SVA_F",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": "antisense",
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Filipino (Panay island) founder",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": "hg38",
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "premature_polyadenylation",
+    "expression_loss"
+   ],
+   "mechanism_detail": "A 78-kb XDP patient-derived TAF1 segment carrying the intron 32 SVA_F was written into mouse Taf1; the SVA is actively transcribed and acts as an elongation barrier, causing premature termination of TAF1 transcription at intron 32 (cryptic splice acceptor/polyA), reduced TAF1, TATA-gene downregulation, apoptosis, and striatal atrophy in male mice.",
+   "affected_exons": null,
+   "evidence": [
+    "functional_assay",
+    "rna_seq",
+    "long_read"
+   ],
+   "quote": "Proposed model: transcription of SVA_F, and to a lesser extent, SVA_D, causes premature termination of TAF1 transcription at intron 32.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

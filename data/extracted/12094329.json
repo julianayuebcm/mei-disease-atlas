@@ -1,0 +1,46 @@
+{
+ "pmid": "12094329",
+ "cases": [
+  {
+   "case_label": "De novo L1 (LRE3-derived, 3' transduction) in CYBB",
+   "gene": "CYBB",
+   "gene_as_reported": null,
+   "disease": "X-linked chronic granulomatous disease",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": true,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Dutch",
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "A truncated L1 with a 3' transduction, derived from the source element LRE3 on 2q24.1, inserted into CYBB on the patient's maternal X; the insertion most likely arose in maternal meiosis I. The molecular consequence on CYBB is not described in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "functional_assay"
+   ],
+   "quote": "We characterized a truncated L1 retrotransposon with a 3' transduction that was inserted, in a Dutch male patient, into the X-linked gene CYBB, thereby causing chronic granulomatous disease.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,46 @@
+{
+ "pmid": "42102821",
+ "cases": [
+  {
+   "case_label": "XDP SVA in TAF1 (patient iPSC-derived neurons under mitochondrial stress)",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism (XDP)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Filipino founder haplotype",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "The XDP-causing SVA retrotransposon insertion in TAF1 is taken as the disease variant; this study profiles transcriptomes of XDP patient-derived cortical neurons, showing broad pathway downregulation and increased DNA damage after mitochondrial toxin exposure, without directly testing how the SVA alters TAF1.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq"
+   ],
+   "quote": "The underlying genetic mechanism involves a shared common haplotype identified in all patients, including the disease-causing variant, the SINE-VNTR-Alu (SVA) retrotransposon, within the TAF1 gene.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

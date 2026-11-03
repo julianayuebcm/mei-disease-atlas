@@ -1,0 +1,46 @@
+{
+ "pmid": "34999728",
+ "cases": [
+  {
+   "case_label": "Full-length SVA_F1 (~4.5 kb) with 5' and 3' transductions in EBP exon 2",
+   "gene": "EBP",
+   "gene_as_reported": null,
+   "disease": "X-linked dominant chondrodysplasia punctata (CDPX2)",
+   "omim_phenotype": null,
+   "inheritance": "XLD",
+   "mei_class": "SVA",
+   "subfamily": "SVA_F1",
+   "insertion_length_bp": 4500,
+   "full_length": true,
+   "orientation_vs_gene": "antisense",
+   "tsd": "present (length not stated)",
+   "polyA": true,
+   "transduction": true,
+   "origin": "inherited",
+   "n_patients": 2,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": 2,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "A ~4.5-kb insertion containing a full-length SVA_F1 with 5' and 3' transductions (containing Alu sequence) disrupts EBP exon 2 in a girl and her affected mother; the transcript consequence is not described in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "whole genome sequencing (WGS) followed by Manta analysis identified a ~ 4.5 kb insertion at EBP exon 2 of both subjects.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

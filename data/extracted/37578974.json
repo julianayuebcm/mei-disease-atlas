@@ -1,0 +1,46 @@
+{
+ "pmid": "37578974",
+ "cases": [
+  {
+   "case_label": "SVA_F insertion with 31-kb deletion of RAD52 exons 2-9 (breast cancer susceptibility)",
+   "gene": "RAD52",
+   "gene_as_reported": null,
+   "disease": "Hereditary breast cancer susceptibility (moderate risk)",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": "SVA_F",
+   "insertion_length_bp": 2800,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": true,
+   "transduction": true,
+   "origin": "founder",
+   "n_patients": 27,
+   "n_families": null,
+   "ancestry_or_population": "Northern Finnish",
+   "region": "multiple",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": "NM_134424",
+   "hgvs": "chr12 g.1024291_1055749delins[H6_1084]",
+   "genome_build": "GRCh37",
+   "chrom": "12",
+   "pos": 1024291,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "insertion_associated_deletion"
+   ],
+   "mechanism_detail": "A 2.8-kb SVA_F (copy of source element H6_1084, with 5' transduction and polyA(52)) is inserted at the breakpoint of a 31-kb deletion removing RAD52 exons 2-9, a likely null allele. It is recurrent in Northern Finland and enriched in hereditary breast cancer cases (7/278 vs 11/1229 controls), but segregation with cancer was not strongly supported.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read"
+   ],
+   "quote": "Long-read whole-genome sequencing revealed that the RAD52 deletion co-occurred with an insertion, which exhibited 99% homology to the retrotransposon SVA_F element H6_1084.",
+   "confidence": "low",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

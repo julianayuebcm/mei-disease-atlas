@@ -1,0 +1,50 @@
+{
+ "pmid": "40180948",
+ "cases": [
+  {
+   "case_label": "Full-length L1 (Ta1d) in APC intron 7 creating pseudo-exon (FAP)",
+   "gene": "APC",
+   "gene_as_reported": null,
+   "disease": "Familial adenomatous polyposis",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "L1",
+   "subfamily": "L1HS Ta1d",
+   "insertion_length_bp": 6116,
+   "full_length": true,
+   "orientation_vs_gene": "sense",
+   "tsd": null,
+   "polyA": true,
+   "transduction": true,
+   "origin": "inherited",
+   "n_patients": 3,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 7,
+   "transcript": "NM_000038",
+   "hgvs": "chr5:g.112800732_112800733insN[6116 \u00b1 1]",
+   "genome_build": "GRCh38",
+   "chrom": "5",
+   "pos": 112800732,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exonization",
+    "expression_loss"
+   ],
+   "mechanism_detail": "A heterozygous full-length sense-oriented L1 (Ta1d, 3' transduction traced to a chr17 source) in APC intron 7 provides a splice acceptor in the TSD and a donor in the L1 5' promoter region, creating a 103-bp pseudo-exon between exons 7 and 8 with a premature stop; transcripts undergo NMD (allelic imbalance, cycloheximide rescue) with near-complete loss of the allele. Segregates in three affected relatives.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read",
+    "rna_rt_pcr",
+    "rna_seq",
+    "segregation"
+   ],
+   "quote": "Targeted PCRs on blood-derived cDNA revealed a splice acceptor gain in the target-site duplication and a splice donor gain in the LINE-1 element, leading to a 103 bp pseudo-exon between exons 7 and 8 of APC (Fig.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

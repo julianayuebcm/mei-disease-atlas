@@ -1,0 +1,47 @@
+{
+ "pmid": "35868859",
+ "cases": [
+  {
+   "case_label": "Founder SVA_F in TAF1 intron 32 (XDP) - female carrier iPSCs, TAF1-32i",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": "SVA_F",
+   "insertion_length_bp": 2600,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Filipino founder",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "intron_retention",
+    "expression_loss"
+   ],
+   "mechanism_detail": "The XDP SVA in TAF1 intron 32 is associated with a mutant isoform retaining intron 32 (TAF1-32i), detected in XDP male iPSCs and in female carrier iPSCs that express the mutant X; the paper also cites reduced canonical TAF1 expression in XDP cells.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "As expected, we detected TAF1-32i in XDP male iPSCs.",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

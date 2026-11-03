@@ -1,0 +1,50 @@
+{
+ "pmid": "34828342",
+ "cases": [
+  {
+   "case_label": "AluYb8 c.4475_4476ins in exon 14 of BRCA1",
+   "gene": "BRCA1",
+   "gene_as_reported": null,
+   "disease": "Hereditary breast and ovarian cancer syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": "AluYb8",
+   "insertion_length_bp": 319,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 3,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 14,
+   "intron_number": null,
+   "transcript": "NM_007294.4",
+   "hgvs": "c.4475_4476insAluYb8 (p.Ala1453Glyfs*10)",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping",
+    "coding_disruption"
+   ],
+   "mechanism_detail": "An AluYb8 (319 nt plus 32-A tail) inserted in BRCA1 exon 14 causes complete skipping of exon 14 in patient RNA, producing a frameshift and premature stop (p.Ala1453Glyfs*10).",
+   "affected_exons": [
+    14
+   ],
+   "evidence": [
+    "rna_rt_pcr",
+    "segregation"
+   ],
+   "quote": "The c.4475_c.4476insAluYb8 mutation impacts splicing and induces the skipping of exon 14.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

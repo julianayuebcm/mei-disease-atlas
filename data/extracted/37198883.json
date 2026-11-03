@@ -1,0 +1,47 @@
+{
+ "pmid": "37198883",
+ "cases": [
+  {
+   "case_label": "Founder SVA in TAF1 intron 32 (XDP) - TAF1-32i biomarker in EVs",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": 2600,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "intron_retention",
+    "expression_loss"
+   ],
+   "mechanism_detail": "The retrotransposon in TAF1 intron 32 causes mis-splicing with retention of intron 32 (TAF1-32i) and reduced TAF1; XDP patient iPSC-derived NPCs implanted in mouse brain showed a 24-fold increase of TAF1-32i, detectable in extracellular vesicles.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "Implanted XDP hNPCs at the injection site exhibited a significant 24-fold increase of the TAF1-32i splice variant compared with control hNPCs (p < 0.",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

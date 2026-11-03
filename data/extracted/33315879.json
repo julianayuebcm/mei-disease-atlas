@@ -1,0 +1,50 @@
+{
+ "pmid": "33315879",
+ "cases": [
+  {
+   "case_label": "XDP SVA in TAF1 intron 32 (histone H3 acetylation)",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism (XDP)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Filipino founder (Panay)",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "epigenetic_silencing",
+    "intron_retention",
+    "expression_loss"
+   ],
+   "mechanism_detail": "The intronic SVA (known to cause aberrant splicing/partial intron 32 retention and lower full-length TAF1) is associated with decreased acetylated H3 at the exon immediately proximal to the SVA; CRISPR excision of the SVA normalized AcH3, suggesting a local chromatin effect on TAF1 expression.",
+   "affected_exons": [
+    32
+   ],
+   "evidence": [
+    "functional_assay"
+   ],
+   "quote": "There was, however, a decrease in AcH3 association with the exon immediately proximal to the intronic SVA, and this decrease was normalized by CRISPR/Cas-excision of the SVA.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

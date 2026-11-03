@@ -1,0 +1,87 @@
+{
+ "pmid": "38368425",
+ "cases": [
+  {
+   "case_label": "SVA_F-derived insertion in APC intron 9 (FAP, patient S5)",
+   "gene": "APC",
+   "gene_as_reported": null,
+   "disease": "Familial adenomatous polyposis",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": "SVA_F",
+   "insertion_length_bp": 2731,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": "14 bp",
+   "polyA": true,
+   "transduction": true,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 9,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "intron_retention"
+   ],
+   "mechanism_detail": "A 2,731-bp 5'-truncated insertion derived from two concatenated SVA_F elements on chr6 (with 82-bp 3' transduction, 24-bp polyA, 14-bp TSD) in APC intron 9 found by targeted adaptive-sampling long-read sequencing; whole-transcriptome sequencing showed significant, specific intron retention near the exon-intron boundary.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read",
+    "rna_seq"
+   ],
+   "quote": "The whole transcriptome sequence performed on the same patient revealed significant and specific intron retention at the near exon\u2013intron boundary, implicating the pathogenicity of the SVA insertion in this patient (Fig.",
+   "confidence": "medium",
+   "text_source": "full_text"
+  },
+  {
+   "case_label": "SVA_D/SVA_E-derived insertion in APC intron 8 (FAP, patient S36)",
+   "gene": "APC",
+   "gene_as_reported": null,
+   "disease": "Familial adenomatous polyposis",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": "SVA_D/SVA_E",
+   "insertion_length_bp": 2678,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "15 bp",
+   "polyA": true,
+   "transduction": true,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 8,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "A 2,678-bp insertion derived from concatenated SVA_D and SVA_E elements on chr12p13 (91-bp 3' transduction, 55-bp polyA, 15-bp TSD) in APC intron 8 of a FAP patient with no other pathogenic variant; its transcript effect was not reported.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read"
+   ],
+   "quote": "Motivated by this finding, we further investigated other mobile element insertions by manually investigating the BAM files and identified another 2678 bp SVA insertion in the 8th intron of the APC gene in another FAP patient (Supplementary Fig.",
+   "confidence": "low",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

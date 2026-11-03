@@ -1,0 +1,46 @@
+{
+ "pmid": "20620061",
+ "cases": [
+  {
+   "case_label": "Japanese founder retrotransposal insertion in FKTN (Korean patients)",
+   "gene": "FKTN",
+   "gene_as_reported": "Fukutin",
+   "disease": "Fukuyama-type congenital muscular dystrophy / dystroglycanopathy",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "unknown",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 9,
+   "n_families": null,
+   "ancestry_or_population": "Korean (Japanese founder allele)",
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Two Korean patients were homozygous and seven heterozygous for the Japanese founder retrotransposal insertion in FKTN (five compound heterozygous with a pseudoexon-activating intronic variant). The element class and mechanism are not described in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Two patients were homozygous for the Japanese founder retrotransposal insertion mutation.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

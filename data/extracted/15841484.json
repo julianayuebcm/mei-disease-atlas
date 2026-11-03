@@ -1,0 +1,50 @@
+{
+ "pmid": "15841484",
+ "cases": [
+  {
+   "case_label": "Alu insertion in exon 3 of HESX1",
+   "gene": "HESX1",
+   "gene_as_reported": null,
+   "disease": "Anterior pituitary aplasia (combined pituitary hormone deficiency) with retinal coloboma",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Consanguineous family",
+   "region": "coding_exon",
+   "exon_number": 3,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping",
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A homozygous Alu insertion in HESX1 exon 3 (homeodomain) leads to a major transcript lacking exon 3 and a minor transcript skipping exons 2 and 3, predicting severely truncated proteins.",
+   "affected_exons": [
+    2,
+    3
+   ],
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "The Alu-containing HESX1 allele generates a major transcript lacking this exon, and a minor one in which exons 2 and 3 are skipped, predicting severely truncated proteins.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

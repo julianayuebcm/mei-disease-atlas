@@ -1,0 +1,48 @@
+{
+ "pmid": "39265574",
+ "cases": [
+  {
+   "case_label": "Homozygous Alu in SPINK1 3' UTR (dsRNA with intronic Alus)",
+   "gene": "SPINK1",
+   "gene_as_reported": null,
+   "disease": "Severe infantile isolated exocrine pancreatic insufficiency",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "exon_UTR3",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "iralu_structure",
+    "expression_loss",
+    "utr_effect"
+   ],
+   "mechanism_detail": "The homozygous 3' UTR Alu insertion abolishes SPINK1 mRNA; a 3' UTR reporter showed only ~50% reduction, whereas full-length gene assays showed the loss results from dsRNA structures formed between the inserted Alu and two oppositely oriented Alus in intron 3, with expression restored when all three Alus were placed in the same orientation.",
+   "affected_exons": null,
+   "evidence": [
+    "functional_assay"
+   ],
+   "quote": "We provide compelling evidence to link the detrimental effect of Alu_Ins to extensive dsRNA structures formed between Alu_Ins and pre-existing intronic Alu sequences, including the restoration of SPINK1 mRNA expression by aligning all three Alu elements in the same orientation.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

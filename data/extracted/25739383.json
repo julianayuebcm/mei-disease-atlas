@@ -1,0 +1,50 @@
+{
+ "pmid": "25739383",
+ "cases": [
+  {
+   "case_label": "SVA_F (~2.5 kb, antisense) in exon 6 of F9",
+   "gene": "F9",
+   "gene_as_reported": "factor IX",
+   "disease": "Hemophilia B (severe)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": "SVA_F",
+   "insertion_length_bp": 2500,
+   "full_length": null,
+   "orientation_vs_gene": "antisense",
+   "tsd": "15 bp",
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": "Japanese",
+   "region": "unknown",
+   "exon_number": 6,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing",
+    "expression_loss"
+   ],
+   "mechanism_detail": "An antisense ~2.5-kb SVA_F inserted in F9 exon 6 disturbed normal splicing of exons 5 and 6 in an exon-trap assay; the authors suggest the abnormal mRNA would be reduced by NMD.",
+   "affected_exons": [
+    5,
+    6
+   ],
+   "evidence": [
+    "minigene"
+   ],
+   "quote": "We observed that regular splicing at exons 5 and 6 of F9 was disturbed by the SVA retrotransposition, suggesting that abnormal FIX mRNA may be reduced by nonsense-mediated mRNA decay.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,48 @@
+{
+ "pmid": "8640237",
+ "cases": [
+  {
+   "case_label": "Alu in exon 22 of BRCA2",
+   "gene": "BRCA2",
+   "gene_as_reported": null,
+   "disease": "Hereditary breast cancer predisposition",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "8 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": "Japanese",
+   "region": "coding_exon",
+   "exon_number": 22,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping"
+   ],
+   "mechanism_detail": "A germline Alu insertion (64-bp poly(A) tract, 8-bp TSD) in BRCA2 exon 22 found in a breast cancer patient leads to alternative splicing that skips exon 22.",
+   "affected_exons": [
+    22
+   ],
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "One of the germline mutations was an insertion of an Alu element into exon 22, which resulted in alternative splicing that skipped exon 22.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

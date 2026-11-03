@@ -1,0 +1,46 @@
+{
+ "pmid": "21877133",
+ "cases": [
+  {
+   "case_label": "AluYa5 in ALMS1 exon 16 (Alstrom syndrome)",
+   "gene": "ALMS1",
+   "gene_as_reported": null,
+   "disease": "Alstrom syndrome",
+   "omim_phenotype": "203800",
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": "AluYa5",
+   "insertion_length_bp": 333,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": "present (length not stated)",
+   "polyA": true,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 2,
+   "n_families": 1,
+   "ancestry_or_population": "Turkish (Kiziltepe village, consanguineous kindred)",
+   "region": "coding_exon",
+   "exon_number": 16,
+   "intron_number": null,
+   "transcript": "NM_015120.4",
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A homozygous 333-bp AluYa5 (5'-truncated by 34 nt, 76-nt polyA, with TSD) inserted into the ALMS1 exon 16 coding sequence introduces a premature stop codon with an alternative C-terminus.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "Panel b shows the nucleotide sequence of the 333 base pair Alu insertion mutation introducing a premature stop codon, denoted with an asterisk.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

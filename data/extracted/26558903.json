@@ -1,0 +1,47 @@
+{
+ "pmid": "26558903",
+ "cases": [
+  {
+   "case_label": "AluYa8 in exon 9 of MAK (Ashkenazi founder)",
+   "gene": "MAK",
+   "gene_as_reported": null,
+   "disease": "Retinitis pigmentosa (autosomal recessive)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": "AluYa8",
+   "insertion_length_bp": 353,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "13 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 2,
+   "n_families": 2,
+   "ancestry_or_population": "Ashkenazi Jewish founder",
+   "region": "coding_exon",
+   "exon_number": 9,
+   "intron_number": null,
+   "transcript": "NM_001242957",
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption",
+    "aberrant_splicing"
+   ],
+   "mechanism_detail": "An Alu insertion (280 bp Alu + ~60 bp polyA + 13 bp TSD) in MAK exon 9, previously shown to disrupt splicing and abolish mature MAK protein; here detected in silico, solving one homozygous patient and one compound heterozygote with p.Gly16Arg (plus three heterozygous carriers).",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "Bioinformatics analysis of the MAK-Alu insertion showed that it belongs to a relatively recently evolved AluYa8 subfamily",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

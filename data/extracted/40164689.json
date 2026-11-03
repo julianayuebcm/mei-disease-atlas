@@ -1,0 +1,46 @@
+{
+ "pmid": "40164689",
+ "cases": [
+  {
+   "case_label": "Alu insertion in intron 1 of SLC17A8",
+   "gene": "SLC17A8",
+   "gene_as_reported": null,
+   "disease": "Progressive sensorineural hearing loss (autosomal dominant family history)",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "15 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 1,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": "GRCh38",
+   "chrom": "chr12",
+   "pos": 100371388,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "A heterozygous Alu insertion (15-bp TSD, polyA tail) in intron 1 of SLC17A8, absent from gnomAD-SV, was found by WGS in a proband with progressive high-frequency SNHL consistent with SLC17A8-associated hearing loss; functional contribution not tested.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "whether this Alu insertion in the SLC17A8 gene functionally contributes to the disease requires further investigation",
+   "confidence": "low",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,46 @@
+{
+ "pmid": "35052466",
+ "cases": [
+  {
+   "case_label": "SVA in TAF1 intron 32 (XDP): nanopore repeat sizing and methylation",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism (XDP)",
+   "omim_phenotype": "314250",
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 96,
+   "n_families": null,
+   "ancestry_or_population": "Filipino founder",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Nanopore sequencing of the XDP SVA in 96 patients found no variation other than the (CCCTCT)n repeat motif, and high CpG methylation of the SVA and flanks with only subtle patient-control differences at flanking enhancer sites; no direct mechanism established.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read"
+   ],
+   "quote": "We detected high CpG methylation frequency (MF) of the SVA and flanking regions (mean MF = 0.94, SD = ±0.12).",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

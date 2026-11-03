@@ -1,0 +1,46 @@
+{
+ "pmid": "34050153",
+ "cases": [
+  {
+   "case_label": "Founder SVA in TAF1 intron 32 (XDP) - age-at-onset modifier GWAS",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": 2600,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 353,
+   "n_families": null,
+   "ancestry_or_population": "Filipino founder",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "All patients carry the ~2.6-kb founder SVA in TAF1 intron 32; this GWAS identifies modifiers of age at onset (near MSH3, PMS2) likely acting via repeat instability, and does not study the insertion's molecular effect on TAF1.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "All patients carry the same disease-causing mutation, a ~2.6-kb SINE-VNTR-Alu (SVA)-type retrotransposon insertion in intron 32 of the TAF1 gene2,3.",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,46 @@
+{
+ "pmid": "1662391",
+ "cases": [
+  {
+   "case_label": "Alu insertion in exon 2 of BCHE",
+   "gene": "BCHE",
+   "gene_as_reported": "ChE (cholinesterase)",
+   "disease": "Acholinesterasemia (cholinesterase deficiency)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": 342,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "15 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 2,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "insertion at cDNA positions 1062-1076 (TSD)",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A 342-bp Alu with a 38-bp poly(A) tract inserted into exon 2 of the cholinesterase gene, homozygous in the patient, disrupting the coding sequence and inactivating the gene.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "Sequencing analysis of all of the four clones revealed that exon 2 of the ChE gene was disrupted by a 342-base-pair (bp) insertion of Alu element",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

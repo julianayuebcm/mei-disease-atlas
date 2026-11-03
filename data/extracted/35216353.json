@@ -1,0 +1,50 @@
+{
+ "pmid": "35216353",
+ "cases": [
+  {
+   "case_label": "SVA in TAF1 intron 32 (XDP): TAF1-32i intron retention and promoter repression",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism (XDP)",
+   "omim_phenotype": "314250",
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 50,
+   "n_families": null,
+   "ancestry_or_population": "Filipino founder",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "intron_retention",
+    "expression_loss",
+    "epigenetic_silencing"
+   ],
+   "mechanism_detail": "The SVA reduces TAF1 expression and increases the NMD-sensitive intron-retention transcript TAF1-32i in patient cells and blood (normalised by SVA excision); the region carries epigenetic marks and the SVA represses the TAF1 promoter in reporter assays.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr",
+    "functional_assay",
+    "long_read"
+   ],
+   "quote": "A SINE-VNTR-Alu (SVA) retrotransposon inserted in an intron of the TAF1 gene reduces its expression and alters splicing in XDP patient-derived cells.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,46 @@
+{
+ "pmid": "31329829",
+ "cases": [
+  {
+   "case_label": "AluYb8 in GLA exon 7",
+   "gene": "GLA",
+   "gene_as_reported": null,
+   "disease": "Fabry disease (late-onset cardiac phenotype)",
+   "omim_phenotype": null,
+   "inheritance": "XL",
+   "mei_class": "Alu",
+   "subfamily": "AluYb8",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": 7,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Title-only record: an AluYb8 insertion in exon 7 of GLA in a late-onset cardiac Fabry patient; no abstract available for mechanism.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "First case of late onset cardiac phenotype Fabry disease due to an AluYb8 insertion in exon 7 of the GLA gene.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

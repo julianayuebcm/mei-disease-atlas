@@ -1,0 +1,245 @@
+{"pmid": "38834915", "label": "include", "mei_class": ["SVA"], "genes": ["TAF1"], "reason": "XDP founder SVA in TAF1; mechanistic study in patient-derived cells"}
+{"pmid": "38835428", "label": "include", "mei_class": ["SVA"], "genes": ["TAF1"], "reason": "Review of XDP caused by founder retrotransposon insertion in TAF1"}
+{"pmid": "38835911", "label": "include", "mei_class": ["SVA"], "genes": ["TAF1"], "reason": "Review of XDP caused by founder retrotransposon insertion in TAF1"}
+{"pmid": "38836293", "label": "exclude", "mei_class": [], "genes": [], "reason": "West Nile virus phylogenetics"}
+{"pmid": "38864234", "label": "include", "mei_class": ["Alu"], "genes": ["PTCH1"], "reason": "Germline Alu insertion in PTCH1 in Gorlin syndrome patient"}
+{"pmid": "38896139", "label": "exclude", "mei_class": [], "genes": [], "reason": "Fungal prion-like proteins"}
+{"pmid": "38915770", "label": "exclude", "mei_class": [], "genes": [], "reason": "Primate retro-DNA computational genomics"}
+{"pmid": "38919532", "label": "exclude", "mei_class": [], "genes": [], "reason": "Cancer fusion transcripts review"}
+{"pmid": "38924247", "label": "maybe", "mei_class": ["Alu"], "genes": ["TMEM106B"], "reason": "Common AluYb8 in TMEM106B 3'UTR associated with dementia risk; polymorphism association, not clear causal"}
+{"pmid": "38932184", "label": "exclude", "mei_class": [], "genes": [], "reason": "Chimpanzee HERV genome characterization"}
+{"pmid": "38951360", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "L1 insertions in human embryos; no disease case"}
+{"pmid": "38960580", "label": "include", "mei_class": ["SVA"], "genes": ["ATP7A"], "reason": "SVA_D deep intronic insertion causing occipital horn syndrome"}
+{"pmid": "38960642", "label": "exclude", "mei_class": [], "genes": [], "reason": "R2 retrotransposon gene insertion tool"}
+{"pmid": "38960717", "label": "exclude", "mei_class": [], "genes": [], "reason": "Retrotransposon control complexes"}
+{"pmid": "38981481", "label": "exclude", "mei_class": [], "genes": [], "reason": "Engineered R2 gene integration tool"}
+{"pmid": "39009627", "label": "include", "mei_class": ["L1"], "genes": ["AR"], "reason": "Maternally inherited L1 insertion in AR 5'UTR causing androgen insensitivity"}
+{"pmid": "39016090", "label": "include", "mei_class": ["Alu"], "genes": ["DMD"], "reason": "Alu AluYa5 insertion in DMD exon 59 causing Duchenne"}
+{"pmid": "39048794", "label": "exclude", "mei_class": ["SVA"], "genes": ["ASIP"], "reason": "SVA polymorphism affecting pigmentation; not disease case (skin cancer risk population association)"}
+{"pmid": "39087930", "label": "exclude", "mei_class": [], "genes": [], "reason": "RP1 hypomorphic variant; Alu insertion assessed and not detected"}
+{"pmid": "39100749", "label": "exclude", "mei_class": [], "genes": [], "reason": "L1 expression in mouse Down syndrome model"}
+{"pmid": "39102544", "label": "include", "mei_class": ["SVA"], "genes": ["TAF1"], "reason": "XDP SVA in TAF1; ZNF91 repression in patient cells"}
+{"pmid": "39122697", "label": "exclude", "mei_class": [], "genes": [], "reason": "Microprotein proteogenomics method"}
+{"pmid": "39144255", "label": "include", "mei_class": ["Alu", "unknown"], "genes": ["TSC1", "TSC2"], "reason": "Long-read TSC cohort: retrotransposon insertion in TSC1/2 and de novo Alu insertion (VUS, suspected pathogenic)"}
+{"pmid": "39155769", "label": "exclude", "mei_class": [], "genes": [], "reason": "Fungal pathogen TE; non-human"}
+{"pmid": "39199304", "label": "exclude", "mei_class": [], "genes": [], "reason": "Epigenetic modifiers in metastasis review"}
+{"pmid": "39240653", "label": "exclude", "mei_class": ["pseudogene"], "genes": [], "reason": "Retrocopy database across species"}
+{"pmid": "39265574", "label": "include", "mei_class": ["Alu"], "genes": ["SPINK1"], "reason": "Homozygous Alu insertion in SPINK1 3'UTR causing infantile pancreatic insufficiency; mechanism study"}
+{"pmid": "39287133", "label": "include", "mei_class": ["SVA"], "genes": ["TAF1"], "reason": "XDP SVA G-quadruplex mechanism in patient cells"}
+{"pmid": "39297700", "label": "exclude", "mei_class": [], "genes": [], "reason": "LINE-1 methylation in prematurity"}
+{"pmid": "39299904", "label": "include", "mei_class": ["unknown"], "genes": [], "reason": "Long-read WGS in NDD probands diagnosed a mobile element insertion among new findings"}
+{"pmid": "39311137", "label": "exclude", "mei_class": [], "genes": [], "reason": "Retrotransposon methylation and diabetes review"}
+{"pmid": "39314493", "label": "exclude", "mei_class": ["L1", "Alu"], "genes": [], "reason": "GWAS of L1/Alu insertion counts; no disease case"}
+{"pmid": "39329701", "label": "exclude", "mei_class": ["HERV"], "genes": [], "reason": "HERV expression in ATLL; not insertion"}
+{"pmid": "39350015", "label": "exclude", "mei_class": [], "genes": [], "reason": "Targeted long-read RNA-seq method"}
+{"pmid": "39372794", "label": "exclude", "mei_class": [], "genes": [], "reason": "Complete genome assemblies; MEIs in centromeres, no disease"}
+{"pmid": "39389660", "label": "exclude", "mei_class": [], "genes": [], "reason": "PRINT transgene insertion method"}
+{"pmid": "39396200", "label": "exclude", "mei_class": [], "genes": [], "reason": "General retrotransposon life cycle review"}
+{"pmid": "39423215", "label": "maybe", "mei_class": ["Alu"], "genes": ["F9"], "reason": "Alu in F9 3'UTR ameliorates poly(A) mutation in hemophilia B patient; protective modifier, not causal"}
+{"pmid": "39424325", "label": "exclude", "mei_class": [], "genes": [], "reason": "RTE expression in neurodegeneration single-cell"}
+{"pmid": "39448676", "label": "include", "mei_class": ["Alu"], "genes": ["RP1"], "reason": "RP1 exon 4 AluY founder insertion in IRD patients; diagnostic detection"}
+{"pmid": "39450563", "label": "exclude", "mei_class": [], "genes": [], "reason": "L1-ORF2 zebrafish experiment"}
+{"pmid": "39456183", "label": "exclude", "mei_class": [], "genes": [], "reason": "Repetitive elements general review"}
+{"pmid": "39457414", "label": "include", "mei_class": ["Alu"], "genes": ["RP1"], "reason": "RP1 exon 4 Alu insertion in Korean RP patients by WGS"}
+{"pmid": "39464144", "label": "exclude", "mei_class": [], "genes": [], "reason": "Yeast CNV"}
+{"pmid": "39519018", "label": "exclude", "mei_class": [], "genes": [], "reason": "H3K9me3 cancer immunotherapy review"}
+{"pmid": "39544003", "label": "exclude", "mei_class": [], "genes": [], "reason": "PIWI-piRNA review"}
+{"pmid": "39563162", "label": "exclude", "mei_class": [], "genes": [], "reason": "SRP9/14 and Alu RNA review"}
+{"pmid": "39576233", "label": "exclude", "mei_class": [], "genes": [], "reason": "ERVs in zygotic genome activation review"}
+{"pmid": "39586577", "label": "include", "mei_class": ["Alu"], "genes": ["APOB"], "reason": "AluYa5 insertion in APOB exon 3 causing hypobetalipoproteinemia"}
+{"pmid": "39601242", "label": "exclude", "mei_class": [], "genes": [], "reason": "LINE-1 methylation in coeliac disease"}
+{"pmid": "39604588", "label": "exclude", "mei_class": [], "genes": [], "reason": "LINE-1 expression in Alzheimer microglia"}
+{"pmid": "39638237", "label": "exclude", "mei_class": [], "genes": [], "reason": "HUSH MPP8 structure"}
+{"pmid": "39676705", "label": "maybe", "mei_class": ["Alu"], "genes": ["MAK"], "reason": "South African IRD panel with MAK-Alu in silico screening; result not stated"}
+{"pmid": "39789389", "label": "exclude", "mei_class": [], "genes": [], "reason": "CREATE genome editing tool"}
+{"pmid": "39795935", "label": "exclude", "mei_class": [], "genes": [], "reason": "ORF2p molecular dynamics"}
+{"pmid": "39797762", "label": "exclude", "mei_class": [], "genes": [], "reason": "LINE1 at rDNA junctions in hESC"}
+{"pmid": "39836277", "label": "exclude", "mei_class": [], "genes": [], "reason": "Nanopore pipeline tool (SUMMER); no patient findings"}
+{"pmid": "39843294", "label": "include", "mei_class": ["Alu"], "genes": ["LDLR"], "reason": "Novel Alu insertion in LDLR exon 17 causing familial hypercholesterolemia"}
+{"pmid": "39896345", "label": "exclude", "mei_class": [], "genes": [], "reason": "tsRNA review"}
+{"pmid": "39901082", "label": "exclude", "mei_class": [], "genes": [], "reason": "Peritoneal dialysis catheters"}
+{"pmid": "39911968", "label": "maybe", "mei_class": ["Alu"], "genes": ["TMEM106B"], "reason": "Alu in TMEM106B 3'UTR candidate causal risk variant for FTLD-TDP; population association"}
+{"pmid": "39928391", "label": "include", "mei_class": ["L1"], "genes": ["TTN"], "reason": "LINE-1 insertion in TTN causing dilated cardiomyopathy"}
+{"pmid": "39948759", "label": "exclude", "mei_class": [], "genes": [], "reason": "Epigenetics review"}
+{"pmid": "40021663", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Somatic L1 in cancer"}
+{"pmid": "40048554", "label": "exclude", "mei_class": [], "genes": [], "reason": "LINE-1 TPRT structure"}
+{"pmid": "40051556", "label": "exclude", "mei_class": ["L1", "Alu"], "genes": [], "reason": "GWAS of L1/Alu insertion counts; duplicate record, no disease case"}
+{"pmid": "40055830", "label": "exclude", "mei_class": [], "genes": [], "reason": "Fungal TEs"}
+{"pmid": "40089719", "label": "exclude", "mei_class": [], "genes": [], "reason": "TE chimeric transcripts in lung cancer cell lines"}
+{"pmid": "40097464", "label": "exclude", "mei_class": [], "genes": [], "reason": "MTR4 mouse meiosis"}
+{"pmid": "40140953", "label": "include", "mei_class": ["Alu"], "genes": ["SPINK1"], "reason": "SPINK1 review citing pathogenic 3'UTR Alu insertion causing loss of function"}
+{"pmid": "40156862", "label": "exclude", "mei_class": [], "genes": [], "reason": "NF45-NF90 structure"}
+{"pmid": "40164689", "label": "include", "mei_class": ["Alu"], "genes": ["SLC17A8"], "reason": "Hearing loss WGS cohort identified Alu insertion in SLC17A8"}
+{"pmid": "40180948", "label": "include", "mei_class": ["L1"], "genes": ["APC"], "reason": "Intronic germline L1 insertion in APC causing FAP, pseudo-exon"}
+{"pmid": "40188131", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Somatic tumor genomics, LINE-1 retrotransposition in tumors"}
+{"pmid": "40188359", "label": "exclude", "mei_class": [], "genes": [], "reason": "Transposon clustering modeling"}
+{"pmid": "40205048", "label": "exclude", "mei_class": [], "genes": [], "reason": "R2 retrotransposon retargeting tool"}
+{"pmid": "40225144", "label": "include", "mei_class": ["Alu"], "genes": ["ATM"], "reason": "Novel AluYa5 insertion in ATM intron 54 causing exon skipping in HBOC patients"}
+{"pmid": "40225919", "label": "include", "mei_class": ["L1"], "genes": ["RP1"], "reason": "L1 insertion in RP1 exon 4 causing dominant RP in family"}
+{"pmid": "40237561", "label": "exclude", "mei_class": [], "genes": [], "reason": "FOXR2 activation in CNS tumors; somatic structural"}
+{"pmid": "40249781", "label": "include", "mei_class": ["unknown"], "genes": ["GNAS"], "reason": "Retrotransposon in GNAS-AS1 intron 1 in AD-PHP1B family disrupts methylation"}
+{"pmid": "40251809", "label": "include", "mei_class": ["SVA"], "genes": ["NMNAT1"], "reason": "SVA_F retrotransposon in NMNAT1 mRNA in four IRD subjects"}
+{"pmid": "40257001", "label": "include", "mei_class": ["SVA"], "genes": ["ASPA"], "reason": "SVA_E in ASPA intron 4 as second variant in Canavan disease patients"}
+{"pmid": "40263280", "label": "include", "mei_class": ["L1", "HERV"], "genes": ["IQCB1"], "reason": "LINE-1/ERV1 insertion in IQCB1 causing Senior-Loken syndrome"}
+{"pmid": "40264183", "label": "exclude", "mei_class": [], "genes": [], "reason": "Somatic/germline retrotransposition structural features in cancer; no disease case"}
+{"pmid": "40281075", "label": "exclude", "mei_class": [], "genes": [], "reason": "RetroInspector tool"}
+{"pmid": "40282356", "label": "exclude", "mei_class": [], "genes": [], "reason": "Hedgehog LINE/SINE"}
+{"pmid": "40301896", "label": "include", "mei_class": ["Alu"], "genes": ["KMT2D"], "reason": "AluY insertion in KMT2D causing Kabuki syndrome"}
+{"pmid": "40341501", "label": "exclude", "mei_class": [], "genes": [], "reason": "Alu jumping assay"}
+{"pmid": "40362605", "label": "exclude", "mei_class": [], "genes": [], "reason": "L1 ORF1p in aging mouse CNS"}
+{"pmid": "40368603", "label": "exclude", "mei_class": [], "genes": [], "reason": "L1 ORF2 transcripts in AD brain"}
+{"pmid": "40408535", "label": "exclude", "mei_class": [], "genes": [], "reason": "MOV10 L1 restriction mechanism"}
+{"pmid": "40455561", "label": "exclude", "mei_class": [], "genes": [], "reason": "Ancestral LTR in imprinting; evolution"}
+{"pmid": "40463055", "label": "include", "mei_class": ["SVA"], "genes": ["TAF1"], "reason": "XDP SVA in TAF1; MSH3 modifies repeat instability in patients"}
+{"pmid": "40465458", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Somatic L1 in HNSCC"}
+{"pmid": "40475606", "label": "exclude", "mei_class": [], "genes": [], "reason": "PIWIL2 colon cancer"}
+{"pmid": "40498041", "label": "include", "mei_class": ["L1"], "genes": ["ALMS1"], "reason": "Novel LINE-1 insertion in ALMS1 exon 8 in Alstrom syndrome patients"}
+{"pmid": "40510242", "label": "maybe", "mei_class": ["SVA"], "genes": ["NEK1"], "reason": "SVA landscape in ALS; rare SVA insertions in NEK1 enriched in ALS, candidate only"}
+{"pmid": "40516322", "label": "exclude", "mei_class": [], "genes": [], "reason": "ESCC chromosomal instability"}
+{"pmid": "40529392", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "RC-L1 burden association in ALS; no specific disease insertion"}
+{"pmid": "40540399", "label": "include", "mei_class": ["SVA"], "genes": ["TAF1"], "reason": "XDP SVA organoid mechanism study of disease-causing insertion"}
+{"pmid": "40540573", "label": "exclude", "mei_class": [], "genes": [], "reason": "R2 structures"}
+{"pmid": "40563839", "label": "exclude", "mei_class": [], "genes": [], "reason": "SARS-CoV-2 polymorphisms"}
+{"pmid": "40573361", "label": "exclude", "mei_class": [], "genes": [], "reason": "ERV spread model"}
+{"pmid": "40578471", "label": "include", "mei_class": ["Alu"], "genes": ["MAK"], "reason": "MAK-associated RP case series, homozygous Alu insertion exon 9"}
+{"pmid": "40603868", "label": "exclude", "mei_class": [], "genes": [], "reason": "R2 engineering"}
+{"pmid": "40607221", "label": "include", "mei_class": ["Alu"], "genes": ["FGFR1"], "reason": "De novo Alu insertion in FGFR1 exon 9 in boy with CHH"}
+{"pmid": "40627674", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Mouse L1 insertion in Tg; non-human"}
+{"pmid": "40629180", "label": "include", "mei_class": ["SVA"], "genes": ["BRCA1"], "reason": "Intronic SVA insertion in BRCA1 in HBOC family"}
+{"pmid": "40634706", "label": "exclude", "mei_class": ["HERV"], "genes": [], "reason": "Mouse LTR retrotransposon at Fgf8; non-human"}
+{"pmid": "40647238", "label": "exclude", "mei_class": [], "genes": [], "reason": "LINE-1 methylation in hyperhomocysteinemia"}
+{"pmid": "40682131", "label": "exclude", "mei_class": [], "genes": [], "reason": "Cotton rat genome"}
+{"pmid": "40702182", "label": "exclude", "mei_class": [], "genes": [], "reason": "Population SV long-read resource; no disease case"}
+{"pmid": "40702183", "label": "exclude", "mei_class": [], "genes": [], "reason": "Complete genomes resource"}
+{"pmid": "40712994", "label": "include", "mei_class": ["unknown"], "genes": [], "reason": "SEALigHTS RNA splicing assay revealed splicing impact of a retrotransposon insertion in patient"}
+{"pmid": "40725415", "label": "exclude", "mei_class": [], "genes": [], "reason": "LINE-1 methylation in T1D"}
+{"pmid": "40725438", "label": "exclude", "mei_class": [], "genes": [], "reason": "Cytogenomics review"}
+{"pmid": "40761481", "label": "exclude", "mei_class": [], "genes": [], "reason": "RNA epigenetics cancer review"}
+{"pmid": "40789164", "label": "exclude", "mei_class": [], "genes": [], "reason": "PIWIL2 colon cancer"}
+{"pmid": "40814019", "label": "exclude", "mei_class": [], "genes": [], "reason": "TE general review"}
+{"pmid": "40823530", "label": "exclude", "mei_class": ["HERV"], "genes": [], "reason": "HERV env in ovarian cancer review"}
+{"pmid": "40834114", "label": "exclude", "mei_class": [], "genes": [], "reason": "Fig wasp TEs"}
+{"pmid": "40896794", "label": "include", "mei_class": ["SVA"], "genes": ["PARN"], "reason": "Paternal SVA insertion in PARN with missense variant in dyskeratosis congenita"}
+{"pmid": "40905279", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Somatic L1 in myeloid malignancy"}
+{"pmid": "40940398", "label": "exclude", "mei_class": [], "genes": [], "reason": "L1PA PCR primers"}
+{"pmid": "40950107", "label": "exclude", "mei_class": [], "genes": [], "reason": "Mammalian nLTR activity and cancer prevalence"}
+{"pmid": "40971676", "label": "exclude", "mei_class": [], "genes": [], "reason": "Canine structural variation"}
+{"pmid": "41009946", "label": "maybe", "mei_class": ["Alu"], "genes": ["SPINK1"], "reason": "New SPINK1 case is not MEI; mentions previously reported 3'UTR Alu insertion case"}
+{"pmid": "41017149", "label": "include", "mei_class": ["SVA"], "genes": ["TCOF1"], "reason": "Intronic SVA in TCOF1 causing Treacher Collins in half-siblings, father mosaic"}
+{"pmid": "41028987", "label": "include", "mei_class": ["L1"], "genes": ["SGCE"], "reason": "Novel exonic LINE-1 insertion in SGCE in myoclonus-dystonia patient by nanopore"}
+{"pmid": "41034474", "label": "exclude", "mei_class": [], "genes": [], "reason": "NanoVar tool protocol"}
+{"pmid": "41035523", "label": "exclude", "mei_class": [], "genes": [], "reason": "Transposon/triplet repeat perspective"}
+{"pmid": "41043512", "label": "exclude", "mei_class": [], "genes": [], "reason": "Rice Tos17"}
+{"pmid": "41061157", "label": "exclude", "mei_class": ["Alu"], "genes": ["ACE"], "reason": "ACE Alu I/D polymorphism; no association with infertility"}
+{"pmid": "41073419", "label": "exclude", "mei_class": ["Alu"], "genes": ["F3"], "reason": "Ancient Alu in F3 3'UTR; evolutionary cell study"}
+{"pmid": "41118758", "label": "exclude", "mei_class": ["HERV"], "genes": [], "reason": "Retrotransposon neuro review"}
+{"pmid": "41157902", "label": "exclude", "mei_class": [], "genes": [], "reason": "Repeat expression in Alzheimer brain"}
+{"pmid": "41159775", "label": "maybe", "mei_class": ["L1"], "genes": [], "reason": "Review of L1 5' truncation; mentions disease insertions historically, not specific cases"}
+{"pmid": "41193979", "label": "exclude", "mei_class": [], "genes": [], "reason": "Bee TEs"}
+{"pmid": "41199327", "label": "maybe", "mei_class": ["SVA"], "genes": [], "reason": "Polymorphic SVA structure/transduction; mentions disease, no clear case"}
+{"pmid": "41210374", "label": "include", "mei_class": ["unknown"], "genes": [], "reason": "Genome sequencing of germline SVs in cancer predisposition genes including one MEI"}
+{"pmid": "41223332", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Somatic L1 in ovarian cancer"}
+{"pmid": "41235755", "label": "exclude", "mei_class": ["Alu"], "genes": [], "reason": "Somatic AluY in Alzheimer brain"}
+{"pmid": "41251490", "label": "exclude", "mei_class": ["HERV"], "genes": [], "reason": "HERV-K Rec protein function"}
+{"pmid": "41256610", "label": "exclude", "mei_class": [], "genes": [], "reason": "Somatic benchmark resource"}
+{"pmid": "41271512", "label": "include", "mei_class": ["L1"], "genes": ["SLCO1B3"], "reason": "L1 insertion in SLCO1B3 intron 6 in Rotor syndrome patient (title only, no abstract)"}
+{"pmid": "41279153", "label": "include", "mei_class": ["SVA"], "genes": ["TAF1"], "reason": "XDP SVA genome-writing mouse model of disease-causing insertion"}
+{"pmid": "41282719", "label": "include", "mei_class": ["SVA"], "genes": ["TAF1"], "reason": "XDP SVA in TAF1 intron 32 alternative splicing in patient cells"}
+{"pmid": "41284350", "label": "exclude", "mei_class": [], "genes": [], "reason": "Arabidopsis TE"}
+{"pmid": "41290015", "label": "include", "mei_class": ["Alu"], "genes": ["RP1"], "reason": "Homozygous RP1 Alu insertion in RP patient missed by short-read NGS"}
+{"pmid": "41292848", "label": "exclude", "mei_class": [], "genes": [], "reason": "Swordtail fish ERV"}
+{"pmid": "41296188", "label": "exclude", "mei_class": [], "genes": [], "reason": "Retroelements thyroid cancer review"}
+{"pmid": "41393994", "label": "include", "mei_class": ["pseudogene"], "genes": ["ATP7A"], "reason": "Retropseudogene insertion in ATP7A exon 3 causing Menkes disease"}
+{"pmid": "41421069", "label": "include", "mei_class": ["Alu"], "genes": ["MEN1"], "reason": "Novel Alu insertion in MEN1 in family with MEN1 syndrome"}
+{"pmid": "41443196", "label": "include", "mei_class": ["SVA"], "genes": ["TAF1"], "reason": "XDP SVA in TAF1; MSH3 modifier of repeat instability in patients"}
+{"pmid": "41445611", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "L1 RNA expression and longevity"}
+{"pmid": "41456228", "label": "exclude", "mei_class": [], "genes": [], "reason": "Rice retrotransposon"}
+{"pmid": "41459148", "label": "maybe", "mei_class": [], "genes": [], "reason": "Mini-review of transposons and disease; may cite insertional mutations"}
+{"pmid": "41460923", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Mouse TDP-43 L1 model"}
+{"pmid": "41465528", "label": "exclude", "mei_class": [], "genes": [], "reason": "Blastocyst piRNA"}
+{"pmid": "41489510", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "LINE-1 chromatin in cancer"}
+{"pmid": "41588148", "label": "include", "mei_class": ["unknown"], "genes": ["GYS2", "PEX1"], "reason": "LRS in inherited metabolic disease patients found three TE insertions incl. GYS2, PEX1"}
+{"pmid": "41620616", "label": "exclude", "mei_class": [], "genes": [], "reason": "MER57E3 regulatory TEs"}
+{"pmid": "41663593", "label": "exclude", "mei_class": [], "genes": [], "reason": "Pig liver xenotransplant"}
+{"pmid": "41683713", "label": "exclude", "mei_class": [], "genes": [], "reason": "TE expression in viral infection scRNA"}
+{"pmid": "41715124", "label": "include", "mei_class": ["Alu"], "genes": ["ATM"], "reason": "Alu insertion in ATM in ataxia telangiectasia patient predicted premature stop"}
+{"pmid": "41721893", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "MORC2 LINE-1 in AML"}
+{"pmid": "41751171", "label": "exclude", "mei_class": [], "genes": [], "reason": "Non-LTR sterile inflammation review"}
+{"pmid": "41755642", "label": "exclude", "mei_class": [], "genes": [], "reason": "Drosophila heterochromatin"}
+{"pmid": "41757089", "label": "exclude", "mei_class": ["L1"], "genes": ["MET"], "reason": "Somatic LINE-1 insertions causing MET exon 14 skipping in cancer"}
+{"pmid": "41767206", "label": "exclude", "mei_class": ["L1", "Alu"], "genes": [], "reason": "Somatic insertions in AD brain"}
+{"pmid": "41772704", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Somatic L1 chimeric transcript in LUSC"}
+{"pmid": "41777671", "label": "include", "mei_class": ["SVA"], "genes": ["TAF1"], "reason": "XDP SVA; Drosophila model and patient fibroblasts"}
+{"pmid": "41784387", "label": "exclude", "mei_class": [], "genes": [], "reason": "Evolution of TE repressors"}
+{"pmid": "41813703", "label": "exclude", "mei_class": [], "genes": [], "reason": "piRNA human oogenesis"}
+{"pmid": "41818480", "label": "exclude", "mei_class": ["pseudogene"], "genes": ["ATXN3"], "reason": "Evolution of ATXN3 retrocopies in primates"}
+{"pmid": "41840221", "label": "include", "mei_class": ["unknown"], "genes": ["APC", "BRCA2", "PALB2"], "reason": "GRIDSS germline SV workflow found five pathogenic MEIs in APC, BRCA2, PALB2"}
+{"pmid": "41861498", "label": "include", "mei_class": ["SVA"], "genes": ["SERPINC1"], "reason": "SVA insertion in SERPINC1 intron 3 in antithrombin deficiency patient"}
+{"pmid": "41896320", "label": "include", "mei_class": ["SVA"], "genes": ["SERPING1"], "reason": "SVA insertion in SERPING1 intron 7 causing hereditary angioedema family"}
+{"pmid": "41916722", "label": "include", "mei_class": ["Alu"], "genes": ["DICER1"], "reason": "Pathogenic germline Alu insertion in DICER1 tumour predisposition"}
+{"pmid": "41995355", "label": "exclude", "mei_class": ["Alu"], "genes": [], "reason": "Alu radiation biomarker review"}
+{"pmid": "42009640", "label": "exclude", "mei_class": [], "genes": [], "reason": "Population TE insertion landscape in Chinese cohort (title only); no disease case evident"}
+{"pmid": "42026979", "label": "exclude", "mei_class": [], "genes": [], "reason": "Site-specific integration review"}
+{"pmid": "42055552", "label": "exclude", "mei_class": [], "genes": [], "reason": "HERC5 L1 restriction"}
+{"pmid": "42055800", "label": "include", "mei_class": ["Alu"], "genes": ["MEN1"], "reason": "Pathogenic Alu insertion in MEN1 mimicking deletion on MLPA"}
+{"pmid": "42058905", "label": "exclude", "mei_class": ["pseudogene"], "genes": [], "reason": "Retrocopies in ESCC cohort; cancer, no germline disease case"}
+{"pmid": "42071158", "label": "exclude", "mei_class": [], "genes": [], "reason": "AD viral mimicry review"}
+{"pmid": "42071237", "label": "exclude", "mei_class": ["L1"], "genes": ["FOXP2"], "reason": "Evolutionary LINE-1 near FOXP2"}
+{"pmid": "42079344", "label": "include", "mei_class": ["L1"], "genes": ["PHEX"], "reason": "Partial LINE-1 insertion in PHEX causing XLH"}
+{"pmid": "42094538", "label": "exclude", "mei_class": [], "genes": [], "reason": "Astrocyte senescence"}
+{"pmid": "42095673", "label": "exclude", "mei_class": ["HERV"], "genes": [], "reason": "HERV-K Env structure"}
+{"pmid": "42100560", "label": "exclude", "mei_class": [], "genes": [], "reason": "LINE-1 general review"}
+{"pmid": "42102821", "label": "include", "mei_class": ["SVA"], "genes": ["TAF1"], "reason": "XDP patient-derived neurons; SVA retrotransposon in TAF1"}
+{"pmid": "42134985", "label": "exclude", "mei_class": [], "genes": [], "reason": "Methylation of polymorphic TEs"}
+{"pmid": "42154786", "label": "exclude", "mei_class": [], "genes": [], "reason": "Recombination hotspots review"}
+{"pmid": "42173184", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "L1 dynamics in IVF offspring; no specific disease insertion"}
+{"pmid": "42182474", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Pangenome LINE-1 variation"}
+{"pmid": "42249080", "label": "exclude", "mei_class": [], "genes": [], "reason": "DUX family evolution"}
+{"pmid": "42267589", "label": "exclude", "mei_class": [], "genes": [], "reason": "TE regulation germ cell review"}
+{"pmid": "42275762", "label": "maybe", "mei_class": ["Alu"], "genes": ["LDLR"], "reason": "MELT screen of ADH; AluYb8b1 in LDLR 5'UTR is VUS with no functional effect"}
+{"pmid": "42277396", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "LINE-1 in ovarian cancer review"}
+{"pmid": "42303602", "label": "exclude", "mei_class": [], "genes": [], "reason": "HUSH MPP8 iPSC"}
+{"pmid": "42360281", "label": "exclude", "mei_class": ["pseudogene"], "genes": ["RBMX"], "reason": "RBMX variants with retrocopy compensation; not an MEI"}
+{"pmid": "42380125", "label": "include", "mei_class": ["unknown"], "genes": [], "reason": "HBOC multi-omics found six rare MEIs in DNA repair genes"}
+{"pmid": "42402417", "label": "exclude", "mei_class": [], "genes": [], "reason": "Arsenic sperm methylation"}
+{"pmid": "42405724", "label": "exclude", "mei_class": [], "genes": [], "reason": "Gazelle papillomavirus"}
+{"pmid": "42423801", "label": "include", "mei_class": ["SVA"], "genes": ["MSH2"], "reason": "SVA_F insertion in MSH2 exon 12 causing Lynch syndrome family"}
+{"pmid": "42432877", "label": "include", "mei_class": ["SVA"], "genes": ["AP3B1"], "reason": "SVA insertion in AP3B1 causing Hermansky-Pudlak 2 (title only)"}
+{"pmid": "42455435", "label": "exclude", "mei_class": [], "genes": [], "reason": "General germline mutation review"}
+{"pmid": "42463649", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Somatic L1 in bladder cancer"}
+{"pmid": "42465902", "label": "maybe", "mei_class": ["unknown"], "genes": ["SCN5A"], "reason": "Brugada WGS: 6 kb retrotransposon insertion in SCN5A enriched in cases, uncertain causality"}
+{"pmid": "42485734", "label": "exclude", "mei_class": [], "genes": [], "reason": "Forensic hair profiling"}
+{"pmid": "42503901", "label": "exclude", "mei_class": ["Alu"], "genes": [], "reason": "Alu insertion polymorphism population frequencies"}
+{"pmid": "42511587", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "LINE-1 ALS review"}
+{"pmid": "42523269", "label": "exclude", "mei_class": [], "genes": [], "reason": "TEs in TNBC olaparib"}
+{"pmid": "42531419", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "L1 X chromosome distribution"}
+{"pmid": "42546688", "label": "exclude", "mei_class": [], "genes": [], "reason": "L1 in antibody diversification"}
+{"pmid": "42552333", "label": "exclude", "mei_class": ["Alu"], "genes": ["SRD5A2"], "reason": "Exonisation of reference inverted Alu via splice variant; not an insertion"}
+{"pmid": "42553694", "label": "exclude", "mei_class": [], "genes": [], "reason": "Shrimp transcriptome"}
+{"pmid": "42579496", "label": "exclude", "mei_class": [], "genes": [], "reason": "R2 mechanism"}
+{"pmid": "42587787", "label": "exclude", "mei_class": [], "genes": [], "reason": "Exosome epigenetics review"}
+{"pmid": "42655712", "label": "exclude", "mei_class": [], "genes": [], "reason": "LINE-1 immunity review"}
+{"pmid": "42669067", "label": "exclude", "mei_class": [], "genes": [], "reason": "SIRT1 L1 silencing"}
+{"pmid": "42669685", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "L1 rearrangement mechanism in cancer"}
+{"pmid": "42685224", "label": "exclude", "mei_class": [], "genes": [], "reason": "TE expression in Parkinson's"}
+{"pmid": "42685354", "label": "include", "mei_class": ["L1", "SVA"], "genes": ["PTEN", "STIM1"], "reason": "Germline TE insertions in pediatric cancer; L1 in PTEN 3'UTR, SVA in STIM1 with RNA effects"}
+{"pmid": "42698704", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "L1 in mouse neurodegeneration"}
+{"pmid": "42701979", "label": "exclude", "mei_class": [], "genes": [], "reason": "Brain evolution regulatory review"}
+{"pmid": "42706376", "label": "exclude", "mei_class": ["L1"], "genes": [], "reason": "Gastric cancer L1 expression"}
+{"pmid": "42721886", "label": "exclude", "mei_class": [], "genes": [], "reason": "Retrotransposon transgene tools review"}
+{"pmid": "42732008", "label": "include", "mei_class": ["Alu"], "genes": ["CPLANE1"], "reason": "Alu insertion near exon boundary in CPLANE1 causing OFD VI"}
+{"pmid": "42738356", "label": "exclude", "mei_class": ["Alu"], "genes": ["PGR"], "reason": "PROGINS Alu polymorphism in glioma tumours; association study"}
+{"pmid": "42759945", "label": "exclude", "mei_class": [], "genes": [], "reason": "Neural somatic mosaicism review"}
+{"pmid": "42779354", "label": "include", "mei_class": ["SVA"], "genes": ["TCF20"], "reason": "De novo exonic SVA in TCF20 in syndromic Hirschsprung patient"}
+{"pmid": "42784687", "label": "exclude", "mei_class": [], "genes": [], "reason": "BC200 poxvirus transposition"}
+{"pmid": "42787712", "label": "exclude", "mei_class": [], "genes": [], "reason": "piRNA glioblastoma review"}
+{"pmid": "42799858", "label": "include", "mei_class": ["SVA"], "genes": ["TAF1"], "reason": "Review comparing XDP (founder SVA in TAF1) with other repeat disorders"}
+{"pmid": "42818252", "label": "exclude", "mei_class": ["Alu"], "genes": [], "reason": "AluY sperm methylation epimutations"}
+{"pmid": "42818253", "label": "exclude", "mei_class": [], "genes": [], "reason": "L1 overexpression fibroblasts"}
+{"pmid": "42847597", "label": "include", "mei_class": ["Alu"], "genes": ["RP1"], "reason": "Korean RP1 cohort; Alu insertion c.4052_4053ins328 in 14% of patients"}
+{"pmid": "42880246", "label": "exclude", "mei_class": [], "genes": [], "reason": "Somatic benchmark resource"}
+{"pmid": "42907367", "label": "exclude", "mei_class": [], "genes": [], "reason": "Mouse Kitl IAP insertion; non-human"}
+{"pmid": "42913018", "label": "exclude", "mei_class": [], "genes": [], "reason": "Chimp PTERV1 evolution"}
+{"pmid": "42918972", "label": "exclude", "mei_class": [], "genes": [], "reason": "TE depletion at promoters"}
+{"pmid": "42922581", "label": "exclude", "mei_class": [], "genes": [], "reason": "Somatic mosaicism map"}
+{"pmid": "42925263", "label": "include", "mei_class": ["unknown"], "genes": ["GNAS"], "reason": "PHP1B case with maternal retrotransposon insertion near GNAS studied by long-read methylation"}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>All insertions · MEI Disease Atlas</title>
+<meta name="description" content="Browse and filter every published germline mobile element insertion that causes disease.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://julianayuebcm.github.io/mei-disease-atlas/browse/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MEI Disease Atlas">
+<meta property="og:title" content="All insertions · MEI Disease Atlas">
+<meta property="og:description" content="Browse and filter every published germline mobile element insertion that causes disease.">
+<meta property="og:url" content="https://julianayuebcm.github.io/mei-disease-atlas/browse/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23111a2b'/%3E%3Cpath d='M4 19h24' stroke='%23aab5c8' stroke-width='2'/%3E%3Crect x='6' y='14' width='5' height='10' rx='1' fill='%23e9eef8'/%3E%3Crect x='20' y='14' width='6' height='10' rx='1' fill='%23e9eef8'/%3E%3Cpath d='M12 5h7l-3.5 6z' fill='%23f0763f'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/mei-disease-atlas/assets/site.css">
+<script>window.ATLAS_STATIC = { base: "/mei-disease-atlas/", url: "https://julianayuebcm.github.io/mei-disease-atlas/" };</script>
+</head>
+<body>
+<canvas id="helix" aria-hidden="true"></canvas>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/mei-disease-atlas/" aria-label="MEI Disease Atlas home">
+      <svg width="30" height="22" viewBox="0 0 30 22" aria-hidden="true"><line x1="1" y1="15" x2="29" y2="15" stroke="currentColor" stroke-opacity=".55" stroke-width="1.5"/><rect x="3" y="10" width="5" height="10" rx="1" fill="currentColor"/><rect x="12" y="10" width="4" height="10" rx="1" fill="currentColor"/><rect x="22" y="10" width="6" height="10" rx="1" fill="currentColor"/><path d="M 15.5 1 L 21.5 1 L 18.5 6 Z" fill="var(--l1)"/><line x1="18.5" y1="6" x2="18.5" y2="13" stroke="var(--l1)" stroke-width="1.6"/></svg>
+      MEI Disease Atlas
+    </a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="/mei-disease-atlas/">Overview</a>
+      <a href="/mei-disease-atlas/browse/">Browse</a>
+      <a href="/mei-disease-atlas/mechanisms/">Mechanisms</a>
+      <a href="/mei-disease-atlas/genes/">Genes</a>
+      <a href="/mei-disease-atlas/elements/">Elements</a>
+      <a href="/mei-disease-atlas/methods/">Methods</a>
+      <a href="/mei-disease-atlas/about/">About</a>
+    </nav>
+    <div class="search">
+      <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><circle cx="6" cy="6" r="4.5" fill="none" stroke="currentColor" stroke-width="1.6"/><line x1="9.5" y1="9.5" x2="13" y2="13" stroke="currentColor" stroke-width="1.6"/></svg>
+      <input id="gsearch" type="search" placeholder="Search gene, disease…" autocomplete="off" aria-label="Search the atlas">
+      <div class="suggest" id="suggest" hidden></div>
+    </div>
+  </div>
+</header>
+
+<main id="app">
+    <div class="page-head"><nav class="crumbs" aria-label="Breadcrumb"><a href="/mei-disease-atlas/">Overview</a><span>/</span><span>Browse</span></nav>
+      <h1>All insertions</h1>
+      <p class="lede">Every insertion event in the atlas. Filter by element, mechanism, origin or confidence, sort any column, and click a row to open its case page.</p></div>
+    <div class="card"><div id="browse-tbl">
+    <div class="filters" style="margin-bottom:12px">
+      <input class="field" type="search" id="browse-tbl-q" placeholder="Filter by gene, disease, subfamily, PMID…" value="" aria-label="Filter table">
+      <span class="filters"><button class="chip" type="button" data-cls="Alu" aria-pressed="false"><i class="sw" style="background:var(--alu)"></i>Alu</button><button class="chip" type="button" data-cls="L1" aria-pressed="false"><i class="sw" style="background:var(--l1)"></i>L1</button><button class="chip" type="button" data-cls="SVA" aria-pressed="false"><i class="sw" style="background:var(--sva)"></i>SVA</button><button class="chip" type="button" data-cls="Other" aria-pressed="false"><i class="sw" style="background:var(--other)"></i>Other</button></span>
+      <label for="browse-tbl-mech">Mechanism <select class="field" id="browse-tbl-mech"><option value="">Any</option><option value="coding_disruption">Coding disruption</option><option value="exon_skipping">Exon skipping</option><option value="exonization">Exonization</option><option value="aberrant_splicing">Aberrant splicing</option><option value="intron_retention">Intron retention</option><option value="iralu_structure">Inverted-Alu structure</option><option value="premature_polyadenylation">Premature polyadenylation</option><option value="expression_loss">Expression loss</option><option value="epigenetic_silencing">Epigenetic silencing</option><option value="utr_effect">UTR effect</option><option value="insertion_associated_deletion">Insertion-associated deletion</option><option value="transduction_effect">Transduction</option><option value="aberrant_transcript_other">Other aberrant transcript</option><option value="unknown">Not described</option></select></label>
+      <label for="browse-tbl-origin">Origin <select class="field" id="browse-tbl-origin"><option value="">Any</option><option value="de_novo">De novo</option><option value="inherited">Inherited</option><option value="founder">Founder</option><option value="unknown">Not stated</option></select></label>
+      <label for="browse-tbl-conf">Confidence <select class="field" id="browse-tbl-conf"><option value="">Any</option><option value="high">High only</option><option value="medium">High + medium</option></select></label>
+    </div>
+    <div class="table-wrap"><table>
+      <thead><tr><th data-k="gene">Gene</th><th data-k="disease">Disease</th><th data-k="mei_class">Element</th><th data-k="mech">Mechanism</th><th data-k="loc">Location</th><th data-k="origin">Origin</th><th data-k="first_year">First reported</th><th data-k="npap">Papers</th></tr></thead>
+      <tbody></tbody></table></div>
+    <div class="pager"></div>
+  </div></div></main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div style="font-family:var(--font-display);font-weight:800;font-size:16px;color:var(--ink);margin-bottom:6px">MEI Disease Atlas</div>
+      <p id="foot-note"></p>
+    </div>
+    <div><h4>Explore</h4><a href="/mei-disease-atlas/browse/">All insertions</a><a href="/mei-disease-atlas/mechanisms/">Mechanisms</a><a href="/mei-disease-atlas/genes/">Genes</a><a href="/mei-disease-atlas/elements/">Elements</a></div>
+    <div><h4>About</h4><a href="/mei-disease-atlas/methods/">How it was built</a><a href="/mei-disease-atlas/methods/#scope">Scope</a><a href="/mei-disease-atlas/methods/#caveats">Caveats</a><a href="/mei-disease-atlas/about/">Cite &amp; licence</a></div>
+  </div>
+</footer>
+<div class="tip" id="tip" hidden></div>
+<script src="/mei-disease-atlas/assets/site.js"></script>
+<script src="/mei-disease-atlas/assets/helix.js"></script>
+</body>
+</html>

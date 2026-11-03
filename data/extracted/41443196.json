@@ -1,0 +1,46 @@
+{
+ "pmid": "41443196",
+ "cases": [
+  {
+   "case_label": "SVA in TAF1 (XDP): MSH3 modifies somatic CCCTCT repeat instability",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism (XDP)",
+   "omim_phenotype": "314250",
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Filipino founder",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Genetic association study in XDP individuals showing MSH3 variants modify somatic expansion/contraction of the SVA CCCTCT repeat in blood and brain and age at onset; the SVA's effect on TAF1 is not studied here.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read"
+   ],
+   "quote": "we found that MSH3 modifies repeat expansion and contraction in blood as well as age at onset",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

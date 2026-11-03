@@ -1,0 +1,46 @@
+{
+ "pmid": "22158424",
+ "cases": [
+  {
+   "case_label": "Alu repeat insertion in CAPN3 intron 7 with c.1194-9A>G altering CAPN3 mRNA processing",
+   "gene": "CAPN3",
+   "gene_as_reported": null,
+   "disease": "Limb girdle muscular dystrophy type 2A (LGMD2A)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 3,
+   "n_families": 1,
+   "ancestry_or_population": "Tunisian (consanguineous family)",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 7,
+   "transcript": null,
+   "hgvs": "c.1194-9A>G (accompanying splice variant)",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing"
+   ],
+   "mechanism_detail": "Three patients of one consanguineous family shared the c.1194-9A>G change together with an Alu repeat insertion/rearrangement in intron 7 of CAPN3. RT-PCR of muscle RNA showed a transcript lacking the first seven exons and retaining the last eight nucleotides of intron 9, which the authors attribute to disruption of pre-existing intronic splicing regulatory elements by the Alu insertion.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "We report here genetic and transcriptional analyses in three Tunisian patients belonging to the same consanguineous family sharing the same mutation c.1194-9 A>G and Alu repeats insertion in intron 7 of CAPN3 gene.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

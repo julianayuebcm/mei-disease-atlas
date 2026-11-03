@@ -1,0 +1,46 @@
+{
+ "pmid": "35971992",
+ "cases": [
+  {
+   "case_label": "SVA in TAF1 intron 32 (XDP): RAN translation of (AGAGGG)n repeat in vitro",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism (XDP)",
+   "omim_phenotype": "314250",
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Filipino founder",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_transcript_other"
+   ],
+   "mechanism_detail": "Reporter constructs carrying the XDP SVA (AGAGGG)n repeat undergo repeat-associated non-AUG translation in HEK293 cells, producing poly-(Glu-Gly) and poly-(Arg-Glu) dipeptide repeat proteins that form nuclear inclusions; in vitro proof of principle only, no patient tissue.",
+   "affected_exons": null,
+   "evidence": [
+    "functional_assay"
+   ],
+   "quote": "XDP RAN translation initiates within the (AGAGGGn sequence and poly-(Glu-Gly) DPRs formed nuclear inclusions in transfected cells.",
+   "confidence": "low",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,46 @@
+{
+ "pmid": "18210789",
+ "cases": [
+  {
+   "case_label": "3 kb founder retrotransposal insertion in fukutin (FKTN) causing Fukuyama congenital muscular dystrophy",
+   "gene": "FKTN",
+   "gene_as_reported": "fukutin (FCMD gene)",
+   "disease": "Fukuyama type congenital muscular dystrophy",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "unknown",
+   "subfamily": null,
+   "insertion_length_bp": 3000,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Japanese founder",
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "From review: a 3 kb retrotransposal insertion in the fukutin gene on chromosome 9q31 is the ancestral founder mutation carried by 87% of FCMD chromosomes in Japan, with two independent point mutations on non-founder haplotypes. The element class and the molecular consequence on the transcript are not stated.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Most FCMD-bearing chromosomes are derived from a single ancestral founder (87%), and a 3kb-retrotransposal insertion was found to be a founder mutation.",
+   "confidence": "low",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

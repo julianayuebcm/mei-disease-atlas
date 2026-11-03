@@ -1,0 +1,46 @@
+{
+ "pmid": "32884827",
+ "cases": [
+  {
+   "case_label": "SVA (SVA-E-like) insertion c.7894_7895insSVA in BRCA2",
+   "gene": "BRCA2",
+   "gene_as_reported": null,
+   "disease": "Early-onset breast cancer (hereditary breast cancer predisposition)",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": "SVA_E",
+   "insertion_length_bp": null,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": true,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "c.7894_7895insSVA",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A 5'-truncated SVA (closest to SVA-E) inserted within BRCA2 coding sequence (c.7894_7895insSVA), classified likely pathogenic; possibly de novo but parents were not tested. Effect on RNA/protein not studied.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Subsequent reanalysis for MEIs detected a novel likely pathogenic insertion of the retrotransposon element (RE) c.7894_7895insSVA in BRCA2.",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

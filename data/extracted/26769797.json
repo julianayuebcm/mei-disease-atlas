@@ -1,0 +1,48 @@
+{
+ "pmid": "26769797",
+ "cases": [
+  {
+   "case_label": "XDP SVA in TAF1 intron 32 (N-TAF1 reduction in iPSC-NSCs)",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism (XDP)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": 2600,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 5,
+   "n_families": null,
+   "ancestry_or_population": "Filipino founder (Panay)",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "expression_loss"
+   ],
+   "mechanism_detail": "Patient fibroblasts carrying the 2.6-kb intron 32 SVA showed reduced TAF1 transcript fragments from exons 32-36 spanning the insertion, and iPSC-derived neural stem cells showed ~3-fold lower N-TAF1 (exon 34') expression than controls.",
+   "affected_exons": [
+    34
+   ],
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "Compared with control cells, XDP fibroblasts exhibited decreased expression of TAF1 transcript fragments derived from exons 32-36, a region spanning the SVA insertion site.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

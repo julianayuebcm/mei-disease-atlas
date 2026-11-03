@@ -1,0 +1,48 @@
+{
+ "pmid": "17146684",
+ "cases": [
+  {
+   "case_label": "AluYb8 in CD40LG exon 1",
+   "gene": "CD40LG",
+   "gene_as_reported": null,
+   "disease": "X-linked hyper-IgM syndrome",
+   "omim_phenotype": null,
+   "inheritance": "XL",
+   "mei_class": "Alu",
+   "subfamily": "AluYb8",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 1,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption",
+    "expression_loss"
+   ],
+   "mechanism_detail": "An AluYb8 inserted into the coding sequence of exon 1 inactivated CD40LG, with total absence of CD40 ligand expression on T lymphocytes; maternal transmission confirmed.",
+   "affected_exons": null,
+   "evidence": [
+    "protein",
+    "segregation"
+   ],
+   "quote": "Inactivation of CD40LG gene resulted from the insertion of an AluYb8 element in exon 1 responsible for a total deficiency of CD40 ligand expression by T lymphocytes.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

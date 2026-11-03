@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How the atlas was built · MEI Disease Atlas</title>
+<meta name="description" content="Literature search, screening, AI-assisted extraction and merging behind the MEI Disease Atlas.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://julianayuebcm.github.io/mei-disease-atlas/methods/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MEI Disease Atlas">
+<meta property="og:title" content="How the atlas was built · MEI Disease Atlas">
+<meta property="og:description" content="Literature search, screening, AI-assisted extraction and merging behind the MEI Disease Atlas.">
+<meta property="og:url" content="https://julianayuebcm.github.io/mei-disease-atlas/methods/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23111a2b'/%3E%3Cpath d='M4 19h24' stroke='%23aab5c8' stroke-width='2'/%3E%3Crect x='6' y='14' width='5' height='10' rx='1' fill='%23e9eef8'/%3E%3Crect x='20' y='14' width='6' height='10' rx='1' fill='%23e9eef8'/%3E%3Cpath d='M12 5h7l-3.5 6z' fill='%23f0763f'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/mei-disease-atlas/assets/site.css">
+<script>window.ATLAS_STATIC = { base: "/mei-disease-atlas/", url: "https://julianayuebcm.github.io/mei-disease-atlas/" };</script>
+</head>
+<body>
+<canvas id="helix" aria-hidden="true"></canvas>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/mei-disease-atlas/" aria-label="MEI Disease Atlas home">
+      <svg width="30" height="22" viewBox="0 0 30 22" aria-hidden="true"><line x1="1" y1="15" x2="29" y2="15" stroke="currentColor" stroke-opacity=".55" stroke-width="1.5"/><rect x="3" y="10" width="5" height="10" rx="1" fill="currentColor"/><rect x="12" y="10" width="4" height="10" rx="1" fill="currentColor"/><rect x="22" y="10" width="6" height="10" rx="1" fill="currentColor"/><path d="M 15.5 1 L 21.5 1 L 18.5 6 Z" fill="var(--l1)"/><line x1="18.5" y1="6" x2="18.5" y2="13" stroke="var(--l1)" stroke-width="1.6"/></svg>
+      MEI Disease Atlas
+    </a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="/mei-disease-atlas/">Overview</a>
+      <a href="/mei-disease-atlas/browse/">Browse</a>
+      <a href="/mei-disease-atlas/mechanisms/">Mechanisms</a>
+      <a href="/mei-disease-atlas/genes/">Genes</a>
+      <a href="/mei-disease-atlas/elements/">Elements</a>
+      <a href="/mei-disease-atlas/methods/">Methods</a>
+      <a href="/mei-disease-atlas/about/">About</a>
+    </nav>
+    <div class="search">
+      <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><circle cx="6" cy="6" r="4.5" fill="none" stroke="currentColor" stroke-width="1.6"/><line x1="9.5" y1="9.5" x2="13" y2="13" stroke="currentColor" stroke-width="1.6"/></svg>
+      <input id="gsearch" type="search" placeholder="Search gene, disease…" autocomplete="off" aria-label="Search the atlas">
+      <div class="suggest" id="suggest" hidden></div>
+    </div>
+  </div>
+</header>
+
+<main id="app">
+  <div class="page-head"><nav class="crumbs" aria-label="Breadcrumb"><a href="/mei-disease-atlas/">Overview</a><span>/</span><span>Methods</span></nav>
+    <h1>How the atlas was built</h1><p class="lede">Papers were found in PubMed, screened, and read by Claude, which coded each insertion with a fixed schema. Reports of the same insertion were then merged into one event.</p></div>
+  <section class="card"><div class="card-head"><h2>Pipeline</h2></div><div class="steps">
+    <div class="step"><div><h3>Search</h3><p>Four PubMed queries (MeSH retroelement terms, mobile-element and retrotransposon insertion wording, older "retrotransposal" wording, reviews), plus every paper cited in the disease table of Hancks &amp; Kazazian 2016 and every paper citing that review: <b class="mono">2,002</b> candidates.</p></div></div>
+    <div class="step"><div><h3>Screen</h3><p>Each title and abstract was labelled include, maybe or exclude for "a human germline insertion that causes or likely causes disease". 436 papers went forward.</p></div></div>
+    <div class="step"><div><h3>Read</h3><p>Open-access full text was retrieved from PubMed Central for 187 papers; the rest were read from the abstract. Each case was coded with gene, element, subfamily, size, location, orientation, origin, mechanisms (14 fixed categories), evidence and a verbatim supporting sentence.</p></div></div>
+    <div class="step"><div><h3>Merge</h3><p>Records were grouped into insertion events when gene, element class and location agreed and size, HGVS, coordinates and subfamily did not conflict. 354 case records became 303 events. Rows of the Hancks &amp; Kazazian 2016 table were attached to the event from the paper they cite, or added as low-confidence review-only events.</p></div></div>
+    <div class="step"><div><h3>Draw</h3><p>Gene models are GENCODE v38 canonical transcripts on hg38. An insertion is placed by hg38 coordinate when given, otherwise by the paper's exon or intron number, or by the exon computed from its cDNA position.</p></div></div>
+  </div></section>
+  <section class="grid-2">
+    <div class="card" id="methods-scope"><div class="card-head"><h2>Scope</h2></div><div class="prose">
+      <p>Included: new (non-reference) germline insertions of Alu, L1, SVA, HERV, processed pseudogenes or polyA-only sequence, inherited, de novo or constitutional mosaic, reported as causing or likely causing disease.</p>
+      <p>Excluded: somatic insertions found only in tumours; deletions from recombination between existing repeats; association studies of common insertion polymorphisms without a causal patient; reviews, except for the Hancks &amp; Kazazian 2016 table described above.</p></div></div>
+    <div class="card"><div class="card-head"><h2>Completeness check</h2></div><div class="prose">
+      <p>Hancks &amp; Kazazian 2016 list 124 disease insertions. Counting only events found from the papers themselves (not the review rows), the atlas matches <b>110</b> by gene and element, <b>5</b> more by gene only, and misses <b>9</b>, mostly papers whose abstract does not mention the insertion.</p></div></div>
+  </section>
+  <section class="card" id="methods-caveats"><div class="card-head"><h2>Caveats</h2></div><div class="prose">
+    <p>Mechanism and location are coded from each paper's own description. Many older papers are available only as abstracts, so 92 events have no described mechanism.</p>
+    <p>Exon numbers come from the papers and may follow a different transcript than the canonical one drawn; each case page says how its insertion was placed. Events marked low confidence include candidate insertions the authors did not prove causal and review-table rows.</p>
+    <p>Event identifiers are assigned at build time and can change when the atlas is rebuilt.</p></div></section>
+  <section class="card"><div class="card-head"><h2>Mechanism categories</h2></div><dl class="glossary"><div><dt style="font-weight:600"><a href="/mei-disease-atlas/mechanism/coding_disruption/">Coding disruption</a></dt><dd class="muted" style="margin:0;font-size:14px">The insertion lands in coding sequence and causes a frameshift, premature stop or disrupted protein.</dd></div><div><dt style="font-weight:600"><a href="/mei-disease-atlas/mechanism/exon_skipping/">Exon skipping</a></dt><dd class="muted" style="margin:0;font-size:14px">The insertion makes the spliceosome skip one or more exons.</dd></div><div><dt style="font-weight:600"><a href="/mei-disease-atlas/mechanism/exonization/">Exonization</a></dt><dd class="muted" style="margin:0;font-size:14px">Sequence from the inserted element is spliced into the mRNA as a new exon or an exon extension.</dd></div><div><dt style="font-weight:600"><a href="/mei-disease-atlas/mechanism/aberrant_splicing/">Aberrant splicing</a></dt><dd class="muted" style="margin:0;font-size:14px">Other splice changes: cryptic splice sites, altered splice-site choice, pseudo-exons from flanking sequence.</dd></div><div><dt style="font-weight:600"><a href="/mei-disease-atlas/mechanism/intron_retention/">Intron retention</a></dt><dd class="muted" style="margin:0;font-size:14px">An intron is kept in the mature mRNA.</dd></div><div><dt style="font-weight:600"><a href="/mei-disease-atlas/mechanism/iralu_structure/">Inverted-Alu structure</a></dt><dd class="muted" style="margin:0;font-size:14px">The new Alu pairs with a nearby inverted Alu (IRAlu); the RNA hairpin disrupts splicing.</dd></div><div><dt style="font-weight:600"><a href="/mei-disease-atlas/mechanism/premature_polyadenylation/">Premature polyadenylation</a></dt><dd class="muted" style="margin:0;font-size:14px">A polyA signal or terminator inside the element cuts the transcript short.</dd></div><div><dt style="font-weight:600"><a href="/mei-disease-atlas/mechanism/expression_loss/">Expression loss</a></dt><dd class="muted" style="margin:0;font-size:14px">Reduced or absent transcript or protein, without a more specific mechanism.</dd></div><div><dt style="font-weight:600"><a href="/mei-disease-atlas/mechanism/epigenetic_silencing/">Epigenetic silencing</a></dt><dd class="muted" style="margin:0;font-size:14px">Methylation or chromatin changes spreading from the element silence the gene.</dd></div><div><dt style="font-weight:600"><a href="/mei-disease-atlas/mechanism/utr_effect/">UTR effect</a></dt><dd class="muted" style="margin:0;font-size:14px">Insertion in a 5′ or 3′ UTR changes mRNA stability or translation.</dd></div><div><dt style="font-weight:600"><a href="/mei-disease-atlas/mechanism/insertion_associated_deletion/">Insertion-associated deletion</a></dt><dd class="muted" style="margin:0;font-size:14px">A genomic deletion or rearrangement made during the insertion causes the defect.</dd></div><div><dt style="font-weight:600"><a href="/mei-disease-atlas/mechanism/transduction_effect/">Transduction</a></dt><dd class="muted" style="margin:0;font-size:14px">Co-mobilised flanking DNA carried with the element is the functional cause.</dd></div><div><dt style="font-weight:600"><a href="/mei-disease-atlas/mechanism/aberrant_transcript_other/">Other aberrant transcript</a></dt><dd class="muted" style="margin:0;font-size:14px">Antisense, read-through, fusion or other described transcript effects.</dd></div><div><dt style="font-weight:600"><a href="/mei-disease-atlas/mechanism/unknown/">Not described</a></dt><dd class="muted" style="margin:0;font-size:14px">The paper did not investigate or describe the molecular mechanism.</dd></div></dl></section></main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div style="font-family:var(--font-display);font-weight:800;font-size:16px;color:var(--ink);margin-bottom:6px">MEI Disease Atlas</div>
+      <p id="foot-note"></p>
+    </div>
+    <div><h4>Explore</h4><a href="/mei-disease-atlas/browse/">All insertions</a><a href="/mei-disease-atlas/mechanisms/">Mechanisms</a><a href="/mei-disease-atlas/genes/">Genes</a><a href="/mei-disease-atlas/elements/">Elements</a></div>
+    <div><h4>About</h4><a href="/mei-disease-atlas/methods/">How it was built</a><a href="/mei-disease-atlas/methods/#scope">Scope</a><a href="/mei-disease-atlas/methods/#caveats">Caveats</a><a href="/mei-disease-atlas/about/">Cite &amp; licence</a></div>
+  </div>
+</footer>
+<div class="tip" id="tip" hidden></div>
+<script src="/mei-disease-atlas/assets/site.js"></script>
+<script src="/mei-disease-atlas/assets/helix.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+ "pmid": "33060287",
+ "cases": [
+  {
+   "case_label": "SVA_F in BRCA1 intron 13 creating pseudoexons (hereditary breast cancer)",
+   "gene": "BRCA1",
+   "gene_as_reported": null,
+   "disease": "Hereditary breast cancer (early-onset bilateral)",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": "SVA_F",
+   "insertion_length_bp": 2856,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "GAAATGGGGATTTC (14 bp)",
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": null,
+   "n_families": 1,
+   "ancestry_or_population": "American of Romanian ancestry",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 13,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": "GRCh37",
+   "chrom": "17",
+   "pos": 41229081,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exonization",
+    "coding_disruption"
+   ],
+   "mechanism_detail": "Two cryptic splice donors within the 5' Alu-like domain of the SVA pair with a cryptic acceptor in BRCA1 intron 13, producing 509-bp and 666-bp pseudoexons in the BRCA1 mRNA (exons 12-15 RT-PCR in puromycin-treated lymphoblasts) that introduce a premature stop at codon 1558.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read",
+    "rna_rt_pcr",
+    "segregation"
+   ],
+   "quote": "Sanger sequencing of the transcripts indicates that two cryptic splice donor sites within the 5\u2019 Alu-like domain of the SVA element exploit a cryptic splice acceptor in BRCA1intron 13, resulting in exonification of segments of 509bp and 666bp in the BRCA1 message and a premature stop at codon 1558.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

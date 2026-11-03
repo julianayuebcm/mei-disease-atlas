@@ -1,0 +1,50 @@
+{
+ "pmid": "37238595",
+ "cases": [
+  {
+   "case_label": "5'-truncated inverted L1 in NF1 intron 15",
+   "gene": "NF1",
+   "gene_as_reported": null,
+   "disease": "Neurofibromatosis type 1",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": 2100,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": "14 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 3,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 15,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": "GRCh38",
+   "chrom": "chr17",
+   "pos": null,
+   "distance_to_splice_site_bp": 32,
+   "mechanisms": [
+    "exon_skipping",
+    "expression_loss"
+   ],
+   "mechanism_detail": "A ~2.1-kb 5'-truncated, inverted L1 (poly-T end on the NF1 strand) inserted 32 bases downstream of exon 15 causes skipping of exon 15 (frameshift); the mutant transcript is weak, suggesting reduced/skewed expression of the mutant allele. Segregates in father and two siblings.",
+   "affected_exons": [
+    15
+   ],
+   "evidence": [
+    "rna_rt_pcr",
+    "segregation"
+   ],
+   "quote": "Genomic analysis on gDNA and cDNA in siblings detected a 2.1 Kb insertion of part of the LINE-1 sequence within intron 15, which resulted in exon 15 skipping.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

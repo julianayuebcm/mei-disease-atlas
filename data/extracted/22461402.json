@@ -1,0 +1,46 @@
+{
+ "pmid": "22461402",
+ "cases": [
+  {
+   "case_label": "5'-truncated SVA_F in PMS2 intron 7 (Lynch syndrome)",
+   "gene": "PMS2",
+   "gene_as_reported": null,
+   "disease": "Lynch syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": "SVA_F",
+   "insertion_length_bp": 2200,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 7,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_transcript_other"
+   ],
+   "mechanism_detail": "A 2.2 kb 5'-truncated SVA_F in PMS2 intron 7 produces an aberrant transcript that is degraded by NMD; its nature was only resolved in RNA from lymphocytes with NMD inhibited (exact splice outcome not given in abstract).",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "The molecular nature of this insertion could only be resolved in RNA from cultured lymphocytes in which nonsense-mediated RNA decay was inhibited.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

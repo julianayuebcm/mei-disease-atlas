@@ -1,0 +1,46 @@
+{
+ "pmid": "37582654",
+ "cases": [
+  {
+   "case_label": "Alu insertion in COL4A1 intron 16",
+   "gene": "COL4A1",
+   "gene_as_reported": null,
+   "disease": "COL4A1-related cerebral small vessel disease (late-onset ischemic and hemorrhagic stroke, leukoencephalopathy)",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 16,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Heterozygous intronic Alu insertion in COL4A1 intron 16 in a 64-year-old with a COL4A1-compatible phenotype; no functional or RNA evidence presented in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Genetic testing revealed COL4A1 gene mutation of heterozygous Alu insertion at intron 16.",
+   "confidence": "low",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

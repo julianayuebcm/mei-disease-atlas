@@ -1,0 +1,86 @@
+{
+ "pmid": "10401005",
+ "cases": [
+  {
+   "case_label": "Full-length L1 (L1beta-thal) in HBB",
+   "gene": "HBB",
+   "gene_as_reported": null,
+   "disease": "beta-thalassemia",
+   "omim_phenotype": null,
+   "inheritance": "unknown",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": true,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Sequence characterisation of a previously reported full-length L1 inserted into the beta-globin gene; shown to be retrotransposition-competent in HeLa cells. Disease mechanism not described in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "functional_assay"
+   ],
+   "quote": "Here we report the nucleotide sequences of the two full-length L1 elements, L1beta-thal and L1RP, that have inserted into the beta-globin and retinitis pigmentosa-2 (RP2) genes, respectively.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  },
+  {
+   "case_label": "Full-length L1 (L1RP) in RP2",
+   "gene": "RP2",
+   "gene_as_reported": null,
+   "disease": "X-linked retinitis pigmentosa",
+   "omim_phenotype": null,
+   "inheritance": "XL",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": true,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Sequence characterisation of a previously reported full-length L1 inserted into RP2; L1RP was the most active L1 isolated in the retrotransposition assay. Disease mechanism not described in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "functional_assay"
+   ],
+   "quote": "Here we report the nucleotide sequences of the two full-length L1 elements, L1beta-thal and L1RP, that have inserted into the beta-globin and retinitis pigmentosa-2 (RP2) genes, respectively.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

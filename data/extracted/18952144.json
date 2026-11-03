@@ -1,0 +1,46 @@
+{
+ "pmid": "18952144",
+ "cases": [
+  {
+   "case_label": "Disease-specific SVA retrotransposon insertion in TAF1 in X-linked dystonia-parkinsonism",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism (DYT3, lubag)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Filipino (Panay island ancestry, American family)",
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "The proband carried the ancestral DYT3 haplotype together with the disease-specific SVA retrotransposon insertion, as did two unaffected female relatives (carriers). No TAF1 or CXCR3 coding mutation or expression change was detectable in peripheral blood lymphocytes, so the molecular consequence was not demonstrated in this study.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "Ancestral DYT3 haplotype and disease-specific SVA (short interspersed nuclear element, variable number of tandem repeats, and Alu composite) retrotransposon insertion were identified in the DYT3 proband and two female unaffected family members.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

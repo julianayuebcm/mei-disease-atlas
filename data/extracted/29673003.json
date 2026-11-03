@@ -1,0 +1,46 @@
+{
+ "pmid": "29673003",
+ "cases": [
+  {
+   "case_label": "Paternal Alu at BUB1B intron 8/exon 9 boundary",
+   "gene": "BUB1B",
+   "gene_as_reported": null,
+   "disease": "Premature chromatid separation/mosaic variegated aneuploidy (PCS/MVA) syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": 9,
+   "intron_number": 8,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Fetus was compound heterozygous for a maternal BUB1B promoter point mutation and a paternal Alu insertion between intron 8 and exon 9; effect on splicing not described in abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "a paternal Alu sequence insertion between intron 8 and exon 9 of the BUB1B gene",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

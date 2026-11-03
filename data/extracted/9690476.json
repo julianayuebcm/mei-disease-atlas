@@ -1,0 +1,46 @@
+{
+ "pmid": "9690476",
+ "cases": [
+  {
+   "case_label": "~3 kb retrotransposal insertion in FKTN 3'UTR (FCMD founder)",
+   "gene": "FKTN",
+   "gene_as_reported": "fukutin (FCMD gene)",
+   "disease": "Fukuyama-type congenital muscular dystrophy",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "unknown",
+   "subfamily": null,
+   "insertion_length_bp": 3000,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Japanese founder (87% of FCMD chromosomes)",
+   "region": "exon_UTR3",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "expression_loss"
+   ],
+   "mechanism_detail": "A ~3 kb retrotransposal insertion of tandemly repeated sequence (element class not named in the abstract) in the 3' UTR of fukutin is on all founder-haplotype FCMD chromosomes; the gene is expressed in controls but not in patients carrying the insertion.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "This gene is expressed in various tissues in normal individuals, but not in FCMD patients who carry the insertion.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

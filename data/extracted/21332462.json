@@ -1,0 +1,51 @@
+{
+ "pmid": "21332462",
+ "cases": [
+  {
+   "case_label": "LINE element insertion in ABHD5 intron 3 causing aberrant splicing in Chanarin-Dorfman syndrome",
+   "gene": "ABHD5",
+   "gene_as_reported": null,
+   "disease": "Chanarin-Dorfman syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 4,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 3,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing",
+    "intron_retention"
+   ],
+   "mechanism_detail": "No coding-sequence mutation was found, but RT-PCR on patient skin RNA showed a 101 bp insertion between exons 3 and 4 in all four patients of a large consanguineous family. Sequencing and bioinformatics traced this to a LINE element inserted into intron 3, which causes aberrant splicing of the mutant intron 3.",
+   "affected_exons": [
+    3,
+    4
+   ],
+   "evidence": [
+    "rna_rt_pcr",
+    "segregation"
+   ],
+   "quote": "Bioinformatic analysis and direct sequencing indicated that this insertion resulted from an exceptional mutational event, namely, the insertion of a LINE element into intron 3 of the ABHD5 gene, leading to aberrant splicing out of the mutant intron 3.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

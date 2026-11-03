@@ -1,0 +1,50 @@
+{
+ "pmid": "12215906",
+ "cases": [
+  {
+   "case_label": "AluSb1 in intron 7 of FAS causing exon 8 skipping",
+   "gene": "FAS",
+   "gene_as_reported": "Fas (APO-1, CD95)",
+   "disease": "autoimmune lymphoproliferative syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": "AluSb1",
+   "insertion_length_bp": 331,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "17 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 2,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 7,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping"
+   ],
+   "mechanism_detail": "A 331-bp Alu (AluSb1-like, 34-bp polyA, 17-bp TSD) in FAS intron 7 led to an mRNA lacking exon 8 without loss of a splice junction; father and son heterozygous, with defective Fas-mediated apoptosis.",
+   "affected_exons": [
+    8
+   ],
+   "evidence": [
+    "rna_rt_pcr",
+    "functional_assay",
+    "segregation"
+   ],
+   "quote": "Both patients were heterozygous for the mutated allele that produced Fas mRNA lacking exon 8, although not due to loss of a splice junction.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

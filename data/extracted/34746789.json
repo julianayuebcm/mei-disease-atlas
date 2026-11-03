@@ -1,0 +1,48 @@
+{
+ "pmid": "34746789",
+ "cases": [
+  {
+   "case_label": "XDP SVA in TAF1 intron 32 (microexon 34' splicing not affected)",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism (XDP)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Filipino founder (Panay)",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Cell-based splicing assays, RT-PCR and Nanopore long-read sequencing of XDP vs control brain TAF1 mRNA showed the SVA does not reduce inclusion of neuron-specific microexon 34' and transcript architecture is similar; the authors discount 34' mis-splicing as the disease mechanism.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr",
+    "long_read",
+    "minigene"
+   ],
+   "quote": "Using cell-based splicing assays, we demonstrate that presence of the disease-associated SINE-VNTR-Alu does not affect the inclusion of microexon 34\u2032.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

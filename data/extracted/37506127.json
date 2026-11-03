@@ -1,0 +1,88 @@
+{
+ "pmid": "37506127",
+ "cases": [
+  {
+   "case_label": "Heterozygous Alu insertion in NF1 exon 37",
+   "gene": "NF1",
+   "gene_as_reported": null,
+   "disease": "Neurofibromatosis type 1",
+   "omim_phenotype": "162200",
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Swedish clinical cohort",
+   "region": "coding_exon",
+   "exon_number": 37,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing",
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A heterozygous Alu inserted in NF1 exon 37 (patient A, previously identified, recovered by the TE-calling workflow) is stated to cause splicing defects and loss of functional protein by interrupting the exon; no new RNA data shown.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "The exonic Alu elements lead to splicing defects and loss of functional protein by interrupting the normal exon (Fig 6B and 6D).",
+   "confidence": "medium",
+   "text_source": "full_text"
+  },
+  {
+   "case_label": "Alu insertion in USH2A exon 45 in trans with c.5573-834A>G",
+   "gene": "USH2A",
+   "gene_as_reported": null,
+   "disease": "Usher syndrome type 2A",
+   "omim_phenotype": "276901",
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Swedish clinical cohort",
+   "region": "coding_exon",
+   "exon_number": 45,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing",
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A heterozygous Alu in USH2A exon 45, in trans with the deep-intronic pathogenic c.5573-834A>G (patient B), is stated to cause splicing defects and loss of functional protein by interrupting the exon; no new RNA data shown.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "In the case of USH2A, the Alu insertions was in trans with a known pathogenic splice variant (c.5573-834A>G), causing autosomal recessive Usher syndrome, type 2A (MIM 276901).",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

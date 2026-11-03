@@ -1,0 +1,49 @@
+{
+ "pmid": "33847015",
+ "cases": [
+  {
+   "case_label": "Noncoding retrotransposon insertion in an XLID family (gene not named in abstract)",
+   "gene": "unknown",
+   "gene_as_reported": null,
+   "disease": "X-linked intellectual disability",
+   "omim_phenotype": null,
+   "inheritance": "XL",
+   "mei_class": "unknown",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "One of three XLID pedigrees had a pathogenic noncoding retrotransposon insertion confirmed with RNA-seq/RT-PCR/Western/reporter assays; the gene and element are not specified in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq",
+    "rna_rt_pcr",
+    "protein",
+    "functional_assay"
+   ],
+   "quote": "a retrotransposon insertion, a novel intronic splice donor, and a canonical splice variant of an untranslated exon",
+   "confidence": "low",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

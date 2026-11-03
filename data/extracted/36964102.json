@@ -1,0 +1,46 @@
+{
+ "pmid": "36964102",
+ "cases": [
+  {
+   "case_label": "LINE-1 insertion in SLCO1B3 in Taiwanese patients with Rotor syndrome",
+   "gene": "SLCO1B3",
+   "gene_as_reported": null,
+   "disease": "Rotor syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 4,
+   "n_families": null,
+   "ancestry_or_population": "Taiwanese",
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Rotor syndrome requires biallelic loss of both SLCO1B1 and SLCO1B3. Panel sequencing of five Taiwanese patients found a LINE-1 insertion in SLCO1B3 on a haplotype linked with SLCO1B1 c.1738C>T p.R580*: three patients were homozygous for this haplotype and one was heterozygous for it opposite a second haplotype. The effect of the insertion on SLCO1B3 was not studied.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Genetic analysis using panel-based next generation sequencing revealed three patients with homozygous mutations c.1738C>T (p.R580∗) in SLCO1B1 and a transposon LINE-1 insertion in SLCO1B3",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,46 @@
+{
+ "pmid": "41271512",
+ "cases": [
+  {
+   "case_label": "L1 insertion in intron 6 of SLCO1B3",
+   "gene": "SLCO1B3",
+   "gene_as_reported": null,
+   "disease": "Rotor syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": "Hong Kong (Chinese)",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 6,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "An SLCO1B3 intron 6 LINE-1 insertion was detected by nanopore amplicon sequencing in the first genetically confirmed Rotor syndrome patient in Hong Kong; only the title is available.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read"
+   ],
+   "quote": "Detection of SLCO1B3 intron 6 LINE-1 insertion by Nanopore Flongle Amplicon Sequencing in the first genetically confirmed Rotor syndrome patient in Hong Kong.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

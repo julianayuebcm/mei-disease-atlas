@@ -1,0 +1,48 @@
+{
+ "pmid": "38834915",
+ "cases": [
+  {
+   "case_label": "XDP SVA in TAF1 intron 32 (ZNF91 heterochromatin)",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism (XDP)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Filipino founder",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "intron_retention",
+    "expression_loss"
+   ],
+   "mechanism_detail": "In XDP patient-derived neural progenitor cells, ZNF91 deposits H3K9me3/DNA methylation over the intronic SVA, forming a mini-heterochromatin domain; removing it aggravates the XDP phenotype with increased TAF1 intron retention and reduced TAF1 expression, i.e. the SVA causes intron retention/reduced expression that heterochromatin partly constrains.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq",
+    "functional_assay"
+   ],
+   "quote": "This is critical for XDP pathology; removal of local heterochromatin severely aggravates the XDP molecular phenotype, resulting in increased TAF1 intron retention and reduced expression.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

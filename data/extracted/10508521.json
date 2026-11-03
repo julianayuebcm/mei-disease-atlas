@@ -1,0 +1,46 @@
+{
+ "pmid": "10508521",
+ "cases": [
+  {
+   "case_label": "Homozygous AluY insertion disrupting the CRB1 open reading frame in RP12",
+   "gene": "CRB1",
+   "gene_as_reported": null,
+   "disease": "Retinitis pigmentosa 12 (autosomal recessive RP with preserved para-arteriolar retinal pigment epithelium)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": "AluY",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "Among ten unrelated RP12 patients screened, one carried a homozygous AluY insertion that disrupts the CRB1 open reading frame. The abstract does not localise the insertion to a numbered exon and no transcript study is described.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "In ten unrelated RP patients with preserved para-arteriolar RPE, we identified a homozygous AluY insertion disrupting the ORF, five homozygous missense mutations and four compound heterozygous mutations in CRB1.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

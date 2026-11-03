@@ -1,0 +1,46 @@
+{
+ "pmid": "33807868",
+ "cases": [
+  {
+   "case_label": "SVA in APC exon 12 (familial adenomatous polyposis)",
+   "gene": "APC",
+   "gene_as_reported": null,
+   "disease": "Familial adenomatous polyposis",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Slovenian",
+   "region": "coding_exon",
+   "exon_number": 12,
+   "intron_number": null,
+   "transcript": "NM_000038",
+   "hgvs": "ClinVar SCV001481171",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "WGS coverage profile showed an SVA inserted into APC coding exon 12, disrupting the gene and predicted to cause premature termination of translation (loss of function); validated by PCR, no RNA study.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Upon further examination, however, we detected a coverage profile consistent with the insertion of SVA (SINE-R/VNTR/Alu) element in exon 12 (NM_000038) of the APC gene, predicted to lead to the loss of function of the genes protein product.",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

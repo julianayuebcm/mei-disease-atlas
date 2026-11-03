@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Genes · MEI Disease Atlas</title>
+<meta name="description" content="Genes with disease-causing mobile element insertions, A to Z.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://julianayuebcm.github.io/mei-disease-atlas/genes/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MEI Disease Atlas">
+<meta property="og:title" content="Genes · MEI Disease Atlas">
+<meta property="og:description" content="Genes with disease-causing mobile element insertions, A to Z.">
+<meta property="og:url" content="https://julianayuebcm.github.io/mei-disease-atlas/genes/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23111a2b'/%3E%3Cpath d='M4 19h24' stroke='%23aab5c8' stroke-width='2'/%3E%3Crect x='6' y='14' width='5' height='10' rx='1' fill='%23e9eef8'/%3E%3Crect x='20' y='14' width='6' height='10' rx='1' fill='%23e9eef8'/%3E%3Cpath d='M12 5h7l-3.5 6z' fill='%23f0763f'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/mei-disease-atlas/assets/site.css">
+<script>window.ATLAS_STATIC = { base: "/mei-disease-atlas/", url: "https://julianayuebcm.github.io/mei-disease-atlas/" };</script>
+</head>
+<body>
+<canvas id="helix" aria-hidden="true"></canvas>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/mei-disease-atlas/" aria-label="MEI Disease Atlas home">
+      <svg width="30" height="22" viewBox="0 0 30 22" aria-hidden="true"><line x1="1" y1="15" x2="29" y2="15" stroke="currentColor" stroke-opacity=".55" stroke-width="1.5"/><rect x="3" y="10" width="5" height="10" rx="1" fill="currentColor"/><rect x="12" y="10" width="4" height="10" rx="1" fill="currentColor"/><rect x="22" y="10" width="6" height="10" rx="1" fill="currentColor"/><path d="M 15.5 1 L 21.5 1 L 18.5 6 Z" fill="var(--l1)"/><line x1="18.5" y1="6" x2="18.5" y2="13" stroke="var(--l1)" stroke-width="1.6"/></svg>
+      MEI Disease Atlas
+    </a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="/mei-disease-atlas/">Overview</a>
+      <a href="/mei-disease-atlas/browse/">Browse</a>
+      <a href="/mei-disease-atlas/mechanisms/">Mechanisms</a>
+      <a href="/mei-disease-atlas/genes/">Genes</a>
+      <a href="/mei-disease-atlas/elements/">Elements</a>
+      <a href="/mei-disease-atlas/methods/">Methods</a>
+      <a href="/mei-disease-atlas/about/">About</a>
+    </nav>
+    <div class="search">
+      <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><circle cx="6" cy="6" r="4.5" fill="none" stroke="currentColor" stroke-width="1.6"/><line x1="9.5" y1="9.5" x2="13" y2="13" stroke="currentColor" stroke-width="1.6"/></svg>
+      <input id="gsearch" type="search" placeholder="Search gene, disease…" autocomplete="off" aria-label="Search the atlas">
+      <div class="suggest" id="suggest" hidden></div>
+    </div>
+  </div>
+</header>
+
+<main id="app">
+  <div class="page-head"><nav class="crumbs" aria-label="Breadcrumb"><a href="/mei-disease-atlas/">Overview</a><span>/</span><span>Genes</span></nav>
+    <h1>Genes</h1><p class="lede">156 genes carry at least one disease-causing insertion. Each gene page draws every insertion on the gene's canonical transcript.</p></div>
+  <section class="stack" style="gap:14px"><h2>Genes with the most insertions</h2>
+    <div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/NF1/" data-gene="NF1"><span class="row"><span class="gene">NF1</span><span class="mono faint" style="font-size:12px">24</span></span>
+    <span class="minibar"><i style="flex:16;background:var(--alu)"></i><i style="flex:5;background:var(--l1)"></i><i style="flex:2;background:var(--sva)"></i><i style="flex:1;background:var(--other)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Neurofibromatosis type 1</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/BRCA2/" data-gene="BRCA2"><span class="row"><span class="gene">BRCA2</span><span class="mono faint" style="font-size:12px">15</span></span>
+    <span class="minibar"><i style="flex:13;background:var(--alu)"></i><i style="flex:1;background:var(--sva)"></i><i style="flex:1;background:var(--other)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary breast cancer predisposition</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/DMD/" data-gene="DMD"><span class="row"><span class="gene">DMD</span><span class="mono faint" style="font-size:12px">11</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--alu)"></i><i style="flex:9;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Duchenne muscular dystrophy</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/APC/" data-gene="APC"><span class="row"><span class="gene">APC</span><span class="mono faint" style="font-size:12px">9</span></span>
+    <span class="minibar"><i style="flex:3;background:var(--alu)"></i><i style="flex:3;background:var(--l1)"></i><i style="flex:3;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary desmoid disease</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/F8/" data-gene="F8"><span class="row"><span class="gene">F8</span><span class="mono faint" style="font-size:12px">7</span></span>
+    <span class="minibar"><i style="flex:3;background:var(--alu)"></i><i style="flex:3;background:var(--l1)"></i><i style="flex:1;background:var(--other)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">haemophilia A</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/F9/" data-gene="F9"><span class="row"><span class="gene">F9</span><span class="mono faint" style="font-size:12px">7</span></span>
+    <span class="minibar"><i style="flex:3;background:var(--alu)"></i><i style="flex:2;background:var(--l1)"></i><i style="flex:2;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hemophilia B (severe)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/MSH2/" data-gene="MSH2"><span class="row"><span class="gene">MSH2</span><span class="mono faint" style="font-size:12px">7</span></span>
+    <span class="minibar"><i style="flex:4;background:var(--alu)"></i><i style="flex:3;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary non-polyposis colorectal cancer (Lynch syndrome)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/FGFR2/" data-gene="FGFR2"><span class="row"><span class="gene">FGFR2</span><span class="mono faint" style="font-size:12px">6</span></span>
+    <span class="minibar"><i style="flex:6;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Apert syndrome</span></a></div></section>
+  <section class="card">
+    <div class="filters" style="margin-bottom:12px"><input class="field" type="search" id="gene-filter" placeholder="Filter genes…" aria-label="Filter genes"><div class="az"><a href="/mei-disease-atlas/genes/" data-letter="A">A</a><a href="/mei-disease-atlas/genes/" data-letter="B">B</a><a href="/mei-disease-atlas/genes/" data-letter="C">C</a><a href="/mei-disease-atlas/genes/" data-letter="D">D</a><a href="/mei-disease-atlas/genes/" data-letter="E">E</a><a href="/mei-disease-atlas/genes/" data-letter="F">F</a><a href="/mei-disease-atlas/genes/" data-letter="G">G</a><a href="/mei-disease-atlas/genes/" data-letter="H">H</a><a href="/mei-disease-atlas/genes/" data-letter="I">I</a><a href="/mei-disease-atlas/genes/" data-letter="K">K</a><a href="/mei-disease-atlas/genes/" data-letter="L">L</a><a href="/mei-disease-atlas/genes/" data-letter="M">M</a><a href="/mei-disease-atlas/genes/" data-letter="N">N</a><a href="/mei-disease-atlas/genes/" data-letter="O">O</a><a href="/mei-disease-atlas/genes/" data-letter="P">P</a><a href="/mei-disease-atlas/genes/" data-letter="R">R</a><a href="/mei-disease-atlas/genes/" data-letter="S">S</a><a href="/mei-disease-atlas/genes/" data-letter="T">T</a><a href="/mei-disease-atlas/genes/" data-letter="U">U</a><a href="/mei-disease-atlas/genes/" data-letter="V">V</a><a href="/mei-disease-atlas/genes/" data-letter="Z">Z</a></div></div>
+    <div id="gene-list"><div class="letter" id="L-A">A</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/A4GNT/" data-gene="A4GNT"><span class="row"><span class="gene">A4GNT</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Chromothripsis</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/ABCD1/" data-gene="ABCD1"><span class="row"><span class="gene">ABCD1</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">X-linked adrenoleukodystrophy</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/ABHD5/" data-gene="ABHD5"><span class="row"><span class="gene">ABHD5</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Chanarin-Dorfman syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/AGA/" data-gene="AGA"><span class="row"><span class="gene">AGA</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--other)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">AGU</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/ALMS1/" data-gene="ALMS1"><span class="row"><span class="gene">ALMS1</span><span class="mono faint" style="font-size:12px">3</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--alu)"></i><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Alstrom syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/AP3B1/" data-gene="AP3B1"><span class="row"><span class="gene">AP3B1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hermansky-Pudlak syndrome type 2</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/APC/" data-gene="APC"><span class="row"><span class="gene">APC</span><span class="mono faint" style="font-size:12px">9</span></span>
+    <span class="minibar"><i style="flex:3;background:var(--alu)"></i><i style="flex:3;background:var(--l1)"></i><i style="flex:3;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary desmoid disease</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/APOB/" data-gene="APOB"><span class="row"><span class="gene">APOB</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hypobetalipoproteinemia</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/AR/" data-gene="AR"><span class="row"><span class="gene">AR</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Partial androgen insensitivity syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/ARID2/" data-gene="ARID2"><span class="row"><span class="gene">ARID2</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Developmental disorder (ARID2-related)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/ASPA/" data-gene="ASPA"><span class="row"><span class="gene">ASPA</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Canavan disease</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/ATM/" data-gene="ATM"><span class="row"><span class="gene">ATM</span><span class="mono faint" style="font-size:12px">5</span></span>
+    <span class="minibar"><i style="flex:4;background:var(--alu)"></i><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary Cancer</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/ATP7A/" data-gene="ATP7A"><span class="row"><span class="gene">ATP7A</span><span class="mono faint" style="font-size:12px">4</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--alu)"></i><i style="flex:1;background:var(--sva)"></i><i style="flex:1;background:var(--other)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Menkes disease</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/AVPR2/" data-gene="AVPR2"><span class="row"><span class="gene">AVPR2</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">AVPR2-related disease (phenotype not stated in main text)</span></a></div><div class="letter" id="L-B">B</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/BBS1/" data-gene="BBS1"><span class="row"><span class="gene">BBS1</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Bardet-Biedl syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/BCHE/" data-gene="BCHE"><span class="row"><span class="gene">BCHE</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Acholinesterasemia (cholinesterase deficiency)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/BMPR2/" data-gene="BMPR2"><span class="row"><span class="gene">BMPR2</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Heritable pulmonary arterial hypertension</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/BRCA1/" data-gene="BRCA1"><span class="row"><span class="gene">BRCA1</span><span class="mono faint" style="font-size:12px">5</span></span>
+    <span class="minibar"><i style="flex:4;background:var(--alu)"></i><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary breast/ovarian cancer predisposition</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/BRCA2/" data-gene="BRCA2"><span class="row"><span class="gene">BRCA2</span><span class="mono faint" style="font-size:12px">15</span></span>
+    <span class="minibar"><i style="flex:13;background:var(--alu)"></i><i style="flex:1;background:var(--sva)"></i><i style="flex:1;background:var(--other)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary breast cancer predisposition</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/BTK/" data-gene="BTK"><span class="row"><span class="gene">BTK</span><span class="mono faint" style="font-size:12px">4</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i><i style="flex:2;background:var(--sva)"></i><i style="flex:1;background:var(--other)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">X-linked agammaglobulinemia</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/BUB1B/" data-gene="BUB1B"><span class="row"><span class="gene">BUB1B</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Premature chromatid separation / mosaic variegated aneuploidy syndrome</span></a></div><div class="letter" id="L-C">C</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/CAPN3/" data-gene="CAPN3"><span class="row"><span class="gene">CAPN3</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Limb girdle muscular dystrophy type 2A (LGMD2A)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/CASR/" data-gene="CASR"><span class="row"><span class="gene">CASR</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Familial hypocalciuric hypercalcemia (heterozygous) / neonatal severe hyperparathyroidism (homozygous)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/CC2D2A/" data-gene="CC2D2A"><span class="row"><span class="gene">CC2D2A</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Meckel-Gruber syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/CD40LG/" data-gene="CD40LG"><span class="row"><span class="gene">CD40LG</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">X-linked hyper-IgM syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/CFAP251/" data-gene="CFAP251"><span class="row"><span class="gene">CFAP251</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Multiple morphological abnormalities of the sperm flagellum (MMAF), male infertility</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/CFTR/" data-gene="CFTR"><span class="row"><span class="gene">CFTR</span><span class="mono faint" style="font-size:12px">3</span></span>
+    <span class="minibar"><i style="flex:3;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Cystic fibrosis</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/CHD7/" data-gene="CHD7"><span class="row"><span class="gene">CHD7</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">CHARGE syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/CHD8/" data-gene="CHD8"><span class="row"><span class="gene">CHD8</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Not stated (CHD8-related rare disease; clinical exome diagnosis)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/CHM/" data-gene="CHM"><span class="row"><span class="gene">CHM</span><span class="mono faint" style="font-size:12px">3</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i><i style="flex:1;background:var(--l1)"></i><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Choroideremia</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/CLCN5/" data-gene="CLCN5"><span class="row"><span class="gene">CLCN5</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Dent disease</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/COL4A1/" data-gene="COL4A1"><span class="row"><span class="gene">COL4A1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">COL4A1-related cerebral small vessel disease (late-onset ischemic and hemorrhagic stroke, leukoencephalopathy)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/COL4A6/" data-gene="COL4A6"><span class="row"><span class="gene">COL4A6</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--other)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Alport syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/COL6A2/" data-gene="COL6A2"><span class="row"><span class="gene">COL6A2</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">COL6A2-related disease (phenotype not stated in main text)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/CPLANE1/" data-gene="CPLANE1"><span class="row"><span class="gene">CPLANE1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Orofaciodigital syndrome type VI</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/CRB1/" data-gene="CRB1"><span class="row"><span class="gene">CRB1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Retinitis pigmentosa 12 (autosomal recessive RP with preserved para-arteriolar retinal pigment epithelium)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/CSDE1/" data-gene="CSDE1"><span class="row"><span class="gene">CSDE1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Autism spectrum disorder with intellectual disability and macrocephaly</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/CTRC/" data-gene="CTRC"><span class="row"><span class="gene">CTRC</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Chronic pancreatitis</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/CTSK/" data-gene="CTSK"><span class="row"><span class="gene">CTSK</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Pycnodysostosis</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/CYBB/" data-gene="CYBB"><span class="row"><span class="gene">CYBB</span><span class="mono faint" style="font-size:12px">5</span></span>
+    <span class="minibar"><i style="flex:4;background:var(--l1)"></i><i style="flex:1;background:var(--other)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">CGD</span></a></div><div class="letter" id="L-D">D</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/DEPDC5/" data-gene="DEPDC5"><span class="row"><span class="gene">DEPDC5</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Not stated (DEPDC5-related rare disease; clinical exome diagnosis)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/DICER1/" data-gene="DICER1"><span class="row"><span class="gene">DICER1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">DICER1-related tumour predisposition</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/DMD/" data-gene="DMD"><span class="row"><span class="gene">DMD</span><span class="mono faint" style="font-size:12px">11</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--alu)"></i><i style="flex:9;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Duchenne muscular dystrophy</span></a></div><div class="letter" id="L-E">E</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/EBP/" data-gene="EBP"><span class="row"><span class="gene">EBP</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">X-linked dominant chondrodysplasia punctata (CDPX2)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/EFTUD2/" data-gene="EFTUD2"><span class="row"><span class="gene">EFTUD2</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Not stated (EFTUD2-related rare disease; clinical exome diagnosis)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/ETFB/" data-gene="ETFB"><span class="row"><span class="gene">ETFB</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Not stated (ETFB-related rare disease; clinical exome diagnosis)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/EYA1/" data-gene="EYA1"><span class="row"><span class="gene">EYA1</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Branchio-oto-renal (BOR) syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/EYS/" data-gene="EYS"><span class="row"><span class="gene">EYS</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Retinitis pigmentosa (autosomal recessive)</span></a></div><div class="letter" id="L-F">F</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/F8/" data-gene="F8"><span class="row"><span class="gene">F8</span><span class="mono faint" style="font-size:12px">7</span></span>
+    <span class="minibar"><i style="flex:3;background:var(--alu)"></i><i style="flex:3;background:var(--l1)"></i><i style="flex:1;background:var(--other)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">haemophilia A</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/F9/" data-gene="F9"><span class="row"><span class="gene">F9</span><span class="mono faint" style="font-size:12px">7</span></span>
+    <span class="minibar"><i style="flex:3;background:var(--alu)"></i><i style="flex:2;background:var(--l1)"></i><i style="flex:2;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hemophilia B (severe)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/FAS/" data-gene="FAS"><span class="row"><span class="gene">FAS</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">autoimmune lymphoproliferative syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/FBN1/" data-gene="FBN1"><span class="row"><span class="gene">FBN1</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Marfan-spectrum connective tissue disorder with mildly dilated aortic sinus (does not fulfil revised Ghent criteria)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/FBP1/" data-gene="FBP1"><span class="row"><span class="gene">FBP1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Fructose-1,6-bisphosphatase deficiency</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/FERMT1/" data-gene="FERMT1"><span class="row"><span class="gene">FERMT1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--other)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Kindler syndrome (poikiloderma)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/FGFR1/" data-gene="FGFR1"><span class="row"><span class="gene">FGFR1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Congenital hypogonadotropic hypogonadism (with hyposmia)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/FGFR2/" data-gene="FGFR2"><span class="row"><span class="gene">FGFR2</span><span class="mono faint" style="font-size:12px">6</span></span>
+    <span class="minibar"><i style="flex:6;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Apert syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/FKTN/" data-gene="FKTN"><span class="row"><span class="gene">FKTN</span><span class="mono faint" style="font-size:12px">4</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--l1)"></i><i style="flex:1;background:var(--sva)"></i><i style="flex:2;background:var(--other)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Fukuyama congenital muscular dystrophy</span></a></div><div class="letter" id="L-G">G</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/GAA/" data-gene="GAA"><span class="row"><span class="gene">GAA</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Infantile-onset Pompe disease</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/GK/" data-gene="GK"><span class="row"><span class="gene">GK</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Benign isolated glycerol kinase deficiency</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/GLA/" data-gene="GLA"><span class="row"><span class="gene">GLA</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Fabry disease (late-onset cardiac phenotype)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/GNAS/" data-gene="GNAS"><span class="row"><span class="gene">GNAS</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Autosomal dominant pseudohypoparathyroidism type 1B (PHP1B)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/GNE/" data-gene="GNE"><span class="row"><span class="gene">GNE</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--other)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">GNE myopathy</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/GNPTAB/" data-gene="GNPTAB"><span class="row"><span class="gene">GNPTAB</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Mucolipidosis type II</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/GRIN2B/" data-gene="GRIN2B"><span class="row"><span class="gene">GRIN2B</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Developmental disorder / intellectual disability</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/GYS2/" data-gene="GYS2"><span class="row"><span class="gene">GYS2</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Glycogen storage disease (GYS2-related, suspected GSD0)</span></a></div><div class="letter" id="L-H">H</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/HBB/" data-gene="HBB"><span class="row"><span class="gene">HBB</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">beta+-thalassemia</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/HCFC1/" data-gene="HCFC1"><span class="row"><span class="gene">HCFC1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">X-linked intellectual disability / neurodevelopmental disorder</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/HESX1/" data-gene="HESX1"><span class="row"><span class="gene">HESX1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Anterior pituitary aplasia (combined pituitary hormone deficiency) with retinal coloboma</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/HMBS/" data-gene="HMBS"><span class="row"><span class="gene">HMBS</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">acute intermittent porphyria</span></a></div><div class="letter" id="L-I">I</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/IDS/" data-gene="IDS"><span class="row"><span class="gene">IDS</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Mucopolysaccharidosis type II (Hunter syndrome)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/IFNGR1/" data-gene="IFNGR1"><span class="row"><span class="gene">IFNGR1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Mendelian susceptibility to mycobacterial disease (complete AR IFN-γR1 deficiency)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/IL2RG/" data-gene="IL2RG"><span class="row"><span class="gene">IL2RG</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">XSCID</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/IQCB1/" data-gene="IQCB1"><span class="row"><span class="gene">IQCB1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Senior-Løken syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/ITGB3/" data-gene="ITGB3"><span class="row"><span class="gene">ITGB3</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Glanzmann thrombasthenia</span></a></div><div class="letter" id="L-K">K</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/KARS1/" data-gene="KARS1"><span class="row"><span class="gene">KARS1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Progressive infantile onset leukoencephalopathy with or without deafness</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/KMT2D/" data-gene="KMT2D"><span class="row"><span class="gene">KMT2D</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Kabuki syndrome type 1</span></a></div><div class="letter" id="L-L">L</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/LDLR/" data-gene="LDLR"><span class="row"><span class="gene">LDLR</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Familial hypercholesterolemia</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/LDLRAP1/" data-gene="LDLRAP1"><span class="row"><span class="gene">LDLRAP1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Autosomal recessive hypercholesterolemia</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/LPL/" data-gene="LPL"><span class="row"><span class="gene">LPL</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Lipoprotein lipase deficiency</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/LTBP1/" data-gene="LTBP1"><span class="row"><span class="gene">LTBP1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Congenital diaphragmatic hernia</span></a></div><div class="letter" id="L-M">M</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/MAK/" data-gene="MAK"><span class="row"><span class="gene">MAK</span><span class="mono faint" style="font-size:12px">4</span></span>
+    <span class="minibar"><i style="flex:4;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Retinitis pigmentosa (autosomal recessive)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/MAN2B1/" data-gene="MAN2B1"><span class="row"><span class="gene">MAN2B1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Alpha-mannosidosis</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/MATR3/" data-gene="MATR3"><span class="row"><span class="gene">MATR3</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--other)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Early-onset behavioral variant frontotemporal dementia</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/MCC/" data-gene="MCC"><span class="row"><span class="gene">MCC</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hepatocellular carcinoma (germline MCC insertion proposed to contribute to tumorigenesis)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/MEF2C/" data-gene="MEF2C"><span class="row"><span class="gene">MEF2C</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Developmental disorder (MEF2C-related)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/MEN1/" data-gene="MEN1"><span class="row"><span class="gene">MEN1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Multiple endocrine neoplasia type 1</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/MLH1/" data-gene="MLH1"><span class="row"><span class="gene">MLH1</span><span class="mono faint" style="font-size:12px">4</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--alu)"></i><i style="flex:2;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary Cancer</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/MSH2/" data-gene="MSH2"><span class="row"><span class="gene">MSH2</span><span class="mono faint" style="font-size:12px">7</span></span>
+    <span class="minibar"><i style="flex:4;background:var(--alu)"></i><i style="flex:3;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary non-polyposis colorectal cancer (Lynch syndrome)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/MSH4/" data-gene="MSH4"><span class="row"><span class="gene">MSH4</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary breast and/or ovarian cancer (candidate susceptibility)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/MSH6/" data-gene="MSH6"><span class="row"><span class="gene">MSH6</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Lynch syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/MTOR/" data-gene="MTOR"><span class="row"><span class="gene">MTOR</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary breast and/or ovarian cancer (candidate susceptibility)</span></a></div><div class="letter" id="L-N">N</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/NDUFV2/" data-gene="NDUFV2"><span class="row"><span class="gene">NDUFV2</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Mitochondrial complex I deficiency</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/NEK1/" data-gene="NEK1"><span class="row"><span class="gene">NEK1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Right aortic arch (congenital heart defect)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/NF1/" data-gene="NF1"><span class="row"><span class="gene">NF1</span><span class="mono faint" style="font-size:12px">24</span></span>
+    <span class="minibar"><i style="flex:16;background:var(--alu)"></i><i style="flex:5;background:var(--l1)"></i><i style="flex:2;background:var(--sva)"></i><i style="flex:1;background:var(--other)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Neurofibromatosis type 1</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/NIPBL/" data-gene="NIPBL"><span class="row"><span class="gene">NIPBL</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">NIPBL-related disease (phenotype not stated in main text)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/NKX2-1/" data-gene="NKX2-1"><span class="row"><span class="gene">NKX2-1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">NKX2-1-related disorder (chorea, pulmonary dysfunction, hypothyroidism)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/NMNAT1/" data-gene="NMNAT1"><span class="row"><span class="gene">NMNAT1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Leber congenital amaurosis</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/NR5A1/" data-gene="NR5A1"><span class="row"><span class="gene">NR5A1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">46,XY differences of sexual development</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/NSD1/" data-gene="NSD1"><span class="row"><span class="gene">NSD1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Sotos syndrome (developmental disorder)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/NT5C3A/" data-gene="NT5C3A"><span class="row"><span class="gene">NT5C3A</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Pyrimidine 5'-nucleotidase deficient hemolytic anemia</span></a></div><div class="letter" id="L-O">O</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/OCRL/" data-gene="OCRL"><span class="row"><span class="gene">OCRL</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Not stated (OCRL-related rare disease; clinical exome diagnosis)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/OFD1/" data-gene="OFD1"><span class="row"><span class="gene">OFD1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Oral-facial-digital syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/OPA1/" data-gene="OPA1"><span class="row"><span class="gene">OPA1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Autosomal dominant optic atrophy</span></a></div><div class="letter" id="L-P">P</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/PALB2/" data-gene="PALB2"><span class="row"><span class="gene">PALB2</span><span class="mono faint" style="font-size:12px">3</span></span>
+    <span class="minibar"><i style="flex:3;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary Cancer</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/PARN/" data-gene="PARN"><span class="row"><span class="gene">PARN</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Dyskeratosis congenita</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/PDHX/" data-gene="PDHX"><span class="row"><span class="gene">PDHX</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Pyruvate dehydrogenase complex deficiency</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/PEX1/" data-gene="PEX1"><span class="row"><span class="gene">PEX1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Peroxisome biogenesis disorder</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/PHEX/" data-gene="PHEX"><span class="row"><span class="gene">PHEX</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">X-linked hypophosphatemia</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/PKLR/" data-gene="PKLR"><span class="row"><span class="gene">PKLR</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Severe Hereditary Nonspherocytic Hemolytic Anemia</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/PMM2/" data-gene="PMM2"><span class="row"><span class="gene">PMM2</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Congenital disorder of glycosylation type Ia (PMM2-CDG)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/PMS2/" data-gene="PMS2"><span class="row"><span class="gene">PMS2</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Lynch syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/PNPLA2/" data-gene="PNPLA2"><span class="row"><span class="gene">PNPLA2</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Neutral lipid storage disease with myopathy (NLSDM), subclinical</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/POLB/" data-gene="POLB"><span class="row"><span class="gene">POLB</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary breast and/or ovarian cancer (candidate susceptibility)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/POLK/" data-gene="POLK"><span class="row"><span class="gene">POLK</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary breast and/or ovarian cancer (candidate susceptibility)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/POMT1/" data-gene="POMT1"><span class="row"><span class="gene">POMT1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Walker-Warburg syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/PTCH1/" data-gene="PTCH1"><span class="row"><span class="gene">PTCH1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Gorlin syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/PTEN/" data-gene="PTEN"><span class="row"><span class="gene">PTEN</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Cowden syndrome</span></a></div><div class="letter" id="L-R">R</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/RAD52/" data-gene="RAD52"><span class="row"><span class="gene">RAD52</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary breast cancer susceptibility (moderate risk)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/RB1/" data-gene="RB1"><span class="row"><span class="gene">RB1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Familial retinoblastoma</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/RP1/" data-gene="RP1"><span class="row"><span class="gene">RP1</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary retinal degeneration (autosomal recessive retinitis pigmentosa)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/RP2/" data-gene="RP2"><span class="row"><span class="gene">RP2</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">X-linked retinitis pigmentosa 2</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/RPGRIP1/" data-gene="RPGRIP1"><span class="row"><span class="gene">RPGRIP1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">RPGRIP1-related retinal dystrophy (Leber congenital amaurosis / early-onset retinal dystrophy)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/RPL11/" data-gene="RPL11"><span class="row"><span class="gene">RPL11</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Not stated (RPL11-related rare disease; clinical exome diagnosis)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/RPS6KA3/" data-gene="RPS6KA3"><span class="row"><span class="gene">RPS6KA3</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Coffin-Lowry syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/RREB1/" data-gene="RREB1"><span class="row"><span class="gene">RREB1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Ewing sarcoma (predisposition candidate)</span></a></div><div class="letter" id="L-S">S</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/SERPINC1/" data-gene="SERPINC1"><span class="row"><span class="gene">SERPINC1</span><span class="mono faint" style="font-size:12px">3</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i><i style="flex:2;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Type 1 ATP</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/SERPINF1/" data-gene="SERPINF1"><span class="row"><span class="gene">SERPINF1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Autosomal recessive osteogenesis imperfecta</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/SERPING1/" data-gene="SERPING1"><span class="row"><span class="gene">SERPING1</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">HAE</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/SETD5/" data-gene="SETD5"><span class="row"><span class="gene">SETD5</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Developmental disorder (possible partial contribution; ciliopathy-like features)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/SETX/" data-gene="SETX"><span class="row"><span class="gene">SETX</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Ataxia with oculomotor apraxia 2 (AOA2)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/SGCE/" data-gene="SGCE"><span class="row"><span class="gene">SGCE</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Myoclonus-dystonia (dystonia-11)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/SLC17A8/" data-gene="SLC17A8"><span class="row"><span class="gene">SLC17A8</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Progressive sensorineural hearing loss (autosomal dominant family history)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/SLC25A13/" data-gene="SLC25A13"><span class="row"><span class="gene">SLC25A13</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--other)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Citrin deficiency (adult-onset type II citrullinemia, CTLN2)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/SLC26A3/" data-gene="SLC26A3"><span class="row"><span class="gene">SLC26A3</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Not stated (SLC26A3-related rare disease; clinical exome diagnosis)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/SLC2A1/" data-gene="SLC2A1"><span class="row"><span class="gene">SLC2A1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Glucose transporter 1 deficiency syndrome (GLUT1-DS)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/SLCO1B3/" data-gene="SLCO1B3"><span class="row"><span class="gene">SLCO1B3</span><span class="mono faint" style="font-size:12px">4</span></span>
+    <span class="minibar"><i style="flex:4;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Rotor syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/SMARCB1/" data-gene="SMARCB1"><span class="row"><span class="gene">SMARCB1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Atypical teratoid rhabdoid tumor (rhabdoid tumor predisposition)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/SMN1/" data-gene="SMN1"><span class="row"><span class="gene">SMN1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Spinal muscular atrophy type III</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/SOX10/" data-gene="SOX10"><span class="row"><span class="gene">SOX10</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Waardenburg syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/SPAST/" data-gene="SPAST"><span class="row"><span class="gene">SPAST</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary spastic paraplegia (pure)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/SPG11/" data-gene="SPG11"><span class="row"><span class="gene">SPG11</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary spastic paraplegia</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/SPIDR/" data-gene="SPIDR"><span class="row"><span class="gene">SPIDR</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary breast and/or ovarian cancer (candidate susceptibility)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/SPINK1/" data-gene="SPINK1"><span class="row"><span class="gene">SPINK1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Severe infantile isolated exocrine pancreatic insufficiency</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/SPTA1/" data-gene="SPTA1"><span class="row"><span class="gene">SPTA1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary elliptocytosis / pyropoikilocytosis</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/SRCAP/" data-gene="SRCAP"><span class="row"><span class="gene">SRCAP</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">SRCAP-related neurodevelopmental disorder (failure to thrive, developmental delay, seizures)</span></a></div><div class="letter" id="L-T">T</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/TAF1/" data-gene="TAF1"><span class="row"><span class="gene">TAF1</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">X-linked dystonia-parkinsonism (XDP)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/TCF20/" data-gene="TCF20"><span class="row"><span class="gene">TCF20</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">TCF20-associated neurodevelopmental disorder with Hirschsprung disease</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/TCOF1/" data-gene="TCOF1"><span class="row"><span class="gene">TCOF1</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Treacher Collins syndrome</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/TG/" data-gene="TG"><span class="row"><span class="gene">TG</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Congenital hypothyroidism with goiter and undetectable serum thyroglobulin</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/TP63/" data-gene="TP63"><span class="row"><span class="gene">TP63</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Hereditary breast and/or ovarian cancer (candidate susceptibility)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/TRRAP/" data-gene="TRRAP"><span class="row"><span class="gene">TRRAP</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Syndromic cranial dysinnervation (ptosis)</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/TSC2/" data-gene="TSC2"><span class="row"><span class="gene">TSC2</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Tuberous sclerosis complex</span></a><a class="gene-chip" href="/mei-disease-atlas/gene/TTN/" data-gene="TTN"><span class="row"><span class="gene">TTN</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--alu)"></i><i style="flex:1;background:var(--l1)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">TTN-related disease (phenotype not stated in main text)</span></a></div><div class="letter" id="L-U">U</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/USH2A/" data-gene="USH2A"><span class="row"><span class="gene">USH2A</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Not stated (USH2A-related rare disease; clinical exome diagnosis)</span></a></div><div class="letter" id="L-V">V</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/VHL/" data-gene="VHL"><span class="row"><span class="gene">VHL</span><span class="mono faint" style="font-size:12px">1</span></span>
+    <span class="minibar"><i style="flex:1;background:var(--sva)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">von Hippel-Lindau disease</span></a></div><div class="letter" id="L-Z">Z</div><div class="gene-grid"><a class="gene-chip" href="/mei-disease-atlas/gene/ZEB2/" data-gene="ZEB2"><span class="row"><span class="gene">ZEB2</span><span class="mono faint" style="font-size:12px">2</span></span>
+    <span class="minibar"><i style="flex:2;background:var(--alu)"></i></span>
+    <span class="faint" style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">MWS</span></a></div></div>
+  </section></main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div style="font-family:var(--font-display);font-weight:800;font-size:16px;color:var(--ink);margin-bottom:6px">MEI Disease Atlas</div>
+      <p id="foot-note"></p>
+    </div>
+    <div><h4>Explore</h4><a href="/mei-disease-atlas/browse/">All insertions</a><a href="/mei-disease-atlas/mechanisms/">Mechanisms</a><a href="/mei-disease-atlas/genes/">Genes</a><a href="/mei-disease-atlas/elements/">Elements</a></div>
+    <div><h4>About</h4><a href="/mei-disease-atlas/methods/">How it was built</a><a href="/mei-disease-atlas/methods/#scope">Scope</a><a href="/mei-disease-atlas/methods/#caveats">Caveats</a><a href="/mei-disease-atlas/about/">Cite &amp; licence</a></div>
+  </div>
+</footer>
+<div class="tip" id="tip" hidden></div>
+<script src="/mei-disease-atlas/assets/site.js"></script>
+<script src="/mei-disease-atlas/assets/helix.js"></script>
+</body>
+</html>

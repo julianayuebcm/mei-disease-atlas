@@ -1,0 +1,50 @@
+{
+ "pmid": "40263280",
+ "cases": [
+  {
+   "case_label": "6.2-kb LINE-1/ERV1 insertion in IQCB1 intron 6",
+   "gene": "IQCB1",
+   "gene_as_reported": null,
+   "disease": "Senior-L\u00f8ken syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": 6201,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "TTTAATTTTG",
+   "polyA": true,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 6,
+   "transcript": "NM_001023570.4",
+   "hgvs": "NC_000003.12:g.121807858_121807859ins[NC_000001.11:g.84052390_84058590inv;A[49];TTTAATTTTG]",
+   "genome_build": "GRCh38",
+   "chrom": "chr3",
+   "pos": 121807858,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exonization",
+    "exon_skipping"
+   ],
+   "mechanism_detail": "A ~6.2-kb combined LINE-1/ERV1 element (copy of a chr1 segment, with polyA and short duplication) in IQCB1 intron 6, in trans with a frameshift; targeted long-read cDNA sequencing showed a 276-bp pseudoexon from the mobile element together with exon 6 skipping, introducing a premature stop codon.",
+   "affected_exons": [
+    6
+   ],
+   "evidence": [
+    "rna_rt_pcr",
+    "long_read"
+   ],
+   "quote": "A complex splice defect was observed in the patient\u2019s cells: part of the mobile element was recognized as a pseudoexon (276 bp) in combination with skipping of exon 6.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

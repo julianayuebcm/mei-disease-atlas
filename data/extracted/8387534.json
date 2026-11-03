@@ -1,0 +1,50 @@
+{
+ "pmid": "8387534",
+ "cases": [
+  {
+   "case_label": "5'-truncated L1 inserted at the 3' end of DMD exon 44 causing exon 44 skipping",
+   "gene": "DMD",
+   "gene_as_reported": "dystrophin gene",
+   "disease": "Duchenne muscular dystrophy",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": 606,
+   "full_length": false,
+   "orientation_vs_gene": "antisense",
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 2,
+   "n_families": 1,
+   "ancestry_or_population": "Japanese",
+   "region": "coding_exon",
+   "exon_number": 44,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": 0,
+   "mechanisms": [
+    "exon_skipping",
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A 606-608 bp 5'-truncated L1, in the inverse-complement orientation, inserted zero to two bases upstream of the 3' end of exon 44 with loss of two to four exonic bases. RT-PCR of lymphocyte transcript showed exon 43 joined directly to exon 45, i.e. exon 44 skipping. The insertion was absent in the maternal grandparents, so it arose in the mother.",
+   "affected_exons": [
+    44
+   ],
+   "evidence": [
+    "rna_rt_pcr",
+    "segregation"
+   ],
+   "quote": "Exon 44 of the transcript was thus shown to be skipped during splicing.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

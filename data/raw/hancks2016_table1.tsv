@@ -1,0 +1,125 @@
+	Insertion	Gene	CHR	Reference	Disease	Subfamily	Size	polyA tail length	Truncation	Transduction (bp)	Strand	Exon/Intron/Mechanism	Target-site duplication (TSD)	L1 EN site (5′-TTTT/AA-3′)	Note	ref_pmids
+1	Alu	ABCD1	X	Kutsche et al. 2002 [255]	ALD	AluYb9	98	20	Y/5′TR	N	S	4.7 kb Deletion	No TSD	ATTT/GT		11968085
+2	Alu	ATP7A	X	Gu et al. 2007 [256]	Menkes Disease	AluYa5a2	282	89	N	N	AS	E	AAAAAGGACAGC	TTTT/AT		17178205
+3	Alu	BTK	X	Lester et al. 1997 [257]	XLA	AluY	N/A	N/A	N/A	N	AS	E	N/A	N/A		
+4	Alu	BTK	X	Conley et al. 2005 [258]	XLA	AluY	281	74	N	N	S	E	AGAAATGTATGAGTAAGT	TTCT/AT	Same insertion site Conley et al. SVA	15712380
+5	Alu	CD40LG	X	Apoil et al. 2007 [259]	HIGM	AluYb8	292	8	N	N	AS	E	AAAAATTTTC	TTTT/AT		17146684
+6	Alu	CLCN5	X	Claverie-Martin et. al. 2003 [260]	Dent’s Disease	AluYa5	281	50	N	N	S	E	AGAAAATGCTCGAAAGA	TTCT/AT		14569459
+7	Alu	CTRC	1	Masson et. al. 2013 [160]	Chronic pancreatitis	Alu	31	11	Y/5′TR	N	AS	53.9 kb Deletion	N/A	TCTT/AT	Deletes entire CTRC and ELA2A genes	23721890
+8	Alu	PKLR	1	Lesmana et. al. 2015 [159]	Severe Hereditary Nonspherocytic Hemolytic Anemia	Yb8	288	70	N	N	S	E	AAGATCATCAGCAAA	TCTT/GA	consanguinity, consensus Yb8	
+9	Alu	FVIII	X	Sukarova et. al. 2001 [261]	Hemophilia A	AluYb8	290	47	N	N	AS	3 nt Deletion	No TSD	TTTC/AT		11713379
+10	Alu	FVIII	X	Ganguly et. al. 2003 [262]	Hemophilia A	AluYb9	288	37	N	N	AS	I/Splicing	AAAAACCAACAGG	TTTT/AT	Consensus Yb9	12884004
+11	Alu	FVIII	X	Green et. al. 2008 [263]	Hemophilia A	AluYb8	FL	N/A	N	N	AS	E	N/A			18691168
+12	Alu	FIX	X	Vidaud et al. 1993 [264]	Hemophilia B	AluYa5a2	244	78	Y/5′TR	N	S	E	AAGAATGGCAGATGCGA	TCTT/AA	Same insertion site as Wulff et al. Alu	8069649
+13	Alu	FIX	X	Wulff et al. 2000 [265]	Hemophilia B	AluYa5a2	237	39	Y/5′TR	N	S	E	AAGAATGGCAGATGC	TCTT/AA	Same insertion site as Vidaud et al. Alu	10679958
+14	Alu	FIX	X	Li et al. 2001 [266]	Hemophilia B	AluY	279	40	Y/5′TR	N	AS	E	AAGAAACTGGTCCC	TCTT/AA		11385709
+15	Alu	GK	X	Zhang et al. 2000 [267]	GKD	AluYc1	241	74	Y/5′TR	N	AS	I	AAAAAATAAG	TTTT/AA		10737976
+16	Alu	IL2RG	X	Lester et al. 1997 [257]	XSCID	AluYa5	N/A	N/A	N/A	N	AS	I	N/A	N/A		
+17	Alu	CRB1	1	den Hollander et al. 1999 [268]	RP	AluY	244	70	Y/5′TR	N	AS	E	AAGAGTAAAGATGA	TCTT/GA		10508521
+18	Alu	SERPINC1	1	Beauchamp et al. 2000 [269]	Type 1 ATP	Alu	6	40	Y/5′TR	N	AS	1.4 kb Deletion	N/A	TTCT/AT	Shortest Alu insertion	10823268
+19	Alu	ALMS1	2	Taşkesen et al. 2012 [270]	Alström syndrome	AluYa5	257	76	Y/5′TR	N	S	E	AAAAGCCTAGAGAA	TTTT/AA		21877133
+20	Alu	MSH2	2	Kloor et al. 2004 [271]	HNPCC	AluJ	85	40	Y/5′TR	N	S	E	N/A	N/A	Contains extra 99 nt 3′-of Alu, may be transduction or recombination	15340835
+21	Alu	MSH2	2	Qian et al. 2015 [158]	Hereditary Cancer	N/A	N/A	N/A	N/A	N/A	N/A	E	N/A	N/A	Pan-cancer panel testing	
+22	Alu	ZFHX1B	2	Ishihara et al. 2004 [272]	MWS	AluYa5	281	93	N	N	S	E	AAAATTAAAACA	TTTT/AA		15121779
+23	Alu	BCHE	3	Muratani et al. 1991 [273]	Cholinesterase deficiency	AluYb9	289	38	N	N	S	E	AAAAATATTTTTTCC	TTTT/AA		1662391
+24	Alu	CASR	3	Janicic et al. 1995 [274]	FHH and NSHPT	AluYa5	280	93	N	N	AS	E	GAAAGCGTGAGCTGC	TTTC/AA		7717399
+25	Alu	HESX1	3	Sobrier et al. 2005 [275]	Anterior Pituitary Aplasia	AluYb8	288	30	N	N	S	E	AGAAAATGTCTTTAGA	TTCT/AA		15841484
+26	Alu	OPA1	3	Gallus et al. 2010 [276]	ADOA	AluYb8	289	25	N	N	AS	I/Splicing	AAAAATTTTAAAAAGTT	TTTT/AC		20157369
+27	Alu	MLVI2	5	Economou-Pachnis and Tsichlis 1985 [277]	Associated with leukemia	AluYa5	280	26	N	N	AS	I	GAAAATGT	TTTC/AT		3001638
+28	Alu	APC	5	Halling et al. 1999 [278]	Hereditary desmoid disease	AluYb8	278	40	Y/5′TR	N	S	E	AAGAATAATG	TCTT/AA	Same insertion site as Miki et al. L1	10077730
+29	Alu	APC	5	Su et al. 2000 [279]	FAP	AluYb9	93	60	Y/5′TR	N	AS	I/Splicing	No TSD	TTTT/AA	1.6 kb intronic deletion	10982189
+30	Alu	APC	5	Qian et al. 2015 [158]	Hereditary Cancer	N/A	N/A	N/A	N/A	N/A	N/A	E	N/A	N/A	Pan-cancer panel testing	
+31	Alu	MAK	6	Tucker et al. 2011 [280], Edwin Stone, personal communication	RP	AluYb8	281	57	N	N	AS	E	AAAGAAAAAA	CTTT/AA	Identified by exome resequence	21825139
+32	Alu	NT5C3	7	Manco et al. 2006 [281], Leticia Ribeiro, personal communication	Chronic hemolytic anemia	Alu Ya5	281	36	N	N	S	E	AAGAATGGCAGATGG	TCTT/AA		16461318
+33	Alu	CFTR	7	Chen et al. 2008 [282]	Cystic Fibrosis	AluY	46	57	Y/5′TR	N	AS	E	AAGAATCCCACCTATAAT	TCTT/AA		17531547
+34	Alu	CFTR	7	Chen et al. 2008 [282]	Cystic Fibrosis	AluYa5	281	56	N	N	S	E	AATAGAAATGATTTTTGTC	TCTC/AT	3′-Processing of (5′-CTC-3′)	17531547
+35	Alu	EYA1	8	Abdelhak et al. 1997 [283]	BOR syndrome	AluYa5	n/a	97,31	N/A	N	AS	E	AAAAAATAAATGTGTG	TTTT/AA	PolyA tail shortening between generations	9361030
+36	Alu	LPL	8	Okubo et al. 2007 [284]	LPL deficiency	AluYb9	150	60	Y/5′TR	N	AS	2.2 kb Deletion	No TSD	TTTT/AA		17706445
+37	Alu	CHD7	8	Udaka et al. 2007 [285]	CHARGE syndrome	AluYa5/8	75	100	Y/5′TR	N	S	10 kb Deletion	No TSD	ATTT/AA		17334995
+38	Alu	POMT1	9	Bouchet et al. 2007 [286]	Walker Warburg syndrome	AluYa5	290	53	N	N	AS	E	AAAAAGAGATGTACTG	TTTT/AC		17079174
+39	Alu	FGFR2	10	Oldridge et al. 1999 [287]	Apert syndrome	AluYa5	283	69	N	N	AS	I/Splicing	AGAAAACAAGGGAAGCA	TTCT/AG		9973282
+40	Alu	FGFR2	10	Oldridge et al. 1999 [287]	Apert syndrome	AluYb8	288	47	N	N	AS	E	AGAATTACCCGCCAAG	TTCT/AT		9973282
+41	Alu	FGFR2	10	Bochukova et al. 2009 [288]	Apert syndrome	AluYk13	214	12	Y/5′TR	N	AS	E	AAAAGTTACATTCCG	TTTT/GA		18726952
+42	Alu	FAS	10	Tighe et al. 2002 [289]	ALPS	AluYa5	281	33	N	N	AS	I	AGAATATTCTAAATGTG	TTCT/AA		12215906
+43	Alu	SERPING1	11	Stoppa-Lyonnet et al. 1990 [290]	HAE	AluYc1	285	42	N	N	S	I	AAAAATACAAAAATTAG	TTTT/AG		2154751
+44	Alu	HMBS	11	Mustajoki et al. 1999 [291]	AIP	AluYa5	279	39	N	N	AS	E	AAGAATCTTGTCCC	TCTT/GA		10408772
+45	Alu	ATM	11	Qian et al. 2015 [158]	Hereditary Cancer	N/A	N/A	N/A	N/A	N/A	N/A	E	N/A	N/A	Pan-cancer panel testing	
+46	Alu	GNPTAB	12	Tappino et al. 2008 [292]	ML II	AluYa5	279	17	N	N	AS	E	AAAAACAACAACTGAG	TTTT/GA		17964840
+47	Alu	BRCA2	13	Miki et al. 1996 [293]	Breast Cancer	AluYc1	281	62	N	N	S	E	AATCACAGGC	GATT/AT		8640237
+48	Alu	BRCA2	13	Teugels et al. 2005 [294]	Breast Cancer	AluYa5	285	N/A	N	N	S	E	AAGAATCTGAACAT	TTCT/GC	3′ Processing 2 nt (5′-CT-3′)	16088935
+49	Alu	BRCA2	13	Qian et al. 2015 [158]	Hereditary Cancer	N/A	N/A	N/A	N/A	N/A	N/A	E	N/A	N/A	Pan-cancer panel testing	
+50	Alu	BRCA2	13	Qian et al. 2015 [158]	Hereditary Cancer	N/A	N/A	N/A	N/A	N/A	N/A	E	N/A	N/A	Pan-cancer panel testing	
+51	Alu	BRCA2	13	Qian et al. 2015 [158]	Hereditary Cancer	N/A	N/A	N/A	N/A	N/A	N/A	E	N/A	N/A	Pan-cancer panel testing	
+52	Alu	BRCA2	13	Qian et al. 2015 [158]	Hereditary Cancer	N/A	N/A	N/A	N/A	N/A	N/A	E	N/A	N/A	Pan-cancer panel testing	
+53	Alu	BRCA2	13	Qian et al. 2015 [158]	Hereditary Cancer	N/A	N/A	N/A	N/A	N/A	N/A	E	N/A	N/A	Pan-cancer panel testing	
+54	Alu	BRCA2	13	Qian et al. 2015 [158]	Hereditary Cancer	N/A	N/A	N/A	N/A	N/A	N/A	E	N/A	N/A	Pan-cancer panel testing	
+55	Alu	BRCA2	13	Qian et al. 2015 [158]	Hereditary Cancer	N/A	N/A	N/A	N/A	N/A	N/A	E	N/A	N/A	Pan-cancer panel testing	
+56	Alu	BRCA2	13	Qian et al. 2015 [158]	Hereditary Cancer	N/A	N/A	N/A	N/A	N/A	N/A	E	N/A	N/A	Pan-cancer panel testing	
+57	Alu	PMM2	16	Schollen et al. 2007 [295]	CDG-Ia	AluYb8	263	10	Y/5′TR	N	AS	28 kb Deletion	No TSD	TTTT/AA		17307006
+58	Alu	PALB2	16	Qian et al. 2015 [158]	Hereditary Cancer	N/A	N/A	N/A	N/A	N/A	N/A	E	N/A	N/A	Pan-cancer panel testing	
+59	Alu	BRCA1	17	Peixoto et al. 2013 [161]	Breast and Ovarian Cancer Family	AluYc	191	60	Y/5′TR	N	AS	23.3 kb Deletion	No TSD	CTTT/AG		23223007
+60	Alu	BRCA1	17	Teugels et al. 2005 [294]	Breast Cancer	AluS	286	N/A	N	N	S	E	GAAAAAGAATCTGCTTT	TTTC/GA		16088935
+61	Alu	BRCA1	17	Qian et al. 2015 [158]	Hereditary Cancer	N/A	N/A	N/A	N/A	N/A	N/A	E	N/A	N/A	Pan-cancer panel testing	
+62	Alu	NF1	17	Wallace et al. 1991 [23]	NF1	AluYa5	282	40	N	N	AS	I/Splicing	AAAAAAAAAAACAT	TTTT/AA	First report of de novo Alu insertion	1719426
+63	Alu	NF1	17	Wimmer et al. 2011 [296]	NF1	AluY	280	N/A	N	N	S	I	AAAAAATTCAG	TTTT/AA	Same insertion site as Wimmer et al.a	22125493
+64	Alu	NF1	17	Wimmer et al. 2011 [296]	NF1	AluY	281	N/A	N/A	N	AS	I	N/A			22125493
+65	Alu	NF1	17	Wimmer et al. 2011 [296]	NF1	AluYa5	282	60	N	N	S	E	ATAAATAGCCTGGA	TTAT/AA		22125493
+66	Alu	NF1	17	Wimmer et al. 2011 [296]	NF1	AluYa5	284	120	N	N	AS	E	AAAAAACTTGCT	TTTT/GA	Same insertion site as Wimmer et al.c	22125493
+67	Alu	NF1	17	Wimmer et al. 2011 [296]	NF1	AluYa5	281	N/A	N	N	AS	E	AAAAAACTTGCTGATGG	TTTT/GA	Same insertion site as Wimmer et al.c	22125493
+68	Alu	NF1	17	Wimmer et al. 2011 [296]	NF1	AluYa5	284	110	N	N	AS	E	AATAAAACCTAAAGA	TATT/GA		22125493
+69	Alu	NF1	17	Wimmer et al. 2011 [296]	NF1	AluYa5	279	N/A	N	N	S	E	AAAAGAAGAACATAT	TTTT/GT	Same insertion site as Wimmer et al.b	22125493
+70	Alu	NF1	17	Wimmer et al. 2011 [296]	NF1	AluYa5	264	60-85	Y/5′TR	N	AS	E	AAGAAGTGCGGTACCT	TCTT/GA		22125493
+71	Alu	NF1	17	Wimmer et al. 2011 [296]	NF1	AluYb8	249	121	Y/5′TR	N	S	E	AAAGCAGTGC	CTTT/AT		22125493
+72	Alu	NF1	17	Wimmer et al. 2011 [296]	NF1	AluYb8	288	N/A	N	N	AS	I	AAAAAAGAGAAAGACAA	TTTT/AA	Same insertion site as Wimmer et al.a	22125493
+73	Alu	NF1	17	Wimmer et al. 2011 [296]	NF1	AluYb8	289	120	N	N	AS	E	AACAATGGTCTT	TGTT/AA		22125493
+74	Alu	NF1	17	Wimmer et al. 2011 [296]	NF1	AluYb8	288	78-178	N	N	S	E	AAACAATGATGTTA	TTTC/AA	3′ Processing of 1 nt (C)	22125493
+75	Alu	NF1	17	Wimmer et al. 2011 [296]	NF1	AluYb8	288	118	N	N	S	E	AAAAGAAGAACATAT	TTTT/GT	Same insertion site as Wimmer et al.b	22125493
+76	Alu	NF1	17	Wimmer et al. 2011 [296]	NF1	AluYb8	268	121	Y/5′TR	N	AS	I	AAAAAACAAACAAACA	TTTT/GT		22125493
+77	L1	CYBB	X	Meischl et al. 1998 [297], Brouha et al. 2002 [181]	CGD	L1 Ta	1722	101	Y/5′TR	Y (280)	S	E	AA	TGTT/GA	Maternal Meiosis I	9618766;12094329
+78	L1	CYBB	X	Meischl et al. 2000 [298]	CGD	L1 Ta	836	69	Y/5′TR/INV	N	S	I/Splicing	AGAAATAACTATTTAA	TTCT/AA		10980575
+79	L1	CHM	X	van den Hurk et al. 2003 [177]	Choroideremia	L1 Ta	6017	71	FL	Y (119/406)	AS	E	AGAAGATCAATTAG	TTCT/AA	Insertion in Early Development	17483097
+80	L1	DMD	X	Musova et al. 2006 [299]	DMD	L1 Ta	452	41	Y/5′TR/INV	N	AS	E	AAATATCTTTATATCA	ATTT/AA		16808900
+81	L1	DMD	X	Narita et al. 1993 [164]	DMD	L1 Ta	608	16	Y/5′TR	N	AS	E	No TSD	TCTT/AA	2 nt deletion	8387534
+82	L1	DMD	X	Holmes et al. 1994 [176]	DMD	L1 Ta	1400	38	Y/5′TR/INV	Y(489)	S	E	AAATCATCTGCTGCT	ATTT/AA	First Report of L1 3′TR	7920631
+83	L1	DMD	X	Yoshida et al. 1998 [300]	XLDCM	L1 Ta	530	73	Y/5′TR	N	AS	5′-UTR/Loss of mRNA	AAAAAAAACCTGGTAAA	TTTT/AT	Tissue specific loss of mRNA	9618170
+84	L1	DMD	X	E Bakker & G van Omenn, personal communication	DMD	N/A	878	N/A	Y/5′TR	N	S	N/A	N/A	N/A		
+85	L1	DMD	X	Awano et al. 2010 [301], Solyom et al. 2011 [302]	DMD	L1 Ta	212	118	Y/5′TR	Y (212)	AS	E	GAA	TTTC/AA	Orphan 3′-transduction	20827276;22095564
+86	L1	FVIII	X	Kazazian et al. 1988 [22]	Hemophilia A	L1 Ta	3800	54	Y/5′TR	N	S	E	AAAGACAAACAAAAC	CTTT/AA	First report of de novo L1 insertion	2831458
+87	L1	FVIII	X	Kazazian et al. 1988 [22]	Hemophilia A	L1 preTa	2300	77	Y/5′TR/INV	N	AS	E	AATGTTTCCTTCTTTTC	CATT/AA		2831458
+88	L1	FIX	X	Li et al. 2001 [266]	Hemophilia B	L1 Ta	463	68	Y/5′TR	N	S	E	AAAAATAGTGCTGATA	TTTT/AC		11385709
+89	L1	FIX	X	Mukherjee et al. 2004 [303]	Hemophilia B	L1 Ta	163	125	Y/5′TR	N	S	E	GAAAAATGGATTGT	TTTC/AT		15086324
+90	L1	RP2	X	Schwahn et al. 1998 [304]	XLRP	L1 Ta	6000	64	FL	N	S	I/Loss of mRNA	AAGACTGTAAGGTG	TCTT/AA	Interrupted polyA	9697692
+91	L1	RPS6KA3	X	Martinez-Garay et al. 2003 [305]	Coffin-Lowry syndrome	L1 Hs	2800	Yes	Y/5′TR/INV	N	AS	E	AAGAAAACCTGCATTT	TCTT/AG		14986828
+92	L1	ABDH5	3	Samuelov et al. 2011 [306], Eli Sprecher, personal communication	CDS	N/A	FL	N/A	N	N/A	N	I/Splicing	N/A	N/A		21332462
+93	L1	MLH1	3	Qian et al. 2015 [158]	Hereditary Cancer	N/A	N/A	N/A	N/A	N/A	N/A	E	N/A	N/A	Pan-cancer panel testing	
+94	L1	MLH1	3	Qian et al. 2015 [158]	Hereditary Cancer	N/A	N/A	N/A	N/A	N/A	N/A	E	N/A	N/A	Pan-cancer panel testing	
+95	L1	APC	5	Miki et al. 1992 [200]	Colon cancer	L1Ta	520	222	Y/5′TR/INV	N	S	E	AAGAATAATG	TCTT/AA	Somatic Insertion/same insertion site as Halling et al. Alu	1310068
+96	L1	EYA1	8	Morisada et al. 2010 [247]	BOR syndrome	L1 Hs	3756	None	Y/3′TR	N	AS	17 kb Deletion	No TSD	TCTC/AG	Internal Priming	20130917
+97	L1	FKTN	9	Kondo-Iida et al. 1999 [307]	FCMD	L1Ta	1200	59	Y/5′TR	N	S	I/Splicing/6 nt Deletion	No TSD	TTTT/AA		10545611
+98	L1	SETX	9	Bernard et al. 2009 [308], Christine Zühlke, personal communication	AOA2	L1 Hs	1300	42	Y/5′TR/INV	N	S	E	GGAAGAATGTGAACTGGCTA	TTCC/AG	3′-processing 2 nt (5′-CC-3′)	19744353
+99	L1	PTEN	10	Helman et al. 2014 [201]	endometrial carcinoma	L1 Hs	90	22	Y/5′TR	N	S	E	AAAGAATCATCTGGATTATAG	CTTT/AA	Somatic Insertion	24823667
+100	L1	HBB	11	Divoky et al. 1996 [309]	β-thalassemia	L1 Ta	6000	107	FL	N	AS	I	AAAATAAAAGCAGA	TTTT/AT		
+101	L1	PDHX	11	Mine et al. 2007 [310]	PDHc deficiency	L1 Hs	6086	67	FL	N	S	46 kb Deletion	No TSD	TTTT/AT		17152059
+102	L1	SLCO1B3	12	Kagawa et al. 2015 [157]	Rotor syndrome	L1 Ta-1d	5989	100	Near FL	N	S	I/Splicing	AAGAATTAATAGTGACAGT	TCTT/AC	0.054 Japanese Allele Frequency, may be “Hot L1”	25546334
+103	L1	RB1	13	Rodriguez-Martin et al.2016 [202]	Familial Retinoblastoma	L1 Ta-1d	6044	33	FL	N	S	I/Splicing	AAATTATCTGTTTC	ATTT/AA	N/A	26763876
+104	L1	NF1	17	Wimmer et al. 2011 [296]	NF1	L1 preTa	1800	N/A	Y/5′TR	N	S	E	AAAAACGAAACTGTGT	TTTT/AT	Untemplated 3′- T?	22125493
+105	L1	NF1	17	Wimmer et al. 2011 [296]	NF1	L1 Ta	6000	N/A	FL	N	S	E	AAAAATCGAGGG	TTTT/AA	Untemplated 3′- T?	22125493
+106	L1	NF1	17	Wimmer et al. 2011 [296]	NF1	N/A	2200	N/A	Y/5′TR/INV	N	AS	I/Splicing	AAGAAAATGGT	TCTT/AA		22125493
+107	SVA	BTK	X	Rohrer et al. 1999 [311], Conley et al. 2005 [258]	XLA	N/A	251	92	Y/5′TR	N	S	E	AGAAATGTATGAGTAA	TTCT/AT	Same insertion site as Conley et. al. Alu	9884350;15712380
+108	SVA	TAF1	X	Makino et al. 2007 [312]	XDP	F	2627	62	FL	N	AS	I	AAAAAAAAAAAATGAAATAG	TCCT/AT	3′-Processing 3 nt (5′-CCT-3′)	17273961
+109	SVA	FIX	X	Nakamura et.al. 2015 [156]	Hemophilia B	F	2524	28	FL	N	AS	E	AAATGGCACTAGAA	TTCC/AT	3′-Processing 1 nt (5′-C-3′)	25739383
+110	SVA	LDRAP1	1	Wilund et al. 2002 [313]	ARH	E	2600	57	FL	N	S	I/Splicing	GAAACCTGTTTTCTC	TTTC/AA		12417523
+111	SVA	SPTA1	1	Hassoun et al. 1994 [314], Ostertag et al. 2003 [24]	HE and HPP	E	632	50	Y/5′TR/INV	Y (183/599)	S	E	GAAATTTGAAGACTTCCAAGT	TTTC/AA	Orphan 3′-transduction	8040317;14628287
+112	SVA	CASP8	2	Stacey et al. 2016 [203]	Breast Cancer Susceptibility	E	2782	N/A	FL	N	AS	I/Decreased RNA	AAGAATTTGA	TCTT/AT	Protective against prostate cancer; active locus?	26740556
+113	SVA	A4GNT	3	Nazaryan et al. 2015 [155]	Chromothripsis	E	502	None	Y/5′TR (VNTR)	N	AS	I	N/A	TTTT/GA	First report of large scale rearrangement and an insertion. Implicates retrotransposition in germline chromothripsis.	26929209
+114	SVA	HLA-A	6	Takasu et al. 2007 [315]	Leukemia	F1	2000	45	FL	N/A	AS	14 kb Deletion	N/A	CCTT/AG	Novel SVA subfamily (F1)	17610419
+115	SVA	PMS2	7	van der Klift et al. 2012 [154]	Lynch syndrome	F	2200	64	Y/5′TR (VNTR)	N	S	I/Splicing	AAGAATGTGCCATGTGA	TCTT/AA	SVA exonization	22461402
+116	SVA	FKTN	9	Kobayashi et al. 1998 [162]	FCMD	E	3023	32	FL	N	S	3′UTR/Splicing	AAGAAAAAAAAAATTGT	TCTT/AA		9690476
+117	SVA	PNPLA2	11	Akman et al. 2010 [316]	NLSDM	E	1800	44	Y/5′TR	N	S	E	AAAGAGGCCCGG	CTTT/AG		20471263
+118	SVA	SUZ1P	17	Vogt et al. 2014 [153]	NF1	F1	1700	23	Y/5′TR (VNTR)	Y (282/160)	AS	I/Deletion of NF1	N/A	TTTT/AC	Largest reported insertion associated deletion (~1 Mb), somatic	24958239
+119	SVA	SUZ1P	17	Vogt et al. 2014 [153]	NF1	F	1300	40	Y/5′TR (VNTR)	N	AS	I/Deletion of NF1	N/A	CTTT/AC	867 kb deletion, somatic	24958239
+120	Processed Pseudogene	CYBB	X	de Boer et al. 2014 [152]	CGD	N/A	5739	100	FL	No	AS	I/Splicing	AAAACTCAAAGACTC	TTTT/AA	First reported de novo processed pseudogene (TMF1)	24478191
+121	pA	COL4A6	X	Segal et al. 1999 [317]	Alport syndrome	N/A	N/A	70	N/A	N/A	AS	13.4 kb Deletion	No TSD	TTCT/AT		9915944
+122	pA	AGA	4	Jalanko et al. 1995 [318]	AGU	N/A	N/A	37	N/A	N/A	AS	2 kb Deletion	No TSD	TTCT/AA		7795599
+123	pA	BRCA2	13	Wang et al. 2001 [319]	Breast Cancer	N/A	N/A	35	N/A	N/A	S	6.2 kb Deletion	No TSD	TTCT/AA		11284040
+124	pA	NF1	17	Wimmer et al. 2011 [296]	NF1	N/A	130	120	N/A	N/A	AS	E	AAGAAA	TCTTNAA		22125493

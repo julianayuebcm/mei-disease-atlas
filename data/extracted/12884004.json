@@ -1,0 +1,47 @@
+{
+ "pmid": "12884004",
+ "cases": [
+  {
+   "case_label": "Intronic AluYb9 insertion in F8 causing exon skipping and severe hemophilia A",
+   "gene": "F8",
+   "gene_as_reported": "Factor VIII gene",
+   "disease": "Severe hemophilia A",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "Alu",
+   "subfamily": "AluYb9",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping",
+    "expression_loss"
+   ],
+   "mechanism_detail": "A young AluYb9 element inserted into an intron of F8 causes skipping of the adjacent exon and complete disruption of F8 gene expression, producing severe hemophilia A. The abstract does not number the intron or exon.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Here, we report a second Alu insertion event that lies in an intron of the same gene that causes exon skipping and the complete disruption of gene expression.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

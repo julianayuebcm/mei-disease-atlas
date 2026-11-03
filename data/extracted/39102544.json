@@ -1,0 +1,50 @@
+{
+ "pmid": "39102544",
+ "cases": [
+  {
+   "case_label": "XDP SVA in TAF1 intron 32 (ZNF91-repressed)",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism (XDP)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 2,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "premature_polyadenylation",
+    "intron_retention",
+    "expression_loss",
+    "epigenetic_silencing"
+   ],
+   "mechanism_detail": "The XDP-SVA in TAF1 intron 32 forms G-quadruplex structures that impede RNA Pol II, producing truncated transcripts containing intron 32 (i32) and less full-length TAF1; the KRAB-ZNF ZNF91 binds and represses the SVA, and ZNF91 knockout in patient iPSC-derived cells worsens i32 retention/failed splicing, while SVA excision rescues it.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq",
+    "functional_assay"
+   ],
+   "quote": "In XDP, the pathogenic XDP-SVA insertion forms G4 structures that obstruct RNA Pol progression, resulting in the production of truncated transcripts containing intron 32 (i32).",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

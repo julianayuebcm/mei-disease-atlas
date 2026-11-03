@@ -1,0 +1,46 @@
+{
+ "pmid": "26894652",
+ "cases": [
+  {
+   "case_label": "353-bp Alu in MAK (K429insAlu)",
+   "gene": "MAK",
+   "gene_as_reported": null,
+   "disease": "Retinitis pigmentosa",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": 353,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Ashkenazi Jewish",
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "K429insAlu",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "Homozygous 353-bp Alu insertion at codon K429 of MAK in an Ashkenazi Jewish man with RP and intraretinal cystoid spaces; the paper names it as an in-codon insertion, molecular effect not further described.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Genetic testing identified a homozygous mutation in the MAK gene: a 353-bp Alu insertion (K429insAlu).",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

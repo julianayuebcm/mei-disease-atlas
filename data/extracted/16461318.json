@@ -1,0 +1,48 @@
+{
+ "pmid": "16461318",
+ "cases": [
+  {
+   "case_label": "Alu insertion in exon 9 of NT5C3A (P5'N-I)",
+   "gene": "NT5C3A",
+   "gene_as_reported": "P5'N-I",
+   "disease": "Pyrimidine 5'-nucleotidase deficient hemolytic anemia",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Portuguese",
+   "region": "coding_exon",
+   "exon_number": 9,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping"
+   ],
+   "mechanism_detail": "An Alu element inserted in exon 9 leads to skipping of exon 9 in the mRNA transcript.",
+   "affected_exons": [
+    9
+   ],
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "the insertion of an Alu element in exon 9, leading to skipping of this exon in the mRNA transcript",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

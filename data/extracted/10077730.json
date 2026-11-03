@@ -1,0 +1,46 @@
+{
+ "pmid": "10077730",
+ "cases": [
+  {
+   "case_label": "Alu insertion at codon 1526 of APC",
+   "gene": "APC",
+   "gene_as_reported": null,
+   "disease": "Hereditary desmoid disease",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": 337,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Amish family",
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A 337-bp Alu insertion into codon 1526 of APC produces a protein-truncating mutation in a family with autosomal dominant desmoid tumours.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "The truncating mutation is the result of a 337-bp insertion of an Alu I sequence into codon 1526 of the APC gene.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

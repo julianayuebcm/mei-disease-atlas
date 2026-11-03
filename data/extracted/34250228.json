@@ -1,0 +1,46 @@
+{
+ "pmid": "34250228",
+ "cases": [
+  {
+   "case_label": "SVA in TAF1 intron 32 (XDP): somatic (CCCTCT)n instability in brain",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism (XDP)",
+   "omim_phenotype": "314250",
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": 2600,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 2,
+   "n_families": null,
+   "ancestry_or_population": "Filipino founder",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Study of the (CCCTCT)n repeat within the 2.6-kb XDP SVA in postmortem tissues of 2 patients; basal ganglia and cerebellum showed larger and more unstable repeats than blood, suggesting somatic instability may modify disease. Mechanism of the SVA's effect on TAF1 not investigated.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read"
+   ],
+   "quote": "Somatic repeat instability may predominate in brain regions selectively affected in XDP, thereby hinting at its potential role in disease manifestation and modification.",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

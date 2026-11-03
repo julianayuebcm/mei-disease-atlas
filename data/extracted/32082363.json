@@ -1,0 +1,49 @@
+{
+ "pmid": "32082363",
+ "cases": [
+  {
+   "case_label": "L1 in SLCO1B3 intron 3 with exon 4 inversion",
+   "gene": "SLCO1B3",
+   "gene_as_reported": null,
+   "disease": "Rotor syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": 6000,
+   "full_length": null,
+   "orientation_vs_gene": "antisense",
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Chinese",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 3,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "insertion_associated_deletion",
+    "exon_skipping"
+   ],
+   "mechanism_detail": "A homozygous ~6-kb reverse-complement L1 inserted in SLCO1B3 intron 3 is accompanied by inversion of a 1,185-bp segment containing exon 4; the inverted exon loses its splice sites and is excluded from mRNA in a minigene assay, predicted to create a premature stop. The patient also carries a homozygous SLCO1B1 nonsense variant (digenic Rotor).",
+   "affected_exons": [
+    4
+   ],
+   "evidence": [
+    "minigene"
+   ],
+   "quote": "Further sequence analysis revealed that a reverse-complementary LINE-1 retrotransposon (~6 kbp) was inserted upstream of the inverted DNA fragment (Figure 2B).",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

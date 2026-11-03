@@ -1,0 +1,46 @@
+{
+ "pmid": "30153385",
+ "cases": [
+  {
+   "case_label": "2.6-kb retrotransposon in TAF1 intron 32 (XDP)",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "unknown",
+   "subfamily": null,
+   "insertion_length_bp": 2672,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 3,
+   "n_families": null,
+   "ancestry_or_population": "Filipino",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "expression_loss"
+   ],
+   "mechanism_detail": "The 2672-bp retrotransposon in TAF1 intron 32 is associated with reduced TAF1 expression in patient iPSCs and spiny projection neurons; CRISPR excision of the insertion increased TAF1 expression. Element class not named in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "functional_assay"
+   ],
+   "quote": "TAF1 reduction in X-linked dystonia-parkinsonism is likely due to the retrotransposon insertion and is recapitulated in induced pluripotent stem cells and differentiated spiny projection neurons.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

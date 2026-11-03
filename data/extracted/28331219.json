@@ -1,0 +1,50 @@
+{
+ "pmid": "28331219",
+ "cases": [
+  {
+   "case_label": "MAST2-SVA retrotransposition event deleting FBN1 exons 7-9",
+   "gene": "FBN1",
+   "gene_as_reported": null,
+   "disease": "Marfan-spectrum connective tissue disorder with mildly dilated aortic sinus (does not fulfil revised Ghent criteria)",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": true,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "multiple",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "insertion_associated_deletion"
+   ],
+   "mechanism_detail": "Chromosomal microarray showed a ~36.8 kb 15q21.1 deletion running from FBN1 intron 6 to intron 9 and removing exons 7-9. Breakpoint sequencing confirmed the deletion and revealed a concomitant retrotransposon insertion within the intron 6/intron 9 region, attributed to a MAST2-SVA element acting through repetitive sequences.",
+   "affected_exons": [
+    7,
+    8,
+    9
+   ],
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "The intragenic deletion of exons 7-9 was likely the result of a retrotransposition event by a MAST2-SVA element mediated by repetitive sequences.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

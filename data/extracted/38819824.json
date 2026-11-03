@@ -1,0 +1,46 @@
+{
+ "pmid": "38819824",
+ "cases": [
+  {
+   "case_label": "RP1 exon 4 Alu insertion (c.4052_4053ins328) in Korean IRD patients",
+   "gene": "RP1",
+   "gene_as_reported": null,
+   "disease": "Inherited retinal disease (macular dystrophy, cone-rod dystrophy)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": 328,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 5,
+   "n_families": 5,
+   "ancestry_or_population": "Korean (East Asian recurrent insertion)",
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "c.4052_4053ins328",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "The recurrent East Asian Alu insertion in RP1 (c.4052_4053ins328), missed in initial exome analysis, was found by MEI-targeted reanalysis in 5 unrelated patients, each compound heterozygous with p.Arg1933*, c.4582_4585del or c.4196del.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "A customized grep program developed by our group was also applied to detect Alu insertion in RP1, a common insertion in East Asian.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

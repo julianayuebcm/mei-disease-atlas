@@ -1,0 +1,46 @@
+{
+ "pmid": "41777671",
+ "cases": [
+  {
+   "case_label": "SVA in TAF1 (XDP): Taf1-deficient fly model and patient fibroblasts",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism (XDP)",
+   "omim_phenotype": "314250",
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Filipino founder",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "expression_loss"
+   ],
+   "mechanism_detail": "Paper states the XDP SVA moderately reduces TAF1 expression; metabolic changes seen in Taf1-deficient flies were not confirmed in XDP patient fibroblasts with minor TAF1 reduction.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq"
+   ],
+   "quote": "The SVA insertion moderately disrupts gene expression; however, the underlying disease mechanism remains enigmatic.",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

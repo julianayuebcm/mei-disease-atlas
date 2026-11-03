@@ -1,0 +1,46 @@
+{
+ "pmid": "42847597",
+ "cases": [
+  {
+   "case_label": "Recurrent Alu insertion in RP1 exon 4 (c.4052_4053ins328) in Korean cohort",
+   "gene": "RP1",
+   "gene_as_reported": null,
+   "disease": "Autosomal recessive RP1-associated retinal dystrophy (RP, macular, cone and cone-rod dystrophy)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": 328,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 20,
+   "n_families": null,
+   "ancestry_or_population": "Korean (recurrent East Asian allele)",
+   "region": "coding_exon",
+   "exon_number": 4,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "c.4052_4053ins328 (p.Tyr1352Alafs*9)",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "The recurrent Alu insertion in RP1 exon 4 causes a frameshift (p.Tyr1352Alafs*9); detected by IGV soft-clip review, Alu-PCR and long-read WGS in 14% of 143 Korean RP1 patients (about 20), in trans with other truncating alleles in AR RP, macular or cone(-rod) dystrophy.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read"
+   ],
+   "quote": "The Alu insertion c.4052_4053ins328 (p.Tyr1352Alafs*9) was carried by 14% of patients.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

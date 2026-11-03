@@ -1,0 +1,49 @@
+{
+ "pmid": "39287133",
+ "cases": [
+  {
+   "case_label": "XDP SVA in TAF1 intron 32 (G-quadruplexes)",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism (XDP)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": "SVA_F",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": "antisense",
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Filipino founder (Panay)",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "expression_loss",
+    "aberrant_transcript_other"
+   ],
+   "mechanism_detail": "G-quadruplexes form in the hexamer and VNTR of the XDP SVA in patient fibroblasts and NPCs; stabilising them with ligands reduced TAF1 transcripts around/downstream of the SVA and increased upstream ones, while unfolding G4s increased TAF1 transcripts, implicating G4s as a cause of aberrant TAF1 expression.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq",
+    "rna_rt_pcr",
+    "functional_assay"
+   ],
+   "quote": "Our data indicate that G4 formation in the XDP SVA is a major cause of aberrant TAF1 expression, opening the way for the development of strategies to unfold G4s and potentially target the disease.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

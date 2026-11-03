@@ -1,0 +1,46 @@
+{
+ "pmid": "36765129",
+ "cases": [
+  {
+   "case_label": "Exonic LINE-1 insertion in CC2D2A in trans with a missense variant in Joubert syndrome",
+   "gene": "CC2D2A",
+   "gene_as_reported": null,
+   "disease": "Joubert syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 2,
+   "n_families": 1,
+   "ancestry_or_population": "Japanese",
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": "NM_001080522.2",
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "Long-read whole-genome sequencing with haplotype phasing showed two affected Japanese siblings carried an exonic LINE-1 insertion in CC2D2A in trans with the missense variant c.4454A>G p.(Tyr1485Cys); biallelism was established without parental samples. Rare carriers of the same exonic LINE-1 were found in in-house genomes.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read"
+   ],
+   "quote": "The affected siblings had a novel nonsynonymous variant (CC2D2A:NM_001080522.2:c.4454A>G:p.(Tyr1485Cys)) and an exonic insertion of Long INterspercsed Element-1 (LINE-1).",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

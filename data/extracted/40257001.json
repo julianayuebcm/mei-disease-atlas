@@ -1,0 +1,48 @@
+{
+ "pmid": "40257001",
+ "cases": [
+  {
+   "case_label": "SVA_E in ASPA intron 4 (Canavan disease)",
+   "gene": "ASPA",
+   "gene_as_reported": null,
+   "disease": "Canavan disease",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": "SVA_E",
+   "insertion_length_bp": 2630,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 5,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 4,
+   "transcript": null,
+   "hgvs": "NC_000017.10:g.3393511_3393512insSVA_E",
+   "genome_build": "GRCh37",
+   "chrom": "17",
+   "pos": 3393511,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "expression_loss",
+    "aberrant_splicing"
+   ],
+   "mechanism_detail": "A ~2,630-bp deep intronic SVA_E in ASPA intron 4, in trans with coding variants and on a shared haplotype with intron 1 variant c.236+1187A>C, leads to loss of transcripts from the SVA allele (coding variants appear homozygous in mRNA), consistent with efficient mRNA degradation; the authors suggest the SVA creates a new splice acceptor.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read",
+    "rna_rt_pcr"
+   ],
+   "quote": "Functional characterization of this SV at the mRNA level revealed homozygosity for the specific coding variants of each individual patient, which must be accompanied by a loss of the transcripts altered by the SVA_E retrotransposition.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

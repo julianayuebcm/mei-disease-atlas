@@ -1,0 +1,51 @@
+{
+ "pmid": "39009627",
+ "cases": [
+  {
+   "case_label": "Truncated L1 in the AR 5' UTR",
+   "gene": "AR",
+   "gene_as_reported": null,
+   "disease": "Androgen insensitivity syndrome (partial)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": 2752,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "exon_UTR5",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": "hg38",
+   "chrom": "chrX",
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "epigenetic_silencing",
+    "utr_effect",
+    "expression_loss"
+   ],
+   "mechanism_detail": "A maternally inherited (apparently de novo in the mother) hemizygous 2,752-bp 5'-truncated L1 in the AR 5' UTR is associated with increased CpG methylation around the insertion and markedly reduced AR mRNA and protein in patient genital skin fibroblasts; plasmid assays showed the L1 reduces AR expression more than a size-matched control insert.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr",
+    "protein",
+    "functional_assay",
+    "long_read"
+   ],
+   "quote": "We show that this insertion causes a strongly reduced AR mRNA expression both through the disruption of regulatory sequences in the 5\u2032UTR and through DNA methylation at the insertion site,",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

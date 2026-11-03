@@ -1,0 +1,46 @@
+{
+ "pmid": "18392553",
+ "cases": [
+  {
+   "case_label": "IVS16ins3kb processed C6orf68 cDNA insertion in SLC25A13 intron 16",
+   "gene": "SLC25A13",
+   "gene_as_reported": null,
+   "disease": "Citrin deficiency (adult-onset type II citrullinemia, CTLN2)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "processed_pseudogene",
+   "subfamily": null,
+   "insertion_length_bp": 2667,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "17 bp",
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": 22,
+   "ancestry_or_population": "Japanese / East Asian",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 16,
+   "transcript": null,
+   "hgvs": "IVS16ins3kb",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "A 2,667-nt insertion in SLC25A13 intron 16 consisting of an antisense processed cDNA copy of C6orf68, flanked by a 17-nt duplication; the abstract does not describe its transcript effect. Seen in 22 Japanese families and in all East Asian populations tested.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "IVS16ins3kb identified in a Japanese CTLN2 family seems to be a retrotransposal insertion, as the inserted sequence (2,667-nt) showed an antisense strand of processed complementary DNA (cDNA) from a gene on chromosome 6 (C6orf68)",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

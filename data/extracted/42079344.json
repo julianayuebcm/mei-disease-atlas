@@ -1,0 +1,46 @@
+{
+ "pmid": "42079344",
+ "cases": [
+  {
+   "case_label": "5'-truncated L1 in PHEX exon 22 (X-linked hypophosphatemia)",
+   "gene": "PHEX",
+   "gene_as_reported": null,
+   "disease": "X-linked hypophosphatemia",
+   "omim_phenotype": null,
+   "inheritance": "XLD",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": 483,
+   "full_length": false,
+   "orientation_vs_gene": "antisense",
+   "tsd": null,
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Chinese",
+   "region": "coding_exon",
+   "exon_number": 22,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "c.2180_2181insLINE\u20101",
+   "genome_build": "GRCh38",
+   "chrom": "X",
+   "pos": 22247883,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A 483-bp insertion (62-bp poly-T plus a 421-bp partial, mostly reverse-oriented L1 sequence) in PHEX coding exon 22 (c.2180_2181) disrupts the coding sequence; classified pathogenic (PVS1). Inherited from the carrier mother; no RNA study.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "Analysis of the mutant sequences revealed a 483\u2010bp insertion at chrX:22,247,883 within exon 22, which was also present in the proband\u2032s mother, indicating her carrier status for the mutation.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

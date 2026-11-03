@@ -1,0 +1,53 @@
+{
+ "pmid": "9609225",
+ "cases": [
+  {
+   "case_label": "38-bp L1 3' fragment at 20.7-kb F8 deletion (exons 15-20)",
+   "gene": "F8",
+   "gene_as_reported": "factor VIII",
+   "disease": "Haemophilia A (severe)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": 38,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "multiple",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "insertion_associated_deletion"
+   ],
+   "mechanism_detail": "A 20.7-kb deletion removing F8 exons 15-20 (intron 14 to intron 20) carries a 38-bp insertion homologous to the L1 3' end at the breakpoint; breakpoints are homologous to an L1 flanking region, suggesting retrotransposition of an L1 readthrough product accompanied the deletion.",
+   "affected_exons": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "A 38-base insertion homologous to the 3' region of a LINE-1 (L1) element was detected at the breakpoint of the deletion.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

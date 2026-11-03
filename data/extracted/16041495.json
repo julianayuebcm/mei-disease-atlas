@@ -1,0 +1,49 @@
+{
+ "pmid": "16041495",
+ "cases": [
+  {
+   "case_label": "AluYa5 in CLCN5 exon 11 (codon 650)",
+   "gene": "CLCN5",
+   "gene_as_reported": null,
+   "disease": "Dent's disease",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "Alu",
+   "subfamily": "AluYa5",
+   "insertion_length_bp": 345,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 11,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping"
+   ],
+   "mechanism_detail": "A 345-bp AluYa5 inserted at codon 650 in exon 11 causes skipping of exon 11 in patient blood RNA (RT-PCR), proposed to result from disruption of exonic splicing enhancers at the insertion site; predicted truncated ClC-5. Insertion arose in the maternal grandfather's germline.",
+   "affected_exons": [
+    11
+   ],
+   "evidence": [
+    "rna_rt_pcr",
+    "segregation"
+   ],
+   "quote": "the Alu insertion led to an aberrant splicing of the CLCN5 pre-mRNA that skipped exon 11",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

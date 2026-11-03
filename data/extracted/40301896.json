@@ -1,0 +1,47 @@
+{
+ "pmid": "40301896",
+ "cases": [
+  {
+   "case_label": "De novo AluY in KMT2D exon 36",
+   "gene": "KMT2D",
+   "gene_as_reported": null,
+   "disease": "Kabuki syndrome type 1",
+   "omim_phenotype": null,
+   "inheritance": "de_novo",
+   "mei_class": "Alu",
+   "subfamily": "AluY",
+   "insertion_length_bp": 319,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "16 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 36,
+   "intron_number": null,
+   "transcript": "NM_003482.4",
+   "hgvs": "NM_003482.4 (NP_003473.3):p.(Lys3436Glyfs*40)",
+   "genome_build": "GRCh37",
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A heterozygous de novo AluY (281 bp core + 38 bp poly(A), 16-bp TSD) in KMT2D exon 36, found by reanalysis after a Kabuki DNA methylation episignature, is predicted to cause a frameshift p.(Lys3436Glyfs*40) and loss of function; no RNA/protein studies.",
+   "affected_exons": null,
+   "evidence": [
+    "de_novo_confirmed",
+    "functional_assay"
+   ],
+   "quote": "According to VariantValidator, such heterozygous de novo insertion is anticipated to result in KMT2D loss-of-function by inducing the following truncating variant: NM_003482.4 (NP_003473.3):p.(Lys3436Glyfs*40) (GRCh37/hg19).",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,46 @@
+{
+ "pmid": "7717399",
+ "cases": [
+  {
+   "case_label": "Alu (PV/HS-1) in exon 7 of CASR at codon 877",
+   "gene": "CASR",
+   "gene_as_reported": "Ca(2+)-sensing receptor (CaR)",
+   "disease": "Familial hypocalciuric hypercalcemia (heterozygous) / neonatal severe hyperparathyroidism (homozygous)",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": "predicted-variant/human-specific-1 (PV/HS-1)",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": "antisense",
+   "tsd": null,
+   "polyA": true,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Nova Scotian deme",
+   "region": "coding_exon",
+   "exon_number": 7,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "Antisense Alu inserted at codon 877 in exon 7 introduces stop codons in all reading frames, predicting a truncated CaR lacking most of the C-terminal intracellular domain. FHH carriers are heterozygous and NSHPT patients homozygous.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "Stop signals are introduced in all reading frames within the Alu sequence, leading to a predicted shortened mutant CaR protein.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

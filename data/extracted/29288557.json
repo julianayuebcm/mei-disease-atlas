@@ -1,0 +1,48 @@
+{
+ "pmid": "29288557",
+ "cases": [
+  {
+   "case_label": "AluYb9 in exon 6 of PKLR",
+   "gene": "PKLR",
+   "gene_as_reported": null,
+   "disease": "Pyruvate kinase deficiency (hereditary nonspherocytic hemolytic anemia)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": "AluYb9",
+   "insertion_length_bp": 370,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "present (length not stated)",
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 2,
+   "n_families": 2,
+   "ancestry_or_population": "Middle Eastern, consanguineous",
+   "region": "coding_exon",
+   "exon_number": 6,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "insertion between c.939 and c.940",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption",
+    "expression_loss"
+   ],
+   "mechanism_detail": "Homozygous AluYb9 insertion between c.939 and c.940 in PKLR exon 6 introduces an in-frame stop codon within the Alu and PKLR reticulocyte mRNA is reduced by ~90%.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr",
+    "segregation"
+   ],
+   "quote": "sequence analysis revealed a homozygous insertion of AluYb9 within exon 6 of the PKLR gene, causing precipitous decrease of PKLR RNA levels",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

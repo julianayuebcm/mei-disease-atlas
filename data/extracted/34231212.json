@@ -1,0 +1,52 @@
+{
+ "pmid": "34231212",
+ "cases": [
+  {
+   "case_label": "SVA_E in SMARCB1 intron 2 (familial ATRT, maternal mosaic)",
+   "gene": "SMARCB1",
+   "gene_as_reported": null,
+   "disease": "Atypical teratoid rhabdoid tumor (rhabdoid tumor predisposition)",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": "SVA_E",
+   "insertion_length_bp": 2763,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "10 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 2,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 2,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": "hg19",
+   "chrom": "22",
+   "pos": 24134114,
+   "distance_to_splice_site_bp": 33,
+   "mechanisms": [
+    "exonization",
+    "exon_skipping"
+   ],
+   "mechanism_detail": "A 2,763-bp SVA_E inserted 33 bp downstream of SMARCB1 exon 2 causes splicing from a premature donor in exon 2 into a splice acceptor in the SVA Alu-like domain (exon1-SVA transcript), plus low-level exon 2 skipping, disrupting the allele. Inherited by two affected siblings from their mosaic mother; tumours showed second-hit LOH.",
+   "affected_exons": [
+    2
+   ],
+   "evidence": [
+    "long_read",
+    "rna_rt_pcr",
+    "rna_seq",
+    "segregation"
+   ],
+   "quote": "Our results indeed verified the presence of splicing from exon 2 into the Alu\u2010like domain of SVA\u2010E, one of the previously recognized splice acceptor sites (Figure 4).",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

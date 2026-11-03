@@ -1,0 +1,48 @@
+{
+ "pmid": "32975318",
+ "cases": [
+  {
+   "case_label": "SVA in TAF1 intron 32 (XDP): blood TAF1 splicing biomarkers",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism (XDP)",
+   "omim_phenotype": "314250",
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 44,
+   "n_families": null,
+   "ancestry_or_population": "Filipino founder",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing",
+    "intron_retention",
+    "expression_loss"
+   ],
+   "mechanism_detail": "The intron 32 SVA causes alternative splicing (disease-specific TAF1-32i variant) and reduced TAF1 expression 3' to the insertion; patient NPCs, their extracellular vesicles and whole blood show a lower TAF1-3'/5' ratio and higher TAF1-32i.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "A retrotransposon inserted in intron 32 of the TAF1 gene leads to alternative splicing in the region and a reduction of the full‐length mRNA transcript.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

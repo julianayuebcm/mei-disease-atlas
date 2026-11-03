@@ -1,0 +1,49 @@
+{
+ "pmid": "37604334",
+ "cases": [
+  {
+   "case_label": "5'-truncated SVA (sense) in intron 11 of ITGB3",
+   "gene": "ITGB3",
+   "gene_as_reported": null,
+   "disease": "Glanzmann thrombasthenia",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": false,
+   "orientation_vs_gene": "sense",
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 11,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing"
+   ],
+   "mechanism_detail": "A paternally inherited 5'-truncated sense-oriented SVA in ITGB3 intron 11 (in trans with p.Trp741*) causes aberrant ITGB3 splicing and markedly reduced beta3 protein.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq",
+    "rna_rt_pcr",
+    "protein",
+    "segregation"
+   ],
+   "quote": "The 5' truncated SVA element was inserted in a sense orientation in intron 11 of ITGB3, resulting in aberrant splicing of ITGB3 and significantly reducing β3 protein content.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,46 @@
+{
+ "pmid": "38433605",
+ "cases": [
+  {
+   "case_label": "Homozygous 918-bp 5'-truncated L1 in LDLR exon 7",
+   "gene": "LDLR",
+   "gene_as_reported": null,
+   "disease": "Familial hypercholesterolemia",
+   "omim_phenotype": "143890",
+   "inheritance": "AD",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": 918,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": "8 bp (ATGACCTT)",
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 3,
+   "n_families": 1,
+   "ancestry_or_population": "Egyptian (consanguineous)",
+   "region": "coding_exon",
+   "exon_number": 7,
+   "intron_number": null,
+   "transcript": "NM_000527.5",
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A predicted 918-bp 5'-truncated, reverse-oriented L1 (L1 bases 5141-6059 plus poly(A)) with an 8-bp TSD inserted in LDLR exon 7; homozygous in a severely affected proband and heterozygous in mildly affected parents; expected to disrupt the coding sequence but not validated at RNA or protein level.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "Although it could not be validated at the transcript or protein level, this insertion is expected to disrupt the function of the gene (Hancks & Kazazian, 2012) which is consistent with the known disease mechanism.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

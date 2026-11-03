@@ -1,0 +1,46 @@
+{
+ "pmid": "38864234",
+ "cases": [
+  {
+   "case_label": "Germline Alu in PTCH1 (c.361_362insAlu)",
+   "gene": "PTCH1",
+   "gene_as_reported": null,
+   "disease": "Gorlin syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": "NM_000264.5",
+   "hgvs": "NM_000264.5(PTCH1):c.361_362insAlu",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A germline Alu insertion at PTCH1 c.361_362 disrupting the coding sequence in a child with Gorlin syndrome and SHH-medulloblastoma; missed by panel and genome sequencing, found by manual read review of exome data and confirmed by clinical RNA-seq.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq"
+   ],
+   "quote": "Clinical RNA sequencing further demonstrated an Alu insertion at this region (PTCH1: c.361_362insAlu), providing molecular confirmation of Gorlin syndrome.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

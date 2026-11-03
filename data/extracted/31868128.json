@@ -1,0 +1,46 @@
+{
+ "pmid": "31868128",
+ "cases": [
+  {
+   "case_label": "Frameshift Alu insertion in a TG exon causing congenital hypothyroidism",
+   "gene": "TG",
+   "gene_as_reported": null,
+   "disease": "Congenital hypothyroidism with goiter and undetectable serum thyroglobulin",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 2,
+   "n_families": 1,
+   "ancestry_or_population": "Sudanese (consanguineous family)",
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "c.7909ins p.Y3637Ffs",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "Two of four siblings in a consanguineous Sudanese family with congenital hypothyroidism, goiter, high thyrotropin and undetectable serum thyroglobulin carried a novel Alu element inserted within an exon of TG, producing a frameshift (p.Y3637Ffs). The exon number and transcript consequences are not given.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "a novel frameshift insertion of an Alu element within an exon of the TG gene: c.7909ins p.Y3637Ffs",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

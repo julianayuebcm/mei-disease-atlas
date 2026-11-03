@@ -1,0 +1,47 @@
+{
+ "pmid": "42685354",
+ "cases": [
+  {
+   "case_label": "Full-length L1 in PTEN 3' UTR (pediatric germ cell tumor)",
+   "gene": "PTEN",
+   "gene_as_reported": null,
+   "disease": "Pediatric sacrococcygeal germ cell tumor (possible PTEN hamartoma tumor syndrome predisposition)",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": true,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "exon_UTR3",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "utr_effect",
+    "expression_loss"
+   ],
+   "mechanism_detail": "A unique germline full-length L1 in the PTEN 3' UTR (downstream of the 7th of 16 polyA sites) was associated in blood RNA-seq with reduced usage of the downstream polyA sites (loss of long 3' UTR isoforms) and lower PTEN TPM; causality for the tumour is proposed, not established. (A STIM1 intronic SVA with exonization in a T-ALL patient was not considered a driver and is not recorded.)",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq"
+   ],
+   "quote": "Together, these observations suggest that the L1 insertion in the 3\u2032 UTR of PTEN disrupts longer transcript isoforms, impairing its expression.",
+   "confidence": "low",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

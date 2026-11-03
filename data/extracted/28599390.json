@@ -1,0 +1,46 @@
+{
+ "pmid": "28599390",
+ "cases": [
+  {
+   "case_label": "Homozygous Alu insertion in FBP1",
+   "gene": "FBP1",
+   "gene_as_reported": null,
+   "disease": "Fructose-1,6-bisphosphatase deficiency",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "A 9.5-year-old girl with FBPase deficiency is homozygous for a novel Alu insertion in FBP1; location and mechanism are not given in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "FBPase deficiency is caused by a homozygous Arthrobacter luteus (Alu) insertion in the FBP1 gene, reported for the first time.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

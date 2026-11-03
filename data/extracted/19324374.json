@@ -1,0 +1,46 @@
+{
+ "pmid": "19324374",
+ "cases": [
+  {
+   "case_label": "3-kb retrotransposal insertion in FKTN 3' UTR (Korean patient)",
+   "gene": "FKTN",
+   "gene_as_reported": "fukutin",
+   "disease": "Fukuyama congenital muscular dystrophy",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "unknown",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Korean patient carrying the Japanese founder insertion",
+   "region": "exon_UTR3",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Homozygous ~3-kb retrotransposal (founder) insertion in the 3' non-coding region of FKTN in a Korean boy; parents heterozygous. Element class and mechanism not described in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "the patient was homozygous for the insertion mutation and his parents were heterozygous carriers of the same mutation.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

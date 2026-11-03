@@ -1,0 +1,49 @@
+{
+ "pmid": "21825139",
+ "cases": [
+  {
+   "case_label": "Alu insertion in exon 9 of MAK (Jewish founder)",
+   "gene": "MAK",
+   "gene_as_reported": null,
+   "disease": "Retinitis pigmentosa",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 21,
+   "n_families": 21,
+   "ancestry_or_population": "Jewish ancestry",
+   "region": "coding_exon",
+   "exon_number": 9,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping",
+    "coding_disruption"
+   ],
+   "mechanism_detail": "Homozygous Alu in MAK exon 9; in patient iPSC-derived retinal precursors the developmental switch to the retinal transcript containing exons 9 and 12 failed to occur, leaving the exon-9-lacking isoform.",
+   "affected_exons": [
+    9
+   ],
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "However, in the proband with the Alu insertion, the developmental switch to the MAK transcript bearing exons 9 and 12 did not occur.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,46 @@
+{
+ "pmid": "39016090",
+ "cases": [
+  {
+   "case_label": "AluYa5 in DMD exon 59",
+   "gene": "DMD",
+   "gene_as_reported": null,
+   "disease": "Duchenne muscular dystrophy",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "Alu",
+   "subfamily": "AluYa5",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 59,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "AluYa5 inserted into DMD exon 59 introduces two stop codons and a poly(A) tract; ESE prediction suggested no effect on exon 59 splicing, so the insertion is predicted to be retained in mRNA and truncate dystrophin. Mother and sister are carriers.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "The two stop codons and polyA tail likely terminate translation, preventing the production of functional dystrophin protein, which may be the mechanism leading to DMD.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

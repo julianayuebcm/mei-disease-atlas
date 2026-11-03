@@ -1,0 +1,48 @@
+{
+ "pmid": "31393562",
+ "cases": [
+  {
+   "case_label": "L1 (~1100 bp) in 5'UTR of AR",
+   "gene": "AR",
+   "gene_as_reported": null,
+   "disease": "Partial androgen insensitivity syndrome",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": 1100,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": "18 bp",
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 9,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "exon_UTR5",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "expression_loss",
+    "utr_effect"
+   ],
+   "mechanism_detail": "A ~1.1-kb L1 fragment (99.7% identical to an active Xq22.2 L1) flanked by an 18-bp TSD inserted in the AR 5'UTR severely reduces AR expression in patient fibroblasts, segregating with PAIS in a multigenerational family.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr",
+    "segregation"
+   ],
+   "quote": "which was inserted in the 5'UTR of the AR gene, severely reducing AR expression and leading to PAIS",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

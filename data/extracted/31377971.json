@@ -1,0 +1,47 @@
+{
+ "pmid": "31377971",
+ "cases": [
+  {
+   "case_label": "Truncated AluYa5 in exon 3 of IFNGR1",
+   "gene": "IFNGR1",
+   "gene_as_reported": "IFN-\u03b3R1",
+   "disease": "Mendelian susceptibility to mycobacterial disease (complete AR IFN-\u03b3R1 deficiency)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": "AluYa5",
+   "insertion_length_bp": 248,
+   "full_length": false,
+   "orientation_vs_gene": "antisense",
+   "tsd": "15 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 3,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "Homozygous insertion in IFNGR1 exon 3 of a ~35-bp poly(T) plus a 248-bp 5'-truncated reverse-oriented AluYa5 with a 15-bp TSD abolishes cell-surface IFN-\u03b3R1 expression and IFN-\u03b3-induced STAT1 phosphorylation.",
+   "affected_exons": null,
+   "evidence": [
+    "protein",
+    "functional_assay"
+   ],
+   "quote": "The mutation within exon 3 consists of (i) an insertion of a thymidine repeat of ~35 bp (in red) and a 248 bp sequence (in gray) corresponding to a truncated reverse AluYa5 element, (ii) and a 15 bp duplication of the exon 3 sequence flanking the insertion.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

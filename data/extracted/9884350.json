@@ -1,0 +1,46 @@
+{
+ "pmid": "9884350",
+ "cases": [
+  {
+   "case_label": "253-bp retroposon at IVS9+5 of BTK",
+   "gene": "BTK",
+   "gene_as_reported": null,
+   "disease": "X-linked agammaglobulinemia",
+   "omim_phenotype": null,
+   "inheritance": "XL",
+   "mei_class": "unknown",
+   "subfamily": null,
+   "insertion_length_bp": 253,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 9,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": 5,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "A 253-bp retroposon inserted at position +5 of intron 9 (near the exon 9 donor site); the element class and the splicing consequence are not described in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "These alterations included a 253-bp retroposon insertion at position +5 within intron 9",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

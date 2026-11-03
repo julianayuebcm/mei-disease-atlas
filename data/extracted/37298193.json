@@ -1,0 +1,48 @@
+{
+ "pmid": "37298193",
+ "cases": [
+  {
+   "case_label": "Antisense AluYa5 c.1771_1772ins353 in exon 15 of DMD",
+   "gene": "DMD",
+   "gene_as_reported": null,
+   "disease": "Dystrophinopathy (predicted Becker-like mild phenotype)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "Alu",
+   "subfamily": "AluYa5",
+   "insertion_length_bp": 353,
+   "full_length": null,
+   "orientation_vs_gene": "antisense",
+   "tsd": "present (length not stated)",
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 15,
+   "intron_number": null,
+   "transcript": "NM_004006.2",
+   "hgvs": "NM_004006.2:c.1771_1772ins353",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping"
+   ],
+   "mechanism_detail": "A 353-nt antisense AluYa5 inserted in DMD exon 15 causes skipping of exon 15 in muscle mRNA, which maintains the reading frame and predicts a milder (BMD-like) phenotype rather than a null allele.",
+   "affected_exons": [
+    15
+   ],
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "However, mRNA analysis of muscle biopsy tissue revealed skipping of exon 15, which restored the reading frame, thus predicting a milder phenotype.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

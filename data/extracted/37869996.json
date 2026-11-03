@@ -1,0 +1,46 @@
+{
+ "pmid": "37869996",
+ "cases": [
+  {
+   "case_label": "SVA c.856_857ins in KARS1",
+   "gene": "KARS1",
+   "gene_as_reported": null,
+   "disease": "Progressive infantile onset leukoencephalopathy with or without deafness",
+   "omim_phenotype": "619147",
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "KARS1 c.856_857insSVA",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "An SVA insertion within the KARS1 coding sequence (c.856_857insSVA) was found by manual read inspection in trans with a pathogenic KARS1 SNV in a child with microcephaly, hearing impairment and developmental delay; reported as a VUS though suspected disease-causing. Functional effect not investigated.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "KARS1 c.856_857insSVA (MEI) reported in trans with Pathogenic KARS1 SNV",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

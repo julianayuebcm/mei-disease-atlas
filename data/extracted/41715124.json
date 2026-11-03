@@ -1,0 +1,46 @@
+{
+ "pmid": "41715124",
+ "cases": [
+  {
+   "case_label": "5'-truncated AluYb8 c.7981_7982ins in exon 54 of ATM",
+   "gene": "ATM",
+   "gene_as_reported": null,
+   "disease": "Ataxia telangiectasia",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": "AluYb8",
+   "insertion_length_bp": 188,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": "AAGAATTTAGAAG (13 bp)",
+   "polyA": true,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 54,
+   "intron_number": null,
+   "transcript": "NM_000051",
+   "hgvs": "NM 000051:c.7981_7982insAluYb8 (p.Asp2661Valfs*7)",
+   "genome_build": "GRCh38",
+   "chrom": "chr11",
+   "pos": 108333939,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A homozygous 5'-truncated AluYb8 (188-bp core plus ~25-bp polyA, 13-bp TSD) inserted in ATM exon 54 is predicted to cause a frameshift with a premature stop six residues downstream (p.Asp2661Valfs*7).",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Alu element insertion was predicted to disrupt ATM coding sequence and to induce a premature stop codon six residues downstream the insertion",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

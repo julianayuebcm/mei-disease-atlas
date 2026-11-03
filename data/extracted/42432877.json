@@ -1,0 +1,49 @@
+{
+ "pmid": "42432877",
+ "cases": [
+  {
+   "case_label": "SVA in AP3B1 intron 7 causing premature polyadenylation (HPS2)",
+   "gene": "AP3B1",
+   "gene_as_reported": null,
+   "disease": "Hermansky-Pudlak syndrome type 2",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": 2630,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 7,
+   "transcript": "NM_003664.5",
+   "hgvs": "NM_003664.5(AP3B1):c.786 + 11042_786 + 11043insSVA",
+   "genome_build": "GRCh38",
+   "chrom": "5",
+   "pos": 78205013,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "premature_polyadenylation"
+   ],
+   "mechanism_detail": "A maternally inherited ~2.63-kb SVA in AP3B1 intron 7, in trans with a paternal exon 8-11 deletion, activates a cryptic polyadenylation site so that transcripts terminate shortly after exon 7 (3' RACE long-read cDNA and RNA-seq), reading 25 codons into intron 7 before a stop.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read",
+    "rna_seq",
+    "rna_rt_pcr",
+    "segregation"
+   ],
+   "quote": "In our patient, SVA insertion activates a cryptic polyadenylation site causing premature termination of transcription, which has been described in L1 but not SVA retrotransposons.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

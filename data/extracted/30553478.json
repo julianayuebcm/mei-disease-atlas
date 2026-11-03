@@ -1,0 +1,46 @@
+{
+ "pmid": "30553478",
+ "cases": [
+  {
+   "case_label": "BRCA2 c.156_157insAlu in exon 3 (Portuguese founder)",
+   "gene": "BRCA2",
+   "gene_as_reported": null,
+   "disease": "Hereditary breast and ovarian cancer",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 9,
+   "n_families": 9,
+   "ancestry_or_population": "Portuguese founder (Brazilian carriers)",
+   "region": "coding_exon",
+   "exon_number": 3,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "c.156_157insAlu",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Frequency screen of the Portuguese founder Alu insertion in BRCA2 exon 3 among Brazilian HBOC families; mechanism not investigated in this paper.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "We identified the c.156_157insAlu BRCA2 mutation in nine (9/1,380; 0.65%) probands analised.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

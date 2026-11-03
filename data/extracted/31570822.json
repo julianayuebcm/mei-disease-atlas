@@ -1,0 +1,46 @@
+{
+ "pmid": "31570822",
+ "cases": [
+  {
+   "case_label": "Germline SVA in BRCA1 intron (1.8 kb downstream of first coding exon)",
+   "gene": "BRCA1",
+   "gene_as_reported": null,
+   "disease": "Triple negative breast cancer (HR-deficient)",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": 1800,
+   "mechanisms": [
+    "expression_loss"
+   ],
+   "mechanism_detail": "A germline SVA located 1.8 kb downstream of the first coding exon of BRCA1 (absent from 1000 Genomes) was found in an HRDetect-high TNBC with LOH of the wild-type allele and markedly reduced BRCA1 expression, proposed as a novel mechanism of BRCA1 abrogation.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq"
+   ],
+   "quote": "Moreover, wild-type allele LOH was noted and BRCA1 expression was markedly reduced.",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

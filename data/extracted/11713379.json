@@ -1,0 +1,46 @@
+{
+ "pmid": "11713379",
+ "cases": [
+  {
+   "case_label": "AluYb8 in exon 14 of F8 (Met1224)",
+   "gene": "F8",
+   "gene_as_reported": "factor VIII",
+   "disease": "Hemophilia A (severe)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "Alu",
+   "subfamily": "AluYb8",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 14,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "An AluYb8 inserted in exon 14 disrupts the reading frame at Met1224, creating a stop codon within the inserted Alu.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "The inserted Alu element belonging to the youngest Yb8 subfamily disrupts the reading frame at methionine 1224, exon 14 of the factor VIII gene, leading to a stop codon within the inserted sequence.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

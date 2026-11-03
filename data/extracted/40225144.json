@@ -1,0 +1,49 @@
+{
+ "pmid": "40225144",
+ "cases": [
+  {
+   "case_label": "AluYa5 in ATM intron 54 causing exon 54 skipping (HBOC)",
+   "gene": "ATM",
+   "gene_as_reported": null,
+   "disease": "Hereditary breast and ovarian cancer (suspected)",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": "AluYa5",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "17 bp",
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 7,
+   "n_families": 7,
+   "ancestry_or_population": "German",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 54,
+   "transcript": "NM_000051.3",
+   "hgvs": "NM_000051.3:c.8010+30_8010+31insAluYa5",
+   "genome_build": "GRCh37",
+   "chrom": "11",
+   "pos": 108204725,
+   "distance_to_splice_site_bp": 30,
+   "mechanisms": [
+    "exon_skipping"
+   ],
+   "mechanism_detail": "An AluYa5 inserted 30 bp downstream of ATM exon 54 causes exon 54 skipping (38% of ATM transcripts in carrier lymphocytes; ~77% of minigene transcripts vs 4.7% for wild type), predicted to cause a frameshift and premature stop. Incomplete penetrance; considered a likely contributor rather than sole cause.",
+   "affected_exons": [
+    54
+   ],
+   "evidence": [
+    "rna_rt_pcr",
+    "minigene"
+   ],
+   "quote": "Transcript analysis of patient-derived RNA from three heterozygous carriers revealed exon 54 skipping in 38% of total ATM transcripts.",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

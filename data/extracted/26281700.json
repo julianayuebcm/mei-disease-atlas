@@ -1,0 +1,47 @@
+{
+ "pmid": "26281700",
+ "cases": [
+  {
+   "case_label": "Ancestral SVA in FKTN causing exon trapping (FCMD)",
+   "gene": "FKTN",
+   "gene_as_reported": "fukutin",
+   "disease": "Fukuyama congenital muscular dystrophy",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Japanese",
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exonization",
+    "aberrant_splicing"
+   ],
+   "mechanism_detail": "From review: the ancestral SVA insertion in fukutin induces aberrant mRNA splicing by SVA exon-trapping; antisense oligonucleotides targeting the splice sites restored normal splicing and fukutin function in patient cells and model mice.",
+   "affected_exons": null,
+   "evidence": [
+    "functional_assay"
+   ],
+   "quote": "We show that aberrant mRNA splicing induced by SVA exon-trapping caused FCMD.",
+   "confidence": "low",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

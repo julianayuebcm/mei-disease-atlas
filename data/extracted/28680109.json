@@ -1,0 +1,47 @@
+{
+ "pmid": "28680109",
+ "cases": [
+  {
+   "case_label": "FKTN 3'UTR SVA founder insertion in trans with c.647+2084G>T",
+   "gene": "FKTN",
+   "gene_as_reported": "fukutin",
+   "disease": "Fukuyama congenital muscular dystrophy",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 10,
+   "n_families": null,
+   "ancestry_or_population": "Japanese founder",
+   "region": "exon_UTR3",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "All 10 patients with the second most common haplotype were compound heterozygous for the founder SVA insertion in the fukutin 3' UTR and the deep-intronic pseudoexon variant c.647+2084G>T; the paper characterises the point mutation, not the SVA mechanism.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr",
+    "protein"
+   ],
+   "quote": "we performed mutational analysis of 10 patients with the second most prevalent haplotype and found that all of them were compound-heterozygous for the SVA insertion and this c.647+2084G>T mutation.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

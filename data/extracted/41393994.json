@@ -1,0 +1,48 @@
+{
+ "pmid": "41393994",
+ "cases": [
+  {
+   "case_label": "Retropseudogene (~500 bp) in exon 3 of ATP7A",
+   "gene": "ATP7A",
+   "gene_as_reported": null,
+   "disease": "Menkes disease",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "processed_pseudogene",
+   "subfamily": null,
+   "insertion_length_bp": 500,
+   "full_length": null,
+   "orientation_vs_gene": "antisense",
+   "tsd": "GACAATAATCCCTTCT (16 bp)",
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 3,
+   "intron_number": null,
+   "transcript": "NM_000052.7",
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption",
+    "expression_loss"
+   ],
+   "mechanism_detail": "A ~500-bp retropseudogene (97.7% identical to a chr22 region) with >100-bp polyA and 16-bp TSD inserted in reverse orientation in ATP7A exon 3, introducing premature stop codons; RNA-seq/PCR showed markedly reduced ATP7A transcript. The mother is a mosaic carrier.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq",
+    "rna_rt_pcr"
+   ],
+   "quote": "PCR and RNA-seq revealed a marked reduction in ATP7A transcript levels in the patient.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

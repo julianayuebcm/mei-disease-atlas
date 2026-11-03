@@ -1,0 +1,46 @@
+{
+ "pmid": "35277653",
+ "cases": [
+  {
+   "case_label": "Alu insertion-deletion in PALB2 exon 9",
+   "gene": "PALB2",
+   "gene_as_reported": null,
+   "disease": "Hereditary breast cancer",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 9,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "c.2872_2888delins114AluL2",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "An Alu insertion accompanied by deletion of 17 bp in PALB2 exon 9 (c.2872_2888delins114AluL2) disrupts the coding sequence, predicted to produce a truncated protein p.(Gln958Valfs*38).",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "The pathogenic variant, c.2872_2888delins114AluL2, disrupts the PALB2 coding sequence and leads to the production of a truncated protein, p.(Gln958Valfs*38).",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,46 @@
+{
+ "pmid": "11968085",
+ "cases": [
+  {
+   "case_label": "~130-bp Alu fragment inserted at an ABCD1 deletion breakpoint",
+   "gene": "ABCD1",
+   "gene_as_reported": "ALD",
+   "disease": "X-linked adrenoleukodystrophy",
+   "omim_phenotype": null,
+   "inheritance": "XL",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": 130,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "multiple",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "insertion_associated_deletion"
+   ],
+   "mechanism_detail": "An intragenic ABCD1 deletion with Alu repeats at both breakpoints carried an additional inserted ~130-bp Alu fragment; the authors interpret it as a complex non-allelic homologous recombination event rather than clear retrotransposition.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "At both breakpoints of an ALD deletion, Alu repeats have been found and, additionally, a short Alu region of approximately 130 bp was inserted",
+   "confidence": "low",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

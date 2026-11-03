@@ -1,0 +1,46 @@
+{
+ "pmid": "41861498",
+ "cases": [
+  {
+   "case_label": "2940-bp SVA in SERPINC1 intron 3 (AT Tkaczew)",
+   "gene": "SERPINC1",
+   "gene_as_reported": null,
+   "disease": "Inherited antithrombin deficiency",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": 2940,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": "Polish",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 3,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Nanopore sequencing found a new 2,940-bp SVA insertion in SERPINC1 intron 3 in a proband with antithrombin deficiency; molecular mechanism not described in abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read"
+   ],
+   "quote": "The nanopore sequencing revealed a new insertion of 2940 bp (a SINE-VNTR-Alu element) in intron 3 of SERPINC1 (AT Tkaczew).",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

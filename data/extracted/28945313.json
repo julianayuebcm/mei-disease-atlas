@@ -1,0 +1,46 @@
+{
+ "pmid": "28945313",
+ "cases": [
+  {
+   "case_label": "Full-length inverted Alu in SPINK1 3'UTR",
+   "gene": "SPINK1",
+   "gene_as_reported": null,
+   "disease": "Severe infantile isolated exocrine pancreatic insufficiency",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": true,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "exon_UTR3",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Homozygous insertion of a full-length inverted Alu into the SPINK1 3'UTR, stated to cause complete functional loss of SPINK1; the abstract does not describe how.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "an insertion of a full-length inverted Alu element into the 3'-untranslated region of the SPINK1 gene",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

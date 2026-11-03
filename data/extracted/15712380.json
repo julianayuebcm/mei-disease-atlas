@@ -1,0 +1,86 @@
+{
+ "pmid": "15712380",
+ "cases": [
+  {
+   "case_label": "SVA in exon 9 of BTK (12 bp before exon end)",
+   "gene": "BTK",
+   "gene_as_reported": null,
+   "disease": "X-linked agammaglobulinemia",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "present (length not stated)",
+   "polyA": true,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 9,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": 12,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "An SVA element inserted into the coding region of BTK, 12 bp before the end of exon 9, at exactly the same nucleotide as an independent AluY insertion in another family; the RNA consequence is not described in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Both insertions, an SVA element and an AluY sequence, occurred 12 bp before the end of exon 9.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  },
+  {
+   "case_label": "AluY in exon 9 of BTK (12 bp before exon end)",
+   "gene": "BTK",
+   "gene_as_reported": null,
+   "disease": "X-linked agammaglobulinemia",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "Alu",
+   "subfamily": "AluY",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "present (length not stated)",
+   "polyA": true,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 9,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": 12,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "An AluY element inserted into the coding region of BTK, 12 bp before the end of exon 9, at exactly the same nucleotide as an independent SVA insertion in another family; the RNA consequence is not described in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Both insertions, an SVA element and an AluY sequence, occurred 12 bp before the end of exon 9.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

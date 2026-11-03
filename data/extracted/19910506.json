@@ -1,0 +1,46 @@
+{
+ "pmid": "19910506",
+ "cases": [
+  {
+   "case_label": "Known de novo Alu insertion in NF1 (sample CN1)",
+   "gene": "NF1",
+   "gene_as_reported": null,
+   "disease": "neurofibromatosis type 1",
+   "omim_phenotype": null,
+   "inheritance": "de_novo",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Methods paper: a previously genotyped NF1 sample (CN1) carrying a de novo Alu insertion was used to test capture-NGS; the insertion was only partially detected. Location and mechanism not described.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "The de novo Alu insertion was partially detected in sample CN1 by additional de novo assembly with 50% base-match stringency",
+   "confidence": "low",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

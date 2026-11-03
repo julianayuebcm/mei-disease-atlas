@@ -1,0 +1,47 @@
+{
+ "pmid": "26763876",
+ "cases": [
+  {
+   "case_label": "Full-length L1 in RB1 intron 14",
+   "gene": "RB1",
+   "gene_as_reported": null,
+   "disease": "Familial retinoblastoma",
+   "omim_phenotype": "180200",
+   "inheritance": "AD",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": true,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": null,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 14,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing"
+   ],
+   "mechanism_detail": "A de novo full-length L1 in RB1 intron 14 (transmitted in the family) caused a highly heterogeneous RB1 splicing pattern, including aberrant transcripts using noncanonical acceptor splice sites; detected via mRNA studies.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr",
+    "segregation"
+   ],
+   "quote": "Some of the aberrant mRNAs were produced by noncanonical acceptor splice sites, a new finding that up to date has not been described to occur upon LINE-1 retrotransposition.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,46 @@
+{
+ "pmid": "34073704",
+ "cases": [
+  {
+   "case_label": "Recurrent Japanese Alu insertion in RP1 exon 4 (c.4052_4053ins328)",
+   "gene": "RP1",
+   "gene_as_reported": null,
+   "disease": "Autosomal recessive retinitis pigmentosa and cone/cone-rod dystrophy",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": 328,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 12,
+   "n_families": 11,
+   "ancestry_or_population": "Japanese",
+   "region": "coding_exon",
+   "exon_number": 4,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "c.4052_4053ins328 (p.Tyr1352AlafsTer9)",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "The known Alu insertion in RP1 exon 4 causes a frameshift (p.Tyr1352AlafsTer9); in this Japanese cohort it was the most frequent pathogenic RP1 allele (16/50 alleles), homozygous in 4 patients (3 families) and compound heterozygous in 8 (8 families) with AR-RP or AR-COD/CORD.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "The Alu element insertion was the most frequently observed pathogenic variant (32.0%, 16/50 alleles) in our Japanese patients with RP1-associated retinal dystrophies.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

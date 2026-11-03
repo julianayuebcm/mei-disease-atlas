@@ -1,0 +1,52 @@
+{
+ "pmid": "17334995",
+ "cases": [
+  {
+   "case_label": "Alu retrotransposition-mediated deletion of CHD7 exons 8-12",
+   "gene": "CHD7",
+   "gene_as_reported": null,
+   "disease": "CHARGE syndrome",
+   "omim_phenotype": null,
+   "inheritance": "de_novo",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "multiple",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "insertion_associated_deletion"
+   ],
+   "mechanism_detail": "De novo deletion of CHD7 exons 8-12 attributed to an Alu retrotransposition-mediated deletion, recapitulating the Alu-mediated CMAH inactivation mechanism.",
+   "affected_exons": [
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "evidence": [
+    "de_novo_confirmed"
+   ],
+   "quote": "An Alu retrotransposition-mediated deletion of CHD7 in a patient with CHARGE syndrome.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

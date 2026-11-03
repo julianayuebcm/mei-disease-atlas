@@ -1,0 +1,47 @@
+{
+ "pmid": "17483097",
+ "cases": [
+  {
+   "case_label": "Full-length L1 with 3' transductions in CHM (choroideremia)",
+   "gene": "CHM",
+   "gene_as_reported": null,
+   "disease": "Choroideremia",
+   "omim_phenotype": null,
+   "inheritance": "XL",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": true,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": true,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "A full-length, highly active L1 carrying two 3' transductions is inserted in CHM in a choroideremia patient; his mother is somatic and germline mosaic, indicating retrotransposition early in her embryonic development. Effect on CHM transcripts is not described in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "functional_assay",
+    "segregation"
+   ],
+   "quote": "analysis of genomic DNA from the CHM patient's relatives indicated somatic and germ-line mosaicism for the L1 insertion in his mother.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

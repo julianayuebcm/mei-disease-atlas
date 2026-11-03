@@ -1,0 +1,46 @@
+{
+ "pmid": "9361030",
+ "cases": [
+  {
+   "case_label": "De novo Alu insertion in an EYA1 exon",
+   "gene": "EYA1",
+   "gene_as_reported": null,
+   "disease": "Branchio-oto-renal (BOR) syndrome",
+   "omim_phenotype": null,
+   "inheritance": "de_novo",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": true,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A de novo Alu element inserted into an EYA1 coding exon (found by coding-region sequencing) in a BOR patient, presumably disrupting the protein; the poly(A) tail was unstable across generations. Transcript effect not studied in abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "de_novo_confirmed"
+   ],
+   "quote": "one mutation comprises a de novo Alu insertion into an exon",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

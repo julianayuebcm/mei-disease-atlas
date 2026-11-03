@@ -1,0 +1,54 @@
+{
+ "pmid": "40896794",
+ "cases": [
+  {
+   "case_label": "SVA in PARN intron 20",
+   "gene": "PARN",
+   "gene_as_reported": null,
+   "disease": "Dyskeratosis congenita",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": 2537,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Chinese",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 20,
+   "transcript": "NM_002582.3",
+   "hgvs": "p.Gly469delinsGlu*",
+   "genome_build": "hg38",
+   "chrom": "chr16",
+   "pos": 14553337,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "intron_retention",
+    "exonization"
+   ],
+   "mechanism_detail": "A paternally inherited 2,537-bp SVA (VNTR, SINE-R, polyA, flanked by TSD) in PARN intron 20, in trans with maternal c.204G>T; mRNA sequencing showed retention of part of intron 20 including ~828 bp of SVA-derived sequence between exons 20 and 21, creating a premature stop (p.Gly469delinsGlu*), with reduced PARN protein.",
+   "affected_exons": [
+    20,
+    21
+   ],
+   "evidence": [
+    "rna_seq",
+    "rna_rt_pcr",
+    "protein",
+    "segregation",
+    "long_read"
+   ],
+   "quote": "Splicing analysis by mRNA sequencing indicated that part of Intron 20 was retained between Exons 20 and 21 of the PARN gene in the child and the father, but no significant intron retention was found in the mother (Supporting Information 3: Figure S1a).",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

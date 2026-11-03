@@ -1,0 +1,88 @@
+{
+ "pmid": "39144255",
+ "cases": [
+  {
+   "case_label": "De novo antisense SVA in exon 12 of TSC2",
+   "gene": "TSC2",
+   "gene_as_reported": null,
+   "disease": "Tuberous sclerosis complex",
+   "omim_phenotype": null,
+   "inheritance": "de_novo",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": 2957,
+   "full_length": null,
+   "orientation_vs_gene": "antisense",
+   "tsd": "13 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 12,
+   "intron_number": null,
+   "transcript": "NM_000548.3",
+   "hgvs": "NM_000548.3:c.1271_1272insSVA1272_1285dup",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A heterozygous de novo ~2,957-bp antisense SVA with ~80-bp polyA and 13-bp TSD inserted in TSC2 exon 12 (patient TSC-T27), classified likely pathogenic; RNA effect not studied.",
+   "affected_exons": null,
+   "evidence": [
+    "de_novo_confirmed",
+    "long_read"
+   ],
+   "quote": "In TSC-T27, a de novo exonic SINE-VNTR-Alus (SVA) insertion was identified within exon 12 of TSC2 (Figure 5).",
+   "confidence": "high",
+   "text_source": "full_text"
+  },
+  {
+   "case_label": "De novo AluY in TSC2 intron 31 (VUS)",
+   "gene": "TSC2",
+   "gene_as_reported": null,
+   "disease": "Tuberous sclerosis complex",
+   "omim_phenotype": null,
+   "inheritance": "de_novo",
+   "mei_class": "Alu",
+   "subfamily": "AluY",
+   "insertion_length_bp": 339,
+   "full_length": null,
+   "orientation_vs_gene": "antisense",
+   "tsd": "14 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 31,
+   "transcript": null,
+   "hgvs": "c.4006-18_4006-17insAlu4006-17_4006-4dup",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": 17,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "A heterozygous de novo antisense AluY (339-350 bp, ~50-nt polyA, 14-bp TSD) inserted 17 bp upstream of exon 32 (patient TSC-T20); in silico splicing predicted an 82-bp pseudo-exon, but RNA was not tested and the variant was classed as VUS.",
+   "affected_exons": null,
+   "evidence": [
+    "de_novo_confirmed",
+    "long_read"
+   ],
+   "quote": "In the TSC-T20 sample, a de novo Alu element insertion, c.4006-18_4006-17insAlu4006-17_4006-4dup, was identified within intron 31 of TSC2.",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

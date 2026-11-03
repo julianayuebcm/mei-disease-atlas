@@ -1,0 +1,50 @@
+{
+ "pmid": "41282719",
+ "cases": [
+  {
+   "case_label": "2.6-kb SVA in TAF1 intron 32 (XDP): cryptic splicing targeted by ASOs",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism (XDP)",
+   "omim_phenotype": "314250",
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": 2600,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Filipino founder",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing",
+    "intron_retention",
+    "expression_loss"
+   ],
+   "mechanism_detail": "The intron 32 SVA causes cryptic alternative splicing (AS-i32), partial intron 32 retention and TAF1 dysregulation in patient NSCs and postmortem XDP brain; CRISPR excision of the SVA abolished aberrant splicing and splice-modulating ASOs attenuated it.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq",
+    "rna_rt_pcr",
+    "functional_assay"
+   ],
+   "quote": "We first used CRISPR-based excision of the SVA and demonstrated ablation of all aberrant splicing and dysregulation of TAF1 expression in NSCs across 30 independent clones.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

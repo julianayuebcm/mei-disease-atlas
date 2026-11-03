@@ -1,0 +1,49 @@
+{
+ "pmid": "39586577",
+ "cases": [
+  {
+   "case_label": "AluYa5 fragment in APOB exon 3",
+   "gene": "APOB",
+   "gene_as_reported": null,
+   "disease": "Hypobetalipoproteinemia",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": "AluYa5",
+   "insertion_length_bp": 160,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": "target site duplication (length not stated in abstract)",
+   "polyA": true,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 3,
+   "intron_number": null,
+   "transcript": "NM_000384.3",
+   "hgvs": "NM_000384.3(APOB):c.135_136ins(160)",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption",
+    "exon_skipping"
+   ],
+   "mechanism_detail": "Heterozygous truncated AluYa5 insertion (85-bp Alu fragment plus polyA and TSD) in APOB exon 3 introduces a frameshift/stop p.(Phe46Alafs*2) and also causes exon skipping giving p.(Lys41Serfs*2).",
+   "affected_exons": [
+    3
+   ],
+   "evidence": [
+    "functional_assay"
+   ],
+   "quote": "A functional study revealed that this MEI introduces a stop codon p.(Phe46Alafs*2) and additionally leads to p.(Lys41Serfs*2) due to an exon skipping.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,46 @@
+{
+ "pmid": "38484912",
+ "cases": [
+  {
+   "case_label": "Mobile element retrotransposition disrupting F8",
+   "gene": "F8",
+   "gene_as_reported": null,
+   "disease": "Hemophilia A (severe)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "unknown",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Whole F8 sequencing in 8 unsolved severe HA families found one retrotransposition of a mobile element disrupting F8; element type and position are not given in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "These structural variants consisted of 3 balanced inversions, 3 large insertions of gained regions, and 1 retrotransposition of a mobile element.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

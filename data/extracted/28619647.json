@@ -1,0 +1,47 @@
+{
+ "pmid": "28619647",
+ "cases": [
+  {
+   "case_label": "Homozygous Alu in exon 9 of MAK",
+   "gene": "MAK",
+   "gene_as_reported": null,
+   "disease": "Retinitis pigmentosa / inherited retinal degeneration",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": 9,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "expression_loss"
+   ],
+   "mechanism_detail": "Patient iPSCs homozygous for an Alu insertion in MAK exon 9 lack the retinal MAK transcript and protein; HDR correction of the Alu restored both.",
+   "affected_exons": null,
+   "evidence": [
+    "functional_assay",
+    "protein"
+   ],
+   "quote": "We developed a homology-directed repair strategy targeting a homozygous Alu insertion in exon 9 of male germ cell-associated kinase (MAK) and demonstrated restoration of the retinal transcript and protein in patient cells.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

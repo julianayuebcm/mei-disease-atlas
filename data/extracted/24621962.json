@@ -1,0 +1,51 @@
+{
+ "pmid": "24621962",
+ "cases": [
+  {
+   "case_label": "AluYb8 in intron 5 of BMPR2",
+   "gene": "BMPR2",
+   "gene_as_reported": null,
+   "disease": "Heritable pulmonary arterial hypertension",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": "AluYb8",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": "antisense",
+   "tsd": "CCTTGCTTTCTTT (13 bp)",
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 16,
+   "n_families": 1,
+   "ancestry_or_population": "German family",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 5,
+   "transcript": null,
+   "hgvs": "c.622-26_-27insAluYb8",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": 26,
+   "mechanisms": [
+    "exon_skipping",
+    "exonization",
+    "aberrant_splicing"
+   ],
+   "mechanism_detail": "Heterozygous antisense AluYb8 26 bp upstream of exon 6 (increasing branch point-acceptor distance) causes skipping of exon 6, use of a cryptic acceptor deleting the first 93 nt of exon 6, and inclusion of intron 5 plus Alu sequence upstream of exon 6. Found in 16 relatives (6 of 15 carriers with HPAH; penetrance ~40%).",
+   "affected_exons": [
+    6
+   ],
+   "evidence": [
+    "rna_rt_pcr",
+    "segregation"
+   ],
+   "quote": "Cloning of the different PCR products and sequencing analysis revealed the presence of the wild type transcript with the entire exon 6, and of four aberrant transcripts.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

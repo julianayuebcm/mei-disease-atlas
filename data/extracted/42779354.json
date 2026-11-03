@@ -1,0 +1,46 @@
+{
+ "pmid": "42779354",
+ "cases": [
+  {
+   "case_label": "De novo sense SVA in TCF20 exon 2 (c.1920_1921)",
+   "gene": "TCF20",
+   "gene_as_reported": null,
+   "disease": "TCF20-associated neurodevelopmental disorder with Hirschsprung disease",
+   "omim_phenotype": "618430",
+   "inheritance": "de_novo",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": "sense",
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 2,
+   "intron_number": null,
+   "transcript": "NM_005650.4",
+   "hgvs": "c.1920_1921",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "De novo heterozygous sense-oriented SVA inserted at c.1920_1921 in TCF20 exon 2, predicted to disrupt the primary transcript (NM_005650.4).",
+   "affected_exons": null,
+   "evidence": [
+    "de_novo_confirmed"
+   ],
+   "quote": "whole-exome sequencing revealed a de novo heterozygous SVA retrotransposon insertion at c.1920_1921 in Exon 2 of TCF20 (OMIM: 603107)",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

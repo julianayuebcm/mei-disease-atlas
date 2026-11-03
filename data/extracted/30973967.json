@@ -1,0 +1,47 @@
+{
+ "pmid": "30973967",
+ "cases": [
+  {
+   "case_label": "Founder SVA in TAF1 with (CCCTCT)n repeat (XDP)",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 355,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "expression_loss"
+   ],
+   "mechanism_detail": "The XDP-causing SVA insertion in TAF1 contains a hexanucleotide repeat whose length inversely correlates with age at onset and with TAF1 expression in blood, implying repeat-dependent TAF1 repression; the repeat is unstable across transmissions and somatically mosaic in brain.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr",
+    "segregation"
+   ],
+   "quote": "RN-dependent TAF1 repression and subsequent differences in TAF1 mRNA levels in patients may be potentiated in the brain through somatic variability leading to the neurological phenotype.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

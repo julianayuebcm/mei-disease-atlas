@@ -1,0 +1,46 @@
+{
+ "pmid": "23721890",
+ "cases": [
+  {
+   "case_label": "CTRC-deleting complex rearrangement via L1-mediated Alu insertion",
+   "gene": "CTRC",
+   "gene_as_reported": null,
+   "disease": "Chronic pancreatitis",
+   "omim_phenotype": null,
+   "inheritance": "unknown",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "multiple",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "insertion_associated_deletion"
+   ],
+   "mechanism_detail": "A heterozygous complex rearrangement deleting the CTRC locus probably resulted from an LINE-1-mediated Alu insertion; co-inherited with different trans variants in SPINK1/CFTR/PRSS1 with variable phenotypes.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "The CTRC-deleting complex rearrangement probably resulted from LINE-1-mediated Alu insertion, which represents a novel mutational mechanism causing chronic pancreatitis.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,48 @@
+{
+ "pmid": "17307006",
+ "cases": [
+  {
+   "case_label": "Alu retrotransposition-mediated ~28-kb deletion encompassing PMM2 exon 8",
+   "gene": "PMM2",
+   "gene_as_reported": null,
+   "disease": "Congenital disorder of glycosylation type Ia (PMM2-CDG)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "multiple",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "insertion_associated_deletion"
+   ],
+   "mechanism_detail": "Compound heterozygous with p.V44A; the other allele carries an Alu retrotransposition-mediated complex deletion of about 28 kb removing exon 8.",
+   "affected_exons": [
+    8
+   ],
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "an Alu retrotransposition mediated complex deletion of approximately 28 kb encompassing exon 8",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

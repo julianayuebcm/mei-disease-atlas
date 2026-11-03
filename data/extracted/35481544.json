@@ -1,0 +1,46 @@
+{
+ "pmid": "35481544",
+ "cases": [
+  {
+   "case_label": "XDP SVA in TAF1 intron 32 (hexamer repeat interruptions)",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism (XDP)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 202,
+   "n_families": null,
+   "ancestry_or_population": "Filipino founder (Panay)",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Study of the polymorphic (AGAGGG)n hexamer repeat within the founder intron 32 SVA in 202 patients; mosaic divergent repeat interruptions are described as possible modifiers of repeat length and age at onset. Mechanism of TAF1 disruption not investigated.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read"
+   ],
+   "quote": "X-linked dystonia-parkinsonism (XDP) is a neurodegenerative disease caused by a SINE-VNTR-Alu(AGAGGG)n retrotransposon insertion in TAF1, with a polymorphic (AGAGGG)n repeat.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

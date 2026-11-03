@@ -1,0 +1,46 @@
+{
+ "pmid": "26932189",
+ "cases": [
+  {
+   "case_label": "Polymorphic Alu insertion in SPAST mediating two distinct disease-associated exon deletions",
+   "gene": "SPAST",
+   "gene_as_reported": null,
+   "disease": "Hereditary spastic paraplegia (SPG4)",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": 2,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "insertion_associated_deletion"
+   ],
+   "mechanism_detail": "Long-range PCR resolved two SPAST deletions involving distinct exons; both had Alu-derived sequence at the breakpoints and both arose on the same founder allele. The authors conclude a single prior Alu retrotransposition event was the shared primary step, after which the inserted Alu mediated one deletion by non-homologous end joining and the other by non-allelic homologous recombination.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "Our data suggest that the deletions are best explained by two-step insertion-deletion scenarios for which a single Alu retrotransposition event represents the shared primary step.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

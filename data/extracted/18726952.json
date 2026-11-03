@@ -1,0 +1,46 @@
+{
+ "pmid": "18726952",
+ "cases": [
+  {
+   "case_label": "5'-truncated AluYk13 in FGFR2 exon IIIc",
+   "gene": "FGFR2",
+   "gene_as_reported": null,
+   "disease": "Apert syndrome",
+   "omim_phenotype": null,
+   "inheritance": "de_novo",
+   "mei_class": "Alu",
+   "subfamily": "AluYk13",
+   "insertion_length_bp": null,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing"
+   ],
+   "mechanism_detail": "A 5'-truncated Alu of a new subfamily (Yk13) in exon IIIc is proposed to disrupt exon IIIc and lead to illegitimate mesenchymal expression of the FGFR2 IIIb isoform (gain of function); the insertion arose in the paternal germline.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Both the deletion and insertion are likely to act by a similar gain-of-function mechanism in which disruption of exon IIIc leads to illegitimate mesenchymal expression of an FGFR2 spliceform containing the alternatively spliced exon IIIb.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

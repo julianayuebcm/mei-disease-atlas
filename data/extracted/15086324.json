@@ -1,0 +1,46 @@
+{
+ "pmid": "15086324",
+ "cases": [
+  {
+   "case_label": "LINE-1 insertion in F9 (Indian haemophilia B)",
+   "gene": "F9",
+   "gene_as_reported": "FIX",
+   "disease": "Haemophilia B",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Indian",
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "A novel LINE-1 insertion in the factor IX gene was identified in one Indian haemophilia B patient; location and mechanism are not given in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "The novel gene defects include two point mutations, two deletions and one insertion of a LINE 1 element.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

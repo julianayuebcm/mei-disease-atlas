@@ -1,0 +1,47 @@
+{
+ "pmid": "38600862",
+ "cases": [
+  {
+   "case_label": "De novo Alu in exon 8 of ZEB2 (Mowat-Wilson)",
+   "gene": "ZEB2",
+   "gene_as_reported": null,
+   "disease": "Mowat-Wilson syndrome",
+   "omim_phenotype": null,
+   "inheritance": "de_novo",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 8,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A de novo heterozygous Alu insertion in ZEB2 exon 8, confirmed by nanopore sequencing, creates a premature stop codon, likely causing haploinsufficiency.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read",
+    "de_novo_confirmed"
+   ],
+   "quote": "Nanopore long-read sequencing confirmed the Alu insertion, leading to the formation of a premature stop codon and likely haploinsufficiency of ZEB2.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

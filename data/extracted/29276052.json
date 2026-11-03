@@ -1,0 +1,46 @@
+{
+ "pmid": "29276052",
+ "cases": [
+  {
+   "case_label": "Ashkenazi founder Alu in MAK (c.1297_8ins353)",
+   "gene": "MAK",
+   "gene_as_reported": null,
+   "disease": "Retinitis pigmentosa",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": 353,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Ashkenazi Jewish founder",
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "c.1297_8ins353, p.K433Rins31*",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A 353-bp Alu insertion in MAK coding sequence (p.K433Rins31*) introduces 31 aberrant residues and a stop codon; it is the most prevalent RP mutation in Ashkenazi Jewish families (39% of solved families).",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "The most prevalent RP-causing mutations are the Alu insertion (c.1297_8ins353, p.K433Rins31*) in the male germ cell-associated kinase (MAK) gene (39% of families with a known genetic cause for RP)",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

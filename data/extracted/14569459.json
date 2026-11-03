@@ -1,0 +1,47 @@
+{
+ "pmid": "14569459",
+ "cases": [
+  {
+   "case_label": "AluYa5 in CLCN5 exon 11 (codon 650)",
+   "gene": "CLCN5",
+   "gene_as_reported": null,
+   "disease": "Dent disease",
+   "omim_phenotype": null,
+   "inheritance": "XL",
+   "mei_class": "Alu",
+   "subfamily": "AluYa5",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": "sense",
+   "tsd": "16 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Spanish",
+   "region": "coding_exon",
+   "exon_number": 11,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A sense-oriented AluYa5 inserted at codon 650 in exon 11 is predicted to truncate ClC-5, removing part of the C-terminus. It arose de novo in the maternal grandfather's germline and was transmitted through the mother.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation",
+    "de_novo_confirmed"
+   ],
+   "quote": "This mutation predicts a truncated ClC-5 protein that lacks part of the carboxy-terminus and is likely to result in loss of function of the chloride channel.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

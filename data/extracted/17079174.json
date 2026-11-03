@@ -1,0 +1,46 @@
+{
+ "pmid": "17079174",
+ "cases": [
+  {
+   "case_label": "Inverted Alu insertion in exon 3 of POMT1 (French)",
+   "gene": "POMT1",
+   "gene_as_reported": null,
+   "disease": "Walker-Warburg syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": "antisense",
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 5,
+   "n_families": 3,
+   "ancestry_or_population": "French (possible founder)",
+   "region": "coding_exon",
+   "exon_number": 3,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "An inverted Alu inserted within exon 3 of POMT1, found in five WWS fetuses (four heterozygous, one homozygous) on a shared haplotype with p.Arg735Cys; effect on transcript/protein not investigated, coding disruption inferred.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "The five fetuses were found to share an insertion of an inversed Alu repeated DNA element within exon 3 of the POMT1 gene",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,47 @@
+{
+ "pmid": "22095564",
+ "cases": [
+  {
+   "case_label": "L1 orphan 3' transduction (chr11q22.3 sequence) in DMD exon 67",
+   "gene": "DMD",
+   "gene_as_reported": null,
+   "disease": "Duchenne muscular dystrophy",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "L1",
+   "subfamily": "L1HS Ta-1d (source element LRE4)",
+   "insertion_length_bp": null,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": "3 bp",
+   "polyA": null,
+   "transduction": true,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Japanese",
+   "region": "coding_exon",
+   "exon_number": 67,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "transduction_effect",
+    "coding_disruption"
+   ],
+   "mechanism_detail": "The insertion in DMD exon 67 consists solely of a copy of chr11q22.3 sequence lying directly downstream of a non-reference, highly active full-length L1 (LRE4) present in the proband and mother; it is explained as an L1-mediated 3' transduction with severe 5' truncation (no L1 sequence), disrupting exon 67.",
+   "affected_exons": null,
+   "evidence": [
+    "functional_assay"
+   ],
+   "quote": "Thus, the likely explanation for the mutagenic insertion is a LINE-1-mediated 3’ transduction with severe 5’ truncation.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

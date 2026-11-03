@@ -1,0 +1,46 @@
+{
+ "pmid": "33408686",
+ "cases": [
+  {
+   "case_label": "Full-length MATR3 variant 5 processed pseudogene inserted on chr12 near LHX5",
+   "gene": "MATR3",
+   "gene_as_reported": null,
+   "disease": "Early-onset behavioral variant frontotemporal dementia",
+   "omim_phenotype": null,
+   "inheritance": "unknown",
+   "mei_class": "processed_pseudogene",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": true,
+   "orientation_vs_gene": null,
+   "tsd": "15 bp",
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intergenic",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": "chr12",
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "A retrotransposed full-length cDNA of MATR3 transcript variant 5 (seen on the panel as an apparent exon 15 duplication) is inserted on chromosome 12, ~20 kb upstream of LHX5, flanked by 15-bp repeats; it is also carried by an unaffected parent and grandparent, so it may be a reduced-penetrance cause or benign. No expression or functional effect was demonstrated.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "This suggests that the mutation is either a disease-causing mutation with incomplete penetrance, which has been observed in heritable FTD, or a benign variant.",
+   "confidence": "low",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

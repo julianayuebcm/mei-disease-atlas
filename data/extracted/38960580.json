@@ -1,0 +1,51 @@
+{
+ "pmid": "38960580",
+ "cases": [
+  {
+   "case_label": "Deep intronic SVA_D insertion in ATP7A causing occipital horn syndrome",
+   "gene": "ATP7A",
+   "gene_as_reported": null,
+   "disease": "Occipital horn syndrome",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": "SVA_D",
+   "insertion_length_bp": 2800,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing",
+    "exonization"
+   ],
+   "mechanism_detail": "A 2.8 kb insertion deep within an ATP7A intron activates a new donor splice site located inside the element, producing aberrantly spliced mRNA. Long-read circular consensus sequencing identified the insertion as an evolutionarily old SVA_D. Antisense oligonucleotides against the new splice site restored normal transcript and functional ATP7A protein and reduced copper accumulation in patient fibroblasts; pedigree analysis dated the insertion to two generations earlier.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr",
+    "long_read",
+    "functional_assay",
+    "protein",
+    "segregation"
+   ],
+   "quote": "This insertion caused aberrant mRNA splicing activated by a new donor splice site located within it.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

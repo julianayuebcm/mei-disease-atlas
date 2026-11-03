@@ -1,0 +1,46 @@
+{
+ "pmid": "24478191",
+ "cases": [
+  {
+   "case_label": "Retroposed TMF1 transcript (processed pseudogene) in CYBB intron 1",
+   "gene": "CYBB",
+   "gene_as_reported": null,
+   "disease": "chronic granulomatous disease",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "processed_pseudogene",
+   "subfamily": "TMF1 retrocopy",
+   "insertion_length_bp": 5800,
+   "full_length": null,
+   "orientation_vs_gene": "antisense",
+   "tsd": "present",
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Dutch",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 1,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exonization"
+   ],
+   "mechanism_detail": "A 5.8-kb, partly exonized TMF1 transcript retroposed (LINE-1-mediated) antisense into CYBB intron 1 causes inclusion of an extra 117-bp exon between exons 1 and 2 containing a premature stop. Inherited from the mother, who was a somatic mosaic (early fetal event) in whom the insertion was only in methylated DNA.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "This insertion induced aberrant CYBB mRNA splicing, with inclusion of an extra 117-bp exon between exons 1 and 2 of CYBB.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

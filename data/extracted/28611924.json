@@ -1,0 +1,49 @@
+{
+ "pmid": "28611924",
+ "cases": [
+  {
+   "case_label": "Alu at BUB1B intron 8/exon 9 acceptor (PCS/MVA syndrome)",
+   "gene": "BUB1B",
+   "gene_as_reported": null,
+   "disease": "Premature chromatid separation / mosaic variegated aneuploidy syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "present (length not stated)",
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 8,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": 0,
+   "mechanisms": [
+    "exon_skipping"
+   ],
+   "mechanism_detail": "A paternally inherited Alu inserted just before the AG of the intron 8 / exon 9 splice acceptor (in trans with a maternal upstream variant) produced a smaller exon 8-10 RT-PCR product derived from the Alu allele, consistent with loss of exon 9; only the abstract and figure legends are available.",
+   "affected_exons": [
+    9
+   ],
+   "evidence": [
+    "rna_rt_pcr",
+    "segregation"
+   ],
+   "quote": "An Alu element was found to be inserted just before the AG consensus dinucleotide at the splicing acceptor in the proband and father.",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

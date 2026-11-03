@@ -1,0 +1,86 @@
+{
+ "pmid": "36450799",
+ "cases": [
+  {
+   "case_label": "Homozygous mobile element insertion in FERMT1 (Kindler syndrome)",
+   "gene": "FERMT1",
+   "gene_as_reported": null,
+   "disease": "Kindler syndrome (poikiloderma)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "unknown",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing"
+   ],
+   "mechanism_detail": "A homozygous mobile element insertion detected by MELT in exome data in FERMT1; an RNA study confirmed a pathological effect on splicing. The element type and splicing outcome are not specified in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "A homozygous insertion was identified in the FERMT1 gene involved in Kindler syndrome. RNA study confirmed its pathological impact on splicing.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  },
+  {
+   "case_label": "De novo Alu insertion in GRIN2B (developmental disorder)",
+   "gene": "GRIN2B",
+   "gene_as_reported": null,
+   "disease": "Developmental disorder / intellectual disability",
+   "omim_phenotype": null,
+   "inheritance": "de_novo",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "A de novo Alu insertion in GRIN2B was found by MELT in exome data of a patient with a developmental disorder; the abstract does not describe its location within the gene or its molecular effect.",
+   "affected_exons": null,
+   "evidence": [
+    "de_novo_confirmed"
+   ],
+   "quote": "The second ME was a de novo Alu insertion in the GRIN2B gene involved in intellectual disability, and detected in a patient with a developmental disorder.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

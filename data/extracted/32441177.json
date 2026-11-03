@@ -1,0 +1,50 @@
+{
+ "pmid": "32441177",
+ "cases": [
+  {
+   "case_label": "SVA in CHM exon 2 causing exon 2 skipping",
+   "gene": "CHM",
+   "gene_as_reported": null,
+   "disease": "Choroideremia",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 2,
+   "intron_number": null,
+   "transcript": "NM_000390.2",
+   "hgvs": "c.97_98insSVA, p.(Arg33insSVA)",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping",
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A hemizygous SVA (>265 bp, exact size undetermined) inserted at c.97 in CHM exon 2 leads to skipping of the entire exon 2 (r.50_116del) in patient lymphoblastoid cDNA and absence of REP-1 protein.",
+   "affected_exons": [
+    2
+   ],
+   "evidence": [
+    "rna_rt_pcr",
+    "protein"
+   ],
+   "quote": "Sequencing of the PCR product generated from cDNA showed skipping of all of exon 2, denoted r.50_116del (Figure 3b-d).",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

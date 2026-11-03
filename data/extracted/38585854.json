@@ -1,0 +1,48 @@
+{
+ "pmid": "38585854",
+ "cases": [
+  {
+   "case_label": "4.9-kb SVA/L1 composite insertion in HCFC1 3' UTR (VUS)",
+   "gene": "HCFC1",
+   "gene_as_reported": null,
+   "disease": "X-linked intellectual disability / neurodevelopmental disorder",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": "SVA with 3' L1 sequence",
+   "insertion_length_bp": 4902,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "exon_UTR3",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": "NM_005334.3",
+   "hgvs": "NC_000023.11:g.153948602_ins4902, NM_005334.3:c.*745_ins4902",
+   "genome_build": "GRCh38",
+   "chrom": "chrX",
+   "pos": 153948602,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "utr_effect",
+    "expression_loss"
+   ],
+   "mechanism_detail": "A maternally inherited 4,902-bp insertion of SVA and L1 sequence (79-nt polyA) found by HiFi sequencing lengthens the HCFC1 3' UTR ~3.75-fold; 3'-end RNA-seq showed ~8.8-fold lower HCFC1 expression in the proband than his father, but the variant was classified as a VUS.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read",
+    "rna_seq"
+   ],
+   "quote": "While these results are consistent with the hypothesis that the insertion has a large effect on HCFC1 expression and potential activity, they are not definitive.",
+   "confidence": "low",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

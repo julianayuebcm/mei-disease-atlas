@@ -1,0 +1,48 @@
+{
+ "pmid": "17178205",
+ "cases": [
+  {
+   "case_label": "AluYa5a2 in ATP7A exon 9 causing exon 9 skipping",
+   "gene": "ATP7A",
+   "gene_as_reported": null,
+   "disease": "Menkes disease",
+   "omim_phenotype": null,
+   "inheritance": "XL",
+   "mei_class": "Alu",
+   "subfamily": "AluYa5a2",
+   "insertion_length_bp": 382,
+   "full_length": true,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 9,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping"
+   ],
+   "mechanism_detail": "A full 382-bp AluYa5a2 within exon 9 caused skipping of the entire exon 9 in cDNA, giving truncated protein; in-silico analysis suggested the Alu altered exonic splicing enhancers.",
+   "affected_exons": [
+    9
+   ],
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "A whole young AluYa5a2 element, which was 382-bp long, was identified within exon 9 of the ATP7A gene, and all of exon 9 was aberrantly skipped in the cDNA",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

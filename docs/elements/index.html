@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Elements · MEI Disease Atlas</title>
+<meta name="description" content="Alu, L1, SVA and other retrotransposon insertions in human disease.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://julianayuebcm.github.io/mei-disease-atlas/elements/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MEI Disease Atlas">
+<meta property="og:title" content="Elements · MEI Disease Atlas">
+<meta property="og:description" content="Alu, L1, SVA and other retrotransposon insertions in human disease.">
+<meta property="og:url" content="https://julianayuebcm.github.io/mei-disease-atlas/elements/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23111a2b'/%3E%3Cpath d='M4 19h24' stroke='%23aab5c8' stroke-width='2'/%3E%3Crect x='6' y='14' width='5' height='10' rx='1' fill='%23e9eef8'/%3E%3Crect x='20' y='14' width='6' height='10' rx='1' fill='%23e9eef8'/%3E%3Cpath d='M12 5h7l-3.5 6z' fill='%23f0763f'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/mei-disease-atlas/assets/site.css">
+<script>window.ATLAS_STATIC = { base: "/mei-disease-atlas/", url: "https://julianayuebcm.github.io/mei-disease-atlas/" };</script>
+</head>
+<body>
+<canvas id="helix" aria-hidden="true"></canvas>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/mei-disease-atlas/" aria-label="MEI Disease Atlas home">
+      <svg width="30" height="22" viewBox="0 0 30 22" aria-hidden="true"><line x1="1" y1="15" x2="29" y2="15" stroke="currentColor" stroke-opacity=".55" stroke-width="1.5"/><rect x="3" y="10" width="5" height="10" rx="1" fill="currentColor"/><rect x="12" y="10" width="4" height="10" rx="1" fill="currentColor"/><rect x="22" y="10" width="6" height="10" rx="1" fill="currentColor"/><path d="M 15.5 1 L 21.5 1 L 18.5 6 Z" fill="var(--l1)"/><line x1="18.5" y1="6" x2="18.5" y2="13" stroke="var(--l1)" stroke-width="1.6"/></svg>
+      MEI Disease Atlas
+    </a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="/mei-disease-atlas/">Overview</a>
+      <a href="/mei-disease-atlas/browse/">Browse</a>
+      <a href="/mei-disease-atlas/mechanisms/">Mechanisms</a>
+      <a href="/mei-disease-atlas/genes/">Genes</a>
+      <a href="/mei-disease-atlas/elements/">Elements</a>
+      <a href="/mei-disease-atlas/methods/">Methods</a>
+      <a href="/mei-disease-atlas/about/">About</a>
+    </nav>
+    <div class="search">
+      <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><circle cx="6" cy="6" r="4.5" fill="none" stroke="currentColor" stroke-width="1.6"/><line x1="9.5" y1="9.5" x2="13" y2="13" stroke="currentColor" stroke-width="1.6"/></svg>
+      <input id="gsearch" type="search" placeholder="Search gene, disease…" autocomplete="off" aria-label="Search the atlas">
+      <div class="suggest" id="suggest" hidden></div>
+    </div>
+  </div>
+</header>
+
+<main id="app">
+  <div class="page-head"><nav class="crumbs" aria-label="Breadcrumb"><a href="/mei-disease-atlas/">Overview</a><span>/</span><span>Elements</span></nav>
+    <h1>Elements</h1><p class="lede">The mobile element classes behind disease insertions. Alu, L1 and SVA are active in the human genome today; the "Other" group collects rarer insertion types.</p></div>
+  <section class="grid-2" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))"><a class="tile" href="/mei-disease-atlas/element/Alu/" style="padding:20px">
+      <h3 style="font-size:20px"><i class="sw" style="background:var(--alu);width:14px;height:14px"></i>Alu</h3>
+      <div class="big">164<span class="faint" style="font-size:14px;font-family:var(--font-body);font-weight:400"> events in 96 genes</span></div>
+      <p class="muted" style="font-size:14px">Primate SINE, about 300 bp. Non-autonomous: mobilised by L1 machinery. The most frequent class of disease insertion.</p>
+      <div><span class="tag">Coding disruption</span><span class="tag">Exon skipping</span><span class="tag">Insertion-associated deletion</span></div>
+    </a><a class="tile" href="/mei-disease-atlas/element/L1/" style="padding:20px">
+      <h3 style="font-size:20px"><i class="sw" style="background:var(--l1);width:14px;height:14px"></i>L1</h3>
+      <div class="big">66<span class="faint" style="font-size:14px;font-family:var(--font-body);font-weight:400"> events in 39 genes</span></div>
+      <p class="muted" style="font-size:14px">LINE-1, up to 6 kb full length and the only autonomous human retrotransposon. Disease insertions are usually 5′-truncated.</p>
+      <div><span class="tag">Coding disruption</span><span class="tag">Exon skipping</span><span class="tag">Expression loss</span></div>
+    </a><a class="tile" href="/mei-disease-atlas/element/SVA/" style="padding:20px">
+      <h3 style="font-size:20px"><i class="sw" style="background:var(--sva);width:14px;height:14px"></i>SVA</h3>
+      <div class="big">58<span class="faint" style="font-size:14px;font-family:var(--font-body);font-weight:400"> events in 46 genes</span></div>
+      <p class="muted" style="font-size:14px">SINE-VNTR-Alu composite, up to ~3 kb. Hominid-specific; several founder insertions cause recessive disease.</p>
+      <div><span class="tag">Coding disruption</span><span class="tag">Exonization</span><span class="tag">Aberrant splicing</span></div>
+    </a><a class="tile" href="/mei-disease-atlas/element/Other/" style="padding:20px">
+      <h3 style="font-size:20px"><i class="sw" style="background:var(--other);width:14px;height:14px"></i>Other</h3>
+      <div class="big">15<span class="faint" style="font-size:14px;font-family:var(--font-body);font-weight:400"> events in 14 genes</span></div>
+      <p class="muted" style="font-size:14px">HERV, processed pseudogenes (retrocopies of mRNAs), polyA-only insertions, and insertions whose element the paper did not name.</p>
+      <div><span class="tag">Insertion-associated deletion</span><span class="tag">Aberrant splicing</span><span class="tag">Coding disruption</span></div>
+    </a></section></main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div style="font-family:var(--font-display);font-weight:800;font-size:16px;color:var(--ink);margin-bottom:6px">MEI Disease Atlas</div>
+      <p id="foot-note"></p>
+    </div>
+    <div><h4>Explore</h4><a href="/mei-disease-atlas/browse/">All insertions</a><a href="/mei-disease-atlas/mechanisms/">Mechanisms</a><a href="/mei-disease-atlas/genes/">Genes</a><a href="/mei-disease-atlas/elements/">Elements</a></div>
+    <div><h4>About</h4><a href="/mei-disease-atlas/methods/">How it was built</a><a href="/mei-disease-atlas/methods/#scope">Scope</a><a href="/mei-disease-atlas/methods/#caveats">Caveats</a><a href="/mei-disease-atlas/about/">Cite &amp; licence</a></div>
+  </div>
+</footer>
+<div class="tip" id="tip" hidden></div>
+<script src="/mei-disease-atlas/assets/site.js"></script>
+<script src="/mei-disease-atlas/assets/helix.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+{
+ "pmid": "30815977",
+ "cases": [
+  {
+   "case_label": "AluYa5 insertion in MLH1 exon 6",
+   "gene": "MLH1",
+   "gene_as_reported": null,
+   "disease": "Lynch syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": "AluY5a",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": null,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 6,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping"
+   ],
+   "mechanism_detail": "AluY5a inserted in MLH1 exon 6 causes skipping of exon 6, producing a frameshift; found in a family with colorectal adenocarcinomas.",
+   "affected_exons": [
+    6
+   ],
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Next-generation sequencing (NGS) analysis identified an AluY5a insertion in MLH1 exon 6 that led to exon skipping.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

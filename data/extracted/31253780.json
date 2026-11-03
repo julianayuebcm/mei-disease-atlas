@@ -1,0 +1,46 @@
+{
+ "pmid": "31253780",
+ "cases": [
+  {
+   "case_label": "Japanese founder-type Alu insertion in RP1 exon 4 (c.4052_4053ins328)",
+   "gene": "RP1",
+   "gene_as_reported": null,
+   "disease": "Hereditary retinal degeneration (autosomal recessive retinitis pigmentosa)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": 328,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 12,
+   "n_families": 12,
+   "ancestry_or_population": "Japanese (recurrent, 1.8% of HRD patients)",
+   "region": "coding_exon",
+   "exon_number": 4,
+   "intron_number": null,
+   "transcript": "NM_006269.1",
+   "hgvs": "NM_006269.1:c.4052_4053ins328/p.Tyr1352Alafs*9",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A 328-bp Alu insertion in RP1 exon 4 disrupts the reading frame and introduces a premature stop (p.Tyr1352Alafs*9); found in 16 unrelated Japanese HRD patients, 6 homozygous and 6 compound heterozygous with c.4196del or p.Arg1933*, and in 1/524 controls.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "This insertion caused the disruption of the reading frame by introducing 328 additional nucleotides, including a premature termination codon in the canonical RP1 coding sequence.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

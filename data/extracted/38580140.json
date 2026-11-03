@@ -1,0 +1,47 @@
+{
+ "pmid": "38580140",
+ "cases": [
+  {
+   "case_label": "Alu in exon 15 of CFTR",
+   "gene": "CFTR",
+   "gene_as_reported": null,
+   "disease": "Cystic fibrosis",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 15,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing",
+    "coding_disruption"
+   ],
+   "mechanism_detail": "An ultra-rare Alu insertion in CFTR exon 15, missed by routine NGS, is reported to severely affect CFTR expression, splicing pattern and protein structure (details not in abstract).",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "the Alu element insertion severely affects the gene expression, splicing patterns, and structure of CFTR protein.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

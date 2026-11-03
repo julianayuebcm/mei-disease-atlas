@@ -1,0 +1,46 @@
+{
+ "pmid": "36970932",
+ "cases": [
+  {
+   "case_label": "Exonic LINE-1 insertion in CC2D2A (Meckel syndrome)",
+   "gene": "CC2D2A",
+   "gene_as_reported": null,
+   "disease": "Meckel syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Japanese",
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "An exonic L1 insertion (detected with TEMP2) is in trans with a deep-intronic CC2D2A variant; disruption of coding sequence is presumed from the exonic location, and CC2D2A protein was markedly reduced.",
+   "affected_exons": null,
+   "evidence": [
+    "protein"
+   ],
+   "quote": "Here we report a Japanese girl with Meckel syndrome harboring a pathogenic deep intronic variant (NM_001378615.1:c.1149+3569A>G) and an exonic LINE-1 insertion",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

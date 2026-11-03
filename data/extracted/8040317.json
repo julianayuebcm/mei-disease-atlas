@@ -1,0 +1,47 @@
+{
+ "pmid": "8040317",
+ "cases": [
+  {
+   "case_label": "Novel mobile element in SPTA1 (spectrin Dayton)",
+   "gene": "SPTA1",
+   "gene_as_reported": "alpha spectrin",
+   "disease": "Hereditary elliptocytosis / pyropoikilocytosis",
+   "omim_phenotype": null,
+   "inheritance": "unknown",
+   "mei_class": "unknown",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "target-site duplication (length not stated in abstract)",
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": null,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping",
+    "coding_disruption"
+   ],
+   "mechanism_detail": "An insertion of a previously undescribed mobile element (TSD, long poly-A tail, no homology to known repeats) disrupts the alpha-spectrin gene and causes exon skipping, producing a truncated alpha-spectrin protein.",
+   "affected_exons": null,
+   "evidence": [
+    "protein"
+   ],
+   "quote": "show that the alpha-spectrin gene is disrupted by a mobile element resulting in exon skipping.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

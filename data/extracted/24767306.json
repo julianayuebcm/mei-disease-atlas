@@ -1,0 +1,48 @@
+{
+ "pmid": "24767306",
+ "cases": [
+  {
+   "case_label": "Antisense Alu in CTSK intron 7 (pycnodysostosis)",
+   "gene": "CTSK",
+   "gene_as_reported": null,
+   "disease": "Pycnodysostosis",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": 301,
+   "full_length": null,
+   "orientation_vs_gene": "antisense",
+   "tsd": null,
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 3,
+   "n_families": 2,
+   "ancestry_or_population": "Turkish (Mardin/Batman, southeastern Turkey)",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 7,
+   "transcript": null,
+   "hgvs": "IVS7-14-15insAlu (N296fX54)",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": 14,
+   "mechanisms": [
+    "exonization"
+   ],
+   "mechanism_detail": "A homozygous 301-bp antisense Alu inserted 14 bp upstream of exon 8 creates a predicted new splice acceptor at position 38 of the insert; the authors predict (in silico only, no RNA study) inclusion of Alu sequence before exon 8 leading to a stop codon after 54 unrelated amino acids.",
+   "affected_exons": [
+    8
+   ],
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "Furthermore, the insertion showed new potential splicing acceptor site at position 38 of the insertion sequence with a consensus value of 89.2%, and, consensus value for formal (wild type) acceptor site was 87.8% on Human Splicing Finder.",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

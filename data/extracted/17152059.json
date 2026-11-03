@@ -1,0 +1,46 @@
+{
+ "pmid": "17152059",
+ "cases": [
+  {
+   "case_label": "Full-length L1 insertion with ~46-kb deletion in PDHX",
+   "gene": "PDHX",
+   "gene_as_reported": null,
+   "disease": "Pyruvate dehydrogenase complex deficiency",
+   "omim_phenotype": null,
+   "inheritance": "unknown",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": true,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": true,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "multiple",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "insertion_associated_deletion"
+   ],
+   "mechanism_detail": "Retrotranspositional insertion of a full-length L1 (67-bp poly(A) tail) was accompanied by a ~46-kb deletion within PDHX; cleavage sites match L1 endonuclease consensus.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "identifying a approximately 46-kb pathological genomic deletion in the PDHX gene directly linked to the insertion of a full-length L1 element",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

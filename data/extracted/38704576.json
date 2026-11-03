@@ -1,0 +1,47 @@
+{
+ "pmid": "38704576",
+ "cases": [
+  {
+   "case_label": "AluYa5 (352 bp) in coding exon 43 of EYS",
+   "gene": "EYS",
+   "gene_as_reported": null,
+   "disease": "Retinitis pigmentosa (autosomal recessive)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": "AluYa5",
+   "insertion_length_bp": 352,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "AACATTGTATCCTTC",
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 3,
+   "n_families": 1,
+   "ancestry_or_population": "Spanish (Seville) family",
+   "region": "coding_exon",
+   "exon_number": 43,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "chr6(GRCh37):g.64430524_64430525ins352",
+   "genome_build": "GRCh37",
+   "chrom": "chr6",
+   "pos": 64430524,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A heterozygous AluYa5 insertion (282 bp Alu, 56-bp poly(T), 15-bp TSD) in EYS coding exon 43, found by targeted nanopore sequencing in trans with a founder exon 32-33 deletion, is predicted to add 39 aberrant amino acids followed by a premature stop codon.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read",
+    "segregation"
+   ],
+   "quote": "The Alu insertion disrupting the coding exon 43 would, if translated, result in an insertion of 39 aberrant amino acids followed by a premature",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

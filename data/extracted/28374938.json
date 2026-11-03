@@ -1,0 +1,46 @@
+{
+ "pmid": "28374938",
+ "cases": [
+  {
+   "case_label": "Full-length L1HS insertion in exon 7 of CC2D2A",
+   "gene": "CC2D2A",
+   "gene_as_reported": null,
+   "disease": "Meckel-Gruber syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "L1",
+   "subfamily": "L1HS",
+   "insertion_length_bp": null,
+   "full_length": true,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 7,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "Paternally inherited L1HS with intact ORF1/ORF2 inserted into CC2D2A exon 7, in trans with a maternal frameshift c.4582_4583delCG; transcript effect not described in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "led to the detection of an L1 insertion affecting exon 7 in the paternally derived allele.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

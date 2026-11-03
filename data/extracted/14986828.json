@@ -1,0 +1,49 @@
+{
+ "pmid": "14986828",
+ "cases": [
+  {
+   "case_label": "De novo 5'-truncated L1 at -8 of RPS6KA3 intron 3",
+   "gene": "RPS6KA3",
+   "gene_as_reported": "RSK2",
+   "disease": "Coffin-Lowry syndrome",
+   "omim_phenotype": null,
+   "inheritance": "de_novo",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": 2800,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": "present (duplicates acceptor splice site)",
+   "polyA": null,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 3,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": 8,
+   "mechanisms": [
+    "exon_skipping"
+   ],
+   "mechanism_detail": "A de novo 5'-truncated, partially inverted L1 (2.8 kb) at position -8 of intron 3 causes skipping of exon 4, a frameshift and premature stop; the TSD duplicates the acceptor site but neither copy is used.",
+   "affected_exons": [
+    4
+   ],
+   "evidence": [
+    "rna_rt_pcr",
+    "de_novo_confirmed"
+   ],
+   "quote": "a de novo insertion of a 5'-truncated LINE-1 element at position -8 of intron 3, which leads to a skipping of exon 4, leading to a shift of the reading frame and a premature stop codon.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

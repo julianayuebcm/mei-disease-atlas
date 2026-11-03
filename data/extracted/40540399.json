@@ -1,0 +1,46 @@
+{
+ "pmid": "40540399",
+ "cases": [
+  {
+   "case_label": "XDP SVA with (CCCTCT)n repeat (TAF1)",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia parkinsonism (XDP)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_transcript_other"
+   ],
+   "mechanism_detail": "The XDP-causing SVA (gene not named in abstract; TAF1 by known XDP locus) produces an (AGAGGG)n hexamer-containing RNA that drives R-loop formation, transcriptional dysregulation and apoptosis in striatal organoids; SVA deletion or antisense knockdown rescues the phenotypes.",
+   "affected_exons": null,
+   "evidence": [
+    "functional_assay"
+   ],
+   "quote": "We demonstrate that a retrotransposon-derived tandem repeat RNA may cause neurodegeneration.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

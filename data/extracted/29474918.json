@@ -1,0 +1,53 @@
+{
+ "pmid": "29474918",
+ "cases": [
+  {
+   "case_label": "SVA in TAF1 intron 32 (XDP founder)",
+   "gene": "TAF1",
+   "gene_as_reported": null,
+   "disease": "X-linked dystonia-parkinsonism (XDP)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 403,
+   "n_families": null,
+   "ancestry_or_population": "Filipino (Panay) founder haplotype",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 32,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "intron_retention",
+    "aberrant_splicing",
+    "expression_loss"
+   ],
+   "mechanism_detail": "The founder SVA in TAF1 intron 32 is associated with aberrant splicing and partial retention of intron 32 proximal to the SVA (including a cryptic-exon transcript TAF1-32i ending 716 bp 5' of the SVA), decreased exon usage distal to it and reduced canonical TAF1 mRNA and protein in patient-derived neural cells; CRISPR excision of the SVA rescued these changes.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq",
+    "rna_rt_pcr",
+    "protein",
+    "functional_assay",
+    "long_read",
+    "segregation"
+   ],
+   "quote": "This intron retention (IR) coincided with decreased exon usage in proximity to the SVA and an overall reduction in TAF1 expression, both of which were rescued by CRISPR/Cas9-based excision of the SVA.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

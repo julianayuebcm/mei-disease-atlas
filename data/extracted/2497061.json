@@ -1,0 +1,86 @@
+{
+ "pmid": "2497061",
+ "cases": [
+  {
+   "case_label": "De novo L1 insertion in F8 (patient JH-27)",
+   "gene": "F8",
+   "gene_as_reported": "factor VIII",
+   "disease": "Hemophilia A",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": 3785,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Previously reported de novo L1 insertion (3785 bp) in the factor VIII gene of a hemophilia A patient, re-sequenced here to show an intact ORF; location and molecular consequence are not described in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "We have sequenced this insertion and two previously reported de novo L1 insertions in the factor VIII gene in patients JH-27 (3785 bp) and JH-28 (2132 bp).",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  },
+  {
+   "case_label": "De novo L1 insertion in F8 (patient JH-28)",
+   "gene": "F8",
+   "gene_as_reported": "factor VIII",
+   "disease": "Hemophilia A",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": 2132,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Previously reported de novo L1 insertion (2132 bp) in the factor VIII gene of a hemophilia A patient, re-sequenced here to show an intact ORF; location and molecular consequence are not described in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "We have sequenced this insertion and two previously reported de novo L1 insertions in the factor VIII gene in patients JH-27 (3785 bp) and JH-28 (2132 bp).",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,46 @@
+{
+ "pmid": "9618170",
+ "cases": [
+  {
+   "case_label": "5'-truncated L1 in DMD muscle exon 1 (5'UTR)",
+   "gene": "DMD",
+   "gene_as_reported": null,
+   "disease": "X-linked dilated cardiomyopathy",
+   "omim_phenotype": null,
+   "inheritance": "XL",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": false,
+   "orientation_vs_gene": "antisense",
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 3,
+   "n_families": 2,
+   "ancestry_or_population": "Japanese",
+   "region": "exon_UTR5",
+   "exon_number": 1,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "expression_loss"
+   ],
+   "mechanism_detail": "A 5'-truncated L1 inserted in antisense orientation in the 5'UTR of the muscle-specific exon 1 reduced transcription or stability of the muscle dystrophin isoform, while brain and Purkinje isoforms were unaffected. The abstract calls the insertion de novo although it was found in two unrelated families.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "The insertion was a 5'-truncated form of human L1 inversely integrated in the 5'-untranslated region in the muscle exon 1",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,46 @@
+{
+ "pmid": "25255364",
+ "cases": [
+  {
+   "case_label": "Founder Alu insertion in MAK in North American patients of Jewish ancestry with recessive retinitis pigmentosa",
+   "gene": "MAK",
+   "gene_as_reported": null,
+   "disease": "Autosomal recessive retinitis pigmentosa",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 9,
+   "n_families": null,
+   "ancestry_or_population": "North American patients reporting Jewish ancestry",
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "A direct screen of 275 North American patients with recessive/isolate retinitis pigmentosa found the MAK Alu insertion homozygously in 25.7% of the 35 patients reporting Jewish ancestry (about 9 patients) and in 2.1% of patients of mixed ethnicity; haplotype analysis showed the allele is inherited by founder effect. The molecular consequence of the insertion is not investigated here.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "We identified the MAK and DHDDS mutations homozygously in only 2.1% and 0.8%, respectively, of patients of mixed ethnicity, but in 25.7% and 8.6%, respectively, of cases reporting Jewish ancestry.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

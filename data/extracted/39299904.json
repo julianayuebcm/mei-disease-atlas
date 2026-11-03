@@ -1,0 +1,48 @@
+{
+ "pmid": "39299904",
+ "cases": [
+  {
+   "case_label": "4.9-kb SVA/L1 insertion in HCFC1 3' UTR (VUS)",
+   "gene": "HCFC1",
+   "gene_as_reported": null,
+   "disease": "X-linked intellectual disability (family history of XL ID)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": 4902,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "exon_UTR3",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "Chr X:153948602_ins4902",
+   "genome_build": "hg38",
+   "chrom": "chrX",
+   "pos": 153948602,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "expression_loss",
+    "utr_effect"
+   ],
+   "mechanism_detail": "A 4,902-bp insertion containing SVA and L1 sequence in the HCFC1 3' UTR (likely maternally inherited) lengthens the predicted 3' UTR from 1,791 to 6,693 nt; 3'-end RNA-seq showed ~8.8-fold lower HCFC1 expression in the proband than his father. Classified VUS (case-level Uncertain).",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq",
+    "long_read"
+   ],
+   "quote": "HiFi sequencing identified a 4902 bp mobile element insertion (MEI) in the 3\u2032 UTR of HCFC1 (Chr X:153948602_ins4902), consisting of both SVA and L1 sequence (Fig. 3B).",
+   "confidence": "low",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

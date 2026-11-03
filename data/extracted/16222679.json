@@ -1,0 +1,46 @@
+{
+ "pmid": "16222679",
+ "cases": [
+  {
+   "case_label": "Founder 3-kb SVA in FKTN 3' UTR (FCMD)",
+   "gene": "FKTN",
+   "gene_as_reported": "fukutin",
+   "disease": "Fukuyama-type congenital muscular dystrophy",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": 3000,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Japanese founder (one Korean carrier found)",
+   "region": "exon_UTR3",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Founder ~3-kb SVA retrotransposal insertion in the 3' non-coding region of FKTN on 87% of FCMD chromosomes; this paper characterises the SVA sequence and population distribution, not the transcript mechanism.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Here we show, through detailed sequence analysis, that the founder insertion is derived from the SINE-VNTR-Alu (SVA) retroposon.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

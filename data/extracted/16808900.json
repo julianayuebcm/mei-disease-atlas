@@ -1,0 +1,49 @@
+{
+ "pmid": "16808900",
+ "cases": [
+  {
+   "case_label": "Rearranged (twin-primed) L1 in exon 44 of DMD",
+   "gene": "DMD",
+   "gene_as_reported": "dystrophin",
+   "disease": "Duchenne muscular dystrophy",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": true,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 44,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping"
+   ],
+   "mechanism_detail": "A de novo 5'-inverted (twin-priming) L1 insertion into DMD exon 44 causes skipping of exon 44 in a boy with DMD.",
+   "affected_exons": [
+    44
+   ],
+   "evidence": [
+    "rna_rt_pcr",
+    "de_novo_confirmed"
+   ],
+   "quote": "We describe a de novo insertion of an L1 element into the dystrophin gene resulting in skipping of exon 44 and causing Duchenne muscular dystrophy in a boy.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

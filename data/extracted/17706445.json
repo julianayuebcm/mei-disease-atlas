@@ -1,0 +1,48 @@
+{
+ "pmid": "17706445",
+ "cases": [
+  {
+   "case_label": "AluYb9 insertion with 2.3 kb deletion removing LPL exon 2",
+   "gene": "LPL",
+   "gene_as_reported": null,
+   "disease": "Lipoprotein lipase deficiency",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": "AluYb9",
+   "insertion_length_bp": 150,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": "none (no TSD)",
+   "polyA": true,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "multiple",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "insertion_associated_deletion"
+   ],
+   "mechanism_detail": "A ~150 bp 5'-truncated AluYb9 with poly(A) tail was inserted at the junction of a 2.3 kb deletion (intron 1 to intron 2) that removes exon 2; the patient was homozygous, with no LPL activity or mass.",
+   "affected_exons": [
+    2
+   ],
+   "evidence": [
+    "protein"
+   ],
+   "quote": "These findings indicated that Alu retrotransposition caused the complex deletion-insertion.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

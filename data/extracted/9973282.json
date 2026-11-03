@@ -1,0 +1,93 @@
+{
+ "pmid": "9973282",
+ "cases": [
+  {
+   "case_label": "De novo Alu just upstream of FGFR2 exon 9 (IIIc)",
+   "gene": "FGFR2",
+   "gene_as_reported": null,
+   "disease": "Apert syndrome",
+   "omim_phenotype": null,
+   "inheritance": "de_novo",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": 360,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": 9,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing"
+   ],
+   "mechanism_detail": "De novo paternal Alu insertion just upstream of FGFR2 exon 9 (IIIc). Splicing of exon 9 was examined in patient fibroblasts and ectopic KGFR (IIIb, exon 8) isoform expression was observed, i.e. altered IIIb/IIIc splice choice; abstract does not specify which of the two Alu patients was tested.",
+   "affected_exons": [
+    8,
+    9
+   ],
+   "evidence": [
+    "de_novo_confirmed",
+    "rna_rt_pcr"
+   ],
+   "quote": "Surprisingly, each patient harbors an Alu-element insertion of approximately 360 bp, in one case just upstream of exon 9 and in the other case within exon 9 itself.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  },
+  {
+   "case_label": "De novo Alu within FGFR2 exon 9 (IIIc)",
+   "gene": "FGFR2",
+   "gene_as_reported": null,
+   "disease": "Apert syndrome",
+   "omim_phenotype": null,
+   "inheritance": "de_novo",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": 360,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 9,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing"
+   ],
+   "mechanism_detail": "De novo paternal Alu insertion inside FGFR2 exon 9 (IIIc), proposed to disrupt IIIc splicing leading to ectopic KGFR (IIIb) expression; abstract does not state which Alu patient had RNA analysed.",
+   "affected_exons": [
+    8,
+    9
+   ],
+   "evidence": [
+    "de_novo_confirmed"
+   ],
+   "quote": "Surprisingly, each patient harbors an Alu-element insertion of approximately 360 bp, in one case just upstream of exon 9 and in the other case within exon 9 itself.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

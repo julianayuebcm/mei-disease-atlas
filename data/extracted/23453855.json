@@ -1,0 +1,46 @@
+{
+ "pmid": "23453855",
+ "cases": [
+  {
+   "case_label": "FKTN retrotransposon insertion on one allele (with novel noncoding FKTN variants)",
+   "gene": "FKTN",
+   "gene_as_reported": null,
+   "disease": "Congenital muscular dystrophy (alpha-dystroglycanopathy)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "unknown",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Targeted resequencing in a patient carrying a heterozygous FKTN retrotransposon insertion found two novel noncoding FKTN variants as candidate second hits; the insertion's mechanism is not described.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Two novel noncoding variants of FKTN were identified in one patient who had a retrotransposon insertion mutation of FKTN in only one allele.",
+   "confidence": "low",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

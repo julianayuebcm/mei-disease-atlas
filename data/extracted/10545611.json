@@ -1,0 +1,86 @@
+{
+ "pmid": "10545611",
+ "cases": [
+  {
+   "case_label": "Founder 3-kb retrotransposal insertion in FKTN 3' UTR",
+   "gene": "FKTN",
+   "gene_as_reported": "fukutin (FCMD gene)",
+   "disease": "Fukuyama-type congenital muscular dystrophy",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "unknown",
+   "subfamily": null,
+   "insertion_length_bp": 3000,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Japanese founder",
+   "region": "exon_UTR3",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Ancestral 3-kb retrotransposal insertion in the 3' non-coding region of FKTN found on 87% of FCMD chromosomes; the abstract does not name the element class or describe the molecular mechanism. Probands homozygous for it had milder phenotypes than compound heterozygotes with a point mutation.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Most FCMD-bearing chromosomes examined to date (87%) have been derived from a single ancestral founder, whose mutation consisted of a 3 kb retrotransposal insertion in the 3' non-coding region of the fukutin gene.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  },
+  {
+   "case_label": "Novel non-founder L1 insertion in FKTN",
+   "gene": "FKTN",
+   "gene_as_reported": "fukutin (FCMD gene)",
+   "disease": "Fukuyama-type congenital muscular dystrophy",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "One of four novel non-founder FKTN mutations was an L1 insertion; location and effect are not described in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "identified four novel non-founder mutations in five of them: one missense, one nonsense, one L1 insertion and a 1 bp insertion.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

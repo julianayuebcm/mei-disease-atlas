@@ -1,0 +1,46 @@
+{
+ "pmid": "23613367",
+ "cases": [
+  {
+   "case_label": "AluYb8 in exon 6 of SERPINF1 (AR OI)",
+   "gene": "SERPINF1",
+   "gene_as_reported": null,
+   "disease": "Autosomal recessive osteogenesis imperfecta",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": "AluYb8",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 6,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "An AluYb8 element inserted in SERPINF1 exon 6 was the pathogenic change in one AR-OI family; disruption of the coding sequence is presumed from the exonic location (not described in abstract).",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Of note, insertion of an AluYb8 repetitive element was detected in exon 6 of SERPINF1.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

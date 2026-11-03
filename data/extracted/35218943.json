@@ -1,0 +1,46 @@
+{
+ "pmid": "35218943",
+ "cases": [
+  {
+   "case_label": "Founder retrotransposon insertion in SERPINC1",
+   "gene": "SERPINC1",
+   "gene_as_reported": null,
+   "disease": "Inherited antithrombin deficiency (type I)",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "unknown",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Among structural variants in 39 antithrombin-deficient patients, retrotransposon insertions in SERPINC1 were detected, one with a founder effect; type, location and mechanism are not given in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read"
+   ],
+   "quote": "found three structural variants with a founder effect: the insertion of a retrotransposon, duplication of exon 6, and a 20-gene deletion.",
+   "confidence": "low",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

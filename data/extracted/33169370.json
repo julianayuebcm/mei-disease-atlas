@@ -1,0 +1,49 @@
+{
+ "pmid": "33169370",
+ "cases": [
+  {
+   "case_label": "Founder SVA_F in BBS1 exon 13 (Bardet-Biedl syndrome)",
+   "gene": "BBS1",
+   "gene_as_reported": null,
+   "disease": "Bardet-Biedl syndrome",
+   "omim_phenotype": "209900",
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": "SVA_F",
+   "insertion_length_bp": 2435,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "17 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": 8,
+   "ancestry_or_population": "European (France, Denmark/Sweden) founder",
+   "region": "coding_exon",
+   "exon_number": 13,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "c.1214_1215ins[MT113356]",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption",
+    "expression_loss"
+   ],
+   "mechanism_detail": "A 2,435-bp SVA_F inserted in BBS1 coding exon 13 (mostly in trans with p.Met390Arg) is predicted to create a premature stop; patient cells showed significantly reduced BBS1 mRNA (RT-qPCR) and about half BBS1 protein with no truncated protein detected, consistent with NMD.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr",
+    "protein",
+    "segregation"
+   ],
+   "quote": "Functional studies with patient-derived cell lines confirmed that the BBS1 SVA-F is deleterious as evidenced by a significant depletion of both mRNA and protein levels.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,47 @@
+{
+ "pmid": "34405929",
+ "cases": [
+  {
+   "case_label": "Alu insertion-mediated exon deletion in NDUFV2",
+   "gene": "NDUFV2",
+   "gene_as_reported": null,
+   "disease": "Mitochondrial complex I deficiency",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "multiple",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "insertion_associated_deletion",
+    "exon_skipping"
+   ],
+   "mechanism_detail": "In a patient with the missense c.580G>A on the other allele, genome sequencing found a heterozygous deletion of one NDUFV2 exon whose breakpoint involved an Alu insertion-mediated rearrangement; RNA-seq showed skipping of the deleted exon.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq"
+   ],
+   "quote": "Genome sequencing revealed a novel heterozygous deletion in NDUFV2, which included one exon and resulted in exon skipping.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

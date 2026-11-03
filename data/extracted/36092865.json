@@ -1,0 +1,48 @@
+{
+ "pmid": "36092865",
+ "cases": [
+  {
+   "case_label": "L1HS in DMD intron 1 with partial L1 exonization (Becker MD)",
+   "gene": "DMD",
+   "gene_as_reported": null,
+   "disease": "Becker muscular dystrophy (asymptomatic hyperCKemia)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "L1",
+   "subfamily": "L1HS",
+   "insertion_length_bp": 6051,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "17-bp duplication of DMD intron 1 (non-tandem)",
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 1,
+   "transcript": "NM_004006.2",
+   "hgvs": "NC_000023.10:g.33227460_33227461ins[NC_000008.10:g.73787774_73793824; C;NC_000023.10:g.33227444_33227460]; NM_004006.2:c.31+1955_31+1956ins[G; NM_004770.2:c.580-54346_c.580-60396; NM_004006.2:c.31+1939_31+1955]",
+   "genome_build": "GRCh37",
+   "chrom": "X",
+   "pos": 33227460,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exonization"
+   ],
+   "mechanism_detail": "A ~6-kb insertion of an L1HS-annotated sequence (identical to a copy in KCNB2 intron 2) flanked by a 17-bp duplication in deep DMD intron 1 activates a cryptic donor in the L1 and a cryptic acceptor in intron 1, inserting a 111-bp pseudoexon (15 bp intron 1 + G + 95 bp L1) between exons 1 and 2 alongside normal transcript; dystrophin was reduced in muscle.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read",
+    "rna_rt_pcr",
+    "protein"
+   ],
+   "quote": "(I) The cryptic 5\u2032 ss and 3\u2032 ss activation resulted in the 111-bp sequence insertion between DMD exons 1 and 2, consisting of a 15-bp sequence of DMD intron 1, a single guanine nucleotide, and the partial exonization of LINE-1 (95 bp).",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

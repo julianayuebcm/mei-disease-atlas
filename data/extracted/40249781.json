@@ -1,0 +1,51 @@
+{
+ "pmid": "40249781",
+ "cases": [
+  {
+   "case_label": "SVA (~2.8 kb) in GNAS-AS1 intron 1 (kindred 182)",
+   "gene": "GNAS",
+   "gene_as_reported": "GNAS-AS1 / GNAS",
+   "disease": "Autosomal dominant pseudohypoparathyroidism type 1B",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": 2800,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 2,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 1,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "premature_polyadenylation",
+    "epigenetic_silencing",
+    "aberrant_transcript_other"
+   ],
+   "mechanism_detail": "A maternally inherited ~2.8-kb SVA in intron 1 of GNAS-AS1 carries a polyadenylation signal that blunts run-through transcription from the exon H/AS region (and GNAS-AS1 in the other direction), preventing establishment of maternal GNAS imprints and causing broad loss of methylation at maternal DMRs.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read",
+    "rna_rt_pcr",
+    "functional_assay",
+    "segregation"
+   ],
+   "quote": "Furthermore, a retrotransposon insertion within GNAS, identified in a PHP1B kindred, impairs bidirectionally run-through transcription, thus perturbing GNAS methylation.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

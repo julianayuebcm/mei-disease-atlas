@@ -1,0 +1,46 @@
+{
+ "pmid": "11153909",
+ "cases": [
+  {
+   "case_label": "3-kb retrotransposal insertion in FKTN 3'UTR (Japanese founder)",
+   "gene": "FKTN",
+   "gene_as_reported": "FCMD",
+   "disease": "Fukuyama-type congenital muscular dystrophy",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "unknown",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Japanese founder (~102 generations old)",
+   "region": "exon_UTR3",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "A ~3-kb retrotransposal insertion of tandemly repeated sequence in the FCMD 3'UTR is carried on 87% of Japanese FCMD chromosomes on a common founder haplotype; the abstract does not name the element class or describe the mechanism (study is a haplotype-based age estimate).",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "In Japan, 87% of FCMD-bearing chromosomes carry a 3-kb retrotransposal insertion of tandemly repeated sequences within the disease gene",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,48 @@
+{
+ "pmid": "20471263",
+ "cases": [
+  {
+   "case_label": "SVA insertion in exon 3 of PNPLA2",
+   "gene": "PNPLA2",
+   "gene_as_reported": null,
+   "disease": "Neutral lipid storage disease with myopathy (NLSDM), subclinical",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": 1890,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "12 bp (AAAGAGGCCCGG)",
+   "polyA": true,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "consanguineous family",
+   "region": "coding_exon",
+   "exon_number": 3,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption",
+    "expression_loss"
+   ],
+   "mechanism_detail": "A ~1.8-kb SVA retrotransposon interrupts exon 3 of PNPLA2 (homozygous; parents heterozygous). No PNPLA2 cDNA could be amplified from patient leukocytes or fibroblasts; authors suggest the polyA/GC-rich VNTR sequences block transcription.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr",
+    "segregation"
+   ],
+   "quote": "RT-PCR failed to amplify the patient\u2019s PNPLA2 mRNA.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

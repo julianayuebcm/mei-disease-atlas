@@ -1,0 +1,46 @@
+{
+ "pmid": "39457414",
+ "cases": [
+  {
+   "case_label": "Alu c.4052_4053ins328 in exon 4 of RP1 (Korean RP)",
+   "gene": "RP1",
+   "gene_as_reported": null,
+   "disease": "Retinitis pigmentosa (autosomal recessive)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": 328,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 3,
+   "n_families": 3,
+   "ancestry_or_population": "Korean",
+   "region": "coding_exon",
+   "exon_number": 4,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "c.4052_4053ins328, p.(Tyr1352Alafs)",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "The known RP1 exon 4 Alu insertion (c.4052_4053ins328, frameshift p.Tyr1352Alafs) was detected by WGS in three Korean RP patients, each compound heterozygous with a truncating RP1 variant (c.4196delG or c.6181del); maternal inheritance shown in available families.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "We report three cases of Korean retinitis pigmentosa (RP) patients with compound heterozygous variants including Alu element insertion in the RP1 gene",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

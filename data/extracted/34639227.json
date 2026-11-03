@@ -1,0 +1,50 @@
+{
+ "pmid": "34639227",
+ "cases": [
+  {
+   "case_label": "Homozygous 3.4-kb SVA_D/SVA_E + transduced L1ME3 deep in GAA intron 15",
+   "gene": "GAA",
+   "gene_as_reported": null,
+   "disease": "Infantile-onset Pompe disease",
+   "omim_phenotype": "232300",
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": "SVA_D/SVA_E (source: polymorphic CPX-1 on chr20)",
+   "insertion_length_bp": 3394,
+   "full_length": null,
+   "orientation_vs_gene": "sense",
+   "tsd": "15 bp",
+   "polyA": true,
+   "transduction": true,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 15,
+   "transcript": null,
+   "hgvs": "NC_000017.11:g.80,114,172_80,114,186dup (TSD)",
+   "genome_build": "GRCh38",
+   "chrom": "chr17",
+   "pos": 80114172,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exonization",
+    "premature_polyadenylation",
+    "expression_loss",
+    "transduction_effect"
+   ],
+   "mechanism_detail": "A homozygous complex insertion (SVA_D and SVA_E in sense plus a 3'-transduced antisense L1ME3 from the chr20 CPX-1 source) deep in intron 15: GAA exon 15 splices to a cryptic AG acceptor at the end of the SVA CCCTCT repeats and the chimeric transcript terminates at a polyA site in the transduced L1ME3, sharply reducing 3' GAA mRNA (1% of control).",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr",
+    "functional_assay"
+   ],
+   "quote": "Sanger sequencing of the PCR products revealed that the GAA exon 15 was spliced with TE due to activation of the acceptor site composed of the AG dinucleotide located at the end of CCCTCT repeats",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

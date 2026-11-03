@@ -1,0 +1,46 @@
+{
+ "pmid": "37087885",
+ "cases": [
+  {
+   "case_label": "Retrotransposal insertion in FKTN in Korean patients",
+   "gene": "FKTN",
+   "gene_as_reported": null,
+   "disease": "alpha-dystroglycan-related muscular dystrophy (FCMD/MEB spectrum)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "unknown",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": null,
+   "n_families": null,
+   "ancestry_or_population": "Korean",
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "In a Korean cohort, compound heterozygous FKTN genotypes combining a retrotransposal insertion with deep-intronic variants were most common and associated with severe phenotypes; insertion location, number of carriers and mechanism are not given in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Compound heterozygous retrotransposal insertions and deep-intronic variants in FKTN were the most common genotypes and were associated with severe phenotypes.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

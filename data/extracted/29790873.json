@@ -1,0 +1,48 @@
+{
+ "pmid": "29790873",
+ "cases": [
+  {
+   "case_label": "Alu in MLH1 coding sequence with secondary epimutation",
+   "gene": "MLH1",
+   "gene_as_reported": null,
+   "disease": "Lynch syndrome (heritable constitutional MLH1 epimutation)",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": null,
+   "n_families": 1,
+   "ancestry_or_population": "French",
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "epigenetic_silencing",
+    "coding_disruption"
+   ],
+   "mechanism_detail": "An Alu insertion in MLH1 coding sequence segregates with constitutional MLH1 promoter methylation in a family with heritable (secondary) epimutation; transcriptional consequences were studied.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation",
+    "functional_assay"
+   ],
+   "quote": "This strategy successfully detected the insertion of an Alu element in MLH1 coding sequence in one family.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

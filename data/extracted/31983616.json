@@ -1,0 +1,46 @@
+{
+ "pmid": "31983616",
+ "cases": [
+  {
+   "case_label": "3-kb retrotransposon insertion in FKTN (compound het with intron 5 variant)",
+   "gene": "FKTN",
+   "gene_as_reported": "fukutin",
+   "disease": "Fukuyama congenital muscular dystrophy",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": 3000,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "Infant with FCMD compound heterozygous for the 3-kb retrotransposon insertion in fukutin (class not named in the abstract; inferred SVA as the known FCMD founder insertion) and a deep intronic splice variant in intron 5; mechanism not studied.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "FCMD was confirmed by genetic analysis, which revealed a 3-kb retrotransposon insertion in one allele of the fukutin gene and a deep intronic splicing variant in intron 5 in another allele",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

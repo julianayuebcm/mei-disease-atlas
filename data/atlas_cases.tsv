@@ -1,0 +1,304 @@
+id	gene	disease	mei_class	subfamily	region	exon_number	intron_number	mechanisms	origin	inheritance	insertion_length_bp	n_families	first_year	pmids	evidence	confidence
+MEI0041	A4GNT	Chromothripsis	SVA	E	intron			unknown	unknown	unknown	502		2016	26929209		low
+MEI0042	ABCD1	X-linked adrenoleukodystrophy	Alu		multiple			insertion_associated_deletion	unknown	XL	130		2002	11968085	none_stated	low
+MEI0043	ABCD1	ALD	Alu	AluYb9	unknown			insertion_associated_deletion	unknown	unknown	98		2002	11968085		low
+MEI0044	ABHD5	Chanarin-Dorfman syndrome	L1		intron		3	aberrant_splicing;intron_retention	inherited	AR		1	2011	21332462	rna_rt_pcr;segregation	high
+MEI0045	AGA	AGU	polyA_only		unknown			insertion_associated_deletion	unknown	unknown			1995	7795599		low
+MEI0046	ALMS1	Alstrom syndrome	Alu	AluYa5	coding_exon	16		coding_disruption	founder	AR	333	1	2012	21877133	segregation	high
+MEI0047	ALMS1	Alström syndrome	Alu	AluYa5	exon_unspecified			unknown	unknown	unknown	257		2012	21877133		low
+MEI0048	ALMS1	Alström syndrome	L1		coding_exon	8		coding_disruption	inherited	AR		1	2025	40498041	none_stated	medium
+MEI0049	AP3B1	Hermansky-Pudlak syndrome type 2	SVA		intron	7	7	premature_polyadenylation	inherited	AR	2630	1	2026	42432877	long_read;rna_rt_pcr;rna_seq;segregation	high
+MEI0050	APC	Hereditary desmoid disease	Alu		coding_exon			coding_disruption	inherited	AD	337	1	1999	10077730	none_stated	high
+MEI0051	APC	Hereditary desmoid disease	Alu	AluYb8	exon_unspecified			unknown	unknown	unknown	278		1999	10077730		low
+MEI0052	APC	FAP	Alu	AluYb9	intron			aberrant_splicing	unknown	unknown	93		2000	10982189		low
+MEI0053	APC	Familial adenomatous polyposis	SVA		coding_exon	12		coding_disruption	inherited	AD		1	2021	33807868	none_stated	medium
+MEI0054	APC	APC-related disease (phenotype not stated in main text)	L1		coding_exon	16		coding_disruption	unknown	unknown		1	2024	37853102	none_stated	medium
+MEI0055	APC	Familial adenomatous polyposis	SVA	SVA_F	intron		9	intron_retention	unknown	AD	2731	1	2024	38368425	long_read;rna_seq	medium
+MEI0056	APC	Familial adenomatous polyposis	SVA	SVA_D/SVA_E	intron		8	unknown	unknown	AD	2678	1	2024	38368425	long_read	low
+MEI0057	APC	Familial adenomatous polyposis	L1	L1HS Ta1d	intron		7	exonization;expression_loss	inherited	AD	6116	1	2025	40180948	long_read;rna_rt_pcr;rna_seq;segregation	high
+MEI0058	APC	Familial adenomatous polyposis	L1	L1Ta1d	coding_exon	16		coding_disruption	unknown	AD	6057	1	2026	41840221	long_read	high
+MEI0059	APOB	Hypobetalipoproteinemia	Alu	AluYa5	coding_exon	3		coding_disruption;exon_skipping	unknown	AD	160		2025	39586577	functional_assay	high
+MEI0060	AR	Partial androgen insensitivity syndrome	L1		exon_UTR5			expression_loss;utr_effect	inherited	XLR	1100	1	2019	31393562	rna_rt_pcr;segregation	high
+MEI0061	AR	Androgen insensitivity syndrome (partial)	L1		exon_UTR5			expression_loss;epigenetic_silencing;utr_effect	inherited	XLR	2752	1	2024	39009627	functional_assay;long_read;protein;rna_rt_pcr	high
+MEI0062	ARID2	Developmental disorder (ARID2-related)	L1		coding_exon			coding_disruption	de_novo	de_novo		1	2019	31604926	de_novo_confirmed	high
+MEI0063	ASPA	Canavan disease	SVA	SVA_E	intron		4	aberrant_splicing;expression_loss	founder	AR	2630		2025	40257001	long_read;rna_rt_pcr	high
+MEI0064	ATM	Hereditary Cancer	Alu		exon_unspecified			unknown	unknown	unknown			2016	27158268		low
+MEI0065	ATM	Not stated (ATM-related rare disease; clinical exome diagnosis)	L1		intron	3		unknown	unknown	AR		1	2020	31965078	none_stated	medium
+MEI0012	ATM	Ataxia telangiectasia	Alu	AluYb8	coding_exon	54		coding_disruption;exon_skipping;exonization;aberrant_splicing	unknown	AR	188	1	2023	37802069;41715124	functional_assay;minigene;none_stated;rna_rt_pcr;rna_seq	high
+MEI0066	ATM	Hereditary breast and ovarian cancer (suspected)	Alu	AluYa5	intron	7	54	exon_skipping	unknown	AD		7	2023	40225144	minigene;rna_rt_pcr	medium
+MEI0067	ATM	Hereditary cancer predisposition (prostate cancer at 53)	Alu	AluYa5	coding_exon	5		coding_disruption	unknown	AD	282	1	2026	41840221	long_read	high
+MEI0068	ATP7A	Menkes disease	Alu	AluYa5a2	coding_exon	9		exon_skipping	unknown	XL	382		2007	17178205	rna_rt_pcr	high
+MEI0069	ATP7A	Menkes Disease	Alu	AluYa5a2	exon_unspecified			unknown	unknown	unknown	282		2007	17178205		low
+MEI0070	ATP7A	Occipital horn syndrome	SVA	SVA_D	intron			exonization;aberrant_splicing	inherited	XLR	2800	1	2024	38960580	functional_assay;long_read;protein;rna_rt_pcr;segregation	high
+MEI0071	ATP7A	Menkes disease	processed_pseudogene		coding_exon	3		coding_disruption;expression_loss	inherited	XLR	500	1	2025	41393994	rna_rt_pcr;rna_seq	high
+MEI0072	AVPR2	AVPR2-related disease (phenotype not stated in main text)	L1		coding_exon	2		coding_disruption	unknown	unknown		1	2024	37853102	none_stated	medium
+MEI0073	BBS1	Bardet-Biedl syndrome	SVA	SVA_F	coding_exon	13		coding_disruption	inherited	AR	1700	1	2019	30484961	rna_rt_pcr;segregation	high
+MEI0074	BBS1	Bardet-Biedl syndrome	SVA	SVA_F	coding_exon	13		coding_disruption;expression_loss	founder	AR	2435	8	2021	33169370	protein;rna_rt_pcr;segregation	high
+MEI0075	BCHE	Acholinesterasemia (cholinesterase deficiency)	Alu		coding_exon	2		coding_disruption	inherited	AR	342	1	1991	1662391	segregation	high
+MEI0076	BCHE	Cholinesterase deficiency	Alu	AluYb9	exon_unspecified			unknown	unknown	unknown	289		1991	1662391		low
+MEI0077	BMPR2	Heritable pulmonary arterial hypertension	Alu	AluYb8	intron	1	5	exon_skipping;exonization;aberrant_splicing	inherited	AD		1	2014	24621962	rna_rt_pcr;segregation	high
+MEI0078	BRCA1	Hereditary breast/ovarian cancer predisposition	Alu	AluS	coding_exon			coding_disruption	unknown	AD	286		2005	16088935	none_stated	medium
+MEI0079	BRCA1	Hereditary breast and ovarian cancer	Alu	AluY	multiple	2		insertion_associated_deletion	unknown	AD	191		2013	23223007	none_stated	medium
+MEI0080	BRCA1	Hereditary Cancer	Alu		exon_unspecified			unknown	unknown	unknown			2016	27158268		low
+MEI0006	BRCA1	Hereditary breast cancer (early-onset bilateral)	SVA	SVA_F	intron		13	exonization;expression_loss;aberrant_splicing;coding_disruption	inherited	AD	2856	1	2019	31570822;33060287;40629180	long_read;rna_rt_pcr;rna_seq;segregation	high
+MEI0081	BRCA1	Hereditary breast and ovarian cancer syndrome	Alu	AluYb8	coding_exon	14		coding_disruption;exon_skipping	inherited	AD	319	1	2021	34828342	rna_rt_pcr;segregation	high
+MEI0082	BRCA2	Hereditary breast cancer predisposition	Alu	AluYc1	coding_exon	22		exon_skipping	inherited	AD	281		1996	8640237	rna_rt_pcr	high
+MEI0083	BRCA2	Breast Cancer	polyA_only		unknown			insertion_associated_deletion	unknown	unknown			2001	11284040		low
+MEI0013	BRCA2	Hereditary breast and ovarian cancer predisposition (secondary finding)	Alu	AluYa5	coding_exon	11		coding_disruption;exon_skipping	unknown	AD	285	1	2005	16088935;31965078	none_stated;rna_rt_pcr	high
+MEI0005	BRCA2	Hereditary breast cancer	Alu	AluYa5	coding_exon	3		coding_disruption;exon_skipping	founder	AD	280	14	2009	18363094;30553478;41210374;41840221	long_read;none_stated;rna_rt_pcr;segregation	high
+MEI0084	BRCA2	Hereditary Cancer	Alu		exon_unspecified			unknown	unknown	unknown			2016	27158268		low
+MEI0085	BRCA2	Hereditary Cancer	Alu		exon_unspecified			unknown	unknown	unknown			2016	27158268		low
+MEI0086	BRCA2	Hereditary Cancer	Alu		exon_unspecified			unknown	unknown	unknown			2016	27158268		low
+MEI0087	BRCA2	Hereditary Cancer	Alu		exon_unspecified			unknown	unknown	unknown			2016	27158268		low
+MEI0088	BRCA2	Hereditary Cancer	Alu		exon_unspecified			unknown	unknown	unknown			2016	27158268		low
+MEI0089	BRCA2	Hereditary Cancer	Alu		exon_unspecified			unknown	unknown	unknown			2016	27158268		low
+MEI0090	BRCA2	Hereditary Cancer	Alu		exon_unspecified			unknown	unknown	unknown			2016	27158268		low
+MEI0091	BRCA2	Hereditary Cancer	Alu		exon_unspecified			unknown	unknown	unknown			2016	27158268		low
+MEI0092	BRCA2	Early-onset breast cancer (hereditary breast cancer predisposition)	SVA	SVA_E	coding_exon	17		coding_disruption	unknown	AD		1	2020	32884827	none_stated	medium
+MEI0093	BRCA2	BRCA2-related disease (phenotype not stated in main text)	Alu		coding_exon	25		coding_disruption	unknown	unknown		1	2024	37853102	none_stated	medium
+MEI0094	BRCA2	Hereditary breast cancer	Alu	AluYb8	coding_exon	11		coding_disruption	inherited	AD	284	1	2026	41840221	long_read;segregation	high
+MEI0095	BTK	X-linked agammaglobulinemia	unknown		intron		9	unknown	unknown	XL	253		1999	9884350	none_stated	medium
+MEI0096	BTK	XLA	SVA		exon_unspecified			unknown	unknown	unknown	251		1999	9884350		low
+MEI0097	BTK	X-linked agammaglobulinemia	SVA		coding_exon	9		unknown	unknown	XLR		1	2005	15712380	none_stated	high
+MEI0098	BTK	X-linked agammaglobulinemia	Alu	AluY	coding_exon	9		unknown	unknown	XLR	281	1	2005	15712380	none_stated	high
+MEI0014	BUB1B	Premature chromatid separation / mosaic variegated aneuploidy syndrome	Alu		intron	9	8	exon_skipping	inherited	AR		1	2017	28611924;29673003	rna_rt_pcr;segregation	medium
+MEI0099	BUB1B	Premature chromatid separation / mosaic variegated aneuploidy syndrome	SVA		intron		2	exonization	inherited	AR	3000	1	2024	38102195	long_read;protein;rna_seq	high
+MEI0100	CAPN3	Limb girdle muscular dystrophy type 2A (LGMD2A)	Alu		intron	1	7	aberrant_splicing	inherited	AR		1	2012	22158424	rna_rt_pcr	medium
+MEI0007	CASR	Familial hypocalciuric hypercalcemia (heterozygous) / neonatal severe hyperparathyroidism (homozygous)	Alu	predicted-variant/human-specific-1 (PV/HS-1)	coding_exon	7		coding_disruption	founder	AD		3	1995	7717399;9109436;9217223	functional_assay;protein;segregation	high
+MEI0101	CASR	FHH and NSHPT	Alu	AluYa5	exon_unspecified			unknown	unknown	unknown	280		1995	7717399		low
+MEI0008	CC2D2A	Meckel-Gruber syndrome	L1	L1HS	coding_exon	7		coding_disruption	inherited	AR		1	2017	28374938;36765129;36970932	long_read;protein;segregation	high
+MEI0102	CC2D2A	CC2D2A-related ciliopathy with molar tooth sign (two affected siblings)	Alu		coding_exon	11		coding_disruption	inherited	AR		1	2024	37853102	segregation	medium
+MEI0103	CD40LG	X-linked hyper-IgM syndrome	Alu	AluYb8	coding_exon	1		coding_disruption;expression_loss	inherited	XL	292	1	2007	17146684	protein;segregation	high
+MEI0104	CFAP251	Multiple morphological abnormalities of the sperm flagellum (MMAF), male infertility	SVA		multiple			insertion_associated_deletion	founder	AR			2018	30122540	functional_assay	medium
+MEI0105	CFTR	Cystic fibrosis	Alu	AluY	coding_exon	16		unknown	unknown	AR	46		2008	17531547	none_stated	medium
+MEI0106	CFTR	Cystic Fibrosis	Alu	AluYa5	exon_unspecified			unknown	unknown	unknown	281		2008	17531547		low
+MEI0107	CFTR	Cystic fibrosis	Alu		coding_exon	15		coding_disruption;aberrant_splicing	unknown	AR			2024	38580140	none_stated	medium
+MEI0108	CHD7	CHARGE syndrome	Alu	AluYa5/8	multiple			insertion_associated_deletion	de_novo	de_novo	75	1	2007	17334995	de_novo_confirmed	medium
+MEI0109	CHD8	Not stated (CHD8-related rare disease; clinical exome diagnosis)	Alu		coding_exon	31		coding_disruption	unknown	AD		1	2020	31965078	none_stated	medium
+MEI0015	CHM	Choroideremia	L1	L1 Ta	coding_exon			coding_disruption	unknown	XLR	6017	1	2003	12827496;17483097	functional_assay;rna_rt_pcr;segregation	medium
+MEI0110	CHM	Choroideremia	Alu		unknown			unknown	unknown	XLR		1	2019	30341801	functional_assay;protein;rna_rt_pcr	medium
+MEI0111	CHM	Choroideremia	SVA		coding_exon	2		coding_disruption;exon_skipping	unknown	XLR		1	2020	32441177	protein;rna_rt_pcr	high
+MEI0016	CLCN5	Dent disease	Alu	AluYa5	coding_exon	11		coding_disruption;exon_skipping	de_novo	XL	345	1	2003	14569459;16041495	de_novo_confirmed;rna_rt_pcr;segregation	high
+MEI0112	CLCN5	Dent’s Disease	Alu	AluYa5	exon_unspecified			unknown	unknown	unknown	281		2003	14569459		low
+MEI0113	COL4A1	COL4A1-related cerebral small vessel disease (late-onset ischemic and hemorrhagic stroke, leukoencephalopathy)	Alu		intron		16	unknown	unknown	AD		1	2024	37582654	none_stated	low
+MEI0114	COL4A6	Alport syndrome	polyA_only		unknown			insertion_associated_deletion	unknown	unknown			1999	9915944		low
+MEI0115	COL6A2	COL6A2-related disease (phenotype not stated in main text)	Alu		coding_exon	10		coding_disruption	inherited	AD		1	2024	37853102	segregation	medium
+MEI0116	CPLANE1	Orofaciodigital syndrome type VI	Alu		intron			exon_skipping;expression_loss	unknown	AR		1	2026	42732008	long_read;rna_rt_pcr	high
+MEI0117	CRB1	Retinitis pigmentosa 12 (autosomal recessive RP with preserved para-arteriolar retinal pigment epithelium)	Alu	AluY	coding_exon			coding_disruption	unknown	AR	244	1	1999	10508521	none_stated	medium
+MEI0118	CSDE1	Autism spectrum disorder with intellectual disability and macrocephaly	Alu		coding_exon			coding_disruption	de_novo	de_novo		1	2021	34838103	de_novo_confirmed	medium
+MEI0119	CTRC	Chronic pancreatitis	Alu	Alu	multiple			insertion_associated_deletion	inherited	unknown	31		2013	23721890	segregation	medium
+MEI0120	CTSK	Pycnodysostosis	Alu		intron		7	exonization	inherited	AR	301	2	2014	24767306	segregation	medium
+MEI0121	CYBB	CGD	L1	L1 Ta	exon_unspecified			unknown	unknown	unknown	1722		1998	9618766		low
+MEI0122	CYBB	X-linked chronic granulomatous disease	L1	L1 Ta	intron		5	exon_skipping;exonization;aberrant_splicing	unknown	XL	836	1	2000	10980575	rna_rt_pcr	high
+MEI0123	CYBB	X-linked chronic granulomatous disease	L1		unknown			unknown	de_novo	XLR		1	2002	12094329	functional_assay	high
+MEI0124	CYBB	chronic granulomatous disease	processed_pseudogene	TMF1 retrocopy	intron		1	exonization	inherited	XLR	5800	1	2014	24478191	rna_rt_pcr	high
+MEI0125	CYBB	Chronic granulomatous disease	L1		intron		3	aberrant_splicing	de_novo	mosaic			2023	35997928	functional_assay;protein;rna_seq	high
+MEI0126	DEPDC5	Not stated (DEPDC5-related rare disease; clinical exome diagnosis)	Alu		coding_exon	30		coding_disruption	unknown	AD		1	2020	31965078	none_stated	high
+MEI0127	DICER1	DICER1-related tumour predisposition	Alu	AluY	coding_exon			coding_disruption	unknown	AD			2026	41916722	long_read	medium
+MEI0017	DMD	Duchenne muscular dystrophy	L1	L1 Ta	coding_exon	44		exon_skipping;coding_disruption	de_novo	XLR	606	1	1993	8387534;16808900	de_novo_confirmed;rna_rt_pcr;segregation	high
+MEI0018	DMD	Becker muscular dystrophy	L1	L1HS	intron	8	51	exonization;aberrant_splicing	de_novo	XLR	2000	1	1994	7920631;28972564	de_novo_confirmed;long_read;none_stated;protein;rna_rt_pcr;segregation	high
+MEI0128	DMD	DMD	L1	L1 Ta	exon_unspecified			unknown	unknown	unknown	1400		1994	7920631		low
+MEI0129	DMD	X-linked dilated cardiomyopathy	L1	L1 Ta	exon_UTR5	1		expression_loss	unknown	XL	530	2	1998	9618170	rna_rt_pcr	high
+MEI0130	DMD	DMD	L1	L1 Ta	exon_unspecified			unknown	unknown	unknown	452		2006	16808900		low
+MEI0019	DMD	Duchenne muscular dystrophy	L1	L1HS Ta-1d (source element LRE4)	coding_exon	67		coding_disruption;transduction_effect;exon_skipping	unknown	XLR	330	1	2010	20827276;22095564	de_novo_confirmed;functional_assay;rna_rt_pcr	high
+MEI0131	DMD	Duchenne/Becker muscular dystrophy	L1		unknown			unknown	unknown	XLR	878	2	2010	20485447	none_stated	low
+MEI0132	DMD	DMD	L1	L1 Ta	exon_unspecified			unknown	unknown	unknown	212		2010	20827276		low
+MEI0133	DMD	Becker muscular dystrophy (asymptomatic hyperCKemia)	L1	L1HS	intron	1	1	exonization	unknown	XLR	6051	1	2022	36092865	long_read;protein;rna_rt_pcr	high
+MEI0134	DMD	Dystrophinopathy (predicted Becker-like mild phenotype)	Alu	AluYa5	coding_exon	15		exon_skipping	unknown	XLR	353	1	2023	37298193	rna_rt_pcr	high
+MEI0135	DMD	Duchenne muscular dystrophy	Alu	AluYa5	coding_exon	59		coding_disruption	inherited	XLR		1	2024	39016090	segregation	high
+MEI0136	EBP	X-linked dominant chondrodysplasia punctata (CDPX2)	SVA	SVA_F1	unknown	2		unknown	inherited	XLD	4500	1	2022	34999728	segregation	high
+MEI0137	EFTUD2	Not stated (EFTUD2-related rare disease; clinical exome diagnosis)	Alu		coding_exon	14		coding_disruption	unknown	AD		1	2020	31965078	none_stated	high
+MEI0138	ETFB	Not stated (ETFB-related rare disease; clinical exome diagnosis)	Alu		coding_exon	4		coding_disruption	unknown	AR		1	2020	31965078	none_stated	high
+MEI0139	EYA1	Branchio-oto-renal (BOR) syndrome	Alu	AluYa5	coding_exon			coding_disruption	de_novo	de_novo		1	1997	9361030	de_novo_confirmed	medium
+MEI0140	EYA1	Branchio-oto-renal syndrome	L1	L1 Hs	multiple			coding_disruption;insertion_associated_deletion	de_novo	AD	3756	1	2010	20130917	de_novo_confirmed;rna_rt_pcr	high
+MEI0141	EYS	Retinitis pigmentosa (autosomal recessive)	Alu	AluYa5	coding_exon	43		coding_disruption	inherited	AR	352	1	2024	38704576	long_read;segregation	high
+MEI0020	F8	haemophilia A	L1	L1 Ta	coding_exon	14		coding_disruption	unknown	XLR	3800	1	1988	2831458;2497061	none_stated	high
+MEI0021	F8	haemophilia A	L1	L1 preTa	coding_exon	14		coding_disruption	unknown	XLR	2300	1	1988	2831458;2497061	none_stated	high
+MEI0142	F8	Haemophilia A (severe)	L1		multiple			insertion_associated_deletion	unknown	XLR	38		1998	9609225	none_stated	medium
+MEI0143	F8	Hemophilia A (severe)	Alu	AluYb8	coding_exon	14		coding_disruption	unknown	XLR	290	1	2001	11713379	none_stated	high
+MEI0144	F8	Severe hemophilia A	Alu	AluYb9	intron			exon_skipping;expression_loss	unknown	XLR	288		2003	12884004	none_stated	high
+MEI0145	F8	Hemophilia A	Alu	AluYb8	exon_unspecified			unknown	unknown	unknown			2008	18691168		low
+MEI0146	F8	Hemophilia A (severe)	unknown		unknown			unknown	unknown	XLR		1	2024	38484912	none_stated	medium
+MEI0009	F9	Hemophilia B (severe)	Alu	AluY	coding_exon	5		coding_disruption	de_novo	XLR	322	1	1993	8069649;10679958;11385709	de_novo_confirmed;none_stated	high
+MEI0147	F9	Hemophilia B	Alu	AluYa5a2	exon_unspecified			unknown	unknown	unknown	244		1993	8069649		low
+MEI0148	F9	Hemophilia B	Alu	AluYa5a2	exon_unspecified			unknown	unknown	unknown	237		2000	10679958		low
+MEI0022	F9	Hemophilia B	L1	L1 Ta	coding_exon			coding_disruption	de_novo	XLR	463	1	2001	11385709;15086324	none_stated;segregation	medium
+MEI0149	F9	Hemophilia B	L1	L1 Ta	exon_unspecified			unknown	unknown	unknown	163		2004	15086324		low
+MEI0150	F9	Hemophilia B (severe)	SVA	SVA_F	unknown	6		aberrant_splicing;expression_loss	unknown	XLR	2500		2015	25739383	minigene	high
+MEI0151	F9	Hemophilia B	SVA	F	exon_unspecified			unknown	unknown	unknown	2524		2015	25739383		low
+MEI0152	FAS	autoimmune lymphoproliferative syndrome	Alu	AluSb1	intron		7	exon_skipping	inherited	AD	331	1	2002	12215906	functional_assay;rna_rt_pcr;segregation	high
+MEI0153	FAS	ALPS	Alu	AluYa5	intron			unknown	unknown	unknown	281		2002	12215906		low
+MEI0154	FBN1	Marfan-spectrum connective tissue disorder with mildly dilated aortic sinus (does not fulfil revised Ghent criteria)	SVA		multiple			insertion_associated_deletion	unknown	AD		1	2017	28331219	none_stated	medium
+MEI0155	FBN1	Marfan syndrome	Alu	AluYa5	coding_exon	54		coding_disruption	inherited	AD	337	1	2023	37264881	segregation	high
+MEI0156	FBP1	Fructose-1,6-bisphosphatase deficiency	Alu		unknown			unknown	unknown	AR			2017	28599390	none_stated	medium
+MEI0157	FERMT1	Kindler syndrome (poikiloderma)	unknown		unknown			aberrant_splicing	unknown	AR		1	2023	36450799	rna_rt_pcr	medium
+MEI0158	FGFR1	Congenital hypogonadotropic hypogonadism (with hyposmia)	Alu		coding_exon	9		coding_disruption	de_novo	de_novo	333	1	2025	40607221	de_novo_confirmed;long_read	high
+MEI0023	FGFR2	Apert syndrome	Alu	AluYk13	coding_exon	9		aberrant_splicing	de_novo	de_novo	360	1	1999	9973282;18726952	de_novo_confirmed;none_stated	high
+MEI0159	FGFR2	Apert syndrome	Alu		intron	9		aberrant_splicing	de_novo	de_novo	360	1	1999	9973282	de_novo_confirmed;rna_rt_pcr	high
+MEI0160	FGFR2	Apert syndrome	Alu	AluYa5	intron			aberrant_splicing	unknown	unknown	283		1999	9973282		low
+MEI0161	FGFR2	Apert syndrome	Alu	AluYb8	exon_unspecified			unknown	unknown	unknown	288		1999	9973282		low
+MEI0162	FGFR2	Apert syndrome	Alu	AluYk13	exon_unspecified			unknown	unknown	unknown	214		2009	18726952		low
+MEI0163	FGFR2	Apert syndrome	Alu		intron	2	7	unknown	de_novo	AD		1	2023	38318288	de_novo_confirmed	medium
+MEI0002	FKTN	Fukuyama congenital muscular dystrophy	SVA	E	exon_UTR3	10		exonization;aberrant_splicing;expression_loss;coding_disruption	founder	AR	3000	1	1998	9690476;10545611;10682317;11153909;11464484;12100373;15103718;16222679;19324374;19842201;20620061;21979053;28680109;31983616	functional_assay;none_stated;protein;rna_rt_pcr;segregation	high
+MEI0164	FKTN	Fukuyama-type congenital muscular dystrophy	L1	L1Ta	unknown			unknown	unknown	AR	1200		1999	10545611	none_stated	medium
+MEI0165	FKTN	Congenital muscular dystrophy (alpha-dystroglycanopathy)	unknown		unknown			unknown	unknown	AR			2013	23453855	none_stated	low
+MEI0166	FKTN	alpha-dystroglycan-related muscular dystrophy (FCMD/MEB spectrum)	unknown		unknown			unknown	unknown	AR			2023	37087885	none_stated	medium
+MEI0167	GAA	Infantile-onset Pompe disease	SVA	SVA_D/SVA_E (source: polymorphic CPX-1 on chr20)	intron		15	exonization;premature_polyadenylation;expression_loss;transduction_effect	inherited	AR	3394	1	2021	34639227	functional_assay;rna_rt_pcr	high
+MEI0024	GK	Benign isolated glycerol kinase deficiency	Alu	AluY	intron		4	aberrant_splicing	unknown	XLR	316		2000	10737976;16549535	none_stated;rna_rt_pcr	medium
+MEI0168	GK	GKD	Alu	AluYc1	intron			unknown	unknown	unknown	241		2000	10737976		low
+MEI0169	GLA	Fabry disease (late-onset cardiac phenotype)	Alu	AluYb8	unknown	7		unknown	unknown	XL			2019	31329829	none_stated	medium
+MEI0010	GNAS	Autosomal dominant pseudohypoparathyroidism type 1B (PHP1B)	SVA	SVA_E	intron		1	epigenetic_silencing;premature_polyadenylation;aberrant_transcript_other	inherited	AD	2800	1	2022	35811283;40249781;42925263	functional_assay;long_read;rna_rt_pcr;segregation	high
+MEI0170	GNAS	Pseudohypoparathyroidism type 1B	SVA		unknown			expression_loss;aberrant_transcript_other	inherited	AD	1000	1	2022	35859320	rna_rt_pcr;rna_seq	medium
+MEI0171	GNE	GNE myopathy	unknown		unknown			unknown	unknown	AR			2019	30390020	none_stated	medium
+MEI0172	GNPTAB	Mucolipidosis type II	Alu	AluYa5	coding_exon	5		coding_disruption;exon_skipping	unknown	AR	279	1	2008	17964840	rna_rt_pcr	high
+MEI0173	GRIN2B	Developmental disorder / intellectual disability	Alu		unknown			unknown	de_novo	de_novo		1	2023	36450799	de_novo_confirmed	medium
+MEI0174	GYS2	Glycogen storage disease (GYS2-related, suspected GSD0)	L1		coding_exon	10		coding_disruption;exon_skipping;expression_loss	inherited	AR	1518	1	2026	41588148	long_read;rna_seq;segregation	high
+MEI0025	HBB	beta+-thalassemia	L1	L1 Ta	intron		2	aberrant_splicing;intron_retention;premature_polyadenylation;expression_loss;epigenetic_silencing	unknown	AR	6000		1999	10401005;23878091	functional_assay;rna_rt_pcr	high
+MEI0026	HCFC1	X-linked intellectual disability / neurodevelopmental disorder	SVA	SVA with 3' L1 sequence	exon_UTR3			expression_loss;utr_effect	inherited	XLR	4902	1	2024	38585854;39299904	long_read;rna_seq	low
+MEI0175	HESX1	Anterior pituitary aplasia (combined pituitary hormone deficiency) with retinal coloboma	Alu	AluYb8	coding_exon	3		coding_disruption;exon_skipping	inherited	AR	288	1	2005	15841484	rna_rt_pcr	high
+MEI0176	HMBS	acute intermittent porphyria	Alu	AluYa5	coding_exon	5		coding_disruption;expression_loss	inherited	AD	333	1	1999	10408772	functional_assay;protein;rna_rt_pcr;segregation	high
+MEI0177	HMBS	AIP	Alu	AluYa5	exon_unspecified			unknown	unknown	unknown	279		1999	10408772		low
+MEI0178	IDS	Mucopolysaccharidosis type II (Hunter syndrome)	Alu	AluS	intron			exon_skipping;insertion_associated_deletion	unknown	XLR	157	1	2003	12579417	rna_rt_pcr	low
+MEI0179	IFNGR1	Mendelian susceptibility to mycobacterial disease (complete AR IFN-γR1 deficiency)	Alu	AluYa5	coding_exon	3		coding_disruption	inherited	AR	248	1	2019	31377971	functional_assay;protein	high
+MEI0180	IL2RG	XSCID	Alu	AluYa5	intron			unknown	unknown	unknown			2016	27158268		low
+MEI0181	IQCB1	Senior-Løken syndrome	L1		intron		6	exon_skipping;exonization	unknown	AR	6201	1	2025	40263280	long_read;rna_rt_pcr	high
+MEI0182	ITGB3	Glanzmann thrombasthenia	SVA		intron		11	aberrant_splicing	inherited	AR		1	2023	37604334	protein;rna_rt_pcr;rna_seq;segregation	high
+MEI0183	KARS1	Progressive infantile onset leukoencephalopathy with or without deafness	SVA		coding_exon	7		coding_disruption	unknown	AR		1	2024	37869996	none_stated	medium
+MEI0184	KMT2D	Kabuki syndrome type 1	Alu	AluY	coding_exon	36		coding_disruption	de_novo	de_novo	319	1	2025	40301896	de_novo_confirmed;functional_assay	high
+MEI0185	LDLR	Familial hypercholesterolemia	L1		coding_exon	7		coding_disruption	inherited	AD	918	1	2024	38433605	segregation	high
+MEI0186	LDLR	Homozygous familial hypercholesterolemia	Alu	AluYb8	coding_exon	17		coding_disruption;aberrant_splicing	inherited	AD	309	1	2025	39843294	rna_rt_pcr;segregation	high
+MEI0027	LDLRAP1	Autosomal recessive hypercholesterolemia	SVA	E	intron		1	exonization;expression_loss	unknown	AR	2600	1	2002	12417523;21979053	protein;rna_rt_pcr	high
+MEI0187	LPL	Lipoprotein lipase deficiency	Alu	AluYb9	multiple			insertion_associated_deletion	unknown	AR	150	1	2007	17706445	protein	high
+MEI0188	LTBP1	Congenital diaphragmatic hernia	L1		intron			unknown	de_novo	AR		1	2024	38699361	de_novo_confirmed	low
+MEI0004	MAK	Retinitis pigmentosa (autosomal recessive)	Alu	AluYa8	coding_exon	9		coding_disruption;aberrant_splicing;exon_skipping;expression_loss	founder	AR	353	21	2011	21825139;25255364;26558903;26894652;28619647;40578471	functional_assay;none_stated;protein;rna_rt_pcr;segregation	high
+MEI0189	MAK	RP	Alu	AluYb8	exon_unspecified			unknown	unknown	unknown	281		2011	21825139		low
+MEI0190	MAK	Retinitis pigmentosa	Alu		coding_exon	10		coding_disruption	founder	AR	353		2018	29276052	none_stated	high
+MEI0191	MAK	Not stated (MAK-related rare disease; clinical exome diagnosis)	Alu		coding_exon	10		coding_disruption	founder	AR		1	2020	31965078	none_stated	high
+MEI0192	MAN2B1	Alpha-mannosidosis	Alu		unknown			unknown	unknown	AR		1	2024	38192009	functional_assay	medium
+MEI0193	MATR3	Early-onset behavioral variant frontotemporal dementia	processed_pseudogene		intergenic			unknown	inherited	unknown		1	2020	33408686	segregation	low
+MEI0194	MCC	Hepatocellular carcinoma (germline MCC insertion proposed to contribute to tumorigenesis)	L1	L1-Ta	unknown			expression_loss	unknown	unknown	5300		2013	23540693	protein;rna_rt_pcr	low
+MEI0195	MCC	Hepatocellular carcinoma (germline MCC insertion proposed to contribute to tumorigenesis)	Alu	AluY	unknown			expression_loss	unknown	unknown			2013	23540693	protein;rna_rt_pcr	low
+MEI0196	MEF2C	Developmental disorder (MEF2C-related)	L1		coding_exon			coding_disruption	de_novo	de_novo		1	2019	31604926	de_novo_confirmed	high
+MEI0028	MEN1	Multiple endocrine neoplasia type 1	Alu	AluYb8	coding_exon	2		coding_disruption	inherited	AD		2	2026	41421069;42055800	long_read;segregation	high
+MEI0197	MLH1	Hereditary Cancer	L1		exon_unspecified			unknown	unknown	unknown			2016	27158268		low
+MEI0198	MLH1	Hereditary Cancer	L1		exon_unspecified			unknown	unknown	unknown			2016	27158268		low
+MEI0029	MLH1	Lynch syndrome	Alu	AluY5a	coding_exon	6		exon_skipping;coding_disruption;epigenetic_silencing	inherited	AD		1	2018	29790873;30815977	functional_assay;none_stated;segregation	high
+MEI0199	MLH1	Lynch syndrome (early-onset colorectal cancer)	Alu	AluSx	intron	1	7	exonization;aberrant_splicing;premature_polyadenylation	unknown	AD	115	1	2020	33058565	protein;rna_rt_pcr	high
+MEI0200	MSH2	Hereditary non-polyposis colorectal cancer (Lynch syndrome)	Alu	AluJ	coding_exon	6		coding_disruption	inherited	AD	184	1	2004	15340835	segregation	low
+MEI0201	MSH2	HNPCC	Alu	AluJ	exon_unspecified			unknown	unknown	unknown	85		2004	15340835		low
+MEI0202	MSH2	Hereditary Cancer	Alu		exon_unspecified			unknown	unknown	unknown			2016	27158268		low
+MEI0203	MSH2	Lynch syndrome / inherited colorectal cancer	Alu		coding_exon	8		unknown	unknown	AD			2018	29967336	none_stated	medium
+MEI0204	MSH2	Lynch syndrome	SVA	SVA_F1	coding_exon	12		coding_disruption;exonization	inherited	AD	2937	1	2021	33822432	protein;rna_rt_pcr;segregation	high
+MEI0205	MSH2	Lynch syndrome	SVA		coding_exon	3		aberrant_splicing	unknown	AD			2021	33293698	rna_seq	medium
+MEI0206	MSH2	Lynch syndrome	SVA	SVA_F	coding_exon	12		coding_disruption	inherited	AD	3200	1	2026	42423801	long_read;protein;segregation	high
+MEI0207	MSH4	Hereditary breast and/or ovarian cancer (candidate susceptibility)	Alu	AluYc3	intron			unknown	unknown	AD		1	2026	42380125	rna_rt_pcr;rna_seq	low
+MEI0208	MSH6	Lynch syndrome	SVA		coding_exon	5		aberrant_splicing	unknown	AD			2021	33293698	rna_seq	medium
+MEI0209	MTOR	Hereditary breast and/or ovarian cancer (candidate susceptibility)	Alu	AluYb9	intron		6	unknown	unknown	AD		1	2026	42380125	rna_rt_pcr;rna_seq	low
+MEI0210	NDUFV2	Mitochondrial complex I deficiency	Alu		multiple			exon_skipping;insertion_associated_deletion	unknown	AR			2021	34405929	rna_seq	medium
+MEI0211	NEK1	Right aortic arch (congenital heart defect)	Alu		intron			unknown	de_novo	de_novo		1	2024	38699361	de_novo_confirmed	low
+MEI0011	NF1	Neurofibromatosis type 1	Alu	AluY	intron	2	14	exon_skipping;insertion_associated_deletion;coding_disruption	unknown	AD	280	1	1991	1719426;22125493;38699361	de_novo_confirmed;none_stated;rna_rt_pcr	high
+MEI0212	NF1	neurofibromatosis type 1	Alu		unknown			unknown	de_novo	de_novo			2010	19910506	none_stated	low
+MEI0213	NF1	Neurofibromatosis type 1	Alu	AluY	intron	2	10	exon_skipping;insertion_associated_deletion	unknown	AD	281	1	2011	22125493	rna_rt_pcr	high
+MEI0214	NF1	Neurofibromatosis type 1	Alu	AluYa5	coding_exon	6		exon_skipping	unknown	AD	282	1	2011	22125493	rna_rt_pcr	high
+MEI0215	NF1	Neurofibromatosis type 1	Alu	AluYa5	coding_exon	21		aberrant_splicing	unknown	AD	284	1	2011	22125493	rna_rt_pcr	high
+MEI0216	NF1	Neurofibromatosis type 1	Alu	AluYa5	coding_exon	22		exon_skipping	unknown	AD	284	1	2011	22125493	rna_rt_pcr	high
+MEI0217	NF1	Neurofibromatosis type 1	Alu	AluYa5	coding_exon	33		exon_skipping	unknown	AD	279	1	2011	22125493	rna_rt_pcr	high
+MEI0218	NF1	Neurofibromatosis type 1	Alu	AluYa5	coding_exon	47		exon_skipping;aberrant_splicing	unknown	AD	264	1	2011	22125493	rna_rt_pcr	high
+MEI0219	NF1	Neurofibromatosis type 1	Alu	AluYb8	coding_exon	12		exonization;aberrant_splicing	unknown	AD	249	1	2011	22125493	rna_rt_pcr	high
+MEI0220	NF1	Neurofibromatosis type 1	Alu	AluYb8	intron	2	14	exon_skipping	unknown	AD	288	1	2011	22125493	rna_rt_pcr	high
+MEI0221	NF1	Neurofibromatosis type 1	Alu	AluYb8	coding_exon	21		aberrant_splicing	unknown	AD	289	1	2011	22125493	rna_rt_pcr	high
+MEI0222	NF1	Neurofibromatosis type 1	Alu	AluYb8	coding_exon	22		exon_skipping	unknown	AD	288	1	2011	22125493	rna_rt_pcr	high
+MEI0223	NF1	Neurofibromatosis type 1	Alu	AluYb8	coding_exon	33		exon_skipping	unknown	AD	288	1	2011	22125493	rna_rt_pcr	high
+MEI0224	NF1	Neurofibromatosis type 1	Alu	AluYb8	intron	7	48	exon_skipping	unknown	AD	268	1	2011	22125493	rna_rt_pcr	high
+MEI0225	NF1	Neurofibromatosis type 1	polyA_only		coding_exon	25		aberrant_splicing	unknown	AD	120	1	2011	22125493	rna_rt_pcr	high
+MEI0226	NF1	Neurofibromatosis type 1	L1	L1 pre-Ta	coding_exon	23		exon_skipping	unknown	AD	1753	1	2011	22125493	rna_rt_pcr	high
+MEI0227	NF1	Neurofibromatosis type 1	L1	L1 Ta-1d	coding_exon	39		exonization;aberrant_splicing	unknown	AD	6021	1	2011	22125493	rna_rt_pcr	high
+MEI0228	NF1	Neurofibromatosis type 1	L1		intron	2	9	exon_skipping;exonization	unknown	AD	2200	1	2011	22125493	rna_rt_pcr	high
+MEI0229	NF1	NF1	L1	L1 preTa	exon_unspecified			unknown	unknown	unknown	1800		2011	22125493		low
+MEI0230	NF1	Neurofibromatosis type 1 (atypical large NF1 deletion)	SVA	SVA_F1	intergenic			insertion_associated_deletion	de_novo	AD	1700	1	2014	24958239	de_novo_confirmed;segregation	high
+MEI0231	NF1	Neurofibromatosis type 1 (atypical large NF1 deletion)	SVA	SVA_F	intergenic			insertion_associated_deletion	de_novo	mosaic	1300	1	2014	24958239	de_novo_confirmed	high
+MEI0232	NF1	Neurofibromatosis type 1	L1		intron		15	exon_skipping;expression_loss	inherited	AD	2100	1	2023	37238595	rna_rt_pcr;segregation	high
+MEI0233	NF1	Neurofibromatosis type 1	Alu		coding_exon	37		coding_disruption;aberrant_splicing	unknown	AD		1	2023	37506127	none_stated	medium
+MEI0234	NF1	Brain tumor / neurofibromatosis type 1 predisposition	Alu		coding_exon	24		coding_disruption	de_novo	de_novo		1	2024	38699361	de_novo_confirmed	medium
+MEI0235	NIPBL	NIPBL-related disease (phenotype not stated in main text)	Alu		intron	6	26	unknown	de_novo	de_novo		1	2024	37853102	de_novo_confirmed	medium
+MEI0030	NKX2-1	NKX2-1-related disorder (chorea, pulmonary dysfunction, hypothyroidism)	Alu	AluYa5	coding_exon	3		coding_disruption;expression_loss	de_novo	AD	347	1	2023	36420574;37853102	de_novo_confirmed;functional_assay;segregation	high
+MEI0236	NMNAT1	Leber congenital amaurosis	SVA	SVA_F	intron		2	exonization	founder	AR	2691	4	2025	40251809	long_read;rna_seq	high
+MEI0237	NR5A1	46,XY differences of sexual development	SVA		intron		4	expression_loss	inherited	AD		1	2024	38131126	long_read;segregation	high
+MEI0031	NSD1	Sotos syndrome (developmental disorder)	Alu		coding_exon	10		coding_disruption	de_novo	de_novo		1	2019	31604926;31965078	de_novo_confirmed;functional_assay;none_stated	high
+MEI0238	NT5C3A	Pyrimidine 5'-nucleotidase deficient hemolytic anemia	Alu	Alu Ya5	coding_exon	9		exon_skipping	unknown	AR	281		2006	16461318	rna_rt_pcr	medium
+MEI0239	OCRL	Not stated (OCRL-related rare disease; clinical exome diagnosis)	L1		coding_exon	23		coding_disruption	unknown	XL		1	2020	31965078	none_stated	high
+MEI0240	OFD1	Oral-facial-digital syndrome	Alu		coding_exon	6		coding_disruption	de_novo	de_novo		1	2020	31965078	de_novo_confirmed	high
+MEI0241	OPA1	Autosomal dominant optic atrophy	Alu	AluYb8	intron		7	exon_skipping	inherited	AD	325	1	2010	20157369	rna_rt_pcr;segregation	high
+MEI0242	PALB2	Hereditary Cancer	Alu		exon_unspecified			unknown	unknown	unknown			2016	27158268		low
+MEI0243	PALB2	Hereditary breast cancer	Alu		coding_exon	9		coding_disruption	unknown	AD		1	2022	35277653	none_stated	high
+MEI0244	PALB2	Hereditary breast cancer	Alu	AluYb8	coding_exon	13		coding_disruption	unknown	AD	290	1	2026	41840221	long_read	medium
+MEI0245	PARN	Dyskeratosis congenita	SVA		intron		20	exonization;intron_retention	inherited	AR	2537	1	2025	40896794	long_read;protein;rna_rt_pcr;rna_seq;segregation	high
+MEI0246	PDHX	Pyruvate dehydrogenase complex deficiency	L1	L1 Hs	multiple			insertion_associated_deletion	unknown	unknown	6086		2007	17152059	none_stated	high
+MEI0247	PEX1	Peroxisome biogenesis disorder	SVA		intron		8	aberrant_splicing;expression_loss	unknown	AR	2600	1	2026	41588148	long_read;rna_seq	medium
+MEI0248	PHEX	X-linked hypophosphatemia	L1		coding_exon	22		coding_disruption	inherited	XLD	483	1	2026	42079344	segregation	high
+MEI0249	PKLR	Severe Hereditary Nonspherocytic Hemolytic Anemia	Alu	Yb8	exon_unspecified			unknown	unknown	unknown	288		2016	27158268		low
+MEI0250	PKLR	Pyruvate kinase deficiency (hereditary nonspherocytic hemolytic anemia)	Alu	AluYb9	coding_exon	6		coding_disruption;expression_loss	inherited	AR	370	2	2018	29288557	rna_rt_pcr;segregation	high
+MEI0251	PMM2	Congenital disorder of glycosylation type Ia (PMM2-CDG)	Alu	AluYb8	multiple			insertion_associated_deletion	unknown	AR	263	1	2007	17307006	rna_rt_pcr	medium
+MEI0252	PMS2	Lynch syndrome	SVA	SVA_F	intron		7	aberrant_transcript_other	unknown	AD	2200		2012	22461402	rna_rt_pcr	high
+MEI0253	PMS2	Lynch syndrome	SVA	F	intron			aberrant_splicing	unknown	unknown	2200		2012	22461402		low
+MEI0032	PNPLA2	Neutral lipid storage disease with myopathy (NLSDM), subclinical	SVA	E	coding_exon	3		coding_disruption;expression_loss;exonization	inherited	AR	1890	1	2010	20471263;21979053	rna_rt_pcr;segregation	high
+MEI0254	POLB	Hereditary breast and/or ovarian cancer (candidate susceptibility)	Alu	AluYa5	intron		2	unknown	unknown	AD		1	2026	42380125	rna_rt_pcr;rna_seq	low
+MEI0255	POLK	Hereditary breast and/or ovarian cancer (candidate susceptibility)	L1		coding_exon	15		coding_disruption	unknown	AD		1	2026	42380125	rna_rt_pcr;rna_seq	low
+MEI0256	POMT1	Walker-Warburg syndrome	Alu	AluYa5	coding_exon	3		coding_disruption	founder	AR	290	3	2007	17079174	none_stated	medium
+MEI0257	PTCH1	Gorlin syndrome	Alu		coding_exon	2		coding_disruption	unknown	AD		1	2024	38864234	rna_seq	high
+MEI0258	PTEN	Cowden syndrome	Alu		coding_exon	5		coding_disruption	unknown	AD		1	2017	28513612	none_stated	medium
+MEI0259	PTEN	Pediatric sacrococcygeal germ cell tumor (possible PTEN hamartoma tumor syndrome predisposition)	L1		exon_UTR3			expression_loss;utr_effect	unknown	AD		1	2026	42685354	rna_seq	low
+MEI0260	RAD52	Hereditary breast cancer susceptibility (moderate risk)	SVA	SVA_F	multiple			insertion_associated_deletion	founder	AD	2800		2023	37578974	long_read	low
+MEI0261	RB1	Familial retinoblastoma	L1	L1 Ta-1d	intron		14	aberrant_splicing	de_novo	AD	6044	1	2016	26763876	rna_rt_pcr;segregation	high
+MEI0003	RP1	Hereditary retinal degeneration (autosomal recessive retinitis pigmentosa)	Alu	AluY	coding_exon	4		coding_disruption	inherited	AR	328	12	2019	31253780;32193659;33247286;34073704;34183725;35205402;38819824;39448676;39457414;41290015;42847597	long_read;none_stated;segregation	high
+MEI0262	RP1	Retinitis pigmentosa (autosomal dominant)	L1		coding_exon	4		coding_disruption	inherited	AD	5571	1	2024	40225919	long_read;segregation	high
+MEI0033	RP2	X-linked retinitis pigmentosa 2	L1	L1 Ta	intron			unknown	unknown	XLR	6000		1998	9697692;10401005	functional_assay;none_stated	medium
+MEI0263	RPGRIP1	RPGRIP1-related retinal dystrophy (Leber congenital amaurosis / early-onset retinal dystrophy)	Alu	AluY	coding_exon	7		coding_disruption	inherited	AR	400	1	2023	37761981	segregation	high
+MEI0264	RPL11	Not stated (RPL11-related rare disease; clinical exome diagnosis)	SVA		coding_exon	4		coding_disruption	unknown	AD		1	2020	31965078	none_stated	high
+MEI0265	RPS6KA3	Coffin-Lowry syndrome	L1		intron		3	exon_skipping	de_novo	de_novo	2800	1	2003	14986828	de_novo_confirmed;rna_rt_pcr	high
+MEI0266	RPS6KA3	Coffin-Lowry syndrome	L1	L1 Hs	exon_unspecified			unknown	unknown	unknown	2800		2003	14986828		low
+MEI0267	RREB1	Ewing sarcoma (predisposition candidate)	Alu		exon_UTR3			unknown	de_novo	de_novo		1	2024	38699361	de_novo_confirmed	low
+MEI0268	SERPINC1	Type 1 ATP	Alu	Alu	unknown			insertion_associated_deletion	unknown	unknown	6		2000	10823268		low
+MEI0034	SERPINC1	Inherited type I antithrombin deficiency	SVA	closest to SVA_E (novel, expanded VNTR)	intron		6	unknown	inherited	AD	2440	2	2022	35218943;35764313	long_read;segregation	high
+MEI0269	SERPINC1	Inherited antithrombin deficiency	SVA		intron		3	unknown	unknown	AD	2940		2026	41861498	long_read	medium
+MEI0270	SERPINF1	Autosomal recessive osteogenesis imperfecta	Alu	AluYb8	coding_exon	6		coding_disruption	unknown	AR		1	2013	23613367	none_stated	medium
+MEI0271	SERPING1	HAE	Alu	AluYc1	intron			unknown	unknown	unknown	285		1990	2154751		low
+MEI0272	SERPING1	Hereditary angioedema due to C1-inhibitor deficiency	SVA		intron		7	expression_loss	inherited	AD	3600	1	2026	41896320	long_read;rna_rt_pcr;segregation	high
+MEI0273	SETD5	Developmental disorder (possible partial contribution; ciliopathy-like features)	Alu		coding_exon			coding_disruption	de_novo	de_novo		1	2019	31604926	de_novo_confirmed	low
+MEI0274	SETX	Ataxia with oculomotor apraxia 2 (AOA2)	L1	L1HS	coding_exon	12		exon_skipping;aberrant_splicing	inherited	AR	1280	1	2009	19744353	rna_rt_pcr;segregation	high
+MEI0275	SETX	AOA2	L1	L1 Hs	exon_unspecified			unknown	unknown	unknown	1300		2009	19744353		low
+MEI0276	SGCE	Myoclonus-dystonia (dystonia-11)	L1		coding_exon	6		coding_disruption	unknown	AD	1163	1	2026	41028987	long_read	high
+MEI0277	SLC17A8	Progressive sensorineural hearing loss (autosomal dominant family history)	Alu		intron		1	unknown	unknown	AD		1	2025	40164689	none_stated	low
+MEI0278	SLC25A13	Citrin deficiency (adult-onset type II citrullinemia, CTLN2)	processed_pseudogene		intron		16	unknown	founder	AR	2667	22	2008	18392553	none_stated	medium
+MEI0279	SLC26A3	Not stated (SLC26A3-related rare disease; clinical exome diagnosis)	Alu		intron	2		unknown	unknown	AR		1	2020	31965078	none_stated	medium
+MEI0280	SLC2A1	Glucose transporter 1 deficiency syndrome (GLUT1-DS)	L1		intergenic			expression_loss;aberrant_transcript_other	unknown	AD	2500	1	2026	41588148	functional_assay;long_read;rna_seq	medium
+MEI0035	SLCO1B3	Rotor syndrome	L1	L1 Ta-1d	intron		5	exon_skipping	founder	AR	6100	1	2015	25546334;33834465	protein;rna_rt_pcr	high
+MEI0281	SLCO1B3	Rotor syndrome	L1		intron		3	exon_skipping;insertion_associated_deletion	unknown	AR	6000	1	2019	32082363	minigene	medium
+MEI0282	SLCO1B3	Rotor syndrome	L1		unknown			unknown	inherited	AR			2023	36964102	none_stated	medium
+MEI0036	SLCO1B3	Rotor syndrome	L1		intron	3	6	unknown	unknown	AR	6000	4	2024	38818556;41271512	long_read;none_stated	medium
+MEI0283	SMARCB1	Atypical teratoid rhabdoid tumor (rhabdoid tumor predisposition)	SVA	SVA_E	intron		2	exon_skipping;exonization	inherited	AD	2763	1	2021	34231212	long_read;rna_rt_pcr;rna_seq;segregation	high
+MEI0284	SMN1	Spinal muscular atrophy type III	SVA	SVA_F	intron		7	exonization;expression_loss	unknown	AR			2023	36138164	rna_rt_pcr;rna_seq	high
+MEI0285	SOX10	Waardenburg syndrome	SVA	SVA_F	intron		2	unknown	unknown	AD		1	2022	35691110	none_stated	medium
+MEI0037	SPAST	Hereditary spastic paraplegia (pure)	Alu	AluYb9	intron		16	aberrant_splicing;insertion_associated_deletion	inherited	AD	121	2	2016	26932189;37394769	rna_rt_pcr;rna_seq;segregation	high
+MEI0286	SPG11	Hereditary spastic paraplegia	Alu		unknown			insertion_associated_deletion	unknown	AR			2016	27071356	none_stated	low
+MEI0287	SPIDR	Hereditary breast and/or ovarian cancer (candidate susceptibility)	L1		intron		8	unknown	unknown	AD		1	2026	42380125	rna_rt_pcr;rna_seq	low
+MEI0038	SPINK1	Severe infantile isolated exocrine pancreatic insufficiency	Alu		exon_UTR3			iralu_structure;expression_loss;utr_effect	unknown	AR		1	2017	28945313;39265574	functional_assay;none_stated	high
+MEI0288	SPTA1	Hereditary elliptocytosis / pyropoikilocytosis	SVA	E	unknown			coding_disruption;exon_skipping	inherited	unknown	632	1	1994	8040317	protein	medium
+MEI0289	SRCAP	SRCAP-related neurodevelopmental disorder (failure to thrive, developmental delay, seizures)	SVA		coding_exon	13		exon_skipping;expression_loss	de_novo	de_novo	2800	1	2022	35768521	de_novo_confirmed;rna_rt_pcr;rna_seq	high
+MEI0001	TAF1	X-linked dystonia-parkinsonism (XDP)	SVA	SVA_F	intron		32	expression_loss;intron_retention;aberrant_transcript_other;epigenetic_silencing;aberrant_splicing;premature_polyadenylation	founder	XLR	2600	1	2007	17273961;18952144;26769797;29229810;29474918;30153385;30973967;33315879;32975318;34050153;34250228;34746789;35052466;35216353;35395816;35868859;35971992;35481544;37198883;37234925;38404049;38834915;39102544;39287133;40463055;40540399;41279153;41282719;41443196;41777671;42102821	functional_assay;long_read;minigene;none_stated;protein;rna_rt_pcr;rna_seq;segregation	high
+MEI0290	TAF1	XDP	SVA	F	intron			unknown	unknown	unknown	2627		2007	17273961		low
+MEI0291	TCF20	TCF20-associated neurodevelopmental disorder with Hirschsprung disease	SVA		coding_exon	2		coding_disruption	de_novo	de_novo		1	2026	42779354	de_novo_confirmed	high
+MEI0292	TCOF1	Treacher Collins syndrome	SVA	SVA_C/SVA_E hybrid	intron	3	17	exonization;aberrant_transcript_other	inherited	AD	3396	1	2026	41017149	long_read;rna_seq;segregation	high
+MEI0293	TG	Congenital hypothyroidism with goiter and undetectable serum thyroglobulin	Alu		coding_exon	46		coding_disruption	inherited	AR		1	2020	31868128	none_stated	high
+MEI0294	TP63	Hereditary breast and/or ovarian cancer (candidate susceptibility)	Alu	AluYb9	intron		3	unknown	unknown	AD		1	2026	42380125	rna_rt_pcr;rna_seq	low
+MEI0295	TRRAP	Syndromic cranial dysinnervation (ptosis)	SVA		coding_exon			coding_disruption	de_novo	de_novo		1	2024	38699361	de_novo_confirmed	low
+MEI0296	TSC2	Tuberous sclerosis complex	SVA		coding_exon	12		coding_disruption	de_novo	de_novo	2957	1	2024	39144255	de_novo_confirmed;long_read	high
+MEI0297	TSC2	Tuberous sclerosis complex	Alu	AluY	intron	5	31	unknown	de_novo	de_novo	339	1	2024	39144255	de_novo_confirmed;long_read	medium
+MEI0298	TTN	TTN-related disease (phenotype not stated in main text)	Alu		coding_exon	63		coding_disruption	unknown	unknown		1	2024	37853102	none_stated	medium
+MEI0299	TTN	Dilated cardiomyopathy	L1		coding_exon			coding_disruption	unknown	AD		1	2025	39928391	none_stated	high
+MEI0300	UNKNOWN	X-linked intellectual disability	unknown		unknown			unknown	unknown	XL		1	2021	33847015	functional_assay;protein;rna_rt_pcr;rna_seq	low
+MEI0039	USH2A	Not stated (USH2A-related rare disease; clinical exome diagnosis)	Alu		coding_exon	45		coding_disruption;aberrant_splicing	unknown	AR		1	2020	31965078;37506127	none_stated	high
+MEI0301	USH2A	USH2A-related disease (phenotype not stated in main text)	Alu		coding_exon	45		coding_disruption	unknown	unknown		1	2024	37853102	none_stated	medium
+MEI0302	VHL	von Hippel-Lindau disease	SVA		intron		1	unknown	unknown	AD	4000	1	2023	36905328	long_read	low
+MEI0303	ZEB2	MWS	Alu	AluYa5	exon_unspecified			unknown	unknown	unknown	281		2004	15121779		low
+MEI0040	ZEB2	Not stated (ZEB2-related rare disease; clinical exome diagnosis)	Alu		coding_exon	8		coding_disruption	unknown	AD		1	2020	31965078;38600862	de_novo_confirmed;long_read;none_stated	high

@@ -1,0 +1,49 @@
+{
+ "pmid": "41017149",
+ "cases": [
+  {
+   "case_label": "Hybrid SVA_C/E in TCOF1 intron 17 (Treacher Collins syndrome, mosaic father)",
+   "gene": "TCOF1",
+   "gene_as_reported": null,
+   "disease": "Treacher Collins syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "SVA",
+   "subfamily": "SVA_C/SVA_E hybrid",
+   "insertion_length_bp": 3396,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 2,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 17,
+   "transcript": "NM_001371623.1",
+   "hgvs": "chr5(GRCh38):g.150384687_150384688ins3396, NM_001371623.1(TCOF1):c.2860-3215_2860-3214insN3396",
+   "genome_build": "GRCh38",
+   "chrom": "5",
+   "pos": 150384687,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exonization",
+    "aberrant_transcript_other"
+   ],
+   "mechanism_detail": "A 3,396-bp hybrid SVA_C/SVA_E deep in TCOF1 intron 17 (just downstream of the minor isoform c) is partially exonized (~750 bp of SVA included with a frameshift/stop, NMD) and shifts the allele toward the short non-canonical isoform c, reducing canonical TCOF1. Two paternal half-siblings inherited it from their unaffected gonadosomatic mosaic father.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read",
+    "rna_seq",
+    "segregation"
+   ],
+   "quote": "In both cycloheximide-treated and untreated cells, we detected the expression and incorporation of \u223c750 bp of the SVA C together with TCOF1 exons (Figure 2B), in correspondence to the sites predicted by SpliceAI (Figure 3A), confirming the SVA exonization, already described for other pathogenic SVA insertions.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

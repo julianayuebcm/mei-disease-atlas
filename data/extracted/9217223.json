@@ -1,0 +1,46 @@
+{
+ "pmid": "9217223",
+ "cases": [
+  {
+   "case_label": "Alu in exon 7 of CASR (Nova Scotia)",
+   "gene": "CASR",
+   "gene_as_reported": null,
+   "disease": "Neonatal severe hyperparathyroidism (homozygous) / familial hypocalciuric hypercalcemia (heterozygous)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": true,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 5,
+   "n_families": 3,
+   "ancestry_or_population": "Nova Scotian",
+   "region": "coding_exon",
+   "exon_number": 7,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "An insertion containing an Alu element with an exceptionally long polyA tract in CASR exon 7 is described as inactivating; homozygotes have NSHPT and heterozygotes FHH. Molecular consequence beyond inactivation not described in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "we found homoallelic homozygosity for an insertion mutation in exon 7 of CASR that includes an Alu repeat element with an exceptionally long polyA tract.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

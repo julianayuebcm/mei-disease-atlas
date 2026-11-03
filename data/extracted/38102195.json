@@ -1,0 +1,50 @@
+{
+ "pmid": "38102195",
+ "cases": [
+  {
+   "case_label": "3.0 kb Alu/SVA insertion in BUB1B intron 2 creating a 5' splice site",
+   "gene": "BUB1B",
+   "gene_as_reported": null,
+   "disease": "Premature chromatid separation / mosaic variegated aneuploidy syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "SVA",
+   "subfamily": null,
+   "insertion_length_bp": 3000,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Japanese",
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 2,
+   "transcript": "NM_001211.6",
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exonization"
+   ],
+   "mechanism_detail": "A paternal 3.0 kb insertion composed of Alu and SVA sequence in intron 2 (in trans with c.1402-5A>G) supplies a 5' splice site; RNA-seq reads splice from within the insertion to exon 3, and BUB1B protein is severely reduced.",
+   "affected_exons": [
+    3
+   ],
+   "evidence": [
+    "rna_seq",
+    "long_read",
+    "protein"
+   ],
+   "quote": "Realignment of RNA-seq reads to the new reference sequence containing the insertion revealed that 16 reads have 5' splice site within the insertion and 3' splice site at exon 3",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

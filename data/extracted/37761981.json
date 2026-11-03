@@ -1,0 +1,46 @@
+{
+ "pmid": "37761981",
+ "cases": [
+  {
+   "case_label": "AluY in exon 7 of RPGRIP1",
+   "gene": "RPGRIP1",
+   "gene_as_reported": null,
+   "disease": "RPGRIP1-related retinal dystrophy (Leber congenital amaurosis / early-onset retinal dystrophy)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": "AluY",
+   "insertion_length_bp": 400,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": "18 bp",
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Japanese",
+   "region": "coding_exon",
+   "exon_number": 7,
+   "intron_number": null,
+   "transcript": "NM_020366.4",
+   "hgvs": "c.871_872ins[N[(300_400)]; 854_871]",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A paternally inherited ~400-bp AluY with an 18-bp TSD inserted in RPGRIP1 exon 7 (null allele), in trans with maternal c.1363del frameshift in patient EYE345. RNA effect not studied.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "De novo assembly and breakpoint PCR confirmed an approximate 400 bp AluY insertion with an 18 bp target site duplication (Figure 3b,c), suggesting that transposition occurred via LINE-1.",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

@@ -1,0 +1,46 @@
+{
+ "pmid": "33247286",
+ "cases": [
+  {
+   "case_label": "Alu insertion in exon 4 of RP1 (Japanese founder)",
+   "gene": "RP1",
+   "gene_as_reported": null,
+   "disease": "Retinitis pigmentosa (autosomal recessive)",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "founder",
+   "n_patients": 6,
+   "n_families": null,
+   "ancestry_or_population": "Japanese founder",
+   "region": "coding_exon",
+   "exon_number": 4,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "p.Y1352A fs*9",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "The known RP1 exon 4 Alu insertion introduces a frameshift and premature termination codon (p.Y1352Afs*9); screened by Sanger in 220 Japanese RP patients, found in 6 (3 homozygous, 3 heterozygous), solving 5 as AR RP (two compound heterozygotes with c.4196del or c.5797C>T).",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "We detected the Alu element insertion including a premature termination codon in the coding region (p.Y1352A fs*9) in six patients and genetically solved five",
+   "confidence": "high",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

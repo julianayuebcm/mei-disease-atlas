@@ -1,0 +1,53 @@
+{
+ "pmid": "20130917",
+ "cases": [
+  {
+   "case_label": "De novo 3756 bp LINE-1 insertion replacing a ~17 kb EYA1 deletion in branchio-oto-renal syndrome",
+   "gene": "EYA1",
+   "gene_as_reported": null,
+   "disease": "Branchio-oto-renal syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": 3756,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Japanese",
+   "region": "multiple",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "insertion_associated_deletion",
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A heterozygous de novo ~17 kb deletion running from the last eight bases of exon 4 to base 1,217 of intron 7 of EYA1 carried a 3756 bp L1 element in place of the deleted sequence. RT-PCR showed exons 4-7 were missing from the mRNA of the mutant allele. Both parents were deletion-negative by MLPA.",
+   "affected_exons": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "evidence": [
+    "rna_rt_pcr",
+    "de_novo_confirmed"
+   ],
+   "quote": "Accordingly, RT-PCR showed that exons 4-7 were not present in EYA1 mRNA expressed from the mutated allele.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

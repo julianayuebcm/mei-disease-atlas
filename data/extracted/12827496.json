@@ -1,0 +1,46 @@
+{
+ "pmid": "12827496",
+ "cases": [
+  {
+   "case_label": "Full-length L1 in CHM coding region",
+   "gene": "CHM",
+   "gene_as_reported": null,
+   "disease": "Choroideremia",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": true,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A full-length L1 retrotransposon inserted into the CHM coding region was identified as a causative defect; details of the transcript effect are not given in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "These included two partial CHM gene deletions and an insertion of a full-length L1 retrotransposon into the coding region of the CHM gene",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

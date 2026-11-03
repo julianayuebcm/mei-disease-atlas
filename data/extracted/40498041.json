@@ -1,0 +1,46 @@
+{
+ "pmid": "40498041",
+ "cases": [
+  {
+   "case_label": "L1 insertion c.3565insL1 in exon 8 of ALMS1",
+   "gene": "ALMS1",
+   "gene_as_reported": null,
+   "disease": "Alström syndrome",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "L1",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": 2,
+   "n_families": 1,
+   "ancestry_or_population": "Taiwanese",
+   "region": "coding_exon",
+   "exon_number": 8,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": "c.3565insL1",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A novel LINE-1 insertion in ALMS1 exon 8 (c.3565insL1), in trans with c.11704C>T (p.Arg3902Ter) in two related patients with a milder, later-onset Alström phenotype, is predicted to disrupt the reading frame and truncate the protein.",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "In this study, LINE-1 insertion occurred within exon 8, which likely disrupted the reading frame.",
+   "confidence": "medium",
+   "text_source": "full_text"
+  }
+ ],
+ "why_none": null
+}

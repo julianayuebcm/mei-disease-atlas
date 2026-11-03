@@ -1,0 +1,46 @@
+{
+ "pmid": "41916722",
+ "cases": [
+  {
+   "case_label": "Germline AluY in DICER1 RNase IIIa domain",
+   "gene": "DICER1",
+   "gene_as_reported": null,
+   "disease": "DICER1-related tumour predisposition",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": "AluY",
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A germline AluY insertion within the RNase IIIa domain coding region of DICER1, present in blood, normal tissue and tumours and confirmed by nanopore sequencing, is predicted to disrupt DICER1 function.",
+   "affected_exons": null,
+   "evidence": [
+    "long_read"
+   ],
+   "quote": "Subsequent long-read nanopore sequencing confirmed a pathogenic AluY insertion, predicted to disrupt DICER1 function.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

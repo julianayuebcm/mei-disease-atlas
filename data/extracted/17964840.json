@@ -1,0 +1,49 @@
+{
+ "pmid": "17964840",
+ "cases": [
+  {
+   "case_label": "Alu insertion in exon 5 of GNPTAB",
+   "gene": "GNPTAB",
+   "gene_as_reported": null,
+   "disease": "Mucolipidosis type II",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": "Italian",
+   "region": "coding_exon",
+   "exon_number": 5,
+   "intron_number": null,
+   "transcript": "NM_024312.3",
+   "hgvs": "NM_024312.3:c.555_556insHSU14569",
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping",
+    "coding_disruption"
+   ],
+   "mechanism_detail": "The Alu insertion in exon 5 produced a transcript skipping exon 5 with frameshift p.S122fs and premature stop; disruption of exonic splicing enhancers is proposed. Compound heterozygous with c.2659dupA.",
+   "affected_exons": [
+    5
+   ],
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "The Alu insertion mutation (NM_024312.3:c.555_556insHSU14569) generated a transcript with a skipping of the target exon 5 and a frameshift p.S122fs",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

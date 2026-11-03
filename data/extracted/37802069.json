@@ -1,0 +1,51 @@
+{
+ "pmid": "37802069",
+ "cases": [
+  {
+   "case_label": "Retroelement insertions in ATM (15 A-T individuals, aggregate; abstract only)",
+   "gene": "ATM",
+   "gene_as_reported": null,
+   "disease": "Ataxia telangiectasia",
+   "omim_phenotype": null,
+   "inheritance": "AR",
+   "mei_class": "unknown",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 15,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "multiple",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "exon_skipping",
+    "aberrant_splicing",
+    "exonization"
+   ],
+   "mechanism_detail": "Abstract reports 15 A-T individuals with retroelement insertions in ATM (14 noncoding); 12 of 14 intronic insertions caused or contributed to loss of function by exon skipping or cryptic splice-site activation, one deep intronic insertion causing cryptic exonization rescued by ASOs. Individual insertions are not detailed in the abstract.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_seq",
+    "rna_rt_pcr",
+    "minigene",
+    "functional_assay"
+   ],
+   "quote": "Systematic functional characterization via RNA sequencing, RT-PCR, and/or minigene splicing assays showed that 12 out of 14 intronic insertions led or contributed to ATM loss of function by exon skipping or activating cryptic splice sites.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

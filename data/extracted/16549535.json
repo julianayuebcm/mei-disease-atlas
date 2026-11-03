@@ -1,0 +1,46 @@
+{
+ "pmid": "16549535",
+ "cases": [
+  {
+   "case_label": "Alu in intron 4 of GK",
+   "gene": "GK",
+   "gene_as_reported": null,
+   "disease": "Isolated glycerol kinase deficiency (asymptomatic)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 1,
+   "n_families": null,
+   "ancestry_or_population": null,
+   "region": "intron",
+   "exon_number": null,
+   "intron_number": 4,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "aberrant_splicing"
+   ],
+   "mechanism_detail": "An Alu insertion in GK intron 4 led to alternative splicing; misspliced RNA was apparently targeted by NMD, with residual normal transcript explaining the mild phenotype.",
+   "affected_exons": null,
+   "evidence": [
+    "rna_rt_pcr"
+   ],
+   "quote": "A fourth patient had an Alu insertion in intron 4 that led to alternative splicing.",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

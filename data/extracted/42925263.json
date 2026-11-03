@@ -1,0 +1,47 @@
+{
+ "pmid": "42925263",
+ "cases": [
+  {
+   "case_label": "Retrotransposon at GNAS locus (maternal) in PHP1B",
+   "gene": "GNAS",
+   "gene_as_reported": null,
+   "disease": "Pseudohypoparathyroidism type 1B",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "unknown",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": null,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": "chr20",
+   "pos": 58863683,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "epigenetic_silencing"
+   ],
+   "mechanism_detail": "A maternally inherited retrotransposon insertion at chr20:58,863,683 in a familial PHP1B case is associated with marked loss of methylation at the GNAS A/B-DMR and mild hypomethylation of AS1-, AS2- and XL-DMRs (an imprinting/methylation defect rather than silencing).",
+   "affected_exons": null,
+   "evidence": [
+    "long_read",
+    "segregation"
+   ],
+   "quote": "The case with retrotransposon insertion (chr20:58,863,683) showed markedly hypomethylated A/B-DMR, plus mild hypomethylation of the AS1-DMR, AS2-DMR, and XL-DMR",
+   "confidence": "medium",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

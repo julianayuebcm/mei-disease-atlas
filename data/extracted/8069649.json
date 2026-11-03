@@ -1,0 +1,46 @@
+{
+ "pmid": "8069649",
+ "cases": [
+  {
+   "case_label": "De novo Alu in exon V of F9 (Glu96)",
+   "gene": "F9",
+   "gene_as_reported": "factor IX",
+   "disease": "Hemophilia B (severe)",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "Alu",
+   "subfamily": null,
+   "insertion_length_bp": 322,
+   "full_length": false,
+   "orientation_vs_gene": null,
+   "tsd": "15 bp",
+   "polyA": true,
+   "transduction": null,
+   "origin": "de_novo",
+   "n_patients": 1,
+   "n_families": 1,
+   "ancestry_or_population": null,
+   "region": "coding_exon",
+   "exon_number": 5,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A 5'-truncated (by 38 bp) Alu of the youngest human-specific subfamily inserted in exon V interrupts the reading frame at Glu96, creating a stop codon within the inserted sequence.",
+   "affected_exons": null,
+   "evidence": [
+    "de_novo_confirmed"
+   ],
+   "quote": "The element interrupts the reading frame of the mature factor IX at glutamic acid 96 resulting in a stop codon within the inserted sequence.",
+   "confidence": "high",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

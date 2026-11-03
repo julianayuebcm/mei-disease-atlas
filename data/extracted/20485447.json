@@ -1,0 +1,46 @@
+{
+ "pmid": "20485447",
+ "cases": [
+  {
+   "case_label": "Two retrotransposon insertions in DMD (Japanese cohort)",
+   "gene": "DMD",
+   "gene_as_reported": null,
+   "disease": "Duchenne/Becker muscular dystrophy",
+   "omim_phenotype": null,
+   "inheritance": "XLR",
+   "mei_class": "unknown",
+   "subfamily": null,
+   "insertion_length_bp": null,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "unknown",
+   "n_patients": 2,
+   "n_families": 2,
+   "ancestry_or_population": "Japanese",
+   "region": "unknown",
+   "exon_number": null,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "unknown"
+   ],
+   "mechanism_detail": "In a 442-case Japanese dystrophinopathy mutation database, two retrotransposon insertion events were identified; element type, location and mechanism are not given in the abstract (possibly two distinct events summarized in one record).",
+   "affected_exons": null,
+   "evidence": [
+    "none_stated"
+   ],
+   "quote": "Remarkably, two retrotransposon insertion events were also identified.",
+   "confidence": "low",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}

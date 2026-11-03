@@ -1,0 +1,46 @@
+{
+ "pmid": "15340835",
+ "cases": [
+  {
+   "case_label": "184-bp AluJ-derived insertion in exon 6 of MSH2",
+   "gene": "MSH2",
+   "gene_as_reported": null,
+   "disease": "Hereditary non-polyposis colorectal cancer (Lynch syndrome)",
+   "omim_phenotype": null,
+   "inheritance": "AD",
+   "mei_class": "Alu",
+   "subfamily": "AluJ",
+   "insertion_length_bp": 184,
+   "full_length": null,
+   "orientation_vs_gene": null,
+   "tsd": null,
+   "polyA": null,
+   "transduction": null,
+   "origin": "inherited",
+   "n_patients": null,
+   "n_families": 1,
+   "ancestry_or_population": "German kindred",
+   "region": "coding_exon",
+   "exon_number": 6,
+   "intron_number": null,
+   "transcript": null,
+   "hgvs": null,
+   "genome_build": null,
+   "chrom": null,
+   "pos": null,
+   "distance_to_splice_site_bp": null,
+   "mechanisms": [
+    "coding_disruption"
+   ],
+   "mechanism_detail": "A 184-bp AluJ-like insertion in MSH2 exon 6 segregates with HNPCC; the authors argue it arose by Alu-mediated recombination rather than retrotransposition (no retrotransposition hallmarks), so it may not be a true MEI.",
+   "affected_exons": null,
+   "evidence": [
+    "segregation"
+   ],
+   "quote": "The Alu J insertion was most likely derived from Alu-mediated recombination, since Alu J elements have been found close to the insertion site in adjacent introns, and since elements pivotal for Alu retrotransposition are missing.",
+   "confidence": "low",
+   "text_source": "abstract_only"
+  }
+ ],
+ "why_none": null
+}
