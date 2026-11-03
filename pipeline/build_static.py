@@ -94,6 +94,8 @@ def main():
                                      "".join(f"  <url><loc>{html.escape(u)}</loc><lastmod>{built}</lastmod></url>\n" for u in urls) + "</urlset>\n")
     (out / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {url}sitemap.xml\n")
     (out / ".nojekyll").write_text("")
+    for f in (ROOT / "site/static").glob("*"):   # files served as-is (e.g. Google Search Console verification)
+        shutil.copy(f, out / f.name)
     size = sum(f.stat().st_size for f in out.rglob("*") if f.is_file()) / 1e6
     print(f"docs/: {len(urls)} pages, sitemap with {len(urls)} URLs, {size:.1f} MB total")
 
